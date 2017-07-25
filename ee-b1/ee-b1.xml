@@ -1,0 +1,2349 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elements, Book 1</title>
+        <author>Euclid</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Elements, Book 1</title>
+          <date when="2014-03-19">March 03, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="X" n="xxx"/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-03-19" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#X" n="X"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ee-b1">
+        <head xml:id="ee-b1-Hd1e3717">BOOK I.</head>
+        <div xml:id="ee-b1-Dd1e3720">
+          <head xml:id="ee-b1-Hd1e3722">DEFINITIONS.</head>
+          <div xml:id="elem.1.def.1" n="1">
+            <head xml:id="ee-b1-Hd1e3727">1</head>
+            <p xml:id="ee-b1-d1e3730"> A <term>point</term> is that which has no part. </p>
+          </div>
+          <div xml:id="elem.1.def.2" n="2">
+            <head xml:id="ee-b1-Hd1e3739">2</head>
+            <p xml:id="ee-b1-d1e3742"> A <term>line</term> is breadthless length. </p>
+          </div>
+          <div xml:id="elem.1.def.3" n="3">
+            <head xml:id="ee-b1-Hd1e3751">3</head>
+            <p xml:id="ee-b1-d1e3754">The extremities of a line are points.</p>
+          </div>
+          <div xml:id="elem.1.def.4" n="4">
+            <head xml:id="ee-b1-Hd1e3760">4</head>
+            <p xml:id="ee-b1-d1e3763"> A <term>straight line</term> is a line which lies evenly with the points on itself.
+            </p>
+          </div>
+          <div xml:id="elem.1.def.5" n="5">
+            <head xml:id="ee-b1-Hd1e3773">5</head>
+            <p xml:id="ee-b1-d1e3776"> A <term>surface</term> is that which has length and breadth only. </p>
+          </div>
+          <div xml:id="elem.1.def.6" n="6">
+            <head xml:id="ee-b1-Hd1e3785">6</head>
+            <p xml:id="ee-b1-d1e3788">The extremities of a surface are lines.</p>
+          </div>
+          <div xml:id="elem.1.def.7" n="7">
+            <head xml:id="ee-b1-Hd1e3794">7</head>
+            <p xml:id="ee-b1-d1e3797"> A <term>plane surface</term> is a surface which lies evenly with the straight lines
+              on itself. </p>
+          </div>
+          <div xml:id="elem.1.def.8" n="8">
+            <head xml:id="ee-b1-Hd1e3806">8</head>
+            <p xml:id="ee-b1-d1e3809"> A <term>plane angle</term> is the inclination to one another of two lines in a plane
+              which meet one another and do not lie in a straight line. </p>
+          </div>
+          <div xml:id="elem.1.def.9" n="9">
+            <head xml:id="ee-b1-Hd1e3818">9</head>
+            <p xml:id="ee-b1-d1e3821"> And when the lines containing the angle are straight, the angle is called
+                <term>rectilineal</term> . </p>
+          </div>
+          <div xml:id="elem.1.def.10" n="10">
+            <head xml:id="ee-b1-Hd1e3830">10</head>
+            <p xml:id="ee-b1-d1e3833"> When a straight line set up on a straight line makes the adjacent angles equal to
+              one another, each of the equal angles is <term>right</term> , and the straight line
+              standing on the other is called a <term>perpendicular</term> to that on which it
+              stands. </p>
+          </div>
+          <div xml:id="elem.1.def.11" n="11">
+            <head xml:id="ee-b1-Hd1e3846">11</head>
+            <p xml:id="ee-b1-d1e3849"> An <term>obtuse angle</term> is an angle greater than a right angle. </p>
+          </div>
+          <div xml:id="elem.1.def.12" n="12">
+            <head xml:id="ee-b1-Hd1e3858">12</head>
+            <p xml:id="ee-b1-d1e3861"> An <term>acute angle</term> is an angle less than a right angle. </p>
+          </div>
+          <div xml:id="elem.1.def.13" n="13">
+            <head xml:id="ee-b1-Hd1e3870">13</head>
+            <p xml:id="ee-b1-d1e3873"> A <term>boundary</term> is that which is an extremity of anything. </p>
+          </div>
+          <div xml:id="elem.1.def.14" n="14">
+            <head xml:id="ee-b1-Hd1e3882">14</head>
+            <p xml:id="ee-b1-d1e3885"> A <term>figure</term> is that which is contained by any boundary or boundaries. </p>
+          </div>
+          <div xml:id="elem.1.def.15" n="15">
+            <head xml:id="ee-b1-Hd1e3894">15</head>
+            <p xml:id="ee-b1-d1e3897"> A <term>circle</term> is a plane figure contained by one line such that all the
+              straight lines falling upon it from one point among those lying within the figure are
+              equal to one another; </p>
+          </div>
+          <div xml:id="elem.1.def.16" n="16">
+            <head xml:id="ee-b1-Hd1e3906">16</head>
+            
+            <p xml:id="ee-b1-d1e3909"> And the point is called the <term>centre</term> of the circle. </p>
+          </div>
+          <div xml:id="elem.1.def.17" n="17">
+            <head xml:id="ee-b1-Hd1e3919">17</head>
+            <p xml:id="ee-b1-d1e3922"> A <term>diameter</term> of the circle is any straight line drawn through the centre
+              and terminated in both directions by the circumference of the circle, and such a
+              straight line also bisects the circle. </p>
+          </div>
+          <div xml:id="elem.1.def.18" n="18">
+            <head xml:id="ee-b1-Hd1e3931">18</head>
+            <p xml:id="ee-b1-d1e3934"> A <term>semicircle</term> is the figure contained by the diameter and the
+              circumference cut off by it. And the centre of the semicircle is the same as that of
+              the circle. </p>
+          </div>
+          <div xml:id="elem.1.def.19" n="19">
+            <head xml:id="ee-b1-Hd1e3943">19</head>
+            <p xml:id="ee-b1-d1e3946"> Rectilineal figures are those which are contained by straight lines, trilateral
+              figures being those contained by three, quadrilateral those contained by four, and
+              multilateral those contained by more than four straight lines. </p>
+          </div>
+          <div xml:id="elem.1.def.20" n="20">
+            <head xml:id="ee-b1-Hd1e3952">20</head>
+            <p xml:id="ee-b1-d1e3955"> Of trilateral figures, an equilateral triangle is that which has its three sides
+              equal, an isosceles triangle that which has two of its sides alone equal, and a
+              scalene triangle that which has its three sides unequal. </p>
+          </div>
+          <div xml:id="elem.1.def.21" n="21">
+            <head xml:id="ee-b1-Hd1e3961">21</head>
+            <p xml:id="ee-b1-d1e3964"> Further, of trilateral figures, a right-angled triangle is that which has a right
+              angle, an obtuse-angled triangle that which has an obtuse angle, and an acuteangled
+              triangle that which has its three angles acute. </p>
+          </div>
+          <div xml:id="elem.1.def.22" n="22">
+            <head xml:id="ee-b1-Hd1e3970">22</head>
+            <p xml:id="ee-b1-d1e3973"> Of quadrilateral figures, a square is that which is both equilateral and
+              right-angled; an oblong that which is right-angled but not equilateral; a rhombus that
+              which is equilateral but not right-angled; and a rhomboid that which has its opposite
+              sides and angles equal to one another but is neither equilateral nor right-angled. And
+              let quadrilaterals other than these be called trapezia. </p>
+          </div>
+          <div xml:id="elem.1.def.23" n="23">
+            <head xml:id="ee-b1-Hd1e3980">23</head>
+            <p xml:id="ee-b1-d1e3983"> Parallel straight lines are straight lines which, being in the same plane and being
+              produced indefinitely in both directions, do not meet one another in either direction.
+            </p>
+          </div>
+        </div>
+        <div xml:id="ee-b1-Dd1e3988" n="Post" type="type" org="uniform" sample="complete">
+          <head xml:id="ee-b1-Hd1e3990">POSTULATES.</head>
+          <div xml:id="elem.1.post.1" n="1">
+            <head xml:id="ee-b1-Hd1e3995">1</head>
+            <p xml:id="ee-b1-d1e3998">Let the following be postulated:</p>
+            <p xml:id="ee-b1-d1e4001"> To draw a straight line from any point to any point. </p>
+          </div>
+          <div xml:id="elem.1.post.2" n="2">
+            <head xml:id="ee-b1-Hd1e4007">2</head>
+            <p xml:id="ee-b1-d1e4010"> To produce a finite straight line continuously in a straight line. </p>
+          </div>
+          <div xml:id="elem.1.post.3" n="3">
+            <head xml:id="ee-b1-Hd1e4016">3</head>
+            <p xml:id="ee-b1-d1e4019">To describe a circle with any centre and distance.</p>
+          </div>
+          <div xml:id="elem.1.post.4" n="4">
+            <head xml:id="ee-b1-Hd1e4025">4</head>
+            <p xml:id="ee-b1-d1e4028">That all right angles are equal to one another.</p>
+          </div>
+          <div xml:id="elem.1.post.5" n="5">
+            <head xml:id="ee-b1-Hd1e4035">5</head>
+            
+            <p xml:id="ee-b1-d1e4038"> That, if a straight line falling on two straight lines make the interior angles on
+              the same side less than two right angles, the two straight lines, if produced
+              indefinitely, meet on that side on which are the angles less than the two right
+              angles. </p>
+          </div>
+        </div>
+        <div xml:id="ee-b1-Dd1e4043" n="CN" type="type" org="uniform" sample="complete">
+          <head xml:id="ee-b1-Hd1e4045">COMMON NOTIONS.</head>
+          <div xml:id="elem.1.c.n.1" n="1">
+            <head xml:id="ee-b1-Hd1e4050">1</head>
+            <p xml:id="ee-b1-d1e4053"> Things which are equal to the same thing are also equal to one another. </p>
+          </div>
+          <div xml:id="elem.1.c.n.2" n="2">
+            <head xml:id="ee-b1-Hd1e4059">2</head>
+            <p xml:id="ee-b1-d1e4062"> If equals be added to equals, the wholes are equal. </p>
+          </div>
+          <div xml:id="elem.1.c.n.3" n="3">
+            <head xml:id="ee-b1-Hd1e4068">3</head>
+            <p xml:id="ee-b1-d1e4071"> If equals be subtracted from equals, the remainders are equal. </p>
+          </div>
+          <div xml:id="elem.1.c.n.4" n="4">
+            <head xml:id="ee-b1-Hd1e4077">4</head>
+            <p xml:id="ee-b1-d1e4080"> [7] Things which coincide with one another are equal to one another. </p>
+          </div>
+          <div xml:id="elem.1.c.n.5" n="5">
+            <head xml:id="ee-b1-Hd1e4087">5</head>
+            <p xml:id="ee-b1-d1e4090">[8] The whole is greater than the part.</p>
+          </div>
+        </div>
+        <div xml:id="ee-b1-Dd1e4095" n="Prop" type="type" org="uniform" sample="complete">
+          
+          <head xml:id="ee-b1-Hd1e4097">BOOK I. PROPOSITIONS.</head>
+          <div xml:id="elem.1.1" n="1">
+            <head xml:id="ee-b1-Hd1e4102">Proposition 1.</head>
+            <div xml:id="ee-b1-Dd1e4105" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4107"> On a given finite straight line to construct an equilateral triangle. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e4111" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4113"> Let <emph>AB</emph> be the given finite straight line. </p>
+              <p xml:id="ee-b1-d1e4119"> Thus it is required to construct  an equilateral triangle on the
+                straight line <emph>AB</emph> . <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e4127"> With centre <emph>A</emph> and distance <emph>AB</emph> let the circle
+                  <emph>BCD</emph> be described; [ <ref xml:id="ee-b1-Rd1e4138" target="http://scta.info/resource/elem.1.post.3">Post.
+                  3</ref> ]  again, with centre <emph>B</emph> and distance
+                  <emph>BA</emph> let the circle <emph>ACE</emph> be described; [ <ref xml:id="ee-b1-Rd1e4151" target="http://scta.info/resource/elem.1.post.3">Post. 3</ref> ] and from the point
+                  <emph>C</emph> , in which the circles cut one another, to the points
+                  <emph>A</emph> , <emph>B</emph> let the straight lines <emph>CA</emph> ,
+                  <emph>CB</emph> be joined. [ <ref xml:id="ee-b1-Rd1e4170" target="http://scta.info/resource/elem.1.post.1">Post.
+                  1</ref> ] 
+              </p>
+              <p xml:id="ee-b1-d1e4174"> Now, since the point <emph>A</emph> is the centre of the circle <emph>CDB</emph> ,
+                  <hi rend="center">
+                  <emph>AC</emph> is equal to <emph>AB</emph> . [ <ref xml:id="ee-b1-Rd1e4190" target="http://scta.info/resource/elem.1.def.15">Def. 15</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e4195"> Again, since the point <emph>B</emph> is the centre of the circle <emph>CAE</emph>
+                , <hi rend="center">
+                  <emph>BC</emph> is equal to <emph>BA</emph> . [ <ref xml:id="ee-b1-Rd1e4211" target="http://scta.info/resource/elem.1.def.15">Def. 15</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e4217"> But <emph>CA</emph> was also proved equal to <emph>AB</emph> ; 
+                therefore each of the straight lines <emph>CA</emph> , <emph>CB</emph> is equal to
+                  <emph>AB</emph> . </p>
+              <p xml:id="ee-b1-d1e4235"> And things which are equal to the same thing are also equal to one another; [ <ref xml:id="ee-b1-Rd1e4237" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref> ] <hi rend="center"> therefore
+                    <emph>CA</emph> is also equal to <emph>CB</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e4250"> Therefore the three straight lines <emph>CA</emph> , <emph>AB</emph> ,
+                  <emph>BC</emph> are  equal to one another. 
+              </p>
+              <p xml:id="ee-b1-d1e4262"> Therefore the triangle <emph>ABC</emph> is equilateral; and it has been
+                constructed on the given finite straight line <emph>AB</emph> . </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e4272" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4274">(Being) what it was required to do.</p>
+            </div>
+
+
+
+
+
+          </div>
+          <div xml:id="elem.1.2" n="2">
+            
+            <head xml:id="ee-b1-Hd1e4281">Proposition 2.</head>
+            <div xml:id="ee-b1-Dd1e4284" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4286"> To place at a given point (as an extremity) a straight line equal to a given
+                straight line. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e4290" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4292"> Let <emph>A</emph> be the given point, and <emph>BC</emph> the given straight
+                line. </p>
+              <p xml:id="ee-b1-d1e4301"> Thus it is required to place at the point <emph>A</emph> (as an extremity)  a straight line equal to the given straight line <emph>BC</emph> .
+                <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e4312"> From the point <emph>A</emph> to the point <emph>B</emph> let the straight line
+                  <emph>AB</emph> be joined; [ <ref xml:id="ee-b1-Rd1e4323" target="http://scta.info/resource/elem.1.post.1">Post.
+                  1</ref> ] and on it let the equilateral triangle 
+                <emph>DAB</emph> be constructed. [ <ref xml:id="ee-b1-Rd1e4330" target="http://scta.info/resource/elem.1.1">I. 1</ref> ] </p>
+              <p xml:id="ee-b1-d1e4334"> Let the straight lines <emph>AE</emph> , <emph>BF</emph> be produced in a straight
+                line with <emph>DA</emph> , <emph>DB</emph> ; [ <ref xml:id="ee-b1-Rd1e4348" target="http://scta.info/resource/elem.1.post.2">Post. 2</ref> ] with centre <emph>B</emph> and distance
+                  <emph>BC</emph> let the  circle <emph>CGH</emph> be described; [ <ref xml:id="ee-b1-Rd1e4361" target="http://scta.info/resource/elem.1.post.3">Post. 3</ref> ] and again, with centre
+                  <emph>D</emph> and distance <emph>DG</emph> let the circle <emph>GKL</emph> be
+                described. [ <ref xml:id="ee-b1-Rd1e4374" target="http://scta.info/resource/elem.1.post.3">Post. 3</ref> ] </p>
+              <p xml:id="ee-b1-d1e4378"> Then, since the point <emph>B</emph> is the centre of the circle <emph>CGH</emph>
+                , <hi rend="center">
+                  <emph>BC</emph> is equal to <emph>BG</emph> . </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e4397"> Again, since the point <emph>D</emph> is the centre of the circle <emph>GKL</emph>
+                , <hi rend="center">
+                  <emph>DL</emph> is equal to <emph>DG</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e4415"> And in these <emph>DA</emph> is equal to <emph>DB</emph> ; <hi rend="center">
+                  therefore the remainder <emph>AL</emph> is equal to the remainder <emph>BG.</emph>
+                  [ <ref xml:id="ee-b1-Rd1e4431" target="http://scta.info/resource/elem.1.c.n.3">C.N. 3</ref> ] </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e4436"> But <emph>BC</emph> was also proved equal to <emph>BG</emph> ; <hi rend="center">
+                  therefore each of the straight lines <emph>AL</emph> , <emph>BC</emph> is equal to
+                    <emph>BG</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e4457"> And things which are equal to the same thing are also equal to one another; [ <ref xml:id="ee-b1-Rd1e4459" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref> ] 
+                <hi rend="center"> therefore <emph>AL</emph> is also equal to <emph>BC</emph> .
+                </hi>
+              </p>
+              <p xml:id="ee-b1-d1e4472"> Therefore at the given point <emph>A</emph> the straight line <emph>AL</emph> is
+                placed equal to the given straight line <emph>BC</emph> . </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e4485" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4487">(Being) what it was required to do.</p>
+            </div>
+
+
+
+          </div>
+          <div xml:id="elem.1.3" n="3">
+            <head xml:id="ee-b1-Hd1e4494">Proposition 3.</head>
+            <div xml:id="ee-b1-Dd1e4497" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4499"> Given two unequal straight lines, to cut off from the greater a straight line
+                equal to the less. <!-- <figure/> -->
+              </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e4505" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4507"> Let <emph>AB</emph> , <emph>C</emph> be the-two given unequal straight lines, and
+                let <emph>AB</emph> be the greater of them. </p>
+              <p xml:id="ee-b1-d1e4519"> Thus it is required to cut off from <emph>AB</emph> the greater a straight line
+                equal to <emph>C</emph> the less. </p>
+              <p xml:id="ee-b1-d1e4528"> At the point <emph>A</emph> let <emph>AD</emph> be placed equal to the straight
+                line <emph>C</emph> ; [ <ref xml:id="ee-b1-Rd1e4539" target="http://scta.info/resource/elem.1.2">I. 2</ref> ] and with
+                centre <emph>A</emph> and distance <emph>AD</emph> let the circle <emph>DEF</emph>
+                be described. [ <ref xml:id="ee-b1-Rd1e4552" target="http://scta.info/resource/elem.1.post.3">Post. 3</ref> ] 
+                <hi rend="center"> Now, since the point <emph>A</emph> is the centre of the circle
+                    <emph>DEF</emph> , <emph>AE</emph> is equal to <emph>AD</emph> . [ <ref xml:id="ee-b1-Rd1e4569" target="http://scta.info/resource/elem.1.def.15">Def. 15</ref> ] But <emph>C</emph> is also
+                  equal to <emph>AD</emph> . Therefore each of the straight lines <emph>AE</emph> ,
+                    <emph>C</emph> is equal to <emph>AD</emph> ; so that <emph>AE</emph> is also
+                  equal to <emph>C</emph> . [ <ref xml:id="ee-b1-Rd1e4595" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref>
+                  ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e4600"> Therefore, given the two straight lines <emph>AB</emph> , <emph>C</emph> , from
+                  <emph>AB</emph> the greater <emph>AE</emph> has been cut off equal to
+                  <emph>C</emph> the less. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e4619" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4621">(Being) what it was required to do.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.4" n="4">
+            <head xml:id="ee-b1-Hd1e4628">Proposition 4.</head>
+            <div xml:id="ee-b1-Dd1e4631" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4633"> If two triangles have the two sides equal to two sides respectively, and have the
+                angles contained by the equal straight lines equal, they will also have the base
+                equal to the base, the triangle will be equal to the triangle, and the remaining
+                angles  will be equal to the remaining angles respectively, namely those
+                which the equal sides subtend. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e4637" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4639"> Let <emph>ABC</emph> , <emph>DEF</emph> be two triangles having the two sides
+                  <emph>AB</emph> , <emph>AC</emph> equal to the two sides <emph>DE</emph> ,
+                  <emph>DF</emph> respectively, namely <emph>AB</emph> to <emph>DE</emph> and
+                  <emph>AC</emph> to <emph>DF</emph> , and the angle <emph>BAC</emph> equal to the
+                   angle <emph>EDF</emph> . </p>
+              <p xml:id="ee-b1-d1e4680"> I say that the base <emph>BC</emph> is also equal to the base <emph>EF</emph> ,
+                the triangle <emph>ABC</emph> will be equal to the triangle <emph>DEF</emph> , and
+                the remaining angles will be equal to the remaining angles respectively, namely
+                those which the equal sides subtend, that  is, the angle
+                  <emph>ABC</emph> to the angle <emph>DEF</emph> , and the angle <emph>ACB</emph> to
+                the angle <emph>DFE</emph> . </p>
+              <p xml:id="ee-b1-d1e4708"> For, if the triangle <emph>ABC</emph> be applied to the triangle <emph>DEF</emph>
+                , <hi rend="center"> and if the point <emph>A</emph> be placed  on the
+                  point <emph>D</emph> and the straight line <emph>AB</emph> on <emph>DE</emph> ,
+                </hi> then the point <emph>B</emph> will also coincide with <emph>E</emph> , because
+                  <emph>AB</emph> is equal to <emph>DE</emph> . <!-- <figure/> -->
+                
+                
+              </p>
+              <p xml:id="ee-b1-d1e4747"> Again, <emph>AB</emph> coinciding with <emph>DE</emph> , the straight line
+                  <emph>AC</emph> will also coincide with <emph>DF</emph> , because the angle
+                  <emph>BAC</emph> is equal to the angle <emph>EDF</emph> ; <hi rend="center"> hence
+                  the point <emph>C</emph> will also coincide with the point <emph>F</emph> ,
+                  because <emph>AC</emph> is again equal to <emph>DF</emph> . </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e4784"> But <emph>B</emph> also coincided with <emph>E</emph> ; hence the base
+                  <emph>BC</emph> will coincide with the base <emph>EF</emph> . </p>
+              <p xml:id="ee-b1-d1e4800"> [For if, when <emph>B</emph> coincides with <emph>E</emph> and <emph>C</emph> with
+                  <emph>F</emph> , the base <emph>BC</emph> does not coincide with the base
+                  <emph>EF</emph> , two straight lines will enclose a space: which is impossible.
+                  
+                <hi rend="center"> Therefore the base <emph>BC</emph> will coincide with
+                    <emph>EF</emph> ] and will be equal to it. [ <ref xml:id="ee-b1-Rd1e4829" target="http://scta.info/resource/elem.1.c.n.4">C.N. 4</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e4834"> Thus the whole triangle <emph>ABC</emph> will coincide with the whole triangle
+                  <emph>DEF</emph> , <hi rend="center">and will be equal to it.</hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e4846"> And the remaining angles will also coincide with the remaining angles and will be
+                equal to them, the angle <emph>ABC</emph> to the angle <emph>DEF</emph> , and the
+                angle <emph>ACB</emph> to the angle <emph>DFE</emph> . </p>
+              <p xml:id="ee-b1-d1e4861"> Therefore etc. 
+              </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e4865" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4867">(Being) what it was required to prove.</p>
+            </div>
+
+
+
+
+
+
+
+
+          </div>
+          <div xml:id="elem.1.5" n="5">
+            
+            <head xml:id="ee-b1-Hd1e4875">Proposition 5.</head>
+            <div xml:id="ee-b1-Dd1e4878" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4880"> In isosceles triangles the angles at the base are equal to one another, and, if
+                the equal straight lines be produced further, the angles under the base will be
+                equal to one another. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e4884" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e4886"> Let <emph>ABC</emph> be an isosceles triangle having the side <emph>AB</emph>
+                 equal to the side <emph>AC</emph> ; and let the straight lines
+                  <emph>BD</emph> , <emph>CE</emph> be produced further in a straight line with
+                  <emph>AB</emph> , <emph>AC</emph> . [ <ref xml:id="ee-b1-Rd1e4910" target="http://scta.info/resource/elem.1.post.2">Post. 2</ref> ] </p>
+              <p xml:id="ee-b1-d1e4914"> I say that the angle <emph>ABC</emph> is equal to the angle <emph>ACB</emph> , and
+                the angle <emph>CBD</emph> to the angle <emph>BCE</emph> . 
+              </p>
+              <p xml:id="ee-b1-d1e4929"> Let a point <emph>F</emph> be taken at random on <emph>BD</emph> ; <!-- <figure/> --> from
+                  <emph>AE</emph> the greater let <emph>AG</emph> be cut off equal to
+                  <emph>AF</emph> the less; [ <ref xml:id="ee-b1-Rd1e4949" target="http://scta.info/resource/elem.1.3">I. 3</ref> ] and
+                let the straight lines <emph>FC</emph> , <emph>GB</emph> be joined. [ <ref xml:id="ee-b1-Rd1e4958" target="http://scta.info/resource/elem.1.post.1">Post. 1</ref> ] 
+              </p>
+              <p xml:id="ee-b1-d1e4962"> Then, since <emph>AF</emph> is equal to <emph>AG</emph> and <emph>AB</emph> to
+                  <emph>AC</emph> , <hi rend="center"> the two sides <emph>FA</emph> ,
+                    <emph>AC</emph> are equal to the two sides <emph>GA</emph> , <emph>AB</emph> ,
+                  respectively; </hi> and they contain a common angle, the angle <emph>FAG</emph> .
+                  
+                <hi rend="center"> Therefore the base <emph>FC</emph> is equal to the base
+                    <emph>GB</emph> , and the triangle <emph>AFC</emph> is equal to the triangle
+                    <emph>AGB</emph> , </hi> and the remaining angles will be equal to the remaining
+                angles respectively, namely those which the equal sides subtend, <hi rend="center">
+                  that is, the angle <emph>ACF</emph> to the angle <emph>ABG</emph> , 
+                  and the angle <emph>AFC</emph> to the angle <emph>AGB</emph> . [ <ref xml:id="ee-b1-Rd1e5024" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e5029"> And, since the whole <emph>AF</emph> is equal to the whole <emph>AG</emph> , <hi rend="center"> and in these <emph>AB</emph> is equal to <emph>AC</emph> , the
+                  remainder <emph>BF</emph> is equal to the remainder <emph>CG</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e5054"> But <emph>FC</emph> was also proved equal to <emph>GB</emph> ; 
+                therefore the two sides <emph>BF</emph> , <emph>FC</emph> are equal to the two sides
+                  <emph>CG</emph> , <emph>GB</emph> respectively; and the angle <emph>BFC</emph> is
+                equal to the angle <emph>CGB</emph> , <hi rend="center"> while the base
+                    <emph>BC</emph> is common to them; </hi> therefore the triangle <emph>BFC</emph>
+                is also equal to the triangle <emph>CGB</emph> ,  and the remaining
+                angles will be equal to the remaining  angles respectively, namely
+                those which the equal sides subtend; <hi rend="center"> therefore the angle
+                    <emph>FBC</emph> is equal to the angle <emph>GCB</emph> , and the angle
+                    <emph>BCF</emph> to the angle <emph>CBG</emph> . </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e5110"> Accordingly, since the whole angle <emph>ABG</emph> was proved equal to the angle
+                  <emph>ACF</emph> , <hi rend="center"> and in these the angle <emph>CBG</emph> is
+                  equal to the angle <emph>BCF</emph> , </hi> the remaining angle <emph>ABC</emph>
+                is equal to the remaining angle <emph>ACB</emph> ; 
+                <hi rend="center"> and they are at the base of the triangle <emph>ABC</emph> . </hi>
+                But the angle <emph>FBC</emph> was also proved equal to the angle <emph>GCB</emph> ;
+                  <hi rend="center">and they are under the base.</hi>
+              </p>
+              <p xml:id="ee-b1-d1e5150">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e5154" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5156">Q. E. D.</p>
+            </div>
+
+
+
+
+
+          </div>
+          <div xml:id="elem.1.6" n="6">
+            <head xml:id="ee-b1-Hd1e5163">Proposition 6.</head>
+            <div xml:id="ee-b1-Dd1e5166" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5168"> If in a triangle two angles be equal to one another, the sides which subtend the
+                equal angles will also be equal to one another. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e5172" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5174"> Let <emph>ABC</emph> be a triangle having the angle <emph>ABC</emph> equal to the
+                angle <emph>ACB</emph> ; </p>
+              <p xml:id="ee-b1-d1e5186"> I say that the side <emph>AB</emph> is also equal to the side <emph>AC</emph> . </p>
+              <p xml:id="ee-b1-d1e5195"> For, if <emph>AB</emph> is unequal to <emph>AC</emph> , one of them is greater. </p>
+              <p xml:id="ee-b1-d1e5204"> Let <emph>AB</emph> be greater; and from <emph>AB</emph> the greater let
+                  <emph>DB</emph> be cut off equal to <emph>AC</emph> the less; </p>
+              <p xml:id="ee-b1-d1e5219"> let <emph>DC</emph> be joined. <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e5228"> Then, since <emph>DB</emph> is equal to <emph>AC</emph> , and <emph>BC</emph> is
+                common, <hi rend="center"> the two sides <emph>DB</emph> , <emph>BC</emph> are equal
+                  to the two sides <emph>AC</emph> , <emph>CB</emph> respectively; </hi>
+                 and the angle <emph>DBC</emph> is equal to the angle <emph>ACB</emph>
+                ; <hi rend="center"> therefore the base <emph>DC</emph> is equal to the base
+                    <emph>AB</emph> , and the triangle <emph>DBC</emph> will be equal to the
+                  triangle <emph>ACB</emph> , the less to the greater: which is absurd. Therefore
+                    <emph>AB</emph> is not unequal to <emph>AC</emph> ; it is therefore equal to it.
+                </hi>
+              </p>
+              <p xml:id="ee-b1-d1e5284">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e5288" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5290">Q. E. D.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.7" n="7">
+            <head xml:id="ee-b1-Hd1e5297">Proposition 7.</head>
+            <div xml:id="ee-b1-Dd1e5300" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5302"> Given two straight lines constructed on a straight line (from its extremities) and
+                meeting in a point, there cannot be constructed on the same straight line (from its
+                extremities), and on the same side of it, two other straight lines meeting in  another point and equal to the former two respectively, namely each to
+                that which has the same extremity with it. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e5306" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5308"> For, if possible, given two straight lines <emph>AC</emph> , <emph>CB</emph>
+                constructed on the straight line <emph>AB</emph> and meeting at the point
+                  <emph>C</emph> , let two other straight lines <!-- <figure/> -->
+                
+                <emph>AD</emph> , <emph>DB</emph> be constructed on the same straight line
+                  <emph>AB</emph> , on the same side of it, meeting in another point <emph>D</emph>
+                and equal to the former two respectively, namely each to that which has the same
+                extremity with it, so that <emph>CA</emph> is  equal to <emph>DA</emph>
+                which has the same extremity <emph>A</emph> with it, and 
+                <emph>CB</emph> to <emph>DB</emph> which has the same extremity <emph>B</emph> with
+                it; and let <emph>CD</emph> be joined. </p>
+              <p xml:id="ee-b1-d1e5360"> Then, since <emph>AC</emph> is equal to <emph>AD</emph> , <hi rend="center"> the
+                  angle <emph>ACD</emph> is also equal to the angle <emph>ADC</emph> ; [ <ref xml:id="ee-b1-Rd1e5376" target="http://scta.info/resource/elem.1.5">I. 5</ref> ]  therefore the angle
+                    <emph>ADC</emph> is greater than the angle <emph>DCB</emph> ; </hi> therefore
+                the angle <emph>CDB</emph> is much greater than the angle <emph>DCB</emph> . </p>
+              <p xml:id="ee-b1-d1e5393"> Again, since <emph>CB</emph> is equal to <emph>DB</emph> , <hi rend="center"> the
+                  angle <emph>CDB</emph> is also equal to the angle <emph>DCB</emph> . </hi>
+                 But it was also proved much greater than it: <hi rend="center">which is
+                  impossible.</hi>
+              </p>
+              <p xml:id="ee-b1-d1e5414">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e5418" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5420">Q. E. D.</p>
+            </div>
+
+
+
+          </div>
+          <div xml:id="elem.1.8" n="8">
+            <head xml:id="ee-b1-Hd1e5427">Proposition 8.</head>
+            <div xml:id="ee-b1-Dd1e5430" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5432"> If two triangles have the two sides equal to two sides respectively, and have also
+                the base equal to the base, they will also have the angles equal which are contained
+                by the equal straight lines. 
+              </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e5436" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5438"> Let <emph>ABC</emph> , <emph>DEF</emph> be two triangles having the two sides
+                  <emph>AB</emph> , <emph>AC</emph> equal to the two sides <emph>DE</emph> ,
+                  <emph>DF</emph> respectively, namely <emph>AB</emph> to <emph>DE</emph> , and
+                  <emph>AC</emph> to <emph>DF</emph> ; and let them have the base <emph>BC</emph>
+                equal  to the base <emph>EF</emph> ; <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e5481"> I say that the angle <emph>BAC</emph> is also equal to the angle <emph>EDF</emph>
+                . </p>
+              <p xml:id="ee-b1-d1e5490"> For, if the triangle <emph>ABC</emph> be applied to the triangle <emph>DEF</emph>
+                , and if the point <emph>B</emph> be placed on  the point <emph>E</emph>
+                and the straight line <emph>BC</emph> on <emph>EF</emph> , <hi rend="center"> the
+                  point <emph>C</emph> will also coincide with <emph>F</emph> , because
+                    <emph>BC</emph> is equal to <emph>EF</emph> . </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e5527"> Then, <emph>BC</emph> coinciding with <emph>EF</emph> , <hi rend="center">
+                  <emph>BA</emph> , <emph>AC</emph> will also coincide with <emph>ED</emph> ,
+                    <emph>DF</emph> ; </hi>
+                 for, if the base <emph>BC</emph> coincides with the base
+                  <emph>EF</emph> , and the sides <emph>BA</emph> , <emph>AC</emph> do not coincide
+                with <emph>ED</emph> , <emph>DF</emph> but fall beside them as <emph>EG</emph> ,
+                  <emph>GF</emph> , <hi rend="center"> then, given two straight lines constructed on
+                  a straight line (from its extremities) and meeting in a point, there will  have been constructed on the same straight line (from its extremities),
+                  and on the same side of it, two other straight lines meeting in another point and
+                  equal to the former two respectively, namely each to that which has the same
+                  extremity with it.  But they cannot be so constructed. [ <ref xml:id="ee-b1-Rd1e5578" target="http://scta.info/resource/elem.1.7">I. 7</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e5583"> Therefore it is not possible that, if the base <emph>BC</emph> be applied to the
+                base <emph>EF</emph> , the sides <emph>BA</emph> , <emph>AC</emph> should not
+                coincide with <emph>ED</emph> , <emph>DF</emph> ; <hi rend="center">they will
+                  therefore coincide,</hi>
+                 so that the angle <emph>BAC</emph> will also coincide with the angle
+                  <emph>EDF</emph> , and will be equal to it. </p>
+              <p xml:id="ee-b1-d1e5615">If therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e5619" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5621">Q. E. D.</p>
+            </div>
+
+
+          </div>
+          <div xml:id="elem.1.9" n="9">
+            <head xml:id="ee-b1-Hd1e5628">Proposition 9.</head>
+            <div xml:id="ee-b1-Dd1e5631" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5633">To bisect a given rectilineal angle.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e5637" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5639"> Let the angle <emph>BAC</emph> be the given rectilineal angle. </p>
+              <p xml:id="ee-b1-d1e5645">Thus it is required to bisect it.</p>
+              <p xml:id="ee-b1-d1e5648"> Let a point <emph>D</emph> be taken at random on <emph>AB</emph> ; let
+                  <emph>AE</emph> be cut off from <emph>AC</emph> equal to <emph>AD</emph> ; [ <ref xml:id="ee-b1-Rd1e5666" target="http://scta.info/resource/elem.1.3">I. 3</ref> ] let <emph>DE</emph> be joined, and on
+                  <emph>DE</emph> let the equilateral triangle <emph>DEF</emph> be constructed; let
+                  <emph>AF</emph> be joined. <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e5684"> I say that the angle <emph>BAC</emph> has been bisected by the straight line
+                  <emph>AF</emph> . </p>
+              <p xml:id="ee-b1-d1e5693"> For, since <emph>AD</emph> is equal to <emph>AE</emph> , and <emph>AF</emph> is
+                common, <hi rend="center"> the two sides <emph>DA</emph> , <emph>AF</emph> are equal
+                  to the two sides <emph>EA</emph> , <emph>AF</emph> respectively. </hi>
+              </p>
+              <p xml:id="ee-b1-d1e5721"> And the base <emph>DF</emph> is equal to the base <emph>EF</emph> ; <hi rend="center"> therefore the angle <emph>DAF</emph> is equal to the angle
+                    <emph>EAF</emph> . [ <ref xml:id="ee-b1-Rd1e5737" target="http://scta.info/resource/elem.1.8">I. 8</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e5742"> Therefore the given rectilineal angle <emph>BAC</emph> has been bisected by the
+                straight line <emph>AF</emph> . </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e5752" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5754">Q. E. F.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.10" n="10">
+            <head xml:id="ee-b1-Hd1e5761">Proposition 10.</head>
+            <div xml:id="ee-b1-Dd1e5764" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5766">To bisect a given finite straight line.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e5770" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5772"> Let <emph>AB</emph> be the given finite straight line. </p>
+              <p xml:id="ee-b1-d1e5778"> Thus it is required to bisect the finite straight line <emph>AB</emph> . </p>
+              <p xml:id="ee-b1-d1e5784"> Let the equilateral triangle <emph>ABC</emph> be constructed on it, [ <ref xml:id="ee-b1-Rd1e5789" target="http://scta.info/resource/elem.1.1">I. 1</ref> ] and let the angle <emph>ACB</emph> be
+                bisected by the straight line <emph>CD</emph> ; [ <ref xml:id="ee-b1-Rd1e5798" target="http://scta.info/resource/elem.1.9">I. 9</ref> ] </p>
+              <p xml:id="ee-b1-d1e5802"> I say that the straight line <emph>AB</emph> has been bisected at the point
+                  <emph>D</emph> . </p>
+              <p xml:id="ee-b1-d1e5811"> For, since <emph>AC</emph> is equal to <emph>CB</emph> , and <emph>CD</emph> is
+                common, <!-- <figure/> -->
+                <hi rend="center"> the two sides <emph>AC</emph> , <emph>CD</emph> are equal to the
+                  two sides <emph>BC</emph> , <emph>CD</emph> respectively; </hi> and the angle
+                  <emph>ACD</emph> is equal to the angle <emph>BCD</emph> ; <hi rend="center">
+                  therefore the base <emph>AD</emph> is equal to the base <emph>BD</emph> . [ <ref xml:id="ee-b1-Rd1e5854" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e5860"> Therefore the given finite straight line <emph>AB</emph> has been bisected at
+                  <emph>D</emph> . </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e5870" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5872">Q. E. F.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.11" n="11">
+            
+            <head xml:id="ee-b1-Hd1e5880">Proposition 11.</head>
+            <div xml:id="ee-b1-Dd1e5883" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5885"> To draw a straight line at right angles to a given straight line from a given
+                point on it. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e5889" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e5891"> Let <emph>AB</emph> be the given straight line, and <emph>C</emph> the given point
+                on it. 
+              </p>
+              <p xml:id="ee-b1-d1e5900"> Thus it is required to draw from the point <emph>C</emph> a straight line at right
+                angles to the straight line <emph>AB</emph> . </p>
+              <p xml:id="ee-b1-d1e5909"> Let a point <emph>D</emph> be taken at random on <emph>AC</emph> ; 
+                let <emph>CE</emph> be made equal to <emph>CD</emph> ; [ <ref xml:id="ee-b1-Rd1e5923" target="http://scta.info/resource/elem.1.3">I. 3</ref> ] on <emph>DE</emph> let the equilateral triangle
+                  <emph>FDE</emph> be constructed, [ <ref xml:id="ee-b1-Rd1e5933" target="http://scta.info/resource/elem.1.1">I. 1</ref>
+                ] and let <emph>FC</emph> be joined; <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e5942"> I say that the straight line <emph>FC</emph> has been drawn at right 
+                angles to the given straight line <emph>AB</emph> from <emph>C</emph> the given
+                point on it. </p>
+              <p xml:id="ee-b1-d1e5954"> For, since <emph>DC</emph> is equal to <emph>CE</emph> , and <emph>CF</emph> is
+                common, <hi rend="center"> the two sides <emph>DC</emph> , <emph>CF</emph> are equal
+                  to the two sides <emph>EC</emph> , 
+                  <emph>CF</emph> respectively; </hi> and the base <emph>DF</emph> is equal to the
+                base <emph>FE</emph> ; <hi rend="center"> therefore the angle <emph>DCF</emph> is
+                  equal to the angle <emph>ECF</emph> ; [ <ref xml:id="ee-b1-Rd1e5995" target="http://scta.info/resource/elem.1.8">I.
+                    8</ref> ] </hi> and they are adjacent angles. </p>
+              <p xml:id="ee-b1-d1e6001"> But, when a straight line set up on a straight line makes  the
+                adjacent angles equal to one another, each of the equal angles is right; [ <ref xml:id="ee-b1-Rd1e6003" target="http://scta.info/resource/elem.1.def.10">Def. 10</ref> ] <hi rend="center"> therefore
+                  each of the angles <emph>DCF</emph> , <emph>FCE</emph> is right. </hi>
+              </p>
+              <p xml:id="ee-b1-d1e6016"> Therefore the straight line <emph>CF</emph> has been drawn at right angles to the
+                given straight line <emph>AB</emph> from the given point 
+                <emph>C</emph> on it. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e6029" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6031">Q. E. F.</p>
+            </div>
+
+          </div>
+          <div xml:id="elem.1.12" n="12">
+            <head xml:id="ee-b1-Hd1e6038">Proposition 12.</head>
+            <div xml:id="ee-b1-Dd1e6041" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6043"> To a given infinite straight line, from a given point which is not on it, to draw
+                a perpendicular straight line. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e6047" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6049"> Let <emph>AB</emph> be the given infinite straight line, and <emph>C</emph> the
+                given point which is not on it; 
+                 thus it is required to draw to the given infinite straight line
+                  <emph>AB</emph> , from the given point <emph>C</emph> which is not on it, a
+                perpendicular straight line. </p>
+              <p xml:id="ee-b1-d1e6064"> For let a point <emph>D</emph> be taken  at random on the other side
+                of the straight line <emph>AB</emph> , and with centre <emph>C</emph> and distance
+                  <emph>CD</emph> let the circle <emph>EFG</emph> be described; [ <ref xml:id="ee-b1-Rd1e6082" target="http://scta.info/resource/elem.1.post.3">Post. 3</ref> ] <!-- <figure/> -->
+                <hi rend="center"> let the straight line <emph>EG</emph>
+                   be bisected at <emph>H</emph> , [ <ref xml:id="ee-b1-Rd1e6095" target="http://scta.info/resource/elem.1.10">I. 10</ref> ] and let the straight lines <emph>CG</emph> ,
+                    <emph>CH</emph> , <emph>CE</emph> be joined. [ <ref xml:id="ee-b1-Rd1e6108" target="http://scta.info/resource/elem.1.post.1">Post. 1</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e6113"> I say that <emph>CH</emph> has been drawn perpendicular to the given infinite
+                straight line <emph>AB</emph> from the given point <emph>C</emph> which is not on
+                it. 
+              </p>
+              <p xml:id="ee-b1-d1e6125"> For, since <emph>GH</emph> is equal to <emph>HE</emph> , and <emph>HC</emph> is
+                common, <hi rend="center"> the two sides <emph>GH</emph> , <emph>HC</emph> are equal
+                  to the two sides <emph>EH</emph> , <emph>HC</emph> respectively; </hi> and the
+                base <emph>CG</emph> is equal to the base <emph>CE</emph> ; 
+                <hi rend="center"> therefore the angle <emph>CHG</emph> is equal to the angle
+                    <emph>EHC</emph> . [ <ref xml:id="ee-b1-Rd1e6166" target="http://scta.info/resource/elem.1.8">I. 8</ref> ] And they
+                  are adjacent angles. </hi>
+              </p>
+              <p xml:id="ee-b1-d1e6171"> But, when a straight line set up on a straight line makes the adjacent angles
+                equal to one another, each of the equal angles is right, and the straight line
+                standing on the other is  called a perpendicular to that on which it
+                stands. [ <ref xml:id="ee-b1-Rd1e6173" target="http://scta.info/resource/elem.1.def.10">Def. 10</ref> ] </p>
+              <p xml:id="ee-b1-d1e6178"> Therefore <emph>CH</emph> has been drawn perpendicular to the given infinite
+                straight line <emph>AB</emph> from the given point <emph>C</emph> which is not on
+                it. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e6191" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6193">Q. E. F.</p>
+            </div>
+
+
+          </div>
+          <div xml:id="elem.1.13" n="13">
+            <head xml:id="ee-b1-Hd1e6200">Proposition 13.</head>
+            <div xml:id="ee-b1-Dd1e6203" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6205"> If a straight line set up on a straight line make angles, it will make either two
+                right angles or angles equal to two right angles. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e6209" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6211"> For let any straight line <emph>AB</emph> set up on the straight line 
+                <emph>CD</emph> make the angles <emph>CBA</emph> , <emph>ABD</emph> ; </p>
+              <p xml:id="ee-b1-d1e6226"> I say that the angles <emph>CBA</emph> , <emph>ABD</emph> are either two right
+                angles or equal to two right angles. <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e6237"> Now, if the angle <emph>CBA</emph> is equal to  the angle
+                  <emph>ABD</emph> , <hi rend="center"> they are two right angles. [ <ref xml:id="ee-b1-Rd1e6247" target="http://scta.info/resource/elem.1.def.10">Def. 10</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e6252"> But, if not, let <emph>BE</emph> be drawn from the point <emph>B</emph> at right
+                angles to <emph>CD</emph> ; [ <ref xml:id="ee-b1-Rd1e6263" target="http://scta.info/resource/elem.1.11">I. 11</ref> ]
+                  <hi rend="center"> therefore the angles <emph>CBE</emph> , <emph>EBD</emph> are
+                  two right angles. </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e6276"> Then, since the angle <emph>CBE</emph> is equal to the two angles <emph>CBA</emph>
+                , <emph>ABE</emph> , <hi rend="center"> let the angle <emph>EBD</emph> be added to
+                  each; therefore the angles <emph>CBE</emph> , <emph>EBD</emph> are equal to the
+                  three angles <emph>CBA</emph> , <emph>ABE</emph> , <emph>EBD</emph> . [ <title>C.
+                    N</title> . 2] </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e6314"> Again, since the angle <emph>DBA</emph> is equal to the two angles
+                  <emph>DBE</emph> , <emph>EBA</emph> , <hi rend="center"> let the angle
+                    <emph>ABC</emph> be added to each; therefore the angles <emph>DBA</emph> .
+                    <emph>ABC</emph> are equal to the three angles <emph>DBE</emph> ,
+                    <emph>EBA</emph> , <emph>ABC</emph> . [ <title>C. N</title> . 2] </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e6351"> But the angles <emph>CBE</emph> , <emph>EBD</emph> were also proved equal to the
+                same three angles; <hi rend="center"> and things which are equal to the same thing
+                  are also equal to one another; [ <title>C. N</title> . 1] therefore the angles
+                    <emph>CBE</emph> , <emph>EBD</emph> are also equal to the  angles
+                    <emph>DBA</emph> , <emph>ABC</emph> . </hi>
+                 But the angles <emph>CBE</emph> , <emph>EBD</emph> are two right
+                angles; <hi rend="center"> therefore the angles <emph>DBA</emph> , <emph>ABC</emph>
+                  are also equal to two right angles. </hi>
+              </p>
+              <p xml:id="ee-b1-d1e6394">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e6398" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6400">Q. E. D.</p>
+            </div>
+
+          </div>
+          <div xml:id="elem.1.14" n="14">
+            <head xml:id="ee-b1-Hd1e6407">Proposition 14.</head>
+            <div xml:id="ee-b1-Dd1e6410" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6412"> If with any straight line, and at a point on it, two straight lines not lying on
+                the same side make the adjacent angles equal to two right angles, the two straight
+                lines will be in a straight line with one another. 
+              </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e6416" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6418"> For with any straight line <emph>AB</emph> , and at the point <emph>B</emph> on
+                it, let the two straight lines <emph>BC</emph> , <emph>BD</emph> not lying on the
+                same side make the adjacent angles <emph>ABC</emph> , <emph>ABD</emph> equal to two
+                right angles; </p>
+              <p xml:id="ee-b1-d1e6440"> I say that <emph>BD</emph> is in a straight line with <emph>CB</emph> . 
+              </p>
+              <p xml:id="ee-b1-d1e6449"> For, if <emph>BD</emph> is not in a straight line with <emph>BC</emph> , let
+                  <emph>BE</emph> be in a straight line with <emph>CB</emph> . </p>
+              <p xml:id="ee-b1-d1e6464"> Then, since the straight line <emph>AB</emph> stands on the straight line
+                  <emph>CBE</emph> , <!-- <figure/> -->
+                
+                <hi rend="center"> the angles <emph>ABC</emph> , <emph>ABE</emph> are equal to two
+                  right angles. [ <ref xml:id="ee-b1-Rd1e6482" target="http://scta.info/resource/elem.1.13">I. 13</ref> ] </hi> But the
+                angles <emph>ABC</emph> , <emph>ABD</emph> are also equal to two right angles; <hi rend="center"> therefore the angles <emph>CBA</emph> , <emph>ABE</emph> are equal
+                  to the angles <emph>CBA</emph> , <emph>ABD</emph> . [ <ref xml:id="ee-b1-Rd1e6507" target="http://scta.info/resource/elem.1.post.4">Post. 4</ref> and <ref xml:id="ee-b1-Rd1e6511" target="http://scta.info/resource/elem.1.c.n.1">C.N.
+                    1</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e6516"> Let the angle <emph>CBA</emph> be subtracted from each;  therefore the
+                remaining angle <emph>ABE</emph> is equal to the remaining angle <emph>ABD</emph> ,
+                [ <ref xml:id="ee-b1-Rd1e6527" target="http://scta.info/resource/elem.1.c.n.3">C.N. 3</ref> ] <hi rend="center"> the
+                  less to the greater: which is impossible. Therefore <emph>BE</emph> is not in a
+                  straight line with <emph>CB</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e6541"> Similarly we can prove that neither is any other straight  line except
+                  <emph>BD</emph> . 
+                <hi rend="center"> Therefore <emph>CB</emph> is in a straight line with
+                    <emph>BD</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e6556">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e6560" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6562">Q. E. D.</p>
+            </div>
+
+
+
+          </div>
+          <div xml:id="elem.1.15" n="15">
+            <head xml:id="ee-b1-Hd1e6569">Proposition 15.</head>
+            <div xml:id="ee-b1-Dd1e6572" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6574"> If two straight lines cut one another, they make the vertical angles equal to one
+                another. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e6578" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6580"> For let the straight lines <emph>AB</emph> , <emph>CD</emph> cut one another at
+                the point <emph>E</emph> ; 
+              </p>
+              <p xml:id="ee-b1-d1e6592"> I say that the angle <emph>AEC</emph> is equal to the angle <emph>DEB</emph> , <hi rend="center"> and the angle <emph>CEB</emph> to the angle <emph>AED</emph> . </hi>
+                <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e6612"> For, since the straight line <emph>AE</emph> stands  on the straight
+                line <emph>CD</emph> , making the angles <emph>CEA</emph> , <emph>AED</emph> , <hi rend="center"> the angles <emph>CEA</emph> , <emph>AED</emph> are equal to two
+                  right angles [ <ref xml:id="ee-b1-Rd1e6634" target="http://scta.info/resource/elem.1.13">I. 13</ref> ] </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e6639"> Again, since the straight line <emph>DE</emph> stands on the straight line
+                  <emph>AB</emph> , making the angles <emph>AED</emph> , <emph>DEB</emph> , <hi rend="center"> the angles <emph>AED</emph> , <emph>DEB</emph> are equal to two
+                  right angles. [ <ref xml:id="ee-b1-Rd1e6661" target="http://scta.info/resource/elem.1.13">I. 13</ref> ] </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e6666"> But the angles <emph>CEA</emph> , <emph>AED</emph> were also proved equal to two
+                right angles; <hi rend="center"> therefore the angles <emph>CEA</emph> ,
+                    <emph>AED</emph> are equal to the angles <emph>AED</emph>
+                  <emph>DEB</emph> . [ <ref xml:id="ee-b1-Rd1e6688" target="http://scta.info/resource/elem.1.post.4">Post. 4</ref> and
+                    <ref xml:id="ee-b1-Rd1e6692" target="http://scta.info/resource/elem.1.c.n.1">C. N. 1</ref> ] Let the angle
+                    <emph>AED</emph> be subtracted from each;  therefore the remaining
+                  angle <emph>CEA</emph> is equal to the remaining angle <emph>BED</emph> . [ <ref xml:id="ee-b1-Rd1e6704" target="http://scta.info/resource/elem.1.c.n.3">C. N. 3</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e6710"> Similarly it can be proved that the angles <emph>CEB</emph> , <emph>DEA</emph> are
+                also equal. </p>
+              <p xml:id="ee-b1-d1e6719"> Therefore etc. Q. E. D. 
+              </p>
+            </div>
+            <div xml:id="elem.1.15.p.1" type="porism" org="uniform" sample="complete">
+              <head xml:id="ee-b1-Hd1e6725">Porism.</head>
+              <p xml:id="ee-b1-d1e6728"> [From this it is manifest that, if two straight lines cut one another, they will
+                make the angles at the point of section equal to four right angles. </p>
+            </div>
+
+
+          </div>
+          <div xml:id="elem.1.16" n="16">
+            <head xml:id="ee-b1-Hd1e6735">Proposition 16.</head>
+            <div xml:id="ee-b1-Dd1e6738" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6740"> In any triangle, if one of the sides be produced, the exterior angle is greater
+                than either of the interior and opposite angles. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e6744" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6746"> Let <emph>ABC</emph> be a triangle, and let one side of it <emph>BC</emph> be
+                produced to <emph>D</emph> ; 
+              </p>
+              <p xml:id="ee-b1-d1e6758"> I say that the exterior angle <emph>ACD</emph> is greater than either of the
+                interior and opposite angles <emph>CBA</emph> , <emph>BAC</emph> . </p>
+              <p xml:id="ee-b1-d1e6770"> Let <emph>AC</emph> be bisected at <emph>E</emph> [ <ref xml:id="ee-b1-Rd1e6778" target="http://scta.info/resource/elem.1.10">I. 10</ref> ], and let <emph>BE</emph> be joined and produced  in a straight line to <emph>F</emph> ; <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e6790"> let <emph>EF</emph> be made equal to <emph>BE</emph> [ <ref xml:id="ee-b1-Rd1e6798" target="http://scta.info/resource/elem.1.3">I. 3</ref> ], let <emph>FC</emph> be joined [ <ref xml:id="ee-b1-Rd1e6804" target="http://scta.info/resource/elem.1.post.1">Post. 1</ref> ], and let <emph>AC</emph> be
+                drawn through to <emph>G</emph> [ <ref xml:id="ee-b1-Rd1e6814" target="http://scta.info/resource/elem.1.post.2">Post.
+                  2</ref> ]. </p>
+              <p xml:id="ee-b1-d1e6818"> Then, since <emph>AE</emph> is equal to <emph>EC</emph> ,  and
+                  <emph>BE</emph> to <emph>EF</emph> , <hi rend="center"> the two sides
+                    <emph>AE</emph> , <emph>EB</emph> are equal to the two sides <emph>CE</emph> ,
+                    <emph>EF</emph> respectively; and the angle <emph>AEB</emph> is equal to the
+                  angle <emph>FEC</emph> , for they are vertical angles. [ <ref xml:id="ee-b1-Rd1e6853" target="http://scta.info/resource/elem.1.15">I. 15</ref> ]  Therefore the base <emph>AB</emph> is
+                  equal to the base <emph>FC</emph> , and the triangle <emph>ABE</emph> is equal to
+                  the triangle <emph>CFE</emph> , and the remaining angles are equal to the
+                  remaining angles respectively, namely those which the equal sides subtend; [ <ref xml:id="ee-b1-Rd1e6869" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] therefore the angle
+                    <emph>BAE</emph> is equal to the angle <emph>ECF</emph> . </hi>
+                
+                
+              </p>
+              <p xml:id="ee-b1-d1e6881"> But the angle <emph>ECD</emph> is greater than the angle <emph>ECF</emph> ; [
+                  <title>C. N</title> . 5] <hi rend="center"> therefore the angle <emph>ACD</emph>
+                  is greater than the angle <emph>BAE</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e6902"> Similarly also, if <emph>BC</emph> be bisected, the angle <emph>BCG</emph> , that
+                is, the angle <emph>ACD</emph> [ <ref xml:id="ee-b1-Rd1e6913" target="http://scta.info/resource/elem.1.15">I. 15</ref>
+                ], can be proved greater than the angle <emph>ABC</emph> as well. </p>
+              <p xml:id="ee-b1-d1e6920">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e6924" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6926">Q. E. D.</p>
+            </div>
+
+
+
+
+          </div>
+          <div xml:id="elem.1.17" n="17">
+            <head xml:id="ee-b1-Hd1e6934">Proposition 17.</head>
+            <div xml:id="ee-b1-Dd1e6937" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6939"> In any triangle two angles taken together in any manner are less than two right
+                angles. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e6943" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e6945"> Let <emph>ABC</emph> be a triangle; I say that two angles of the triangle
+                  <emph>ABC</emph> taken together in any manner are less than two right angles. </p>
+              <p xml:id="ee-b1-d1e6954"> For let <emph>BC</emph> be produced to <emph>D</emph> . [ <ref xml:id="ee-b1-Rd1e6962" target="http://scta.info/resource/elem.1.post.2">Post. 2</ref> ] </p>
+              <p xml:id="ee-b1-d1e6966"> Then, since the angle <emph>ACD</emph> is an exterior angle of the triangle
+                  <emph>ABC</emph> , </p>
+              <p xml:id="ee-b1-d1e6975"> it is greater than the interior and opposite angle <emph>ABC</emph> . [ <ref xml:id="ee-b1-Rd1e6980" target="http://scta.info/resource/elem.1.16">I. 16</ref> ] 
+                <hi rend="center"> Let the angle <emph>ACB</emph> be added to each; </hi> therefore
+                the angles <emph>ACD</emph> , <emph>ACB</emph> are greater than the angles
+                  <emph>ABC</emph> , <emph>BCA</emph> . <!-- <figure/> --> But the angles <emph>ACD</emph> ,
+                  <emph>ACB</emph> are equal to two right angles. [ <ref xml:id="ee-b1-Rd1e7010" target="http://scta.info/resource/elem.1.13">I. 13</ref> ] </p>
+              <p xml:id="ee-b1-d1e7014"> Therefore the angles <emph>ABC</emph> , <emph>BCA</emph> are less than two right
+                angles. </p>
+              <p xml:id="ee-b1-d1e7024"> Similarly we can prove that the angles <emph>BAC</emph> , <emph>ACB</emph> are
+                also less than two right angles, and so are the angles <emph>CAB</emph> ,
+                  <emph>ABC</emph> as well. </p>
+              <p xml:id="ee-b1-d1e7039">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e7043" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7045">Q. E. D.</p>
+            </div>
+
+          </div>
+          <div xml:id="elem.1.18" n="18">
+            
+            <head xml:id="ee-b1-Hd1e7052">Proposition 18.</head>
+            <div xml:id="ee-b1-Dd1e7055" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7057"> In any triangle the greater side subtends the greater angle. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e7061" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7063"> For let <emph>ABC</emph> be a triangle having the side <emph>AC</emph> greater
+                than <emph>AB</emph> ; </p>
+              <p xml:id="ee-b1-d1e7075"> I say that the angle <emph>ABC</emph> is also greater than the angle
+                  <emph>BCA</emph> . </p>
+              <p xml:id="ee-b1-d1e7084"> For, since <emph>AC</emph> is greater than <emph>AB</emph> , let <emph>AD</emph>
+                be made equal to <emph>AB</emph> [ <ref xml:id="ee-b1-Rd1e7098" target="http://scta.info/resource/elem.1.3">I. 3</ref>
+                ], and let <emph>BD</emph> bejoined. </p>
+              <p xml:id="ee-b1-d1e7106"> Then, since the angle <emph>ADB</emph> is an exterior angle of the triangle
+                  <emph>BCD</emph> , <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e7117"> it is greater than the interior and opposite angle <emph>DCB</emph> . [ <ref xml:id="ee-b1-Rd1e7122" target="http://scta.info/resource/elem.1.16">I. 16</ref> ] </p>
+              <p xml:id="ee-b1-d1e7127"> But the angle <emph>ADB</emph> is equal to the angle <emph>ABD</emph> , <hi rend="center"> since the side <emph>AB</emph> is equal to <emph>AD</emph> ;
+                  therefore the angle <emph>ABD</emph> is also greater than the angle
+                    <emph>ACB</emph> ; therefore the angle <emph>ABC</emph> is much greater than the
+                  angle <emph>ACB</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7158">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e7162" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7164">Q. E. D.</p>
+            </div>
+
+          </div>
+          <div xml:id="elem.1.19" n="19">
+            <head xml:id="ee-b1-Hd1e7171">Proposition 19.</head>
+            <div xml:id="ee-b1-Dd1e7174" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7176"> In any triangle the greater angle is subtended by the greater side. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e7180" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7182"> Let <emph>ABC</emph> be a triangle having the angle <emph>ABC</emph> greater than
+                the angle <emph>BCA</emph> ; </p>
+              <p xml:id="ee-b1-d1e7194"> I say that the side <emph>AC</emph> is also greater than the side <emph>AB</emph>
+                . </p>
+              <p xml:id="ee-b1-d1e7203"> For, if not, <emph>AC</emph> is either equal to <emph>AB</emph> or less. </p>
+              <p xml:id="ee-b1-d1e7212"> Now <emph>AC</emph> is not equal to <emph>AB</emph> ; for then the angle
+                  <emph>ABC</emph> would also have been equal to the angle <emph>ACB</emph> ; [ <ref xml:id="ee-b1-Rd1e7226" target="http://scta.info/resource/elem.1.5">I. 5</ref> ] but it is not; <!-- <figure/> -->
+                <hi rend="center"> therefore <emph>AC</emph> is not equal to <emph>AB</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7242"> Neither is <emph>AC</emph> less than <emph>AB</emph> , for then the angle
+                  <emph>ABC</emph> would also have been less than the angle <emph>ACB</emph> ; [
+                  <ref xml:id="ee-b1-Rd1e7256" target="http://scta.info/resource/elem.1.18">I. 18</ref> ] but it is not; <hi rend="center"> therefore <emph>AC</emph> is not less than <emph>AB</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7271"> And it was proved that it is not equal either. <hi rend="center"> Therefore
+                    <emph>AC</emph> is greater than <emph>AB</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7283">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e7287" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7289">Q. E. D.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.20" n="20">
+            <head xml:id="ee-b1-Hd1e7296">Proposition 20.</head>
+            <div xml:id="ee-b1-Dd1e7299" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7301"> In any triangle two sides taken together in any manner are greater than the
+                remaining one. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e7305" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7307"> For let <emph>ABC</emph> be a triangle; I say that in the triangle
+                  <emph>ABC</emph> two sides taken together in any manner are greater than the
+                remaining one, namely <hi rend="center">
+                  <emph>BA</emph> , <emph>AC</emph> greater than <emph>BC</emph> , <emph>AB</emph> ,
+                    <emph>BC</emph> greater than <emph>AC</emph> , <emph>BC</emph> , <emph>CA</emph>
+                  greater than <emph>AB</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7347"> For let <emph>BA</emph> be drawn through to the point <emph>D</emph> , let
+                  <emph>DA</emph> be made equal to <emph>CA</emph> , and let <emph>DC</emph> be
+                joined. </p>
+              <p xml:id="ee-b1-d1e7365"> Then, since <emph>DA</emph> is equal to <emph>AC</emph> , the angle
+                  <emph>ADC</emph> is also equal to the angle <emph>ACD</emph> ; [ <ref xml:id="ee-b1-Rd1e7379" target="http://scta.info/resource/elem.1.5">I. 5</ref> ] <!-- <figure/> -->
+                <hi rend="center"> therefore the angle <emph>BCD</emph> is greater than the angle
+                    <emph>ADC</emph> . [ <ref xml:id="ee-b1-Rd1e7393" target="http://scta.info/resource/elem.1.c.n.5">C.N. 5</ref> ]
+                </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7398"> And, since <emph>DCB</emph> is a triangle having the angle <emph>BCD</emph>
+                greater than the angle <emph>BDC</emph> , <hi rend="center"> and the greater angle
+                  is subtended by the greater side, [ <ref xml:id="ee-b1-Rd1e7411" target="http://scta.info/resource/elem.1.19">I.
+                    19</ref> ] therefore <emph>DB</emph> is greater than <emph>BC</emph> . </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e7422"> But <emph>DA</emph> is equal to <emph>AC</emph> ; <hi rend="center"> therefore
+                    <emph>BA</emph> , <emph>AC</emph> are greater than <emph>BC</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7444"> Similarly we can prove that <emph>AB</emph> , <emph>BC</emph> are also greater
+                than <emph>CA</emph> , and <emph>BC</emph> , <emph>CA</emph> than <emph>AB</emph> . </p>
+              <p xml:id="ee-b1-d1e7466">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e7470" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7472">Q. E. D.</p>
+            </div>
+
+          </div>
+          <div xml:id="elem.1.21" n="21">
+            
+            <head xml:id="ee-b1-Hd1e7479">Proposition 21.</head>
+            <div xml:id="ee-b1-Dd1e7482" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7484"> If on one of the sides of a triangle, from its extremities, there be constructed
+                two straight lines meeting within the triangle, the straight lines so constructed
+                will be less than the remaining two sides of the triangle, but will contain a
+                greater  angle. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e7488" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7490"> On <emph>BC</emph> , one of the sides of the triangle <emph>ABC</emph> , from its
+                extremities <emph>B</emph> , <emph>C</emph> , let the two straight lines
+                  <emph>BD</emph> , <emph>DC</emph> be constructed meeting within the triangle; </p>
+              <p xml:id="ee-b1-d1e7512"> I say that <emph>BD</emph> , <emph>DC</emph> are less than the remaining two sides
+                   of the triangle <emph>BA</emph> , <emph>AC</emph> , but contain an
+                angle <emph>BDC</emph> greater than the angle <emph>BAC</emph> . <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e7536"> For let <emph>BD</emph> be drawn through to <emph>E</emph> . </p>
+              <p xml:id="ee-b1-d1e7545"> Then, since in any triangle two sides are greater than the remaining 
+                one, [ <ref xml:id="ee-b1-Rd1e7547" target="http://scta.info/resource/elem.1.20">I. 20</ref> ] <hi rend="center">
+                  therefore, in the triangle <emph>ABE</emph> , the two sides <emph>AB</emph> ,
+                    <emph>AE</emph> are greater than <emph>BE</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7566"> Let <emph>EC</emph> be added to each; <hi rend="center"> therefore <emph>BA</emph>
+                  , <emph>AC</emph> are greater than <emph>BE</emph> , <emph>EC</emph> . </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e7588"> Again, since, in the triangle <emph>CED</emph> , <hi rend="center"> the two sides
+                    <emph>CE</emph> , <emph>ED</emph> are greater than <emph>CD</emph> , let
+                    <emph>DB</emph> be added to each; therefore <emph>CE</emph> , <emph>EB</emph>
+                  are greater than <emph>CD</emph> , <emph>DB</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7622"> But <emph>BA</emph> , <emph>AC</emph> were proved greater than <emph>BE</emph> ,
+                  <emph>EC</emph> ; 
+                <hi rend="center"> therefore <emph>BA</emph> , <emph>AC</emph> are much greater than
+                    <emph>BD</emph> , <emph>DC</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7652"> Again, since in any triangle the exterior angle is greater than the interior and
+                opposite angle, [ <ref xml:id="ee-b1-Rd1e7654" target="http://scta.info/resource/elem.1.16">I. 16</ref> ] therefore, in
+                the triangle <emph>CDE</emph> , <hi rend="center"> the exterior angle
+                    <emph>BDC</emph> is greater than the angle <emph>CED</emph> . </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e7670"> For the same reason, moreover, in the triangle <emph>ABE</emph> also, <hi rend="center"> the exterior angle <emph>CEB</emph> is greater than the angle
+                    <emph>BAC</emph> . </hi> But the angle <emph>BDC</emph> was proved greater than
+                the angle <emph>CEB</emph> ; <hi rend="center"> therefore the angle <emph>BDC</emph>
+                  is much greater than the angle <emph>BAC</emph> . </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e7700">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e7704" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7706">Q. E. D.</p>
+            </div>
+
+
+          </div>
+          <div xml:id="elem.1.22" n="22">
+            <head xml:id="ee-b1-Hd1e7713">Proposition 22.</head>
+            <div xml:id="ee-b1-Dd1e7716" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7718"> Out of three straight lines, which are equal to three given straight lines, to
+                construct a triangle: thus it is necessary that two of the straight lines taken
+                together in any manner should be greater than the remaining one. [ <ref xml:id="ee-b1-Rd1e7720" target="http://scta.info/resource/elem.1.20">I. 20</ref> ] </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e7725" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7727"> Let the three given straight lines be <emph>A</emph> , <emph>B</emph> ,
+                  <emph>C</emph> , and of these let two taken together in any manner be greater than
+                the remaining one, namely <emph>A</emph> , <emph>B</emph> greater than
+                  <emph>C</emph> , <hi rend="center">
+                  <emph>A</emph> , <emph>C</emph> greater than <emph>B</emph> , </hi> and
+                  <emph>B</emph> , <emph>C</emph> greater than <emph>A</emph> ; thus it is required
+                to construct a triangle out of straight lines equal to <emph>A</emph> ,
+                  <emph>B</emph> , <emph>C</emph> . <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e7782"> Let there be set out a straight line <emph>DE</emph> , terminated at
+                  <emph>D</emph> but of infinite length in the direction of <emph>E</emph> , and let
+                  <emph>DF</emph> be made equal to <emph>A</emph> , <emph>FG</emph> equal to
+                  <emph>B</emph> , and <emph>GH</emph> equal to <emph>C</emph> . [ <ref xml:id="ee-b1-Rd1e7812" target="http://scta.info/resource/elem.1.3">I. 3</ref> ] </p>
+              <p xml:id="ee-b1-d1e7816"> With centre <emph>F</emph> and distance <emph>FD</emph> let the circle
+                  <emph>DKL</emph> be described; again, with centre <emph>G</emph> and distance
+                  <emph>GH</emph> let the circle <emph>KLH</emph> be described; and let
+                  <emph>KF</emph> , <emph>KG</emph> be joined; </p>
+              <p xml:id="ee-b1-d1e7844"> I say that the triangle <emph>KFG</emph> has been constructed out of three
+                straight lines equal to <emph>A</emph> , <emph>B</emph> , <emph>C</emph> . 
+              </p>
+              <p xml:id="ee-b1-d1e7859"> For, since the point <emph>F</emph> is the centre of the circle <emph>DKL</emph> ,
+                  <hi rend="center">
+                  <emph>FD</emph> is equal to <emph>FK</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7878"> But <emph>FD</emph> is equal to <emph>A</emph> ; <hi rend="center"> therefore
+                    <emph>KF</emph> is also equal to <emph>A</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7896"> Again, since the point <emph>G</emph> is the centre of the circle <emph>LKH</emph>
+                , <hi rend="center">
+                  <emph>GH</emph> is equal to <emph>GK</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e7914"> But <emph>GH</emph> is equal to <emph>C</emph> ; <hi rend="center"> therefore
+                    <emph>KG</emph> is also equal to <emph>C</emph> . And <emph>FG</emph> is also
+                  equal to <emph>B</emph> ; </hi> therefore the three straight lines <emph>KF</emph>
+                , <emph>FG</emph> , <emph>GK</emph> are equal to the three straight lines
+                  <emph>A</emph> , <emph>B</emph> , <emph>C</emph> . </p>
+              <p xml:id="ee-b1-d1e7957"> Therefore out of the three straight lines <emph>KF</emph> , <emph>FG</emph> ,
+                  <emph>GK</emph> , which are equal to the three given straight lines <emph>A</emph>
+                , <emph>B</emph> , <emph>C</emph> , the triangle <emph>KFG</emph> has been
+                constructed. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e7983" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7985">Q. E. F.</p>
+            </div>
+
+
+
+          </div>
+          <div xml:id="elem.1.23" n="23">
+            <head xml:id="ee-b1-Hd1e7993">Proposition 23.</head>
+            <div xml:id="ee-b1-Dd1e7996" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e7998"> On a given straight line and at a point on it to construct a rectilineal angle
+                equal to a given rectilineal angle. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e8002" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8004"> Let <emph>AB</emph> be the given straight line, <emph>A</emph> the point on it,
+                and the angle <emph>DCE</emph> the given rectilineal angle; </p>
+              <p xml:id="ee-b1-d1e8016"> thus it is required to construct on the given straight line <emph>AB</emph> , and
+                at the point <emph>A</emph> on it, a rectilineal angle equal to the given
+                rectilineal angle <emph>DCE</emph> . <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e8030"> On the straight lines <emph>CD</emph> , <emph>CE</emph> respectively let the
+                points <emph>D</emph> , <emph>E</emph> be taken at random; let <emph>DE</emph> be
+                joined, and out of three straight lines which are equal to the three 
+                straight lines <emph>CD</emph> , <emph>DE</emph> , <emph>CE</emph> let the triangle
+                  <emph>AFG</emph> be constructed in such a way that <emph>CD</emph> is equal to
+                  <emph>AF</emph> , <emph>CE</emph> to <emph>AG</emph> , and further <emph>DE</emph>
+                to <emph>FG</emph> . </p>
+              <p xml:id="ee-b1-d1e8080"> Then, since the two sides <emph>DC</emph> , <emph>CE</emph> are equal to the two
+                sides <emph>FA</emph> , <emph>AG</emph> respectively, <hi rend="center"> and the
+                  base <emph>DE</emph> is equal to the base <emph>FG</emph> , the angle
+                    <emph>DCE</emph> is equal to the angle <emph>FAG</emph> . [ <ref xml:id="ee-b1-Rd1e8108" target="http://scta.info/resource/elem.1.8">I. 8</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e8113"> Therefore on the given straight line <emph>AB</emph> , and at the point
+                  <emph>A</emph> on it, the rectilineal angle <emph>FAG</emph> has been constructed
+                equal to the given rectilineal angle <emph>DCE</emph> . </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e8129" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8131">Q. E. F.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.24" n="24">
+            <head xml:id="ee-b1-Hd1e8138">Proposition 24.</head>
+            <div xml:id="ee-b1-Dd1e8141" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8143"> If two triangles have the two sides equal to two sides respectively, but have the
+                one of the angles contained by the equal straight lines greater than the other, they
+                will also have the base greater than the base. 
+              </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e8147" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8149"> Let <emph>ABC</emph> , <emph>DEF</emph> be two triangles having the two sides
+                  <emph>AB</emph> , <emph>AC</emph> equal to the two sides <emph>DE</emph> ,
+                  <emph>DF</emph> respectively, namely <emph>AB</emph> to <emph>DE</emph> , and
+                  <emph>AC</emph> to <emph>DF</emph> , and let the angle at <emph>A</emph> be
+                greater than the angle at <emph>D</emph> ; </p>
+              <p xml:id="ee-b1-d1e8190"> I say that the base <emph>BC</emph> is also greater than the base <emph>EF</emph>
+                . 
+              </p>
+              <p xml:id="ee-b1-d1e8199"> For, since the angle <emph>BAC</emph> is greater than the angle <emph>EDF</emph> ,
+                let there be constructed, on the straight line <emph>DE</emph> , and at the point
+                  <emph>D</emph> on it, the angle <emph>EDG</emph>
+                 equal to the angle <emph>BAC</emph> ; [ <ref xml:id="ee-b1-Rd1e8220" target="http://scta.info/resource/elem.1.23">I. 23</ref> ] let <emph>DG</emph> be made equal to either of the two
+                straight lines <emph>AC</emph> , <emph>DF</emph> , and let <emph>EG</emph> ,
+                  <emph>FG</emph> be joined. <!-- <figure/> -->
+                
+              </p>
+              <p xml:id="ee-b1-d1e8242"> Then, since <emph>AB</emph> is equal to <emph>DE</emph> , and <emph>AC</emph> to
+                  <emph>DG</emph> ,  the two sides <emph>BA</emph> , <emph>AC</emph> are
+                equal to the two sides <emph>ED</emph> , <emph>DG</emph> , respectively; <hi rend="center"> and the angle <emph>BAC</emph> is equal to the angle
+                    <emph>EDG</emph> ; therefore the base <emph>BC</emph> is equal to the base
+                    <emph>EG</emph> . [ <ref xml:id="ee-b1-Rd1e8283" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e8288"> Again, since <emph>DF</emph> is equal to <emph>DG</emph> , 
+                <hi rend="center"> the angle <emph>DGF</emph> is also equal to the angle
+                    <emph>DFG</emph> ; [ <ref xml:id="ee-b1-Rd1e8304" target="http://scta.info/resource/elem.1.5">I. 5</ref> ] therefore
+                  the angle <emph>DFG</emph> is greater than the angle <emph>EGF</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e8316"> Therefore the angle <emph>EFG</emph> is much greater than the angle
+                  <emph>EGF</emph> . </p>
+              <p xml:id="ee-b1-d1e8325"> And, since <emph>EFG</emph> is a triangle having the angle <emph>EFG</emph>
+                 greater than the angle <emph>EGF</emph> , <hi rend="center"> and the
+                  greater angle is subtended by the greater side, [ <ref xml:id="ee-b1-Rd1e8338" target="http://scta.info/resource/elem.1.19">I. 19</ref> ] the side <emph>EG</emph> is also greater than
+                    <emph>EF</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e8349"> But <emph>EG</emph> is equal to <emph>BC</emph> . <hi rend="center"> Therefore
+                    <emph>BC</emph> is also greater than <emph>EF</emph> . </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e8367">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e8371" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8373">Q. E. D.</p>
+            </div>
+
+          </div>
+          <div xml:id="elem.1.25" n="25">
+            <head xml:id="ee-b1-Hd1e8380">Proposition 25.</head>
+            <div xml:id="ee-b1-Dd1e8383" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8385"> If two triangles have the two sides equal to two sides respectively, but have the
+                base greater than the base, they will also have the one of the angles contained by
+                the equal straight lines greater than the other. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e8389" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8391"> Let <emph>ABC</emph> , <emph>DEF</emph> be two triangles having the two sides
+                  <emph>AB</emph> , <emph>AC</emph> equal to the two sides <emph>DE</emph> ,
+                  <emph>DF</emph> respectively, namely <emph>AB</emph> to <emph>DE</emph> , and
+                  <emph>AC</emph> to <emph>DF</emph> ; and let the base <emph>BC</emph> be greater
+                than the base <emph>EF</emph> ; </p>
+              <p xml:id="ee-b1-d1e8432"> I say that the angle <emph>BAC</emph> is also greater than the angle
+                  <emph>EDF</emph> . <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e8443">For, if not, it is either equal to it or less.</p>
+              <p xml:id="ee-b1-d1e8446"> Now the angle <emph>BAC</emph> is not equal to the angle <emph>EDF</emph> ; for
+                then the base <emph>BC</emph> would also have been equal to the base <emph>EF</emph>
+                , [ <ref xml:id="ee-b1-Rd1e8460" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] <hi rend="center"> but it is
+                  not; therefore the angle <emph>BAC</emph> is not equal to the angle
+                    <emph>EDF</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e8474"> Neither again is the angle <emph>BAC</emph> less than the angle <emph>EDF</emph> ;
+                for then the base <emph>BC</emph> would also have been less than the base
+                  <emph>EF</emph> , [ <ref xml:id="ee-b1-Rd1e8488" target="http://scta.info/resource/elem.1.24">I. 24</ref> ] <hi rend="center"> but it is not; therefore the angle <emph>BAC</emph> is not less
+                  than the angle <emph>EDF</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e8503"> But it was proved that it is not equal either; <hi rend="center"> therefore the
+                  angle <emph>BAC</emph> is greater than the angle <emph>EDF</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e8515">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e8519" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8521">Q. E. D.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.26" n="26">
+            <head xml:id="ee-b1-Hd1e8528">Proposition 26.</head>
+            <div xml:id="ee-b1-Dd1e8531" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8533"> If two triangles have the two angles equal to two angles respectively, and one
+                side equal to one side, namely, either the side adjoining the equal angles, or that
+                subtending one of the equal angles, they will also have the remaining sides equal to
+                   the remaining sides and the remaining angle to the remaining angle.
+                  
+              </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e8537" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8539"> Let <emph>ABC</emph> , <emph>DEF</emph> be two triangles having the two angles
+                  <emph>ABC</emph> , <emph>BCA</emph> equal to the two angles <emph>DEF</emph> ,
+                  <emph>EFD</emph> respectively, namely the angle <emph>ABC</emph> to the angle
+                  <emph>DEF</emph> , and the angle 
+                <emph>BCA</emph> to the angle <emph>EFD</emph> ; and let them also have one side
+                equal to one side, first that adjoining the equal angles, namely <emph>BC</emph> to
+                  <emph>EF</emph> ; </p>
+              <p xml:id="ee-b1-d1e8580"> I say that they will also have the remaining sides equal to the remaining sides
+                respectively, namely <emph>AB</emph> to <emph>DE</emph> and 
+                <emph>AC</emph> to <emph>DF</emph> , and the remaining angle to the remaining angle,
+                namely the angle <emph>BAC</emph> to the angle <emph>EDF</emph> . <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e8604"> For, if <emph>AB</emph> is unequal to <emph>DE</emph> , one of them is greater. </p>
+              <p xml:id="ee-b1-d1e8613"> Let <emph>AB</emph> be greater, and let <emph>BG</emph> be made equal to
+                  <emph>DE</emph> ; and let <emph>GC</emph> be joined. 
+              </p>
+              <p xml:id="ee-b1-d1e8628"> Then, since <emph>BG</emph> is equal to <emph>DE</emph> , and <emph>BC</emph> to
+                  <emph>EF</emph> , the two sides <emph>GB</emph> , <emph>BC</emph> are equal to the
+                two sides <emph>DE</emph> , <emph>EF</emph> respectively; and the angle
+                  <emph>GBC</emph> is equal to the angle <emph>DEF</emph> ; <hi rend="center">
+                  therefore the base <emph>GC</emph> is equal to the base <emph>DF</emph> ,  and the triangle <emph>GBC</emph> is equal to the triangle
+                    <emph>DEF</emph> , and the remaining angles will be equal to the remaining
+                  angles, namely those which the equal sides subtend; [ <ref xml:id="ee-b1-Rd1e8675" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] therefore the angle <emph>GCB</emph> is equal to the
+                  angle <emph>DFE</emph> . </hi> But the angle <emph>DFE</emph> is by hypothesis
+                equal to the angle <emph>BCA</emph> ; 
+                <hi rend="center"> therefore the angle <emph>BCG</emph> is equal to the angle
+                    <emph>BCA</emph> , the less to the greater: which is impossible. Therefore
+                    <emph>AB</emph> is not unequal to <emph>DE</emph> , and is therefore equal to
+                  it. </hi>
+              </p>
+              <p xml:id="ee-b1-d1e8710"> But <emph>BC</emph> is also equal to <emph>EF</emph> ; 
+                <hi rend="center"> therefore the two sides <emph>AB</emph> , <emph>BC</emph> are
+                  equal to the two sides <emph>DE</emph> , <emph>EF</emph> respectively, and the
+                  angle <emph>ABC</emph> is equal to the angle <emph>DEF</emph> ; therefore the base
+                    <emph>AC</emph> is equal to the base <emph>DF</emph> , and the remaining angle
+                    <emph>BAC</emph> is equal to the remaining  angle <emph>EDF</emph> .
+                  [ <ref xml:id="ee-b1-Rd1e8751" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e8756"> Again, let sides subtending equal angles be equal, as <emph>AB</emph> to
+                  <emph>DE</emph> ; </p>
+              <p xml:id="ee-b1-d1e8765"> I say again that the remaining sides will be equal to the remaining sides, namely
+                  <emph>AC</emph> to <emph>DF</emph> and <emph>BC</emph> to <emph>EF</emph> , and
+                   further the remaining angle <emph>BAC</emph> is equal to the
+                remaining angle <emph>EDF</emph> . </p>
+              <p xml:id="ee-b1-d1e8787"> For, if <emph>BC</emph> is unequal to <emph>EF</emph> , one of them is greater. </p>
+              <p xml:id="ee-b1-d1e8796"> Let <emph>BC</emph> be greater, if possible, and let <emph>BH</emph> be made equal
+                to <emph>EF</emph> ; let <emph>AH</emph> be joined. 
+              </p>
+              <p xml:id="ee-b1-d1e8811"> Then, since <emph>BH</emph> is equal to <emph>EF</emph> , and <emph>AB</emph> to
+                  <emph>DE</emph> , the two sides <emph>AB</emph> , <emph>BH</emph> are equal to the
+                two sides <emph>DE</emph> , <emph>EF</emph> respectively, and they contain equal
+                angles; <hi rend="center"> therefore the base <emph>AH</emph> is equal to the base
+                    <emph>DF</emph> , </hi> and the triangle <emph>ABH</emph> is equal to the
+                triangle <emph>DEF</emph> ,  and the remaining angles will be equal to
+                the remaining angles, namely those which the equal sides subtend; [ <ref xml:id="ee-b1-Rd1e8854" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] <hi rend="center"> therefore the
+                  angle <emph>BHA</emph> is equal to the angle <emph>EFD</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e8868"> But the angle <emph>EFD</emph> is equal to the angle <emph>BCA</emph> ; therefore,
+                in the triangle <emph>AHC</emph> , the exterior angle <emph>BHA</emph> is  equal to the interior and opposite angle <emph>BCA</emph> : <hi rend="center">
+                  which is impossible. [ <ref xml:id="ee-b1-Rd1e8888" target="http://scta.info/resource/elem.1.16">I. 16</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e8893"> Therefore <emph>BC</emph> is not unequal to <emph>EF</emph> , <hi rend="center">and is therefore equal to it.</hi>
+              </p>
+              <p xml:id="ee-b1-d1e8905"> But <emph>AB</emph> is also equal to <emph>DE</emph> ;  therefore the
+                two sides <emph>AB</emph> , <emph>BC</emph> are equal to the two sides
+                  <emph>DE</emph> , <emph>EF</emph> respectively, and they contain equal angles; <hi rend="center"> therefore the base <emph>AC</emph> is equal to the base
+                    <emph>DF</emph> , the triangle <emph>ABC</emph> equal to the triangle
+                    <emph>DEF</emph> , </hi> and the remaining angle <emph>BAC</emph> equal to the
+                remaining angle 
+                <emph>EDF</emph> . [ <ref xml:id="ee-b1-Rd1e8947" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </p>
+              <p xml:id="ee-b1-d1e8951">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e8955" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8957">Q. E. D.</p>
+            </div>
+
+
+          </div>
+          <div xml:id="elem.1.27" n="27">
+            <head xml:id="ee-b1-Hd1e8964">Proposition 27.</head>
+            <div xml:id="ee-b1-Dd1e8967" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8969"> If a straight line falling on two straight lines make the alternate angles equal
+                to one another, the straight lines will be parallel to one another. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e8973" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e8975"> For let the straight line <emph>EF</emph> falling on the two straight 
+                lines <emph>AB</emph> , <emph>CD</emph> make the alternate angles <emph>AEF</emph> ,
+                  <emph>EFD</emph> equal to one another; </p>
+              <p xml:id="ee-b1-d1e8993"> I say that <emph>AB</emph> is parallel to <emph>CD</emph> . </p>
+              <p xml:id="ee-b1-d1e9002"> For, if not, <emph>AB</emph> , <emph>CD</emph> when produced will meet either in
+                the direction  of <emph>B</emph> , <emph>D</emph> or towards
+                  <emph>A</emph> , <emph>C</emph> . <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e9026"> Let them be produced and meet, in the direction of <emph>B</emph> , <emph>D</emph>
+                , at <emph>G</emph> . </p>
+              <p xml:id="ee-b1-d1e9038"> Then, in the triangle <emph>GEF</emph> , the exterior angle <emph>AEF</emph> is
+                equal to the interior and opposite  angle <emph>EFG</emph> : which is
+                impossible. [ <ref xml:id="ee-b1-Rd1e9049" target="http://scta.info/resource/elem.1.16">I. 16</ref> ] </p>
+              <p xml:id="ee-b1-d1e9054"> Therefore <emph>AB</emph> , <emph>CD</emph> when produced will not meet in the
+                direction of <emph>B</emph> , <emph>D</emph> . </p>
+              <p xml:id="ee-b1-d1e9069"> Similarly it can be proved that neither will they meet  towards
+                  <emph>A</emph> , <emph>C</emph> . 
+              </p>
+              <p xml:id="ee-b1-d1e9078"> But straight lines which do not meet in either direction are parallel; [ <ref xml:id="ee-b1-Rd1e9080" target="http://scta.info/resource/elem.1.def.23">Def. 23</ref> ] <hi rend="center"> therefore
+                    <emph>AB</emph> is parallel to <emph>CD</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9093">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e9097" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9099">Q. E. D.</p>
+            </div>
+
+
+
+          </div>
+          <div xml:id="elem.1.28" n="28">
+            <head xml:id="ee-b1-Hd1e9106">Proposition 28.</head>
+            <div xml:id="ee-b1-Dd1e9109" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9111"> If a straight line falling on two straight lines make the exterior angle equal to
+                the interior and opposite angle on the same side, or the interior angles on the same
+                side equal to two right angles, the straight lines will be parallel to one another.
+                  
+              </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e9115" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9117"> For let the straight line <emph>EF</emph> falling on the two straight lines
+                  <emph>AB</emph> , <emph>CD</emph> make the exterior angle <emph>EGB</emph> equal
+                to the interior and opposite angle <emph>GHD</emph> , or the interior angles on the
+                same side, namely <emph>BGH</emph> , <emph>GHD</emph> , equal to two right angles; </p>
+              <p xml:id="ee-b1-d1e9142"> I say that <emph>AB</emph> is parallel to <emph>CD</emph> . </p>
+              <p xml:id="ee-b1-d1e9151"> For, since the angle <emph>EGB</emph> is equal to the angle <emph>GHD</emph> ,
+                while the angle <emph>EGB</emph> is equal to the angle <emph>AGH</emph> , [ <ref xml:id="ee-b1-Rd1e9165" target="http://scta.info/resource/elem.1.15">I. 15</ref> ] <!-- <figure/> --> the angle
+                  <emph>AGH</emph> is also equal to the angle <emph>GHD</emph> ; and they are
+                alternate; <hi rend="center"> therefore <emph>AB</emph> is parallel to
+                    <emph>CD</emph> . [ <ref xml:id="ee-b1-Rd1e9185" target="http://scta.info/resource/elem.1.27">I. 27</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9190"> Again, since the angles <emph>BGH</emph> , <emph>GHD</emph> are equal to two right
+                angles, and the angles <emph>AGH</emph> , <emph>BGH</emph> are also equal to two
+                right angles, [ <ref xml:id="ee-b1-Rd1e9204" target="http://scta.info/resource/elem.1.13">I. 13</ref> ] the angles
+                  <emph>AGH</emph> , <emph>BGH</emph> are equal to the angles <emph>BGH</emph> ,
+                  <emph>GHD</emph> . </p>
+              <p xml:id="ee-b1-d1e9221"> Let the angle <emph>BGH</emph> be subtracted from each; therefore the remaining
+                angle <emph>AGH</emph> is equal to the remaining angle <emph>GHD</emph> ; and they
+                are alternate; <hi rend="center"> therefore <emph>AB</emph> is parallel to
+                    <emph>CD</emph> . [ <ref xml:id="ee-b1-Rd1e9240" target="http://scta.info/resource/elem.1.27">I. 27</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9246">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e9250" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9252">Q. E. D.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.29" n="29">
+            <head xml:id="ee-b1-Hd1e9260">Proposition 29.</head>
+            <div xml:id="ee-b1-Dd1e9263" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9265"> A straight line falling on parallel straight lines makes the alternate angles
+                equal to one another, the exterior angle equal to the interior and opposite angle,
+                and the interior angles on the same side equal to two right angles. 
+              </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e9269" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9271"> For let the straight line <emph>EF</emph> fall on the parallel straight lines
+                  <emph>AB</emph> , <emph>CD</emph> ; </p>
+              <p xml:id="ee-b1-d1e9283"> I say that it makes the alternate angles <emph>AGH</emph> , <emph>GHD</emph>
+                equal, the exterior angle <emph>EGB</emph> equal to the interior and opposite angle
+                  <emph>GHD</emph> , and the interior angles on the same  side, namely
+                  <emph>BGH</emph> , <emph>GHD</emph> , equal to two right angles. </p>
+              <p xml:id="ee-b1-d1e9305"> For, if the angle <emph>AGH</emph> is unequal to the angle <emph>GHD</emph> , one
+                of them is greater. <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e9316"> Let the angle <emph>AGH</emph> be greater. 
+              </p>
+              <p xml:id="ee-b1-d1e9322"> Let the angle <emph>BGH</emph> be added to each; therefore the angles
+                  <emph>AGH</emph> , <emph>BGH</emph> are greater than the angles <emph>BGH</emph> ,
+                  <emph>GHD</emph> . 
+                
+              </p>
+              <p xml:id="ee-b1-d1e9341"> But the angles <emph>AGH</emph> , <emph>BGH</emph> are equal to two right angles;
+                [ <ref xml:id="ee-b1-Rd1e9349" target="http://scta.info/resource/elem.1.13">I. 13</ref> ] <hi rend="center"> therefore
+                  the angles <emph>BGH</emph> , <emph>GHD</emph> are less than two right angles.
+                </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9362"> But straight lines produced indefinitely from angles less than two right angles
+                meet; [ <ref xml:id="ee-b1-Rd1e9364" target="http://scta.info/resource/elem.1.post.5">Post. 5</ref> ] 
+                <hi rend="center"> therefore <emph>AB</emph> , <emph>CD</emph> , if produced
+                  indefinitely, will meet; but they do not meet, because they are by hypothesis
+                  parallel. </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9377"> Therefore the angle <emph>AGH</emph> is not unequal to the angle <emph>GHD</emph>
+                , <hi rend="center">and is therefore equal to it.</hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e9389"> Again, the angle <emph>AGH</emph> is equal to the angle <emph>EGB</emph> ; [ <ref xml:id="ee-b1-Rd1e9397" target="http://scta.info/resource/elem.1.15">I. 15</ref> ] <hi rend="center"> therefore the
+                  angle <emph>EGB</emph> is also equal to the angle <emph>GHD</emph> . [ <ref xml:id="ee-b1-Rd1e9408" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9413"> Let the angle <emph>BGH</emph> be added to each; <hi rend="center"> therefore the
+                  angles <emph>EGB</emph> , <emph>BGH</emph> are equal to the  angles
+                    <emph>BGH</emph> , <emph>GHD</emph> . [ <ref xml:id="ee-b1-Rd1e9432" target="http://scta.info/resource/elem.1.c.n.2">C.N. 2</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9437"> But the angles <emph>EGB</emph> , <emph>BGH</emph> are equal to two right angles;
+                [ <ref xml:id="ee-b1-Rd1e9445" target="http://scta.info/resource/elem.1.13">I. 13</ref> ] <hi rend="center"> therefore
+                  the angles <emph>BGH</emph> , <emph>GHD</emph> are also equal to two right angles.
+                </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9459">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e9463" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9465">Q. E. D.</p>
+            </div>
+
+
+          </div>
+          <div xml:id="elem.1.30" n="30">
+            <head xml:id="ee-b1-Hd1e9472">Proposition 30.</head>
+            <div xml:id="ee-b1-Dd1e9475" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9477"> Straight lines parallel to the same straight line are also parallel to one
+                another. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e9481" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9483"> Let each of the straight lines <emph>AB</emph> , <emph>CD</emph> be parallel to
+                  <emph>EF</emph> ; I say that <emph>AB</emph> is also parallel to <emph>CD</emph> .
+                  
+              </p>
+              <p xml:id="ee-b1-d1e9501"> For let the straight line <emph>GK</emph> fall upon them; <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e9509"> Then, since the straight line <emph>GK</emph> has fallen on the parallel straight
+                lines <emph>AB</emph> , <emph>EF</emph> , 
+                <hi rend="center"> the angle <emph>AGK</emph> is equal to the angle <emph>GHF</emph>
+                  . [ <ref xml:id="ee-b1-Rd1e9528" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9533"> Again, since the straight line <emph>GK</emph> has fallen on the parallel straight
+                lines <emph>EF</emph> , <emph>CD</emph> , <hi rend="center"> the angle
+                    <emph>GHF</emph> is equal to the angle <emph>GKD</emph> . [ <ref xml:id="ee-b1-Rd1e9552" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e9557"> But the angle <emph>AGK</emph> was also proved equal to the angle <emph>GHF</emph>
+                ; <hi rend="center"> therefore the angle <emph>AGK</emph> is also equal to the angle
+                    <emph>GKD</emph> ; [ <ref xml:id="ee-b1-Rd1e9573" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref> ]
+                </hi> and they are alternate. 
+              </p>
+              <p xml:id="ee-b1-d1e9579"> Therefore <emph>AB</emph> is parallel to <emph>CD</emph> . </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e9589" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9591">Q. E. D.</p>
+            </div>
+
+          </div>
+          <div xml:id="elem.1.31" n="31">
+            <head xml:id="ee-b1-Hd1e9598">Proposition 31.</head>
+            <div xml:id="ee-b1-Dd1e9601" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9603"> Through a given point to draw a straight line parallel to a given straight line.
+              </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e9607" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9609"> Let <emph>A</emph> be the given point, and <emph>BC</emph> the given straight
+                line; thus it is required to draw through the point <emph>A</emph> a straight line
+                parallel to the straight line <emph>BC</emph> . 
+              </p>
+              <p xml:id="ee-b1-d1e9624"> Let a point <emph>D</emph> be taken at random on <emph>BC</emph> , and let
+                  <emph>AD</emph> be joined; on the straight line <emph>DA</emph> , and at the point
+                  <emph>A</emph> on it, let the angle <emph>DAE</emph> be constructed equal to the
+                angle <emph>ADC</emph> [ <ref xml:id="ee-b1-Rd1e9648" target="http://scta.info/resource/elem.1.23">I. 23</ref> ]; and
+                let the straight line <emph>AF</emph> be produced in a straight line with
+                  <emph>EA</emph> . <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e9660"> Then, since the straight line <emph>AD</emph> falling on the two straight lines
+                  <emph>BC</emph> , <emph>EF</emph> has made the alternate angles <emph>EAD</emph> ,
+                  <emph>ADC</emph> equal to one another, <hi rend="center"> therefore
+                    <emph>EAF</emph> is parallel to <emph>BC</emph> . [ <ref xml:id="ee-b1-Rd1e9686" target="http://scta.info/resource/elem.1.27">I. 27</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9691"> Therefore through the given point <emph>A</emph> the straight line
+                  <emph>EAF</emph> has been drawn parallel to the given straight line
+                  <emph>BC</emph> . </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e9704" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9706">Q. E. F.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.32" n="32">
+            <head xml:id="ee-b1-Hd1e9713">Proposition 32.</head>
+            <div xml:id="ee-b1-Dd1e9716" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9718"> In any triangle, if one of the sides be produced, the exterior angle is equal to
+                the two interior and opposite angles, and the three interior angles of the triangle
+                are equal to two right angles. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e9722" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9724"> Let <emph>ABC</emph> be a triangle, and let one side of it <emph>BC</emph> be
+                produced to <emph>D</emph> ; </p>
+              <p xml:id="ee-b1-d1e9736"> I say that the exterior angle <emph>ACD</emph> is equal to the two interior and
+                opposite angles <emph>CAB</emph> , <emph>ABC</emph> , and the three interior angles
+                of the triangle <emph>ABC</emph> , <emph>BCA</emph> , <emph>CAB</emph> are equal to
+                two right angles. 
+              </p>
+              <p xml:id="ee-b1-d1e9758"> For let <emph>CE</emph> be drawn through the point <emph>C</emph> parallel to the
+                straight line <emph>AB</emph> . [ <ref xml:id="ee-b1-Rd1e9769" target="http://scta.info/resource/elem.1.31">I. 31</ref>
+                ] </p>
+              <p xml:id="ee-b1-d1e9773"> Then, since <emph>AB</emph> is parallel to <emph>CE</emph> , <hi rend="center">
+                  and <emph>AC</emph> has fallen upon them, the alternate angles <emph>BAC</emph> ,
+                    <emph>ACE</emph> are equal to one another. [ <ref xml:id="ee-b1-Rd1e9792" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] </hi>
+                <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e9799"> Again, since <emph>AB</emph> is parallel to <emph>CE</emph> , <hi rend="center">
+                  and the straight line <emph>BD</emph> has fallen upon them, </hi> the exterior
+                angle <emph>ECD</emph> is equal to the interior and opposite angle <emph>ABC</emph>
+                . [ <ref xml:id="ee-b1-Rd1e9820" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] </p>
+              <p xml:id="ee-b1-d1e9825"> But the angle <emph>ACE</emph> was also proved equal to the angle <emph>BAC</emph>
+                ; <hi rend="center"> therefore the whole angle <emph>ACD</emph> is equal to the two
+                  interior and opposite angles <emph>BAC</emph> , <emph>ABC</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9846"> Let the angle <emph>ACB</emph> be added to each; <hi rend="center"> therefore the
+                  angles <emph>ACD</emph> , <emph>ACB</emph> are equal to the three angles
+                    <emph>ABC</emph> , <emph>BCA</emph> , <emph>CAB</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9870"> But the angles <emph>ACD</emph> , <emph>ACB</emph> are equal to two right angles;
+                [ <ref xml:id="ee-b1-Rd1e9878" target="http://scta.info/resource/elem.1.13">I. 13</ref> ] <hi rend="center"> therefore
+                  the angles <emph>ABC</emph> , <emph>BCA</emph> , <emph>CAB</emph> are also equal
+                  to two right angles. </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9894">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e9898" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9900">Q. E. D.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.33" n="33">
+            <head xml:id="ee-b1-Hd1e9907">Proposition 33.</head>
+            <div xml:id="ee-b1-Dd1e9910" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9912"> The straight lines joining equal and parallel straight lines (at the extremities
+                which are) in the same directions (respectively) are themselves also equal and
+                parallel. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e9916" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e9918"> Let <emph>AB</emph> , <emph>CD</emph> be equal and parallel, and let the straight
+                   lines <emph>AC</emph> , <emph>BD</emph> join them (at the extremities
+                which are) in the same directions (respectively);  I say that
+                  <emph>AC</emph> , <emph>BD</emph> are also equal and parallel. </p>
+              <p xml:id="ee-b1-d1e9940"> Let <emph>BC</emph> be joined. <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e9948"> Then, since <emph>AB</emph> is parallel to <emph>CD</emph> ,  and
+                  <emph>BC</emph> has fallen upon them, <hi rend="center"> the alternate angles
+                    <emph>ABC</emph> , <emph>BCD</emph> are equal to one another. [ <ref xml:id="ee-b1-Rd1e9967" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e9972"> And, since <emph>AB</emph> is equal to <emph>CD</emph> , <hi rend="center"> and
+                    <emph>BC</emph> is common,  the two sides <emph>AB</emph> ,
+                    <emph>BC</emph> are equal to the two sides <emph>DC</emph> , <emph>CB</emph> ;
+                  and the angle <emph>ABC</emph> is equal to the angle <emph>BCD</emph> ; therefore
+                  the base <emph>AC</emph> is equal to the base <emph>BD</emph> , and the griangle
+                    <emph>ABC</emph> is equal to the triangle <emph>DCB</emph> , and the remaining
+                  angles will be equal to the remaining angles  respectively, namely
+                  those which the equal sides subtend; [ <ref xml:id="ee-b1-Rd1e10017" target="http://scta.info/resource/elem.1.4">I.
+                    4</ref> ] therefore the angle <emph>ACB</emph> is equal to the angle
+                    <emph>CBD</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e10028"> And, since the straight line <emph>BC</emph> falling on the two straight lines
+                  <emph>AC</emph> , <emph>BD</emph> has made the alternate angles equal to one
+                another, 
+                <hi rend="center">
+                  <emph>AC</emph> is parallel to <emph>BD</emph> . [ <ref xml:id="ee-b1-Rd1e10047" target="http://scta.info/resource/elem.1.27">I. 27</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e10053">And it was also proved equal to it.</p>
+              <p xml:id="ee-b1-d1e10056">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e10060" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10062">Q. E. D.</p>
+            </div>
+
+
+          </div>
+          <div xml:id="elem.1.34" n="34">
+            <head xml:id="ee-b1-Hd1e10069">Proposition 34.</head>
+            <div xml:id="ee-b1-Dd1e10072" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10074"> In parallelogrammic areas the opposite sides and angles are equal to one another,
+                and the diameter bisects the areas. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e10078" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10080"> Let <emph>ACDB</emph> be a parallelogrammic area, and <emph>BC</emph> its
+                diameter; 
+                 I say that the opposite sides and angles of the parallelogram
+                  <emph>ACDB</emph> are equal to one another, and the diameter <emph>BC</emph>
+                bisects it. <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e10097"> For, since <emph>AB</emph> is parallel to <emph>CD</emph> , and the straight line
+                  <emph>BC</emph> has fallen  upon them, <hi rend="center"> the
+                  alternate angles <emph>ABC</emph> , <emph>BCD</emph> are equal to one another. [
+                    <ref xml:id="ee-b1-Rd1e10116" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e10121"> Again, since <emph>AC</emph> is parallel to <emph>BD</emph> , and <emph>BC</emph>
+                has fallen upon them, 
+                <hi rend="center"> the alternate angles <emph>ACB</emph> , <emph>CBD</emph> are
+                  equal to one another. [ <ref xml:id="ee-b1-Rd1e10140" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e10145"> Therefore <emph>ABC</emph> , <emph>DCB</emph> are two triangles having the two
+                angles <emph>ABC</emph> , <emph>BCA</emph> equal to the two angles <emph>DCB</emph>
+                , <emph>CBD</emph> respectively, and one side equal to one side, namely that  adjoining the equal angles and common to both of them, <emph>BC</emph> ;
+                  <hi rend="center"> therefore they will also have the remaining sides equal to the
+                  remaining sides respectively, and the remaining angle to the remaining angle; [
+                    <ref xml:id="ee-b1-Rd1e10171" target="http://scta.info/resource/elem.1.26">I. 26</ref> ] therefore the side
+                    <emph>AB</emph> is equal to <emph>CD</emph> ,  and <emph>AC</emph>
+                  to <emph>BD</emph> , </hi> and further the angle <emph>BAC</emph> is equal to the
+                angle <emph>CDB</emph> . </p>
+              <p xml:id="ee-b1-d1e10194"> And, since the angle <emph>ABC</emph> is equal to the angle <emph>BCD</emph> , <hi rend="center"> and the angle <emph>CBD</emph> to the angle <emph>ACB</emph> , the
+                  whole angle <emph>ABD</emph> is equal to the whole angle <emph>ACD</emph> . [ <ref xml:id="ee-b1-Rd1e10216" target="http://scta.info/resource/elem.1.c.n.2">C.N. 2</ref> ] </hi>
+                 And the angle <emph>BAC</emph> was also proved equal to the angle
+                  <emph>CDB</emph> . </p>
+              <p xml:id="ee-b1-d1e10228"> Therefore in parallelogrammic areas the opposite sides and angles are equal to one
+                another. </p>
+              <p xml:id="ee-b1-d1e10231"> I say, next, that the diameter also bisects the areas. </p>
+              <p xml:id="ee-b1-d1e10234"> For, since <emph>AB</emph> is equal to <emph>CD</emph> ,  and
+                  <emph>BC</emph> is common, the two sides <emph>AB</emph> , <emph>BC</emph> are
+                equal to the two sides <emph>DC</emph> , <emph>CB</emph> respectively; <hi rend="center"> and the angle <emph>ABC</emph> is equal to the angle
+                    <emph>BCD</emph> ; therefore the base <emph>AC</emph> is also equal to
+                    <emph>DB</emph> ,  and the triangle <emph>ABC</emph> is equal to the
+                  triangle <emph>DCB</emph> . [ <ref xml:id="ee-b1-Rd1e10279" target="http://scta.info/resource/elem.1.4">I. 4</ref> ]
+                </hi>
+              </p>
+              <p xml:id="ee-b1-d1e10284"> Therefore the diameter <emph>BC</emph> bisects the parallelogram <emph>ACDB</emph>
+                . </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e10294" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10296">Q. E. D.</p>
+            </div>
+
+
+          </div>
+          <div xml:id="elem.1.35" n="35">
+            <head xml:id="ee-b1-Hd1e10304">Proposition 35.</head>
+            <div xml:id="ee-b1-Dd1e10307" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10309"> Parallelograms which are on the same base and in the same parallels are equal to
+                one another. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e10313" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10315"> Let <emph>ABCD</emph> , <emph>EBCF</emph> be parallelograms on the same base
+                  <emph>BC</emph> and in the same parallels <emph>AF</emph> , <emph>BC</emph> ;  I say that <emph>ABCD</emph> is equal to the parallelogram
+                  <emph>EBCF</emph> . </p>
+              <p xml:id="ee-b1-d1e10340"> For, since <emph>ABCD</emph> is a parallelogram, <hi rend="center">
+                  <emph>AD</emph> is equal to <emph>BC</emph> . [ <ref xml:id="ee-b1-Rd1e10353" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e10358"> For the same reason also <hi rend="center">
+                  <emph>EF</emph> is equal to <emph>BC</emph> ,  so that <emph>AD</emph>
+                  is also equal to <emph>EF</emph> ; [ <ref xml:id="ee-b1-Rd1e10374" target="http://scta.info/resource/elem.1.c.n.1">C.N.
+                    1</ref> ] </hi> and <emph>DE</emph> is common; <hi rend="center"> therefore the
+                  whole <emph>AE</emph> is equal to the whole <emph>DF</emph> . [ <ref xml:id="ee-b1-Rd1e10389" target="http://scta.info/resource/elem.1.c.n.2">C.N. 2</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e10394"> But <emph>AB</emph> is also equal to <emph>DC</emph> ; [ <ref xml:id="ee-b1-Rd1e10402" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] therefore the two sides <emph>EA</emph> ,
+                  <emph>AB</emph> are equal to the two sides 
+                <emph>FD</emph> , <emph>DC</emph> respectively, <!-- <figure/> -->
+                <hi rend="center"> and the angle <emph>FDC</emph> is equal to the angle
+                    <emph>EAB</emph> , the exterior to the interior; [ <ref xml:id="ee-b1-Rd1e10428" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] therefore the base <emph>EB</emph> is equal  to the base <emph>FC</emph> , and the triangle <emph>EAB</emph> will be
+                  equal to the triangle <emph>FDC</emph> . [ <ref xml:id="ee-b1-Rd1e10444" target="http://scta.info/resource/elem.1.4">I.
+                    4</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e10449"> Let <emph>DGE</emph> be subtracted from each; therefore the trapezium
+                  <emph>ABGD</emph> which remains is equal to the trapezium <emph>EGCF</emph> which
+                remains. [ <ref xml:id="ee-b1-Rd1e10460" target="http://scta.info/resource/elem.1.c.n.3">C.N. 3</ref> ] 
+              </p>
+              <p xml:id="ee-b1-d1e10465"> Let the triangle <emph>GBC</emph> be added to each; therefore the whole
+                parallelogram <emph>ABCD</emph> is equal to the whole parallelogram
+                  <emph>EBCF</emph> . [ <ref xml:id="ee-b1-Rd1e10476" target="http://scta.info/resource/elem.1.c.n.2">C.N. 2</ref> ] </p>
+              <p xml:id="ee-b1-d1e10480">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e10484" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10486">Q. E. D.</p>
+            </div>
+
+
+          </div>
+          <div xml:id="elem.1.36" n="36">
+            <head xml:id="ee-b1-Hd1e10493">Proposition 36.</head>
+            <div xml:id="ee-b1-Dd1e10496" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10498"> Parallelograms which are on equal bases and in the same parallels are equal to one
+                another. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e10502" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10504"> Let <emph>ABCD</emph> , <emph>EFGH</emph> be parallelograms which are on equal
+                bases <emph>BC</emph> , <emph>FG</emph> and in the same parallels <emph>AH</emph> ,
+                  <emph>BG</emph> ; <!-- <figure/> --> I say that the parallelogram <emph>ABCD</emph> is
+                equal to <emph>EFGH</emph> . </p>
+              <p xml:id="ee-b1-d1e10534"> For let <emph>BE</emph> , <emph>CH</emph> be joined. </p>
+              <p xml:id="ee-b1-d1e10543"> Then, since <emph>BC</emph> is equal to <emph>FG</emph> while <emph>FG</emph> is
+                equal to <emph>EH</emph> , <hi rend="center">
+                  <emph>BC</emph> is also equal to <emph>EH</emph> . [ <ref xml:id="ee-b1-Rd1e10565" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e10570">But they are also parallel.</p>
+              <p xml:id="ee-b1-d1e10573"> And <emph>EB</emph> , <emph>HC</emph> join them; but straight lines joining equal
+                and parallel straight lines (at the extremities which are) in the same directions
+                (respectively) are equal and parallel. [ <ref xml:id="ee-b1-Rd1e10581" target="http://scta.info/resource/elem.1.33">I.
+                  33</ref> ] </p>
+              <p xml:id="ee-b1-d1e10586"> Therefore <emph>EBCH</emph> is a parallelogram. [ <ref xml:id="ee-b1-Rd1e10591" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] </p>
+              <p xml:id="ee-b1-d1e10595"> And it is equal to <emph>ABCD</emph> ; for it has the same base <emph>BC</emph>
+                with it, and is in the same parallels <emph>BC</emph> , <emph>AH</emph> with it. [
+                  <ref xml:id="ee-b1-Rd1e10609" target="http://scta.info/resource/elem.1.35">I. 35</ref> ] </p>
+              <p xml:id="ee-b1-d1e10613"> For the same reason also <emph>EFGH</emph> is equal to the same <emph>EBCH</emph>
+                ; [ <ref xml:id="ee-b1-Rd1e10621" target="http://scta.info/resource/elem.1.35">I. 35</ref> ] so that the parallelogram
+                  <emph>ABCD</emph> is also equal to <emph>EFGH</emph> . [ <ref xml:id="ee-b1-Rd1e10631" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref> ] </p>
+              <p xml:id="ee-b1-d1e10635">Therefore etc. Q. E. D.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.37" n="37">
+            
+            <head xml:id="ee-b1-Hd1e10642">Proposition 37.</head>
+            <div xml:id="ee-b1-Dd1e10645" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10647"> Triangles which are on the same base and in the same parallels are equal to one
+                another. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e10651" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10653"> Let <emph>ABC</emph> , <emph>DBC</emph> be triangles on the same base
+                  <emph>BC</emph> and in the same parallels <emph>AD</emph> , <emph>BC</emph> ;  I say that the triangle <emph>ABC</emph> is equal to the triangle
+                  <emph>DBC</emph> . </p>
+              <p xml:id="ee-b1-d1e10678"> Let <emph>AD</emph> be produced in both directions to <emph>E</emph> ,
+                  <emph>F</emph> ; through <emph>B</emph> let <emph>BE</emph> be drawn parallel to
+                  <emph>CA</emph> , [ <ref xml:id="ee-b1-Rd1e10699" target="http://scta.info/resource/elem.1.31">I. 31</ref> ]  and through <emph>C</emph> let <emph>CF</emph> be drawn parallel to
+                  <emph>BD</emph> . [ <ref xml:id="ee-b1-Rd1e10711" target="http://scta.info/resource/elem.1.31">I. 31</ref> ] <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e10717"> Then each of the figures <emph>EBCA</emph> , <emph>DBCF</emph> is a parallelogram;
+                and they are equal, 
+              </p>
+              <p xml:id="ee-b1-d1e10726"> for they are on the same base <emph>BC</emph> and in the same parallels
+                  <emph>BC</emph> , <emph>EF</emph> . [ <ref xml:id="ee-b1-Rd1e10737" target="http://scta.info/resource/elem.1.35">I.
+                  35</ref> ] </p>
+              <p xml:id="ee-b1-d1e10741"> Moreover the triangle <emph>ABC</emph> is half of the parallelogram
+                  <emph>EBCA</emph> ; for the diameter <emph>AB</emph> bisects it. [ <ref xml:id="ee-b1-Rd1e10752" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] </p>
+              <p xml:id="ee-b1-d1e10757"> And the triangle <emph>DBC</emph> is half of the parallelogram <emph>DBCF</emph> ;
+                   for the diameter <emph>DC</emph> bisects it. [ <ref xml:id="ee-b1-Rd1e10768" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] </p>
+              <p xml:id="ee-b1-d1e10772"> [But the halves of equal things are equal to one another.] </p>
+              <p xml:id="ee-b1-d1e10775"> Therefore the triangle <emph>ABC</emph> is equal to the triangle <emph>DBC</emph>
+                . </p>
+              <p xml:id="ee-b1-d1e10784">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e10788" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10790">Q. E. D.</p>
+            </div>
+
+          </div>
+          <div xml:id="elem.1.38" n="38">
+            <head xml:id="ee-b1-Hd1e10797">Proposition 38.</head>
+            <div xml:id="ee-b1-Dd1e10800" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10802"> Triangles which are on equal bases and in the same parallels are equal to one
+                another. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e10806" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10808"> Let <emph>ABC</emph> , <emph>DEF</emph> be triangles on equal bases
+                  <emph>BC</emph> , <emph>EF</emph> and in the same parallels <emph>BF</emph> ,
+                  <emph>AD</emph> ; I say that the triangle <emph>ABC</emph> is equal to the
+                triangle <emph>DEF</emph> . <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e10838"> For let <emph>AD</emph> be produced in both directions to <emph>G</emph> ,
+                  <emph>H</emph> ; through <emph>B</emph> let <emph>BG</emph> be drawn parallel to
+                  <emph>CA</emph> , [ <ref xml:id="ee-b1-Rd1e10859" target="http://scta.info/resource/elem.1.31">I. 31</ref> ] and
+                through <emph>F</emph> let <emph>FH</emph> be drawn parallel to <emph>DE</emph> . </p>
+              <p xml:id="ee-b1-d1e10872"> Then each of the figures <emph>GBCA</emph> , <emph>DEFH</emph> is a parallelogram;
+                and <emph>GBCA</emph> is equal to <emph>DEFH</emph> ; 
+              </p>
+              <p xml:id="ee-b1-d1e10887"> for they are on equal bases <emph>BC</emph> , <emph>EF</emph> and in the same
+                parallels <emph>BF</emph> , <emph>GH</emph> . [ <ref xml:id="ee-b1-Rd1e10901" target="http://scta.info/resource/elem.1.36">I. 36</ref> ] </p>
+              <p xml:id="ee-b1-d1e10905"> Moreover the triangle <emph>ABC</emph> is half of the parallelogram
+                  <emph>GBCA</emph> ; for the diameter <emph>AB</emph> bisects it. [ <ref xml:id="ee-b1-Rd1e10916" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] </p>
+              <p xml:id="ee-b1-d1e10921"> And the triangle <emph>FED</emph> is half of the parallelogram <emph>DEFH</emph> ;
+                for the diameter <emph>DF</emph> bisects it. [ <ref xml:id="ee-b1-Rd1e10932" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] </p>
+              <p xml:id="ee-b1-d1e10936"> [But the halves of equal things are equal to one another.] </p>
+              <p xml:id="ee-b1-d1e10939"> Therefore the triangle <emph>ABC</emph> is equal to the triangle <emph>DEF</emph>
+                . </p>
+              <p xml:id="ee-b1-d1e10948">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e10952" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10954">Q. E. D.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.39" n="39">
+            <head xml:id="ee-b1-Hd1e10961">Proposition 39.</head>
+            <div xml:id="ee-b1-Dd1e10964" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10966"> Equal triangles which are on the same base and on the same side are also in the
+                same parallels. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e10970" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e10972"> Let <emph>ABC</emph> , <emph>DBC</emph> be equal triangles which are on the same
+                base <emph>BC</emph> and on the same side of it;  [I say that they are
+                also in the same parallels.] </p>
+              <p xml:id="ee-b1-d1e10984"> And [For] let <emph>AD</emph> be joined; I say that <emph>AD</emph> is parallel to
+                  <emph>BC</emph> . </p>
+              <p xml:id="ee-b1-d1e10996"> For, if not, let <emph>AE</emph> be drawn through the point <emph>A</emph>
+                parallel to the straight line 
+                <emph>BC</emph> , [ <ref xml:id="ee-b1-Rd1e11007" target="http://scta.info/resource/elem.1.31">I. 31</ref> ] and let
+                  <emph>EC</emph> be joined. <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e11016"> Therefore the triangle <emph>ABC</emph> is equal to the triangle <emph>EBC</emph>
+                ; for it is on the same base <emph>BC</emph> with it and in the same 
+                parallels. [ <ref xml:id="ee-b1-Rd1e11027" target="http://scta.info/resource/elem.1.37">I. 37</ref> ] </p>
+              <p xml:id="ee-b1-d1e11031"> But <emph>ABC</emph> is equal to <emph>DBC</emph> ; <hi rend="center"> therefore
+                    <emph>DBC</emph> is also equal to <emph>EBC</emph> , [ <ref xml:id="ee-b1-Rd1e11047" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref> ] the greater to the less:
+                  which is impossible. </hi>
+              </p>
+              <p xml:id="ee-b1-d1e11053"> Therefore <emph>AE</emph> is not parallel to <emph>BC</emph> . 
+              </p>
+              <p xml:id="ee-b1-d1e11062"> Similarly we can prove that neither is any other straight line except
+                  <emph>AD</emph> ; <hi rend="center"> therefore <emph>AD</emph> is parallel to
+                    <emph>BC</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e11077">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e11081" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11083">Q. E. D.</p>
+            </div>
+
+          </div>
+          <div xml:id="elem.1.40" n="40">
+            <head xml:id="ee-b1-Hd1e11090">[Proposition 40.</head>
+            <p xml:id="ee-b1-d1e11093">
+              <emph> Equal triangles which are on equal bases and on the same side are also in the
+                same parallels </emph> . </p>
+            <p xml:id="ee-b1-d1e11099"> Let <emph>ABC</emph> , <emph>CDE</emph> be equal triangles on equal bases
+                <emph>BC</emph> , <emph>CE</emph> and on the same side. </p>
+            <p xml:id="ee-b1-d1e11114">I say that they are also in the same parallels.</p>
+            <p xml:id="ee-b1-d1e11117"> For let <emph>AD</emph> be joined; I say that <emph>AD</emph> is parallel to
+                <emph>BE</emph> . </p>
+            <p xml:id="ee-b1-d1e11130"> For, if not, let <emph>AF</emph> be drawn through <emph>A</emph> parallel to
+                <emph>BE</emph> [ <ref xml:id="ee-b1-Rd1e11141" target="http://scta.info/resource/elem.1.31">I. 31</ref> ], and let
+                <emph>FE</emph> be joined. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b1-d1e11150"> Therefore the triangle <emph>ABC</emph> is equal to the triangle <emph>FCE</emph> ;
+              for they are on equal bases <emph>BC</emph> , <emph>CE</emph> and in the same
+              parallels <emph>BE</emph> , <emph>AF</emph> . [ <ref xml:id="ee-b1-Rd1e11171" target="http://scta.info/resource/elem.1.38">I. 38</ref> ] </p>
+            <p xml:id="ee-b1-d1e11175"> But the triangle <emph>ABC</emph> is equal to the triangle <emph>DCE</emph> ; <hi rend="center"> therefore the triangle <emph>DCE</emph> is also equal to the triangle
+                  <emph>FCE</emph> , [ <ref xml:id="ee-b1-Rd1e11191" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref> ] the
+                greater to the less: which is impossible. Therefore <emph>AF</emph> is not parallel
+                to <emph>BE</emph> . </hi>
+              
+            </p>
+            <p xml:id="ee-b1-d1e11202"> Similarly we can prove that neither is any other straight line except
+                <emph>AD</emph> ; <hi rend="center"> therefore <emph>AD</emph> is parallel to
+                  <emph>BE</emph> . </hi>
+            </p>
+            <p xml:id="ee-b1-d1e11217">Therefore etc. Q. E. D.]</p>
+          </div>
+          <div xml:id="elem.1.41" n="41">
+            <head xml:id="ee-b1-Hd1e11224">Proposition 41.</head>
+            <div xml:id="ee-b1-Dd1e11227" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11229"> If a parallelogram have the same base with a triangle and be in the same
+                parallels, the parallelogram is double of the triangle. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e11233" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11235"> For let the parallelogram <emph>ABCD</emph> have the same base <emph>BC</emph>
+                with the triangle <emph>EBC</emph> , and let it be in the same parallels
+                  <emph>BC</emph> , <emph>AE</emph> ; </p>
+              <p xml:id="ee-b1-d1e11253"> I say that the parallelogram <emph>ABCD</emph> is double of the triangle
+                  <emph>BEC</emph> . </p>
+              <p xml:id="ee-b1-d1e11262"> For let <emph>AC</emph> be joined. </p>
+              <p xml:id="ee-b1-d1e11268"> Then the triangle <emph>ABC</emph> is equal to the triangle <emph>EBC</emph> ; for
+                it is on the same base <emph>BC</emph> with it and in the same parallels
+                  <emph>BC</emph> , <emph>AE</emph> . [ <ref xml:id="ee-b1-Rd1e11286" target="http://scta.info/resource/elem.1.37">I.
+                  37</ref> ] <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e11292"> But the parallelogram <emph>ABCD</emph> is double of the triangle <emph>ABC</emph>
+                ; <hi rend="center"> for the diameter <emph>AC</emph> bisects it; [ <ref xml:id="ee-b1-Rd1e11305" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] </hi> so that the parallelogram
+                  <emph>ABCD</emph> is also double of the triangle <emph>EBC</emph> . </p>
+              <p xml:id="ee-b1-d1e11317">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e11321" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11323">Q. E. D.</p>
+            </div>
+          </div>
+          <div xml:id="elem.1.42" n="42">
+            <head xml:id="ee-b1-Hd1e11330">Proposition 42.</head>
+            <div xml:id="ee-b1-Dd1e11333" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11335"> To construct, in a given rectilineal angle, a parallelogram equal to a given
+                triangle. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e11339" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11341"> Let <emph>ABC</emph> be the given triangle, and <emph>D</emph> the given
+                rectilineal angle; thus it is required to construct in the rectilineal angle
+                  <emph>D</emph> a parallelogram equal to the triangle <emph>ABC</emph> . <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e11358"> Let <emph>BC</emph> be bisected at <emph>E</emph> , and let <emph>AE</emph> be
+                joined; on the straight line <emph>EC</emph> , and at the point <emph>E</emph> on
+                it, let the angle <emph>CEF</emph> be constructed equal to the angle <emph>D</emph>
+                ; [ <ref xml:id="ee-b1-Rd1e11382" target="http://scta.info/resource/elem.1.23">I. 23</ref> ] through <emph>A</emph> let
+                  <emph>AG</emph> be drawn parallel to <emph>EC</emph> , and [ <ref xml:id="ee-b1-Rd1e11395" target="http://scta.info/resource/elem.1.31">I. 31</ref> ] through <emph>C</emph> let
+                  <emph>CG</emph> be drawn parallel to <emph>EF</emph> . </p>
+              <p xml:id="ee-b1-d1e11408"> Then <emph>FECG</emph> is a parallelogram. </p>
+              <p xml:id="ee-b1-d1e11414"> And, since <emph>BE</emph> is equal to <emph>EC</emph> , <hi rend="center"> the
+                  triangle <emph>ABE</emph> is also equal to the triangle <emph>AEC</emph> , for
+                  they are on equal bases <emph>BE</emph> , <emph>EC</emph> and in the same
+                  parallels <emph>BC</emph> , <emph>AG</emph> ; [ <ref xml:id="ee-b1-Rd1e11443" target="http://scta.info/resource/elem.1.38">I. 38</ref> ] therefore the triangle <emph>ABC</emph> is double of
+                  the triangle <emph>AEC</emph> . </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e11454"> But the parallelogram <emph>FECG</emph> is also double of the triangle
+                  <emph>AEC</emph> , for it has the same base with it and is in the same parallels
+                with it; [ <ref xml:id="ee-b1-Rd1e11462" target="http://scta.info/resource/elem.1.41">I. 41</ref> ] <hi rend="center">
+                  therefore the parallelogram <emph>FECG</emph> is equal to the triangle
+                    <emph>ABC</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e11476"> And it has the angle <emph>CEF</emph> equal to the given angle <emph>D</emph> . </p>
+              <p xml:id="ee-b1-d1e11485"> Therefore the parallelogram <emph>FECG</emph> has been constructed equal to the
+                given triangle <emph>ABC</emph> , in the angle <emph>CEF</emph> which is equal to
+                  <emph>D</emph> . Q. E. F. </p>
+            </div>
+          </div>
+          <div xml:id="elem.1.43" n="43">
+            <head xml:id="ee-b1-Hd1e11504">Proposition 43.</head>
+            <div xml:id="ee-b1-Dd1e11507" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11509"> In any parallelogram the complements of the parallelograms about the diameter are
+                equal to one another. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e11513" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11515"> Let <emph>ABCD</emph> be a parallelogram, and <emph>AC</emph> its diameter; and
+                about <emph>AC</emph> let <emph>EH</emph> , <emph>FG</emph> be parallelograms, and
+                  <emph>BK</emph> , <emph>KD</emph>
+                 the so-called complements; </p>
+              <p xml:id="ee-b1-d1e11540"> I say that the complement <emph>BK</emph> is equal to the complement
+                  <emph>KD</emph> . </p>
+              <p xml:id="ee-b1-d1e11549"> For, since <emph>ABCD</emph> is a parallelogram, and <emph>AC</emph> its diameter,
+                  <hi rend="center"> the triangle <emph>ABC</emph> is equal to  the
+                  triangle <emph>ACD</emph> . [ <ref xml:id="ee-b1-Rd1e11565" target="http://scta.info/resource/elem.1.34">I. 34</ref> ]
+                </hi>
+              </p>
+              <p xml:id="ee-b1-d1e11570"> Again, since <emph>EH</emph> is a parallelogram, and <emph>AK</emph> is its
+                diameter, <hi rend="center"> the triangle <emph>AEK</emph> is equal to the triangle
+                    <emph>AHK</emph> . </hi>
+                <!-- <figure/> -->
+                 For the same reason <hi rend="center"> the triangle <emph>KFC</emph> is
+                  also equal to <emph>KGC</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e11599"> Now, since the triangle <emph>AEK</emph> is equal to the triangle <emph>AHK</emph>
+                , <hi rend="center"> and <emph>KFC</emph> to <emph>KGC</emph> , </hi>
+                 the triangle <emph>AEK</emph> together with <emph>KGC</emph> is equal
+                to the triangle <emph>AHK</emph> together with <emph>KFC</emph> . [ <ref xml:id="ee-b1-Rd1e11629" target="http://scta.info/resource/elem.1.c.n.2">C.N. 2</ref> ] </p>
+              <p xml:id="ee-b1-d1e11634"> And the whole triangle <emph>ABC</emph> is also equal to the whole
+                  <emph>ADC</emph> ; therefore the complement <emph>BK</emph> which remains is equal
+                to the  complement <emph>KD</emph> which remains. [ <ref xml:id="ee-b1-Rd1e11648" target="http://scta.info/resource/elem.1.c.n.3">C.N. 3</ref> ] </p>
+              <p xml:id="ee-b1-d1e11652">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e11656" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11658">Q. E. D.</p>
+            </div>
+
+
+          </div>
+          <div xml:id="elem.1.44" n="44">
+            <head xml:id="ee-b1-Hd1e11665">Proposition 44.</head>
+            <div xml:id="ee-b1-Dd1e11668" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11670"> To a given straight line to apply, in a given rectilineal angle, a parallelogram
+                equal to a given triangle. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e11674" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11676"> Let <emph>AB</emph> be the given straight line, <emph>C</emph> the given triangle
+                and <emph>D</emph> the given rectilineal angle;  thus it is required to
+                apply to the given straight line <emph>AB</emph> , in an angle equal to the angle
+                  <emph>D</emph> , a parallelogram equal to the given triangle <emph>C</emph> . </p>
+              <p xml:id="ee-b1-d1e11698"> Let the parallelogram <emph>BEFG</emph> be constructed equal to the triangle
+                  <emph>C</emph> , in the angle <emph>EBG</emph> which is equal to <emph>D</emph> [
+                  <ref xml:id="ee-b1-Rd1e11712" target="http://scta.info/resource/elem.1.42">I. 42</ref> ];  let it be placed
+                so that <emph>BE</emph> is in a straight line with <emph>AB</emph> ; let 
+                <emph>FG</emph> be drawn through to <emph>H</emph> , and let <emph>AH</emph> be
+                drawn through <emph>A</emph> parallel to either <emph>BG</emph> or <emph>EF</emph> .
+                [ <ref xml:id="ee-b1-Rd1e11741" target="http://scta.info/resource/elem.1.31">I. 31</ref> ] </p>
+              <p xml:id="ee-b1-d1e11745"> Let <emph>HB</emph> be joined. <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e11753"> Then, since the straight line <emph>HF</emph> falls upon the parallels 
+                <emph>AH</emph> , <emph>EF</emph> , <hi rend="center"> the angles <emph>AHF</emph> ,
+                    <emph>HFE</emph> are equal to two right angles. [ <ref xml:id="ee-b1-Rd1e11772" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] </hi> Therefore the angles <emph>BHG</emph> ,
+                  <emph>GFE</emph> are less than two right angles; and straight lines produced
+                indefinitely from angles less than  two right angles meet; [ <ref xml:id="ee-b1-Rd1e11783" target="http://scta.info/resource/elem.1.post.5">Post. 5</ref> ] <hi rend="center"> therefore
+                    <emph>HB</emph> , <emph>FE</emph> , when produced, will meet. </hi>
+              </p>
+              <p xml:id="ee-b1-d1e11796"> Let them be produced and meet at <emph>K</emph> ; through the point <emph>K</emph>
+                let <emph>KL</emph> be drawn parallel to either <emph>EA</emph> or <emph>FH</emph> ,
+                [ <ref xml:id="ee-b1-Rd1e11814" target="http://scta.info/resource/elem.1.31">I. 31</ref> ] and let <emph>HA</emph> ,
+                  <emph>GB</emph> be produced to the points <emph>L</emph> , <emph>M</emph> . 
+              </p>
+              <p xml:id="ee-b1-d1e11831"> Then <emph>HLKF</emph> is a parallelogram, <emph>HK</emph> is its diameter, and
+                  <emph>AG</emph> , <emph>ME</emph> are parallelograms. and <emph>LB</emph> ,
+                  <emph>BF</emph> the so-called complements, about <emph>HK</emph> ; <hi rend="center"> therefore <emph>LB</emph> is equal to <emph>BF</emph> . [ <ref xml:id="ee-b1-Rd1e11863" target="http://scta.info/resource/elem.1.43">I. 43</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e11868"> But <emph>BF</emph> is equal to the triangle <emph>C</emph> ; 
+                <hi rend="center"> therefore <emph>LB</emph> is also equal to <emph>C</emph> . [
+                    <ref xml:id="ee-b1-Rd1e11884" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e11889"> And, since the angle <emph>GBE</emph> is equal to the angle <emph>ABM</emph> , [
+                  <ref xml:id="ee-b1-Rd1e11897" target="http://scta.info/resource/elem.1.15">I. 15</ref> ] <hi rend="center"> while the
+                  angle <emph>GBE</emph> is equal to <emph>D</emph> , the angle <emph>ABM</emph> is
+                  also equal to the angle <emph>D</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e11916"> Therefore the parallelogram <emph>LB</emph> equal to the given triangle 
+                <emph>C</emph> has been applied to the given straight line <emph>AB</emph> , in the
+                angle <emph>ABM</emph> which is equal to <emph>D</emph> . </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e11935" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11937">Q. E. F.</p>
+            </div>
+
+          </div>
+          <div xml:id="elem.1.45" n="45">
+            <head xml:id="ee-b1-Hd1e11944">Proposition 45.</head>
+            <div xml:id="ee-b1-Dd1e11947" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11949"> To construct, in a given rectilineal angle, a parallelogram equal to a given
+                rectilineal figure. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e11953" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e11955"> Let <emph>ABCD</emph> be the given rectilineal figure and <emph>E</emph> the given
+                rectilineal angle;  thus it is required to construct, in the given angle
+                  <emph>E</emph> , a parallelogram equal to the rectilineal figure <emph>ABCD</emph>
+                . <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e11972"> Let <emph>DB</emph> be joined, and let the parallelogram <emph>FH</emph> be
+                constructed equal to the triangle <emph>ABD</emph> , in the angle <emph>HKF</emph>
+                which is equal to <emph>E</emph> ; [ <ref xml:id="ee-b1-Rd1e11990" target="http://scta.info/resource/elem.1.42">I.
+                  42</ref> ]  let the parallelogram <emph>GM</emph> equal to the
+                triangle <emph>DBC</emph> be applied to the straight line <emph>GH</emph> , in the
+                angle <emph>GHM</emph> which is equal to <emph>E</emph> . [ <ref xml:id="ee-b1-Rd1e12009" target="http://scta.info/resource/elem.1.44">I. 44</ref> ] </p>
+              <p xml:id="ee-b1-d1e12013"> Then, since the angle <emph>E</emph> is equal to each of the angles
+                  <emph>HKF</emph> , <emph>GHM</emph> , 
+                <hi rend="center"> the angle <emph>HKF</emph> is also equal to the angle
+                    <emph>GHM</emph> . [ <ref xml:id="ee-b1-Rd1e12032" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref> ] </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e12037"> Let the angle <emph>KHG</emph> be added to each; therefore the angles
+                  <emph>FKH</emph> , <emph>KHG</emph> are equal to the angles <emph>KHG</emph> ,
+                  <emph>GHM</emph> . </p>
+              <p xml:id="ee-b1-d1e12055"> But the angles <emph>FKH</emph> , <emph>KHG</emph> are equal to two right angles;
+                [ <ref xml:id="ee-b1-Rd1e12063" target="http://scta.info/resource/elem.1.29">I. 29</ref> ]  therefore the
+                angles <emph>KHG</emph> , <emph>GHM</emph> are also equal to two right angles. </p>
+              <p xml:id="ee-b1-d1e12074"> Thus, with a straight line <emph>GH</emph> , and at the point <emph>H</emph> on
+                it, two straight lines <emph>KH</emph> , <emph>HM</emph> not lying on the same side
+                make the adjacent angles equal to two right angles; 
+                <hi rend="center"> therefore <emph>KH</emph> is in a straight line with
+                    <emph>HM</emph> . [ <ref xml:id="ee-b1-Rd1e12096" target="http://scta.info/resource/elem.1.14">I. 14</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12101"> And, since the straight line <emph>HG</emph> falls upon the parallels
+                  <emph>KM</emph> , <emph>FG</emph> , the alternate angles <emph>MHG</emph> ,
+                  <emph>HGF</emph> are equal to one another. [ <ref xml:id="ee-b1-Rd1e12119" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] </p>
+              <p xml:id="ee-b1-d1e12123"> Let the angle <emph>HGL</emph> be added to each;  therefore the angles
+                  <emph>MHG</emph> , <emph>HGL</emph> are equal to the angles <emph>HGF</emph> ,
+                  <emph>HGL</emph> . [ <ref xml:id="ee-b1-Rd1e12141" target="http://scta.info/resource/elem.1.c.n.2">C.N. 2</ref> ] </p>
+              <p xml:id="ee-b1-d1e12145"> But the angles <emph>MHG</emph> , <emph>HGL</emph> are equal to two right angles;
+                [ <ref xml:id="ee-b1-Rd1e12153" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] therefore the angles
+                  <emph>HGF</emph> , <emph>HGL</emph> are also equal to two right angles. [ <ref xml:id="ee-b1-Rd1e12163" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref> ] 
+                <hi rend="center"> Therefore <emph>FG</emph> is in a straight line with
+                    <emph>GL</emph> . [ <ref xml:id="ee-b1-Rd1e12174" target="http://scta.info/resource/elem.1.14">I. 14</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12179"> And, since <emph>FK</emph> is equal and parallel to <emph>HG</emph> , [ <ref xml:id="ee-b1-Rd1e12187" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] <hi rend="center"> and
+                    <emph>HG</emph> to <emph>ML</emph> also, </hi>
+                <emph>KF</emph> is also equal and parallel to <emph>ML</emph> ; [ <ref xml:id="ee-b1-Rd1e12206" target="http://scta.info/resource/elem.1.c.n.1">C.N. 1</ref> ; <ref xml:id="ee-b1-Rd1e12209" target="http://scta.info/resource/elem.1.30">I. 30</ref> ] and the straight lines <emph>KM</emph> ,
+                  <emph>FL</emph> join them (at their extremities);  therefore
+                  <emph>KM</emph> , <emph>FL</emph> are also equal and parallel. [ <ref xml:id="ee-b1-Rd1e12225" target="http://scta.info/resource/elem.1.33">I. 33</ref> ] <hi rend="center"> Therefore
+                    <emph>KFLM</emph> is a parallelogram. </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12235"> And, since the triangle <emph>ABD</emph> is equal to the parallelogram
+                  <emph>FH</emph> , <hi rend="center"> and <emph>DBC</emph> to <emph>GM</emph> , </hi>
+                 the whole rectilineal figure <emph>ABCD</emph> is equal to the whole
+                parallelogram <emph>KFLM</emph> . </p>
+              <p xml:id="ee-b1-d1e12260"> Therefore the parallelogram <emph>KFLM</emph> has been constructed equal to the
+                given rectilineal figure <emph>ABCD</emph> , in the angle <emph>FKM</emph> which is
+                equal to the given angle <emph>E</emph> . </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e12276" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e12278">Q. E. F.</p>
+            </div>
+
+          </div>
+          <div xml:id="elem.1.46" n="46">
+            <head xml:id="ee-b1-Hd1e12285">Proposition 46.</head>
+            <div xml:id="ee-b1-Dd1e12288" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e12290">On a given straight line to describe a square.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e12294" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e12296"> Let <emph>AB</emph> be the given straight line; thus it is required to describe a
+                square on the straight line <emph>AB</emph> . <!-- <figure/> -->
+                
+              </p>
+              <p xml:id="ee-b1-d1e12307"> Let <emph>AC</emph> be drawn at right angles to the straight line <emph>AB</emph>
+                from the point <emph>A</emph> on it [ <ref xml:id="ee-b1-Rd1e12318" target="http://scta.info/resource/elem.1.11">I.
+                  11</ref> ], and let <emph>AD</emph> be made equal to <emph>AB</emph> ; through the
+                point <emph>D</emph> let <emph>DE</emph> be drawn  parallel to
+                  <emph>AB</emph> , and through the point <emph>B</emph> let <emph>BE</emph> be
+                drawn parallel to <emph>AD</emph> . [ <ref xml:id="ee-b1-Rd1e12347" target="http://scta.info/resource/elem.1.31">I.
+                  31</ref> ] 
+              </p>
+              <p xml:id="ee-b1-d1e12351"> Therefore <emph>ADEB</emph> is a parallelogram; <hi rend="center"> therefore
+                    <emph>AB</emph> is equal to <emph>DE</emph> , and <emph>AD</emph> to
+                    <emph>BE</emph> . [ <ref xml:id="ee-b1-Rd1e12370" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12375"> But <emph>AB</emph> is equal to <emph>AD</emph> ; 
+                <hi rend="center"> therefore the four straight lines <emph>BA</emph> ,
+                    <emph>AD</emph> , <emph>DE</emph> , <emph>EB</emph> are equal to one another;
+                </hi> therefore the parallelogram <emph>ADEB</emph> is equilateral. </p>
+              <p xml:id="ee-b1-d1e12402">I say next that it is also right-angled.</p>
+              <p xml:id="ee-b1-d1e12406"> For, since the straight line <emph>AD</emph> falls upon the parallels 
+                <emph>AB</emph> , <emph>DE</emph> , <hi rend="center"> the angles <emph>BAD</emph> ,
+                    <emph>ADE</emph> are equal to two right angles. [ <ref xml:id="ee-b1-Rd1e12425" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12430"> But the angle <emph>BAD</emph> is right; <hi rend="center"> therefore the angle
+                    <emph>ADE</emph> is also right. </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12442"> And in parallelogrammic areas the opposite sides and  angles are equal
+                to one another; [ <ref xml:id="ee-b1-Rd1e12444" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] <hi rend="center"> therefore each of the opposite angles <emph>ABE</emph> ,
+                    <emph>BED</emph> is also right. Therefore <emph>ADEB</emph> is right-angled.
+                </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12460"> And it was also proved equilateral. 
+              </p>
+              <p xml:id="ee-b1-d1e12463"> Therefore it is a square; and it is described on the straight line <emph>AB</emph>
+                . </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e12470" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e12472">Q. E. F.</p>
+            </div>
+
+          </div>
+          <div xml:id="elem.1.47" n="47">
+            <head xml:id="ee-b1-Hd1e12480">Proposition 47.</head>
+            <div xml:id="ee-b1-Dd1e12483" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e12485"> In right-angled triangles the square on the side subtending the right angle is
+                equal to the squares on the sides containing the right angle. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e12489" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e12491"> Let <emph>ABC</emph> be a right-angled triangle having the angle 
+                <emph>BAC</emph> right; </p>
+              <p xml:id="ee-b1-d1e12500"> I say that the square on <emph>BC</emph> is equal to the squares on
+                  <emph>BA</emph> , <emph>AC</emph> . </p>
+              <p xml:id="ee-b1-d1e12512"> For let there be described on <emph>BC</emph> the square <emph>BDEC</emph> ,  and on <emph>BA</emph> , <emph>AC</emph> the squares <emph>GB</emph> ,
+                  <emph>HC</emph> ; [ <ref xml:id="ee-b1-Rd1e12533" target="http://scta.info/resource/elem.1.46">I. 46</ref> ] through
+                  <emph>A</emph> let <emph>AL</emph> be drawn parallel to either <emph>BD</emph> or
+                  <emph>CE</emph> , and let <emph>AD</emph> , <emph>FC</emph> be joined. <!-- <figure/> -->
+                
+              </p>
+              <p xml:id="ee-b1-d1e12558"> Then, since each of the angles <emph>BAC</emph> , <emph>BAG</emph> is right, it
+                follows that with a straight line <emph>BA</emph> , and at the point <emph>A</emph>
+                on it, the two straight lines 
+                <emph>AC</emph> , <emph>AG</emph> not lying on the same side make the adjacent
+                angles equal to two right angles; <hi rend="center"> therefore <emph>CA</emph> is in
+                  a straight line with <emph>AG</emph> . [ <ref xml:id="ee-b1-Rd1e12587" target="http://scta.info/resource/elem.1.14">I.
+                    14</ref> ] </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e12592"> For the same reason <hi rend="center">
+                  <emph>BA</emph> is also in a straight line with <emph>AH</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12605"> And, since the angle <emph>DBC</emph> is equal to the angle <emph>FBA</emph> : for
+                each is right: let the angle <emph>ABC</emph> be added to each; 
+                <hi rend="center"> therefore the whole angle <emph>DBA</emph> is equal to the whole
+                  angle <emph>FBC</emph> . [ <ref xml:id="ee-b1-Rd1e12624" target="http://scta.info/resource/elem.1.c.n.2">C.N. 2</ref> ] </hi>
+                
+              </p>
+              <p xml:id="ee-b1-d1e12629"> And, since <emph>DB</emph> is equal to <emph>BC</emph> , and <emph>FB</emph> to
+                  <emph>BA</emph> , the two sides <emph>AB</emph> , <emph>BD</emph> are equal to the
+                two sides <emph>FB</emph> , <emph>BC</emph> respectively, 
+                <hi rend="center"> and the angle <emph>ABD</emph> is equal to the angle
+                    <emph>FBC</emph> ; therefore the base <emph>AD</emph> is equal to the base
+                    <emph>FC</emph> , and the triangle <emph>ABD</emph> is equal to the triangle
+                    <emph>FBC</emph> . [ <ref xml:id="ee-b1-Rd1e12677" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12682"> Now the parallelogram <emph>BL</emph> is double of the triangle <emph>ABD</emph> ,
+                for they have the same base <emph>BD</emph> and are in the same parallels 
+                <emph>BD</emph> , <emph>AL</emph> . [ <ref xml:id="ee-b1-Rd1e12700" target="http://scta.info/resource/elem.1.41">I.
+                  41</ref> ] </p>
+              <p xml:id="ee-b1-d1e12704"> And the square <emph>GB</emph> is double of the triangle <emph>FBC</emph> , for
+                they again have the same base <emph>FB</emph> and are in the same parallels
+                  <emph>FB</emph> , <emph>GC</emph> . [ <ref xml:id="ee-b1-Rd1e12722" target="http://scta.info/resource/elem.1.41">I.
+                  41</ref> ] </p>
+              <p xml:id="ee-b1-d1e12726"> [But the doubles of equals are equal to one another.] 
+                <hi rend="center"> Therefore the parallelogram <emph>BL</emph> is also equal to the
+                  square <emph>GB</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12738"> Similarly, if <emph>AE</emph> , <emph>BK</emph> be joined, the parallelogram
+                  <emph>CL</emph> can also be proved equal to the square <emph>HC</emph> ; 
+                <hi rend="center"> therefore the whole square <emph>BDEC</emph> is equal to the two
+                  squares <emph>GB</emph> , <emph>HC</emph> . [ <ref xml:id="ee-b1-Rd1e12763" target="http://scta.info/resource/elem.1.c.n.2">C.N. 2</ref> ] </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12769"> And the square <emph>BDEC</emph> is described on <emph>BC</emph> , <hi rend="center"> and the squares <emph>GB</emph> , <emph>HC</emph> on
+                    <emph>BA</emph> , <emph>AC</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12793"> Therefore the square on the side <emph>BC</emph> is equal to the 
+                squares on the sides <emph>BA</emph> , <emph>AC</emph> . </p>
+              <p xml:id="ee-b1-d1e12805">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e12809" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e12811">Q. E. D.</p>
+            </div>
+
+
+
+
+          </div>
+          <div xml:id="elem.1.48" n="48">
+            <head xml:id="ee-b1-Hd1e12818">Proposition 48.</head>
+            <div xml:id="ee-b1-Dd1e12821" type="Enunc" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e12823"> If in a triangle the square on one of the sides be equal to the squares on the
+                remaining two sides of the triangle, the angle contained by the remaining two sides
+                of the triangle is right. </p>
+            </div>
+            <div xml:id="ee-b1-Dd1e12827" type="Proof" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e12829"> For in the triangle <emph>ABC</emph> let the square on one side <emph>BC</emph> be
+                equal to the squares on the sides <emph>BA</emph> , <emph>AC</emph> ; </p>
+              <p xml:id="ee-b1-d1e12844"> I say that the angle <emph>BAC</emph> is right. </p>
+              <p xml:id="ee-b1-d1e12850"> For let <emph>AD</emph> be drawn from the point <emph>A</emph> at right angles to
+                the straight line <emph>AC</emph> , let <emph>AD</emph> be made equal to
+                  <emph>BA</emph> , and let <emph>DC</emph> be joined. </p>
+              <p xml:id="ee-b1-d1e12872"> Since <emph>DA</emph> is equal to <emph>AB</emph> , the square on <emph>DA</emph>
+                is also equal to the square on <emph>AB</emph> . <!-- <figure/> -->
+              </p>
+              <p xml:id="ee-b1-d1e12889"> Let the square on <emph>AC</emph> be added to each; 
+                <hi rend="center"> therefore the squares on <emph>DA</emph> , <emph>AC</emph> are
+                  equal to the squares on <emph>BA</emph> , <emph>AC</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12911"> But the square on <emph>DC</emph> is equal to the squares on <emph>DA</emph> ,
+                  <emph>AC</emph> , for the angle <emph>DAC</emph> is right; [ <ref xml:id="ee-b1-Rd1e12925" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] and the square on <emph>BC</emph>
+                is equal to the squares on <emph>BA</emph> , <emph>AC</emph> , for this is the
+                hypothesis; <hi rend="center"> therefore the square on <emph>DC</emph> is equal to
+                  the square on <emph>BC</emph> , so that the side <emph>DC</emph> is also equal to
+                    <emph>BC</emph> . </hi>
+              </p>
+              <p xml:id="ee-b1-d1e12954"> And, since <emph>DA</emph> is equal to <emph>AB</emph> , and <emph>AC</emph> is
+                common, <hi rend="center"> the two sides <emph>DA</emph> , <emph>AC</emph> are equal
+                  to the two sides <emph>BA</emph> , <emph>AC</emph> ; </hi> and the base
+                  <emph>DC</emph> is equal to the base <emph>BC</emph> ; <hi rend="center">
+                  therefore the angle <emph>DAC</emph> is equal to the angle <emph>BAC</emph> . [
+                    <ref xml:id="ee-b1-Rd1e12995" target="http://scta.info/resource/elem.1.8">I. 8</ref> ] </hi> But the angle
+                  <emph>DAC</emph> is right; <hi rend="center"> therefore the angle <emph>BAC</emph>
+                  is also right. </hi>
+              </p>
+              <p xml:id="ee-b1-d1e13009">Therefore etc.</p>
+            </div>
+            <div xml:id="ee-b1-Dd1e13013" type="QED" org="uniform" sample="complete">
+              <p xml:id="ee-b1-d1e13015">Q. E. D.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

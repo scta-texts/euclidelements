@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elements, Book 9</title>
+        <author>Euclid</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Elements, Book 9</title>
+          <date when="2014-03-19">March 03, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="X" n="xxx"/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-03-19" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#X" n="X"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ee-b9" n="1">
+        <head xml:id="ee-b9-Hd1e3717">BOOK IX.</head>
+        <div xml:id="ee-b9-Dd1e3720" n="Prop" type="type" org="uniform" sample="complete">
+          <head xml:id="ee-b9-Hd1e3722">PROPOSITIONS</head>
+          <div xml:id="elem.9.1" n="1">
+            <head xml:id="ee-b9-Hd1e3727">PROPOSITION 1.</head>
+            <p xml:id="ee-b9-d1e3730">
+              <hi rend="ital"> If two similar plane numbers by multiplying one another make some
+                number, the product will be square. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e3736"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be two similar plane numbers,
+              and let <hi rend="ital">A</hi> by multiplying <hi rend="ital">B</hi> make <hi rend="ital">C</hi> ; I say that <hi rend="ital">C</hi> is square. </p>
+            <p xml:id="ee-b9-d1e3758"> For let <hi rend="ital">A</hi> by multiplying itself make <hi rend="ital">D</hi> .
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e3769"> Therefore <hi rend="ital">D</hi> is square. </p>
+            <p xml:id="ee-b9-d1e3776"> Since then <hi rend="ital">A</hi> by multiplying itself has made <hi rend="ital">D</hi> , and by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">C</hi>
+              , therefore, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e3803" target="elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b9-d1e3807"> And, since <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are similar plane
+              numbers, therefore one mean proportional number falls between <hi rend="ital">A</hi> ,
+                <hi rend="ital">B</hi> . [ <ref xml:id="ee-b9-Rd1e3821" target="elem.8.18">VIII. 18</ref> ] </p>
+            <p xml:id="ee-b9-d1e3825"> But, if numbers fall between two numbers in continued proportion, as many as fall
+              between them, so many also fall between those which have the same ratio; [ <ref xml:id="ee-b9-Rd1e3827" target="elem.8.8">VIII. 8</ref> ] so that one mean proportional number
+              falls between <hi rend="ital">D</hi> , <hi rend="ital">C</hi> also. </p>
+            <p xml:id="ee-b9-d1e3837"> And <hi rend="ital">D</hi> is square; therefore <hi rend="ital">C</hi> is also
+              square. [ <ref xml:id="ee-b9-Rd1e3845" target="elem.8.22">VIII. 22</ref> ] Q. E. D. </p>
+          </div>
+          
+          <div xml:id="elem.9.2" n="2">
+            <head xml:id="ee-b9-Hd1e3852">PROPOSITION 2.</head>
+            <p xml:id="ee-b9-d1e3855">
+              <hi rend="ital"> If two numbers by multiplying one another make a square number, they
+                are similar plane numbers. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e3861"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be two numbers, and let <hi rend="ital">A</hi> by multiplying <hi rend="ital">B</hi> make the square number <hi rend="ital">C</hi> ; I say that <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are
+              similar plane numbers. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e3888"> For let <hi rend="ital">A</hi> by multiplying itself make <hi rend="ital">D</hi> ;
+              therefore <hi rend="ital">D</hi> is square. </p>
+            <p xml:id="ee-b9-d1e3900"> Now, since <hi rend="ital">A</hi> by multiplying itself has made <hi rend="ital">D</hi> , and by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">C</hi>
+              , therefore, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e3927" target="elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b9-d1e3932"> And, since <hi rend="ital">D</hi> is square, and <hi rend="ital">C</hi> is so also,
+              therefore <hi rend="ital">D</hi> , <hi rend="ital">C</hi> are similar plane numbers. </p>
+            <p xml:id="ee-b9-d1e3947"> Therefore one mean proportional number falls between <hi rend="ital">D</hi> , <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e3955" target="elem.8.18">VIII. 18</ref> ] </p>
+            <p xml:id="ee-b9-d1e3959"> And, as <hi rend="ital">D</hi> is to <hi rend="ital">C</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">B</hi> ; therefore one mean proportional number falls
+              between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> also. [ <ref xml:id="ee-b9-Rd1e3980" target="elem.8.18">VIII. 8</ref> ] </p>
+            <p xml:id="ee-b9-d1e3984"> But, if one mean proportional number fall between two numbers, they are similar
+              plane numbers; [ <ref xml:id="ee-b9-Rd1e3986" target="elem.8.20">VIII. 20</ref> ] therefore <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are similar plane numbers. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.3" n="3">
+            <head xml:id="ee-b9-Hd1e3999">PROPOSITION 3.</head>
+            <p xml:id="ee-b9-d1e4002">
+              <hi rend="ital"> If a cube number by multiplying itself make some number, the product
+                will be cube. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e4008"> For let the cube number <hi rend="ital">A</hi> by multiplying itself make <hi rend="ital">B</hi> ; I say that <hi rend="ital">B</hi> is cube. 
+            </p>
+            <p xml:id="ee-b9-d1e4020"> For let <hi rend="ital">C</hi> , the side of <hi rend="ital">A</hi> , be taken, and
+              let <hi rend="ital">C</hi> by multiplying itself make <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e4035"> It is then manifest that <hi rend="ital">C</hi> by multiplying <hi rend="ital">D</hi> has made <hi rend="ital">A</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e4050"> Now, since <hi rend="ital">C</hi> by multiplying itself has made <hi rend="ital">D</hi> , therefore <hi rend="ital">C</hi> measures <hi rend="ital">D</hi> according
+              to the units in itself. </p>
+            <p xml:id="ee-b9-d1e4065"> But further the unit also measures <hi rend="ital">C</hi> according to the units in
+              it; therefore, as the unit is to <hi rend="ital">C</hi> , so is <hi rend="ital">C</hi>
+              to <hi rend="ital">D</hi> . [ <ref xml:id="ee-b9-Rd1e4079" target="elem.7.def.20">VII. Def.
+                20</ref> ] </p>
+            <p xml:id="ee-b9-d1e4083"> Again, since <hi rend="ital">C</hi> by multiplying <hi rend="ital">D</hi> has made
+                <hi rend="ital">A</hi> , therefore <hi rend="ital">D</hi> measures <hi rend="ital">A</hi> according to the units in <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e4105"> But the unit also measures <hi rend="ital">C</hi> according to the units in it;
+              therefore, as the unit is to <hi rend="ital">C</hi> , so is <hi rend="ital">D</hi> to
+                <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e4120"> But, as the unit is to <hi rend="ital">C</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> ; therefore also, as the unit is to <hi rend="ital">C</hi> , so
+              is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> , and <hi rend="ital">D</hi> to
+                <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e4148"> Therefore between the unit and the number <hi rend="ital">A</hi> two mean
+              proportional numbers <hi rend="ital">C</hi> , <hi rend="ital">D</hi> have fallen in
+              continued proportion. </p>
+            <p xml:id="ee-b9-d1e4161"> Again, since <hi rend="ital">A</hi> by multiplying itself has made <hi rend="ital">B</hi> , therefore <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> according
+              to the units in itself. </p>
+            <p xml:id="ee-b9-d1e4176"> But the unit also measures <hi rend="ital">A</hi> according to the units in it;
+              therefore, as the unit is to <hi rend="ital">A</hi> , so is <hi rend="ital">A</hi> to
+                <hi rend="ital">B</hi> . [ <ref xml:id="ee-b9-Rd1e4190" target="elem.7.def.20">VII. Def.
+                20</ref> ] </p>
+            <p xml:id="ee-b9-d1e4194"> But between the unit and <hi rend="ital">A</hi> two mean proportional numbers have
+              fallen; therefore two mean proportional numbers will also fall between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> . [ <ref xml:id="ee-b9-Rd1e4205" target="elem.8.8">VIII.
+                8</ref> ] </p>
+            <p xml:id="ee-b9-d1e4209"> But, if two mean proportional numbers fall between two numbers, and the first be
+              cube, the second will also be cube. [ <ref xml:id="ee-b9-Rd1e4211" target="elem.8.23">VIII.
+                23</ref> ] </p>
+            <p xml:id="ee-b9-d1e4215"> And <hi rend="ital">A</hi> is cube; therefore <hi rend="ital">B</hi> is also cube.
+              Q. E. D. </p>
+          </div>
+          
+          <div xml:id="elem.9.4" n="4">
+            <head xml:id="ee-b9-Hd1e4227">PROPOSITION 4.</head>
+            <p xml:id="ee-b9-d1e4230">
+              <hi rend="ital"> If a cube number by multiplying a cube number make some number, the
+                product will be cube. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e4236"> For let the cube number <hi rend="ital">A</hi> by multiplying the cube number <hi rend="ital">B</hi> make <hi rend="ital">C</hi> ; I say that <hi rend="ital">C</hi>
+              is cube. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e4253"> For let <hi rend="ital">A</hi> by multiplying itself make <hi rend="ital">D</hi> ;
+              therefore <hi rend="ital">D</hi> is cube. [ <ref xml:id="ee-b9-Rd1e4264" target="elem.9.3">IX.
+                3</ref> ] </p>
+            <p xml:id="ee-b9-d1e4268"> And, since <hi rend="ital">A</hi> by multiplying itself has made <hi rend="ital">D</hi> , and by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">C</hi>
+              therefore, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e4295" target="elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b9-d1e4300"> And, since <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are cube numbers, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are similar solid numbers. </p>
+            <p xml:id="ee-b9-d1e4315"> Therefore two mean proportional numbers fall between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> ; [ <ref xml:id="ee-b9-Rd1e4323" target="elem.8.19">VIII. 19</ref> ] so
+              that two mean proportional numbers will fall between <hi rend="ital">D</hi> , <hi rend="ital">C</hi> also. [ <ref xml:id="ee-b9-Rd1e4333" target="elem.8.8">VIII. 8</ref> ] </p>
+            <p xml:id="ee-b9-d1e4337"> And <hi rend="ital">D</hi> is cube; therefore <hi rend="ital">C</hi> is also cube [
+                <ref xml:id="ee-b9-Rd1e4345" target="elem.8.23">VIII. 23</ref> ] Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.5" n="5">
+            <head xml:id="ee-b9-Hd1e4353">PROPOSITION 5.</head>
+            <p xml:id="ee-b9-d1e4356">
+              <hi rend="ital"> If a cube number by multiplying any number make a cube number, the
+                multiplied number will also be cube. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e4362"> For let the cube number <hi rend="ital">A</hi> by multiplying any number <hi rend="ital">B</hi> make the cube number <hi rend="ital">C</hi> ; I say that <hi rend="ital">B</hi> is cube. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e4379"> For let <hi rend="ital">A</hi> by multiplying itself make <hi rend="ital">D</hi> ;
+              therefore <hi rend="ital">D</hi> is cube. [ <ref xml:id="ee-b9-Rd1e4390" target="elem.9.3">IX.
+                3</ref> ] 
+            </p>
+            <p xml:id="ee-b9-d1e4394"> Now, since <hi rend="ital">A</hi> by multiplying itself has made <hi rend="ital">D</hi> , and by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">C</hi>
+              , therefore, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e4421" target="elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b9-d1e4426"> And since <hi rend="ital">D</hi> , <hi rend="ital">C</hi> are cube, they are similar
+              solid numbers. </p>
+            <p xml:id="ee-b9-d1e4435"> Therefore two mean proportional numbers fall between <hi rend="ital">D</hi> , <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e4443" target="elem.8.19">VIII. 19</ref> ] </p>
+            <p xml:id="ee-b9-d1e4447"> And, as <hi rend="ital">D</hi> is to <hi rend="ital">C</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">B</hi> ; therefore two mean proportional numbers fall
+              between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> also. [ <ref xml:id="ee-b9-Rd1e4468" target="elem.8.8">VIII. 8</ref> ] </p>
+            <p xml:id="ee-b9-d1e4472"> And <hi rend="ital">A</hi> is cube; therefore <hi rend="ital">B</hi> is also cube. [
+                <ref xml:id="ee-b9-Rd1e4480" target="elem.8.23">VIII. 23</ref> ] </p>
+          </div>
+          <div xml:id="elem.9.6" n="6">
+            <head xml:id="ee-b9-Hd1e4487">PROPOSITION 6.</head>
+            <p xml:id="ee-b9-d1e4490">
+              <hi rend="ital"> If a number by multiplying itself make a cube number, it will itself
+                also be cube. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e4496"> For let the number <hi rend="ital">A</hi> by multiplying itself make the cube number
+                <hi rend="ital">B</hi> ; I say that <hi rend="ital">A</hi> is also cube. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e4510"> For let <hi rend="ital">A</hi> by multiplying <hi rend="ital">B</hi> make <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e4522"> Since, then, <hi rend="ital">A</hi> by multiplying itself has made <hi rend="ital">B</hi> , and by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">C</hi>
+              , therefore <hi rend="ital">C</hi> is cube. </p>
+            <p xml:id="ee-b9-d1e4541"> And, since <hi rend="ital">A</hi> by multiplying itself has made <hi rend="ital">B</hi> , therefore <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> according
+              to the units in itself. </p>
+            <p xml:id="ee-b9-d1e4556"> But the unit also measures <hi rend="ital">A</hi> according to the units in it. </p>
+            <p xml:id="ee-b9-d1e4562"> Therefore, as the unit is to <hi rend="ital">A</hi> , so is <hi rend="ital">A</hi>
+              to <hi rend="ital">B</hi> . [ <ref xml:id="ee-b9-Rd1e4573" target="elem.7.def.20">VII. Def.
+                20</ref> ] </p>
+            <p xml:id="ee-b9-d1e4577"> And, since <hi rend="ital">A</hi> by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">C</hi> , therefore <hi rend="ital">B</hi> measures <hi rend="ital">C</hi> according to the units in <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e4599"> But the unit also measures <hi rend="ital">A</hi> according to the units in it. 
+            </p>
+            <p xml:id="ee-b9-d1e4605"> Therefore, as the unit is to <hi rend="ital">A</hi> , so is <hi rend="ital">B</hi>
+              to <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e4616" target="elem.7.def.20">VII. Def.
+                20</ref> ] </p>
+            <p xml:id="ee-b9-d1e4621"> But, as the unit is to <hi rend="ital">A</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">B</hi> ; therefore also, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">B</hi> to <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e4646"> And, since <hi rend="ital">B</hi> , <hi rend="ital">C</hi> are cube, they are
+              similar solid numbers. </p>
+            <p xml:id="ee-b9-d1e4655"> Therefore there are two mean proportional numbers between <hi rend="ital">B</hi> ,
+                <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e4663" target="elem.8.19">VIII. 19</ref> ] </p>
+            <p xml:id="ee-b9-d1e4667"> And, as <hi rend="ital">B</hi> is to <hi rend="ital">C</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e4682"> Therefore there are two mean proportional numbers between <hi rend="ital">A</hi> ,
+                <hi rend="ital">B</hi> also. [ <ref xml:id="ee-b9-Rd1e4690" target="elem.8.8">VIII. 8</ref> ] </p>
+            <p xml:id="ee-b9-d1e4694"> And <hi rend="ital">B</hi> is cube; therefore <hi rend="ital">A</hi> is also cube.
+              [cf. <ref xml:id="ee-b9-Rd1e4702" target="elem.8.23">VIII. 23</ref> ] Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.7" n="7">
+            <head xml:id="ee-b9-Hd1e4709">PROPOSITION 7.</head>
+            <p xml:id="ee-b9-d1e4712">
+              <hi rend="ital"> If a composite number by multiplying any number make some number, the
+                product will be solid. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e4718"> For let the composite number <hi rend="ital">A</hi> by multiplying any number <hi rend="ital">B</hi> make <hi rend="ital">C</hi> ; I say that <hi rend="ital">C</hi>
+              is solid. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e4735"> For, since <hi rend="ital">A</hi> is composite, it will be measured by some number.
+              [ <ref xml:id="ee-b9-Rd1e4740" target="elem.7.def.13">VII. Def. 13</ref> ] </p>
+            <p xml:id="ee-b9-d1e4744"> Let it be measured by <hi rend="ital">D</hi> ; and, as many times as <hi rend="ital">D</hi> measures <hi rend="ital">A</hi> , so many units let there be in <hi rend="ital">E</hi> . 
+            </p>
+            <p xml:id="ee-b9-d1e4760"> Since then <hi rend="ital">D</hi> measures <hi rend="ital">A</hi> according to the
+              units in <hi rend="ital">E</hi> , therefore <hi rend="ital">E</hi> by multiplying <hi rend="ital">D</hi> has made <hi rend="ital">A</hi> . [ <ref xml:id="ee-b9-Rd1e4781" target="elem.7.def.15">VII. Def. 15</ref> ] </p>
+            <p xml:id="ee-b9-d1e4785"> And, since <hi rend="ital">A</hi> by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">C</hi> , and <hi rend="ital">A</hi> is the product of <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , therefore the product of <hi rend="ital">D</hi> ,
+                <hi rend="ital">E</hi> by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e4819"> Therefore <hi rend="ital">C</hi> is solid, and <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , <hi rend="ital">B</hi> are its sides. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.8" n="8">
+            <head xml:id="ee-b9-Hd1e4837">PROPOSITION 8.</head>
+            <p xml:id="ee-b9-d1e4840">
+              <hi rend="ital"> If as many numbers as we please beginning from an unit be in
+                continued proportion, the third from the unit will be square, as will also those
+                which successively leave out one; the fourth will be cube, as will also all those
+                which leave out two; and the seventh will be at once cube and square, as will also
+                those which leave out five. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e4846"> Let there be as many numbers as we please, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi> ,
+                <hi rend="ital">F</hi> , beginning from an unit and in continued proportion; I say
+              that <hi rend="ital">B</hi> , the third from the unit, is square, as are also all
+              those which leave out one; <hi rend="ital">C</hi> , the fourth, is cube, as are also
+              all those which leave out two; and <hi rend="ital">F</hi> , the seventh, is at once
+              cube and square, as are also all those which leave out five. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e4879"> For since, as the unit is to <hi rend="ital">A</hi> , so is <hi rend="ital">A</hi>
+              to <hi rend="ital">B</hi> , therefore the unit measures the number <hi rend="ital">A</hi> the same number of times that <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> . [ <ref xml:id="ee-b9-Rd1e4900" target="elem.7.def.20">VII. Def. 20</ref>
+              ] </p>
+            <p xml:id="ee-b9-d1e4904"> But the unit measures the number <hi rend="ital">A</hi> according to the units in
+              it; therefore <hi rend="ital">A</hi> also measures <hi rend="ital">B</hi> according to
+              the units in <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e4920"> Therefore <hi rend="ital">A</hi> by multiplying itself has made <hi rend="ital">B</hi> ; therefore <hi rend="ital">B</hi> is square. </p>
+            <p xml:id="ee-b9-d1e4932"> And, since <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi>
+              are in continued proportion, and <hi rend="ital">B</hi> is square, therefore <hi rend="ital">D</hi> is also square. [ <ref xml:id="ee-b9-Rd1e4950" target="elem.8.22">VIII.
+                22</ref> ] 
+            </p>
+            <p xml:id="ee-b9-d1e4954"> For the same reason <hi rend="ital">F</hi> is also square. </p>
+            <p xml:id="ee-b9-d1e4960"> Similarly we can prove that all those which leave out one are square. </p>
+            <p xml:id="ee-b9-d1e4963"> I say next that <hi rend="ital">C</hi> , the fourth from the unit, is cube, as are
+              also all those which leave out two. </p>
+            <p xml:id="ee-b9-d1e4969"> For since, as the unit is to <hi rend="ital">A</hi> , so is <hi rend="ital">B</hi>
+              to <hi rend="ital">C</hi> , therefore the unit measures the number <hi rend="ital">A</hi> the same number of times that <hi rend="ital">B</hi> measures <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e4992"> But the unit measures the number <hi rend="ital">A</hi> according to the units in
+                <hi rend="ital">A</hi> ; therefore <hi rend="ital">B</hi> also measures <hi rend="ital">C</hi> according to the units in <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e5010"> Therefore <hi rend="ital">A</hi> by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e5022"> Since then <hi rend="ital">A</hi> by multiplying itself has made <hi rend="ital">B</hi> , and by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">C</hi>
+              , therefore <hi rend="ital">C</hi> is cube. </p>
+            <p xml:id="ee-b9-d1e5040"> And, since <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi>
+              , <hi rend="ital">F</hi> are in continued proportion, and <hi rend="ital">C</hi> is
+              cube, therefore <hi rend="ital">F</hi> is also cube. [ <ref xml:id="ee-b9-Rd1e5061" target="elem.8.23">VIII. 23</ref> ] </p>
+            <p xml:id="ee-b9-d1e5065"> But it was also proved square; therefore the seventh from the unit is both cube and
+              square. </p>
+            <p xml:id="ee-b9-d1e5068"> Similarly we can prove that all the numbers which leave out five are also both cube
+              and square. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.9" n="9">
+            <head xml:id="ee-b9-Hd1e5074">PROPOSITION 9.</head>
+            <p xml:id="ee-b9-d1e5077">
+              <hi rend="ital"> If as many numbers as we please beginning from an unit be in
+                continued proportion, and the number after the unit be square, all the rest will
+                also be square. And, if the number after the unit be cube, all the rest will also be
+                cube. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e5083"> Let there be as many numbers as we please, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi> ,
+                <hi rend="ital">F</hi> , beginning from an unit and in continued proportion, and let
+                <hi rend="ital">A</hi> , the number after the unit, be square; I say that all the
+              rest will also be square. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e5110"> Now it has been proved that <hi rend="ital">B</hi> , the third from the unit, is
+              square, as are also all those which leave out one; [ <ref xml:id="ee-b9-Rd1e5115" target="elem.9.8">IX. 8</ref> ] I say that all the rest are also square. </p>
+            <p xml:id="ee-b9-d1e5119"> For, since <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi>
+              are in continued proportion, and <hi rend="ital">A</hi> is square, therefore <hi rend="ital">C</hi> is also square. [ <ref xml:id="ee-b9-Rd1e5137" target="elem.8.22">VIII.
+                22</ref> ] </p>
+            <p xml:id="ee-b9-d1e5142"> Again, since <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are in continued proportion, and <hi rend="ital">B</hi> is square, <hi rend="ital">D</hi> is also square. [ <ref xml:id="ee-b9-Rd1e5160" target="elem.8.22">VIII.
+                22</ref> ] </p>
+            <p xml:id="ee-b9-d1e5164"> Similarly we can prove that all the rest are also square. </p>
+            <p xml:id="ee-b9-d1e5167"> Next, let <hi rend="ital">A</hi> be cube; I say that all the rest are also cube. </p>
+            <p xml:id="ee-b9-d1e5173"> Now it has been proved that <hi rend="ital">C</hi> , the fourth from the unit, is
+              cube, as also are all those which leave out two; [ <ref xml:id="ee-b9-Rd1e5178" target="elem.9.8">IX. 8</ref> ] I say that all the rest are also cube. </p>
+            <p xml:id="ee-b9-d1e5182"> For, since, as the unit is to <hi rend="ital">A</hi> , so is <hi rend="ital">A</hi>
+              to <hi rend="ital">B</hi> , therefore the unit measures <hi rend="ital">A</hi> the
+              same number of times as <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e5204"> But the unit measures <hi rend="ital">A</hi> according to the units in it; therefore
+                <hi rend="ital">A</hi> also measures <hi rend="ital">B</hi> according to the units
+              in itself; therefore <hi rend="ital">A</hi> by multiplying itself has made <hi rend="ital">B</hi> . 
+            </p>
+            <p xml:id="ee-b9-d1e5223"> And <hi rend="ital">A</hi> is cube. </p>
+            <p xml:id="ee-b9-d1e5229"> But, if a cube number by multiplying itself make some number, the product is cube. [
+                <ref xml:id="ee-b9-Rd1e5231" target="elem.9.3">IX. 3</ref> ] </p>
+            <p xml:id="ee-b9-d1e5235"> Therefore <hi rend="ital">B</hi> is also cube. </p>
+            <p xml:id="ee-b9-d1e5241"> And, since the four numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are in continued proportion, and <hi rend="ital">A</hi> is cube, <hi rend="ital">D</hi> also is cube. [ <ref xml:id="ee-b9-Rd1e5262" target="elem.8.23">VIII. 23</ref> ] </p>
+            <p xml:id="ee-b9-d1e5266"> For the same reason <hi rend="ital">E</hi> is also cube, and similarly all the rest
+              are cube. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.10" n="10">
+            <head xml:id="ee-b9-Hd1e5275">PROPOSITION 10.</head>
+            <p xml:id="ee-b9-d1e5278">
+              <hi rend="ital"> If as many numbers as we please beginning from an unit be in
+                continued proportion, and the number after the unit be not square, neither will any
+                other be square except the third from the unit and all those which leave out one.
+                And, if the number after the unit be not cube, neither will any other be cube except
+                the fourth from the unit and all those which leave out two. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e5284"> Let there be as many numbers as we please, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi> ,
+                <hi rend="ital">F</hi> , beginning from an unit and in continued proportion, and let
+                <hi rend="ital">A</hi> , the number after the unit, not be square;  I
+              say that neither will any other be square except the third from the unit and those
+              which leave out one&gt;. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e5311"> For, if possible, let <hi rend="ital">C</hi> be square. </p>
+            <p xml:id="ee-b9-d1e5317"> But <hi rend="ital">B</hi> is also square; [ <ref xml:id="ee-b9-Rd1e5322" target="elem.9.8">IX. 8</ref> ] [therefore <hi rend="ital">B</hi> , <hi rend="ital">C</hi> have to
+              one another the ratio which a square number has to a square number]. </p>
+            <p xml:id="ee-b9-d1e5333"> And, as <hi rend="ital">B</hi> is to <hi rend="ital">C</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">B</hi> ; therefore <hi rend="ital">A</hi> , <hi rend="ital">B</hi> have to one another the ratio which a square number has to a
+              square number; [so that <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are similar
+              plane numbers]. [ <ref xml:id="ee-b9-Rd1e5360" target="elem.8.26">VIII. 26</ref> , converse] </p>
+            <p xml:id="ee-b9-d1e5364"> And <hi rend="ital">B</hi> is square; therefore <hi rend="ital">A</hi> is also
+              square: which is contrary to the hypothesis. </p>
+            <p xml:id="ee-b9-d1e5373"> Therefore <hi rend="ital">C</hi> is not square. </p>
+            <p xml:id="ee-b9-d1e5379"> Similarly we can prove that neither is any other of the numbers square except the
+              third from the unit and those which leave out one. </p>
+            <p xml:id="ee-b9-d1e5382"> Next, let <hi rend="ital">A</hi> not be cube. </p>
+            <p xml:id="ee-b9-d1e5388"> I say that neither will any other be cube except the fourth from the unit and those
+              which leave out two. </p>
+            <p xml:id="ee-b9-d1e5392"> For, if possible, let <hi rend="ital">D</hi> be cube. </p>
+            <p xml:id="ee-b9-d1e5398"> Now <hi rend="ital">C</hi> is also cube; for it is fourth from the unit. [ <ref xml:id="ee-b9-Rd1e5403" target="elem.9.8">IX. 8</ref> ] </p>
+            <p xml:id="ee-b9-d1e5407"> And, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">B</hi> to <hi rend="ital">C</hi> ; therefore <hi rend="ital">B</hi> also has to <hi rend="ital">C</hi> the ratio which a cube has to a cube. </p>
+            <p xml:id="ee-b9-d1e5429"> And <hi rend="ital">C</hi> is cube; therefore <hi rend="ital">B</hi> is also cube. [
+                <ref xml:id="ee-b9-Rd1e5437" target="elem.8.25">VIII. 25</ref> ] </p>
+            <p xml:id="ee-b9-d1e5441"> And since, as the unit is to <hi rend="ital">A</hi> , so is <hi rend="ital">A</hi>
+              to <hi rend="ital">B</hi> , and the unit measures <hi rend="ital">A</hi> according to
+              the units in it, therefore <hi rend="ital">A</hi> also measures <hi rend="ital">B</hi>
+              according to the units in itself; therefore <hi rend="ital">A</hi> by multiplying
+              itself has made the cube number <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e5469"> But, if a number by multiplying itself make a cube number, it is also itself cube. [
+                <ref xml:id="ee-b9-Rd1e5471" target="elem.9.6">IX. 6</ref> ] </p>
+            <p xml:id="ee-b9-d1e5476"> Therefore <hi rend="ital">A</hi> is also cube: which is contrary to the hypothesis. </p>
+            <p xml:id="ee-b9-d1e5482"> Therefore <hi rend="ital">D</hi> is not cube. 
+            </p>
+            <p xml:id="ee-b9-d1e5488"> Similarly we can prove that neither is any other of the numbers cube except the
+              fourth from the unit and those which leave out two. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.11" n="11">
+            <head xml:id="ee-b9-Hd1e5495">PROPOSITION II.</head>
+            <p xml:id="ee-b9-d1e5498">
+              <hi rend="ital"> If as many numbers as we please beginning from an unit be in
+                continued proportion, the less measures the greater according to some one of the
+                numbers which have place among the proportional numbers. </hi>
+              
+            </p>
+            <p xml:id="ee-b9-d1e5504"> Let there be as many numbers as we please, <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , beginning from the unit
+                <hi rend="ital">A</hi> and in continued proportion; I say that <hi rend="ital">B</hi> , the least of the numbers <hi rend="ital">B</hi> , <hi rend="ital">C</hi> ,
+                <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , measures <hi rend="ital">E</hi>
+              according to some one of the numbers <hi rend="ital">C</hi> , <hi rend="ital">D</hi> .
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e5550"> For since, as the unit <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is
+                <hi rend="ital">D</hi> to <hi rend="ital">E</hi> , therefore the unit <hi rend="ital">A</hi> measures the number <hi rend="ital">B</hi> the same number of
+              times as <hi rend="ital">D</hi> measures <hi rend="ital">E</hi> ; therefore,
+              alternately, the unit <hi rend="ital">A</hi> measures <hi rend="ital">D</hi> the same
+              number of times as <hi rend="ital">B</hi> measures <hi rend="ital">E</hi> . [ <ref xml:id="ee-b9-Rd1e5590" target="elem.7.15">VII. 15</ref> ] </p>
+            <p xml:id="ee-b9-d1e5594"> But the unit <hi rend="ital">A</hi> measures <hi rend="ital">D</hi> according to the
+              units in it; therefore <hi rend="ital">B</hi> also measures <hi rend="ital">E</hi>
+              according to the units in <hi rend="ital">D</hi> ; so that <hi rend="ital">B</hi> the
+              less measures <hi rend="ital">E</hi> the greater according to some number of those
+              which have place among the proportional numbers.— </p>
+            <div xml:id="elem.9.11.p.1" type="porism" org="uniform" sample="complete">
+              <head xml:id="ee-b9-Hd1e5622">PORISM.</head>
+              <p xml:id="ee-b9-d1e5625"> And it is manifest that, whatever place the measuring number has, reckoned from
+                the unit, the same place also has the number according to which it measures,
+                reckoned from the number measured, in the direction of the number before it.— </p>
+            </div>
+            <trailer>Q. E. D.</trailer>
+          </div>
+          
+          <div xml:id="elem.9.12" n="12">
+            <head xml:id="ee-b9-Hd1e5635">PROPOSITION 12.</head>
+            <p xml:id="ee-b9-d1e5638">
+              <hi rend="ital"> If as many numbers as we please beginning from an unit be in
+                continued proportion, by however many prime numbers the last is measured, the next
+                to the unit will also be measured by the same. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e5644"> Let there be as many numbers as we please, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , beginning from an unit,
+              and in continued proportion; I say that, by however many prime numbers <hi rend="ital">D</hi> is measured, <hi rend="ital">A</hi> will also be measured by the same.
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e5668"> For let <hi rend="ital">D</hi> be measured by any prime number <hi rend="ital">E</hi> ; I say that <hi rend="ital">E</hi> measures <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e5683"> For suppose it does not; now <hi rend="ital">E</hi> is prime, and any prime number
+              is prime to any which it does not measure; [ <ref xml:id="ee-b9-Rd1e5688" target="elem.7.29">VII. 29</ref> ] therefore <hi rend="ital">E</hi> , <hi rend="ital">A</hi> are prime
+              to one another. </p>
+            <p xml:id="ee-b9-d1e5699"> And, since <hi rend="ital">E</hi> measures <hi rend="ital">D</hi> , let it measure
+              it according to <hi rend="ital">F</hi> , therefore <hi rend="ital">E</hi> by
+              multiplying <hi rend="ital">F</hi> has made <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e5721"> Again, since <hi rend="ital">A</hi> measures <hi rend="ital">D</hi> according to the
+              units in <hi rend="ital">C</hi> , [ <ref xml:id="ee-b9-Rd1e5732" target="elem.9.11 elem.9.11.p.1">IX. 11 and Por.</ref> ] therefore <hi rend="ital">A</hi> by
+              multiplying <hi rend="ital">C</hi> has made <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e5746"> But, further, <hi rend="ital">E</hi> has also by multiplying <hi rend="ital">F</hi>
+              made <hi rend="ital">D</hi> ; therefore the product of <hi rend="ital">A</hi> , <hi rend="ital">C</hi> is equal to the product of <hi rend="ital">E</hi> , <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b9-d1e5771"> Therefore, as <hi rend="ital">A</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e5785" target="elem.7.19">VII. 19</ref> ] </p>
+            <p xml:id="ee-b9-d1e5789"> But <hi rend="ital">A</hi> , <hi rend="ital">E</hi> are prime, primes are also
+              least, [ <ref xml:id="ee-b9-Rd1e5797" target="elem.7.21">VII. 21</ref> ] and the least measure
+              those which have the same ratio the same number of times, the antecedent the
+              antecedent and the consequent the consequent; [ <ref xml:id="ee-b9-Rd1e5800" target="elem.7.20">VII. 20</ref> ] therefore <hi rend="ital">E</hi> measures <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e5811"> Let it measure it according to <hi rend="ital">G</hi> ; therefore <hi rend="ital">E</hi> by multiplying <hi rend="ital">G</hi> has made <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e5827"> But, further, by the theorem before this, <hi rend="ital">A</hi> has also by
+              multiplying <hi rend="ital">B</hi> made <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e5838" target="elem.9.11 elem.9.11.p.1">IX. 11 and Por.</ref> ] 
+            </p>
+            <p xml:id="ee-b9-d1e5842"> Therefore the product of <hi rend="ital">A</hi> , <hi rend="ital">B</hi> is equal to
+              the product of <hi rend="ital">E</hi> , <hi rend="ital">G</hi> . </p>
+            <p xml:id="ee-b9-d1e5857"> Therefore, as <hi rend="ital">A</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">G</hi> to <hi rend="ital">B</hi> . [ <ref xml:id="ee-b9-Rd1e5871" target="elem.7.19">VII. 19</ref> ] </p>
+            <p xml:id="ee-b9-d1e5875"> But <hi rend="ital">A</hi> , <hi rend="ital">E</hi> are prime, primes are also
+              least, [ <ref xml:id="ee-b9-Rd1e5883" target="elem.7.21">VII. 21</ref> ] and the least numbers
+              measure those which have the same ratio with them the same number of times, the
+              antecedent the antecedent and the consequent the consequent: [ <ref xml:id="ee-b9-Rd1e5886" target="elem.7.20">VII. 20</ref> ] therefore <hi rend="ital">E</hi> measures <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e5897"> Let it measure it according to <hi rend="ital">H</hi> ; therefore <hi rend="ital">E</hi> by multiplying <hi rend="ital">H</hi> has made <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e5912"> But further <hi rend="ital">A</hi> has also by multiplying itself made <hi rend="ital">B</hi> ; [ <ref xml:id="ee-b9-Rd1e5920" target="elem.9.8">IX. 8</ref> ] therefore
+              the product of <hi rend="ital">E</hi> , <hi rend="ital">H</hi> is equal to the square
+              on <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e5935"> Therefore, as <hi rend="ital">E</hi> is to <hi rend="ital">A</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">H</hi> . [ <ref xml:id="ee-b9-Rd1e5949" target="elem.7.19">VII. 19</ref> ] </p>
+            <p xml:id="ee-b9-d1e5953"> But <hi rend="ital">A</hi> , <hi rend="ital">E</hi> are prime, primes are also
+              least, [ <ref xml:id="ee-b9-Rd1e5961" target="elem.7.21">VII. 21</ref> ] and the least measure
+              those which have the same ratio the same number of times, the antecedent the
+              antecedent and the consequent the consequent; [ <ref xml:id="ee-b9-Rd1e5964" target="elem.7.20">VII. 20</ref> ] therefore <hi rend="ital">E</hi> measures <hi rend="ital">A</hi> ,
+              as antecedent antecedent. </p>
+            <p xml:id="ee-b9-d1e5975"> But, again, it also does not measure it: which is impossible. </p>
+            <p xml:id="ee-b9-d1e5978"> Therefore <hi rend="ital">E</hi> , <hi rend="ital">A</hi> are not prime to one
+              another. </p>
+            <p xml:id="ee-b9-d1e5987">Therefore they are composite to one another.</p>
+            <p xml:id="ee-b9-d1e5990"> But numbers composite to one another are measured by some number. [ <ref xml:id="ee-b9-Rd1e5992" target="elem.7.def.14">VII. Def. 14</ref> ] </p>
+            <p xml:id="ee-b9-d1e5997"> And, since <hi rend="ital">E</hi> is by hypothesis prime, and the prime is not
+              measured by any number other than itself, therefore <hi rend="ital">E</hi> measures
+                <hi rend="ital">A</hi> , <hi rend="ital">E</hi> , so that <hi rend="ital">E</hi>
+              measures <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e6019"> [But it also measures <hi rend="ital">D</hi> ; therefore <hi rend="ital">E</hi>
+              measures <hi rend="ital">A</hi> , <hi rend="ital">D</hi> .] </p>
+            <p xml:id="ee-b9-d1e6034"> Similarly we can prove that, by however many prime numbers <hi rend="ital">D</hi> is
+              measured, <hi rend="ital">A</hi> will also be measured by the same. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.13" n="13">
+            <head xml:id="ee-b9-Hd1e6046">PROPOSITION 13.</head>
+            <p xml:id="ee-b9-d1e6049">
+              <hi rend="ital"> If as many numbers as we please beginning from an unit be in
+                continued proportion, and the number after the unit be prime, the greatest will not
+                be measured by any except those which have a place among the proportional numbers
+              </hi> . </p>
+            <p xml:id="ee-b9-d1e6055"> Let there be as many numbers as we please, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , beginning from an unit
+              and in continued proportion, and let <hi rend="ital">A</hi> , the number after the
+              unit, be prime; I say that <hi rend="ital">D</hi> , the greatest of them, will not be
+              measured by any other number except <hi rend="ital">A</hi> , <hi rend="ital">B</hi> ,
+                <hi rend="ital">C</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e6088"> For, if possible, let it be measured by <hi rend="ital">E</hi> , and let <hi rend="ital">E</hi> not be the same with any of the numbers <hi rend="ital">A</hi> ,
+                <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e6106"> It is then manifest that <hi rend="ital">E</hi> is not prime. </p>
+            <p xml:id="ee-b9-d1e6113"> For, if <hi rend="ital">E</hi> is prime and measures <hi rend="ital">D</hi> , it
+              will also measure <hi rend="ital">A</hi> [ <ref xml:id="ee-b9-Rd1e6124" target="elem.9.12">IX.
+                12</ref> ], which is prime, though it is not the same with it: which is impossible.
+                
+            </p>
+            <p xml:id="ee-b9-d1e6128"> Therefore <hi rend="ital">E</hi> is not prime. </p>
+            <p xml:id="ee-b9-d1e6134">Therefore it is composite.</p>
+            <p xml:id="ee-b9-d1e6137"> But any composite number is measured by some prime number; [ <ref xml:id="ee-b9-Rd1e6139" target="elem.7.31">VII. 31</ref> ] therefore <hi rend="ital">E</hi> is measured by some
+              prime number. </p>
+            <p xml:id="ee-b9-d1e6146"> I say next that it will not be measured by any other prime except <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e6152"> For, if <hi rend="ital">E</hi> is measured by another, and <hi rend="ital">E</hi>
+              measures <hi rend="ital">D</hi> , that other will also measure <hi rend="ital">D</hi>
+              ; so that it will also measure <hi rend="ital">A</hi> [ <ref xml:id="ee-b9-Rd1e6170" target="elem.9.12">IX. 12</ref> ], which is prime, though it is not the same with it:
+              which is impossible. </p>
+            <p xml:id="ee-b9-d1e6175"> Therefore <hi rend="ital">A</hi> measures <hi rend="ital">E</hi> . </p>
+            <p xml:id="ee-b9-d1e6184"> And, since <hi rend="ital">E</hi> measures <hi rend="ital">D</hi> , let it measure
+              it according to <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b9-d1e6196"> I say that <hi rend="ital">F</hi> is not the same with any of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e6211"> For, if <hi rend="ital">F</hi> is the same with one of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , and measures <hi rend="ital">D</hi> according to <hi rend="ital">E</hi> , therefore one of the
+              numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> also
+              measures <hi rend="ital">D</hi> according to <hi rend="ital">E</hi> . </p>
+            <p xml:id="ee-b9-d1e6248"> But one of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> measures <hi rend="ital">D</hi> according to some one of the
+              numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> ; [
+                <ref xml:id="ee-b9-Rd1e6272" target="elem.9.11">IX. 11</ref> ] therefore <hi rend="ital">E</hi> is also the same with one of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> : which is contrary to the hypothesis. </p>
+            <p xml:id="ee-b9-d1e6289"> Therefore <hi rend="ital">F</hi> is not the same as any one of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e6305"> Similarly we can prove that <hi rend="ital">F</hi> is measured by <hi rend="ital">A</hi> , by proving again that <hi rend="ital">F</hi> is not prime. </p>
+            <p xml:id="ee-b9-d1e6317"> For, if it is, and measures <hi rend="ital">D</hi> , it will also measure <hi rend="ital">A</hi> [ <ref xml:id="ee-b9-Rd1e6325" target="elem.9.12">IX. 12</ref> ], which is
+              prime, though it is not the same with it: which is impossible; therefore <hi rend="ital">F</hi> is not prime. </p>
+            <p xml:id="ee-b9-d1e6332">Therefore it is composite.</p>
+            <p xml:id="ee-b9-d1e6335"> But any composite number is measured by some prime number; [ <ref xml:id="ee-b9-Rd1e6337" target="elem.7.31">VII. 31</ref> ] therefore <hi rend="ital">F</hi> is measured by some
+              prime number. 
+            </p>
+            <p xml:id="ee-b9-d1e6344"> I say next that it will not be measured by any other prime except <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e6350"> For, if any other prime number measures <hi rend="ital">F</hi> , and <hi rend="ital">F</hi> measures <hi rend="ital">D</hi> , that other will also measure <hi rend="ital">D</hi> ; so that it will also measure <hi rend="ital">A</hi> [ <ref xml:id="ee-b9-Rd1e6368" target="elem.9.12">IX. 12</ref> ], which is prime, though it is not
+              the same with it: which is impossible. </p>
+            <p xml:id="ee-b9-d1e6373"> Therefore <hi rend="ital">A</hi> measures <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b9-d1e6382"> And, since <hi rend="ital">E</hi> measures <hi rend="ital">D</hi> according to <hi rend="ital">F</hi> , therefore <hi rend="ital">E</hi> by multiplying <hi rend="ital">F</hi> has made <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e6404"> But, further, <hi rend="ital">A</hi> has also by multiplying <hi rend="ital">C</hi>
+              made <hi rend="ital">D</hi> ; [ <ref xml:id="ee-b9-Rd1e6415" target="elem.9.11">IX. 11</ref> ]
+              therefore the product of <hi rend="ital">A</hi> , <hi rend="ital">C</hi> is equal to
+              the product of <hi rend="ital">E</hi> , <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b9-d1e6432"> Therefore, proportionally, as <hi rend="ital">A</hi> is to <hi rend="ital">E</hi> ,
+              so is <hi rend="ital">F</hi> to <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e6446" target="elem.7.19">VII. 19</ref> ] </p>
+            <p xml:id="ee-b9-d1e6450"> But <hi rend="ital">A</hi> measures <hi rend="ital">E</hi> ; therefore <hi rend="ital">F</hi> also measures <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e6465"> Let it measure it according to <hi rend="ital">G</hi> . </p>
+            <p xml:id="ee-b9-d1e6472"> Similarly, then, we can prove that <hi rend="ital">G</hi> is not the same with any
+              of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , and that it is
+              measured by <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e6487"> And, since <hi rend="ital">F</hi> measures <hi rend="ital">C</hi> according to <hi rend="ital">G</hi> therefore <hi rend="ital">F</hi> by multiplying <hi rend="ital">G</hi> has made <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e6509"> But, further, <hi rend="ital">A</hi> has also by multiplying <hi rend="ital">B</hi>
+              made <hi rend="ital">C</hi> ; [ <ref xml:id="ee-b9-Rd1e6520" target="elem.9.11">IX. 11</ref> ]
+              therefore the product of <hi rend="ital">A</hi> , <hi rend="ital">B</hi> is equal to
+              the product of <hi rend="ital">F</hi> , <hi rend="ital">G</hi> . </p>
+            <p xml:id="ee-b9-d1e6537"> Therefore, proportionally, as <hi rend="ital">A</hi> is to <hi rend="ital">F</hi> ,
+              so is <hi rend="ital">G</hi> to <hi rend="ital">B</hi> . [ <ref xml:id="ee-b9-Rd1e6551" target="elem.7.19">VII. 19</ref> ] </p>
+            <p xml:id="ee-b9-d1e6555"> But <hi rend="ital">A</hi> measures <hi rend="ital">F</hi> ; therefore <hi rend="ital">G</hi> also measures <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e6570"> Let it measure it according to <hi rend="ital">H</hi> . </p>
+            <p xml:id="ee-b9-d1e6577"> Similarly then we can prove that <hi rend="ital">H</hi> is not the same with <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e6586"> And, since <hi rend="ital">G</hi> measures <hi rend="ital">B</hi> according to <hi rend="ital">H</hi> , therefore <hi rend="ital">G</hi> by multiplying <hi rend="ital">H</hi> has made <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e6608"> But further <hi rend="ital">A</hi> has also by multiplying itself made <hi rend="ital">B</hi> ; [ <ref xml:id="ee-b9-Rd1e6616" target="elem.9.8">IX. 8</ref> ] therefore
+              the product of <hi rend="ital">H</hi> , <hi rend="ital">G</hi> is equal to the square
+              on <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e6630"> Therefore, as <hi rend="ital">H</hi> is to <hi rend="ital">A</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">G</hi> . [ <ref xml:id="ee-b9-Rd1e6644" target="elem.7.19">VII. 19</ref> ] 
+            </p>
+            <p xml:id="ee-b9-d1e6648"> But <hi rend="ital">A</hi> measures <hi rend="ital">G</hi> ; therefore <hi rend="ital">H</hi> also measures <hi rend="ital">A</hi> , which is prime, though it
+              is not the same with it: which is absurd. </p>
+            <p xml:id="ee-b9-d1e6663"> Therefore <hi rend="ital">D</hi> the greatest will not be measured by any other
+              number except <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi>
+              . Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.14" n="14">
+            <head xml:id="ee-b9-Hd1e6681">PROPOSITION 14.</head>
+            <p xml:id="ee-b9-d1e6684">
+              <hi rend="ital"> If a number be the least that is measured by prime numbers, it will
+                not be measured by any other prime number except those originally measuring it.
+              </hi>
+            </p>
+            <p xml:id="ee-b9-d1e6690"> For let the number <hi rend="ital">A</hi> be the least that is measured by the prime
+              numbers <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> ;  I say that <hi rend="ital">A</hi> will not be measured by any other prime
+              number except <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi>
+              . </p>
+            <p xml:id="ee-b9-d1e6718"> For, if possible, let it be measured by the prime number <hi rend="ital">E</hi> ,
+              and let <hi rend="ital">E</hi> not be the same with any one of the numbers <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e6738"> Now, since <hi rend="ital">E</hi> measures <hi rend="ital">A</hi> , let it measure
+              it according to <hi rend="ital">F</hi> ; <hi rend="center"> therefore <hi rend="ital">E</hi> by multiplying <hi rend="ital">F</hi> has made <hi rend="ital">A</hi> .
+              </hi>
+            </p>
+            <p xml:id="ee-b9-d1e6763"> And <hi rend="ital">A</hi> is measured by the prime numbers <hi rend="ital">B</hi> ,
+                <hi rend="ital">C</hi> , <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e6778"> But, if two numbers by multiplying one another make some number, and any prime
+              number measure the product, it will also measure one of the original numbers; [ <ref xml:id="ee-b9-Rd1e6780" target="elem.7.30">VII. 30</ref> ] therefore <hi rend="ital">B</hi> ,
+                <hi rend="ital">C</hi> , <hi rend="ital">D</hi> will measure one of the numbers <hi rend="ital">E</hi> , <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b9-d1e6800"> Now they will not measure <hi rend="ital">E</hi> ; for <hi rend="ital">E</hi> is
+              prime and not the same with any one of the numbers <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e6818"> Therefore they will measure <hi rend="ital">F</hi> , which is less than <hi rend="ital">A</hi> : which is impossible, for <hi rend="ital">A</hi> is by
+              hypothesis the least number measured by <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e6840"> Therefore no prime number will measure <hi rend="ital">A</hi> except <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> . Q. E. D. </p>
+          </div>
+          
+          <div xml:id="elem.9.15" n="15">
+            <head xml:id="ee-b9-Hd1e6858">PROPOSITION 15.</head>
+            <p xml:id="ee-b9-d1e6861">
+              <hi rend="ital"> If three numbers in continued proportion be the least of those which
+                have the same ratio with them, any two whatever added together will be prime to the
+                remaining number. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e6867"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , three
+              numbers in continued proportion, be the least of those which have the same ratio with
+              them; I say that any two of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> whatever added together are prime to the remaining
+              number, namely <hi rend="ital">A</hi> , <hi rend="ital">B</hi> to <hi rend="ital">C</hi> ; <hi rend="ital">B</hi> , <hi rend="ital">C</hi> to <hi rend="ital">A</hi>
+              ; and further <hi rend="ital">A</hi> , <hi rend="ital">C</hi> to <hi rend="ital">B</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e6919"> For let two numbers <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> , the least of
+              those which have the same ratio with <hi rend="ital">A</hi> , <hi rend="ital">B</hi> ,
+                <hi rend="ital">C</hi> , be taken. [ <ref xml:id="ee-b9-Rd1e6937" target="elem.8.2">VIII.
+                2</ref> ] </p>
+            <p xml:id="ee-b9-d1e6941"> It is then manifest that <hi rend="ital">DE</hi> by multiplying itself has made <hi rend="ital">A</hi> , and by multiplying <hi rend="ital">EF</hi> has made <hi rend="ital">B</hi> , and, further, <hi rend="ital">EF</hi> by multiplying itself has
+              made <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e6962" target="elem.8.2">VIII. 2</ref> ] </p>
+            <p xml:id="ee-b9-d1e6967"> Now, since <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> are least, they are
+              prime to one another. [ <ref xml:id="ee-b9-Rd1e6975" target="elem.7.22">VII. 22</ref> ] </p>
+            <p xml:id="ee-b9-d1e6979"> But, if two numbers be prime to one another, their sum is also prime to each; [ <ref xml:id="ee-b9-Rd1e6981" target="elem.7.28">VII. 28</ref> ] therefore <hi rend="ital">DF</hi>
+              is also prime to each of the numbers <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi>
+              . </p>
+            <p xml:id="ee-b9-d1e6994"> But further <hi rend="ital">DE</hi> is also prime to <hi rend="ital">EF</hi> ;
+              therefore <hi rend="ital">DF</hi> , <hi rend="ital">DE</hi> are prime to <hi rend="ital">EF</hi> . </p>
+            <p xml:id="ee-b9-d1e7012"> But, if two numbers be prime to any number, their product is also prime to the
+              other; [ <ref xml:id="ee-b9-Rd1e7014" target="elem.7.24">VII. 24</ref> ] so that the product of
+                <hi rend="ital">FD</hi> , <hi rend="ital">DE</hi> is prime to <hi rend="ital">EF</hi> ; hence the product of <hi rend="ital">FD</hi> , <hi rend="ital">DE</hi> is
+              also prime to the square on <hi rend="ital">EF</hi> . [ <ref xml:id="ee-b9-Rd1e7036" target="elem.7.25">VII. 25</ref> ] </p>
+            <p xml:id="ee-b9-d1e7040"> But the product of <hi rend="ital">FD</hi> , <hi rend="ital">DE</hi> is the square
+              on <hi rend="ital">DE</hi> together with the product of <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> ; [ <ref xml:id="ee-b9-Rd1e7058" target="elem.2.3">II. 3</ref> ] therefore
+              the square on <hi rend="ital">DE</hi> together with the product of <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> is prime to the square on <hi rend="ital">EF</hi>
+              . </p>
+            <p xml:id="ee-b9-d1e7074"> And the square on <hi rend="ital">DE</hi> is <hi rend="ital">A</hi> , the product of
+                <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> is <hi rend="ital">B</hi> , and
+              the square on <hi rend="ital">EF</hi> is <hi rend="ital">C</hi> ; therefore <hi rend="ital">A</hi> , <hi rend="ital">B</hi> added together are prime to <hi rend="ital">C</hi> . 
+            </p>
+            <p xml:id="ee-b9-d1e7109"> Similarly we can prove that <hi rend="ital">B</hi> , <hi rend="ital">C</hi> added
+              together are prime to <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e7121"> I say next that <hi rend="ital">A</hi> , <hi rend="ital">C</hi> added together are
+              also prime to <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e7133"> For, since <hi rend="ital">DF</hi> is prime to each of the numbers <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> , the square on <hi rend="ital">DF</hi> is also
+              prime to the product of <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> . [ <ref xml:id="ee-b9-Rd1e7154" target="elem.7.24 elem.7.25">VII. 24, 25</ref> ] </p>
+            <p xml:id="ee-b9-d1e7158"> But the squares on <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> together with
+              twice the product of <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> are equal to
+              the square on <hi rend="ital">DF</hi> ; [ <ref xml:id="ee-b9-Rd1e7176" target="elem.2.4">II.
+                4</ref> ] therefore the squares on <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi>
+              together with twice the product of <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi>
+              are prime to the product of <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> . </p>
+            <p xml:id="ee-b9-d1e7199">
+              <foreign xml:lang="la">Separando</foreign> , the squares on <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> together with once the product of <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> are prime to the product of <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> . </p>
+            <p xml:id="ee-b9-d1e7224"> Therefore, <foreign xml:lang="la">separando</foreign> again, the squares on <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> are prime to the product of <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> . </p>
+            <p xml:id="ee-b9-d1e7243"> And the square on <hi rend="ital">DE</hi> is <hi rend="ital">A</hi> , the product of
+                <hi rend="ital">DE</hi> , <hi rend="ital">EF</hi> is <hi rend="ital">B</hi> , and
+              the square on <hi rend="ital">EF</hi> is <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e7268"> Therefore <hi rend="ital">A</hi> , <hi rend="ital">C</hi> added together are prime
+              to <hi rend="ital">B</hi> . Q. E. D. </p>
+          </div>
+          
+          <div xml:id="elem.9.16" n="16">
+            <head xml:id="ee-b9-Hd1e7283">PROPOSITION 16.</head>
+            <p xml:id="ee-b9-d1e7286">
+              <hi rend="ital"> If two numbers be prime to one another, the second will not be to any
+                other number as the first is to the second. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e7292"> For let the two numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be prime to
+              one another; I say that <hi rend="ital">B</hi> is not to any other number as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e7312"> For, if possible, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so let
+                <hi rend="ital">B</hi> be to <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e7327"> Now <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are prime, primes are also
+              least, [ <ref xml:id="ee-b9-Rd1e7335" target="elem.7.21">VII. 21</ref> ] and the least numbers
+              measure those which have the same ratio the same number of times, the antecedent the
+              antecedent and the consequent the consequent; [ <ref xml:id="ee-b9-Rd1e7338" target="elem.7.20">VII. 20</ref> ] therefore <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> as
+              antecedent antecedent. </p>
+            <p xml:id="ee-b9-d1e7350"> But it also measures itself; therefore <hi rend="ital">A</hi> measures <hi rend="ital">A</hi> , <hi rend="ital">B</hi> which are prime to one another: which is
+              absurd. </p>
+            <p xml:id="ee-b9-d1e7362"> Therefore <hi rend="ital">B</hi> will not be to <hi rend="ital">C</hi> , as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> . Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.17" n="17">
+            <head xml:id="ee-b9-Hd1e7381">PROPOSITION 17.</head>
+            <p xml:id="ee-b9-d1e7384">
+              <hi rend="ital"> If there be as many numbers as we please in continued proportion, and
+                the extremes of them be prime to one another, the last will not be to any other
+                number as the first to the second. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e7390"> For let there be as many numbers as we please, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , in continued
+              proportion, and let the extremes of them, <hi rend="ital">A</hi> , <hi rend="ital">D</hi> , be prime to one another; I say that <hi rend="ital">D</hi> is not to any
+              other number as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e7423"> For, if possible, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so let
+                <hi rend="ital">D</hi> be to <hi rend="ital">E</hi> ; therefore, alternately, as <hi rend="ital">A</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">B</hi> to
+                <hi rend="ital">E</hi> . [ <ref xml:id="ee-b9-Rd1e7450" target="elem.7.13">VII. 13</ref> ] 
+            </p>
+            <p xml:id="ee-b9-d1e7454"> But <hi rend="ital">A</hi> , <hi rend="ital">D</hi> are prime, primes are also
+              least, [ <ref xml:id="ee-b9-Rd1e7462" target="elem.7.21">VII. 21</ref> ] and the least numbers
+              measure those which have the same ratio the same number of times, the antecedent the
+              antecedent and the consequent the consequent. [ <ref xml:id="ee-b9-Rd1e7465" target="elem.7.20">VII. 20</ref> ] </p>
+            <p xml:id="ee-b9-d1e7470"> Therefore <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e7479"> And, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">B</hi> to <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e7494"> Therefore <hi rend="ital">B</hi> also measures <hi rend="ital">C</hi> ; so that <hi rend="ital">A</hi> also measures <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e7509"> And since, as <hi rend="ital">B</hi> is to <hi rend="ital">C</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> , and <hi rend="ital">B</hi> measures
+                <hi rend="ital">C</hi> , therefore <hi rend="ital">C</hi> also measures <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e7537"> But <hi rend="ital">A</hi> measured <hi rend="ital">C</hi> ; so that <hi rend="ital">A</hi> also measures <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e7552"> But it also measures itself; therefore <hi rend="ital">A</hi> measures <hi rend="ital">A</hi> , <hi rend="ital">D</hi> which are prime to one another : which
+              is impossible. </p>
+            <p xml:id="ee-b9-d1e7565"> Therefore <hi rend="ital">D</hi> will not be to any other number as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> . Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.18" n="18">
+            <head xml:id="ee-b9-Hd1e7580">PROPOSITION 18.</head>
+            <p xml:id="ee-b9-d1e7583">
+              <hi rend="ital"> Given two numbers, to investigate whether it is possible to find a
+                third proportional to them. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e7589"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be the given two numbers, and
+              let it be required to investigate whether it is possible to find a third proportional
+              to them. </p>
+            <p xml:id="ee-b9-d1e7598"> Now <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are either prime to one another
+              or not. </p>
+            <p xml:id="ee-b9-d1e7607"> And, if they are prime to one another, it has been proved that it is impossible to
+              find a third proportional to them. [ <ref xml:id="ee-b9-Rd1e7609" target="elem.9.16">IX.
+                16</ref> ] 
+            </p>
+            <p xml:id="ee-b9-d1e7614"> Next, let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> not be prime to one
+              another, and let <hi rend="ital">B</hi> by multiplying itself make <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e7629"> Then <hi rend="ital">A</hi> either measures <hi rend="ital">C</hi> or does not
+              measure it. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e7640"> First, let it measure it according to <hi rend="ital">D</hi> ; therefore <hi rend="ital">A</hi> by multiplying <hi rend="ital">D</hi> has made <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e7655"> But, further, <hi rend="ital">B</hi> has also by multiplying itself made <hi rend="ital">C</hi> ; therefore the product of <hi rend="ital">A</hi> , <hi rend="ital">D</hi> is equal to the square on <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e7673"> Therefore, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">B</hi> to <hi rend="ital">D</hi> ; [ <ref xml:id="ee-b9-Rd1e7687" target="elem.7.19">VII. 19</ref> ] therefore a third proportional number <hi rend="ital">D</hi> has been found to <hi rend="ital">A</hi> , <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e7701"> Next, let <hi rend="ital">A</hi> not measure <hi rend="ital">C</hi> ; I say that it
+              is impossible to find a third proportional number to <hi rend="ital">A</hi> , <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e7717"> For, if possible, let <hi rend="ital">D</hi> , such third proportional, have been
+              found. </p>
+            <p xml:id="ee-b9-d1e7723"> Therefore the product of <hi rend="ital">A</hi> , <hi rend="ital">D</hi> is equal to
+              the square on <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e7735"> But the square on <hi rend="ital">B</hi> is <hi rend="ital">C</hi> ; therefore the
+              product of <hi rend="ital">A</hi> , <hi rend="ital">D</hi> is equal to <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e7753"> Hence <hi rend="ital">A</hi> by multiplying <hi rend="ital">D</hi> has made <hi rend="ital">C</hi> ; therefore <hi rend="ital">A</hi> measures <hi rend="ital">C</hi> according to <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e7775"> But, by hypothesis, it also does not measure it: which is absurd. </p>
+            <p xml:id="ee-b9-d1e7778"> Therefore it is not possible to find a third proportional number to <hi rend="ital">A</hi> , <hi rend="ital">B</hi> when <hi rend="ital">A</hi> does not measure <hi rend="ital">C</hi> . Q. E. D. </p>
+          </div>
+          
+          <div xml:id="elem.9.19" n="19">
+            <head xml:id="ee-b9-Hd1e7796">PROPOSITION 19.</head>
+            <p xml:id="ee-b9-d1e7799">
+              <hi rend="ital"> Given three numbers, to investigate when it is possible to find a
+                fourth proportional to them. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e7805"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> be the
+              given three numbers, and let it be required to investigate when it is possible to find
+              a fourth proportional to them. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e7819"> Now either they are not in continued proportion, and the extremes of them are prime
+              to one another; or they are in continued proportion, and the extremes of them are not
+              prime to one another; or they are not in continued proportion, nor are the extremes of
+              them prime to one another; or they are in continued proportion, and the extremes of
+              them are prime to one another. </p>
+            <p xml:id="ee-b9-d1e7822"> If then <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> are
+              in continued proportion, and the extremes of them <hi rend="ital">A</hi> , <hi rend="ital">C</hi> are prime to one another, it has been proved that it is
+              impossible to find a fourth proportional number to them. [ <ref xml:id="ee-b9-Rd1e7840" target="elem.9.17">IX. 17</ref> ] </p>
+            <p xml:id="ee-b9-d1e7845"> Next, let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi>
+              not be in continued proportion, the extremes being again prime to one another; I say
+              that in this case also it is impossible to find a fourth proportional to them. </p>
+            <p xml:id="ee-b9-d1e7857"> For, if possible, let <hi rend="ital">D</hi> have been found, so that, <hi rend="center"> as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> , </hi> and let it be contrived that,
+              as <hi rend="ital">B</hi> is to <hi rend="ital">C</hi> , so is <hi rend="ital">D</hi>
+              to <hi rend="ital">E</hi> . </p>
+            <p xml:id="ee-b9-d1e7891"> Now, since, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> , and, as <hi rend="ital">B</hi> is to
+                <hi rend="ital">C</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">E</hi> ,
+              therefore, <foreign xml:lang="la">ex aequali</foreign> , as <hi rend="ital">A</hi> is to
+                <hi rend="ital">C</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">E</hi> . [
+                <ref xml:id="ee-b9-Rd1e7934" target="elem.7.14">VII. 14</ref> ] </p>
+            <p xml:id="ee-b9-d1e7938"> But <hi rend="ital">A</hi> , <hi rend="ital">C</hi> are prime, primes are also
+              least, [ <ref xml:id="ee-b9-Rd1e7946" target="elem.7.21">VII. 21</ref> ] and the least numbers
+              measure those which have the same ratio, the antecedent the antecedent and the
+              consequent the consequent. [ <ref xml:id="ee-b9-Rd1e7949" target="elem.7.20">VII. 20</ref> ] </p>
+            <p xml:id="ee-b9-d1e7953"> Therefore <hi rend="ital">A</hi> measures <hi rend="ital">C</hi> as antecedent
+              antecedent. 
+            </p>
+            <p xml:id="ee-b9-d1e7962"> But it also measures itself; therefore <hi rend="ital">A</hi> measures <hi rend="ital">A</hi> , <hi rend="ital">C</hi> which are prime to one another: which is
+              impossible. </p>
+            <p xml:id="ee-b9-d1e7975"> Therefore it is not possible to find a fourth proportional to <hi rend="ital">A</hi>
+              , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e7987"> Next, let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi>
+              be again in continued proportion, but let <hi rend="ital">A</hi> , <hi rend="ital">C</hi> not be prime to one another. </p>
+            <p xml:id="ee-b9-d1e8005"> I say that it is possible to find a fourth proportional to them. </p>
+            <p xml:id="ee-b9-d1e8008"> For let <hi rend="ital">B</hi> by multiplying <hi rend="ital">C</hi> make <hi rend="ital">D</hi> ; therefore <hi rend="ital">A</hi> either measures <hi rend="ital">D</hi> or does not measure it. </p>
+            <p xml:id="ee-b9-d1e8026"> First, let it measure it according to <hi rend="ital">E</hi> ; therefore <hi rend="ital">A</hi> by multiplying <hi rend="ital">E</hi> has made <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e8041"> But, further, <hi rend="ital">B</hi> has also by multiplying <hi rend="ital">C</hi>
+              made <hi rend="ital">D</hi> ; therefore the product of <hi rend="ital">A</hi> , <hi rend="ital">E</hi> is equal to the product of <hi rend="ital">B</hi> , <hi rend="ital">C</hi> ; therefore, proportionally, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">E</hi> ; [ <ref xml:id="ee-b9-Rd1e8078" target="elem.7.19">VII. 19</ref> ] therefore <hi rend="ital">E</hi>
+              has been found a fourth proportional to <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e8095"> Next, let <hi rend="ital">A</hi> not measure <hi rend="ital">D</hi> ; I say that it
+              is impossible to find a fourth proportional number to <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e8113"> For, if possible, let <hi rend="ital">E</hi> have been found; therefore the product
+              of <hi rend="ital">A</hi> , <hi rend="ital">E</hi> is equal to the product of <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e8131" target="elem.7.19">VII. 19</ref> ] </p>
+            <p xml:id="ee-b9-d1e8135"> But the product of <hi rend="ital">B</hi> , <hi rend="ital">C</hi> is <hi rend="ital">D</hi> ; therefore the product of <hi rend="ital">A</hi> , <hi rend="ital">E</hi> is also equal to <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e8157"> Therefore <hi rend="ital">A</hi> by multiplying <hi rend="ital">E</hi> has made <hi rend="ital">D</hi> ; therefore <hi rend="ital">A</hi> measures <hi rend="ital">D</hi> according to <hi rend="ital">E</hi> , so that <hi rend="ital">A</hi>
+              measures <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e8185">But it also does not measure it: which is absurd.</p>
+            <p xml:id="ee-b9-d1e8188"> Therefore it is not possible to find a fourth proportional number to <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> when <hi rend="ital">A</hi> does not measure <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e8207"> Next, let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi>
+              not be in continued proportion, nor the extremes prime to one another. </p>
+            <p xml:id="ee-b9-d1e8219"> And let <hi rend="ital">B</hi> by multiplying <hi rend="ital">C</hi> make <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e8231"> Similarly then it can be proved that, if <hi rend="ital">A</hi> measures <hi rend="ital">D</hi> , it is possible to find a fourth proportional to them, but, if
+              it does not measure it, impossible. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.20" n="20">
+            <head xml:id="ee-b9-Hd1e8243">PROPOSITION 20.</head>
+            <p xml:id="ee-b9-d1e8246">
+              <hi rend="ital"> Prime numbers are more than any assigned multitude of prime numbers.
+              </hi>
+            </p>
+            <p xml:id="ee-b9-d1e8252"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> be the
+              assigned prime numbers; I say that there are more prime numbers than <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e8276"> For let the least number measured by <hi rend="ital">A</hi> , <hi rend="ital">B</hi>
+              , <hi rend="ital">C</hi> be taken, and let it be <hi rend="ital">DE</hi> ; let the
+              unit <hi rend="ital">DF</hi> be added to <hi rend="ital">DE</hi> . </p>
+            <p xml:id="ee-b9-d1e8298"> Then <hi rend="ital">EF</hi> is either prime or not. </p>
+            <p xml:id="ee-b9-d1e8305"> First, let it be prime; then the prime numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">EF</hi> have been
+              found which are more than <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e8330"> Next, let <hi rend="ital">EF</hi> not be prime; therefore it is measured by some
+              prime number. [ <ref xml:id="ee-b9-Rd1e8335" target="elem.7.31">VII. 31</ref> ] </p>
+            <p xml:id="ee-b9-d1e8339"> Let it be measured by the prime number <hi rend="ital">G</hi> . </p>
+            <p xml:id="ee-b9-d1e8345"> I say that <hi rend="ital">G</hi> is not the same with any of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e8360">For, if possible, let it be so.</p>
+            <p xml:id="ee-b9-d1e8363"> Now <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> measure
+                <hi rend="ital">DE</hi> ; therefore <hi rend="ital">G</hi> also will measure <hi rend="ital">DE</hi> . </p>
+            <p xml:id="ee-b9-d1e8386"> But it also measures <hi rend="ital">EF</hi> . </p>
+            <p xml:id="ee-b9-d1e8392"> Therefore <hi rend="ital">G</hi> , being a number, will measure the remainder, the
+              unit <hi rend="ital">DF</hi> : which is absurd. </p>
+            <p xml:id="ee-b9-d1e8401"> Therefore <hi rend="ital">G</hi> is not the same with any one of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e8416">And by hypothesis it is prime.</p>
+            <p xml:id="ee-b9-d1e8419"> Therefore the prime numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">G</hi> have been found which are more than the
+              assigned multitude of <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.9.21" n="21">
+            <head xml:id="ee-b9-Hd1e8447">PROPOSITION 21.</head>
+            <p xml:id="ee-b9-d1e8450">
+              <hi rend="ital"> If as many even numbers as we please be added together, the whole is
+                even. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e8456"> For let as many even numbers as we please, <hi rend="ital">AB</hi> , <hi rend="ital">BC</hi> , <hi rend="ital">CD</hi> , <hi rend="ital">DE</hi> , be added together; I
+              say that the whole <hi rend="ital">AE</hi> is even. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e8476"> For, since each of the numbers <hi rend="ital">AB</hi> , <hi rend="ital">BC</hi> ,
+                <hi rend="ital">CD</hi> , <hi rend="ital">DE</hi> is even, it has a half part; [
+                <ref xml:id="ee-b9-Rd1e8490" target="elem.7.def.6">VII. Def. 6</ref> ] so that the whole <hi rend="ital">AE</hi> also has a half part. </p>
+            <p xml:id="ee-b9-d1e8498"> But an even number is that which is divisible into two equal parts; [ <hi rend="ital">id</hi> .] therefore <hi rend="ital">AE</hi> is even. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.22" n="22">
+            <head xml:id="ee-b9-Hd1e8510">PROPOSITION 22.</head>
+            <p xml:id="ee-b9-d1e8513">
+              <hi rend="ital"> If as many odd numbers as we please be added together, and their
+                multitude be even, the whole will be even. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e8519"> For let as many odd numbers as we please, <hi rend="ital">AB</hi> , <hi rend="ital">BC</hi> , <hi rend="ital">CD</hi> , <hi rend="ital">DE</hi> , even in multitude, be
+              added together; I say that the whole <hi rend="ital">AE</hi> is even. 
+            </p>
+            <p xml:id="ee-b9-d1e8537"> For, since each of the numbers <hi rend="ital">AB</hi> , <hi rend="ital">BC</hi> ,
+                <hi rend="ital">CD</hi> , <hi rend="ital">DE</hi> is odd, if an unit be subtracted
+              from each, each of the remainders will be even; [ <ref xml:id="ee-b9-Rd1e8551" target="elem.7.def.7">VII. Def. 7</ref> ] so that the sum of them will be even. [ <ref xml:id="ee-b9-Rd1e8555" target="elem.9.21">IX. 21</ref> ] <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e8561">But the multitude of the units is also even.</p>
+            <p xml:id="ee-b9-d1e8565"> Therefore the whole <hi rend="ital">AE</hi> is also even. [ <ref xml:id="ee-b9-Rd1e8570" target="elem.9.21">IX. 21</ref> ] Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.23" n="23">
+            <head xml:id="ee-b9-Hd1e8578">PROPOSITION 23.</head>
+            <p xml:id="ee-b9-d1e8581">
+              <hi rend="ital"> If as many odd numbers as we please be added together, and their
+                multitude be odd, the whole will also be odd. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e8587"> For let as many odd numbers as we please, <hi rend="ital">AB</hi> , <hi rend="ital">BC</hi> , <hi rend="ital">CD</hi> , the multitude of which is odd, be added
+              together; I say that the whole <hi rend="ital">AD</hi> is also odd. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e8604"> Let the unit <hi rend="ital">DE</hi> be subtracted from <hi rend="ital">CD</hi> ;
+              therefore the remainder <hi rend="ital">CE</hi> is even. [ <ref xml:id="ee-b9-Rd1e8615" target="elem.7.def.7">VII. Def. 7</ref> ] </p>
+            <p xml:id="ee-b9-d1e8619"> But <hi rend="ital">CA</hi> is also even; [ <ref xml:id="ee-b9-Rd1e8624" target="elem.9.22">IX. 22</ref> ] therefore the whole <hi rend="ital">AE</hi> is also even. [ <ref xml:id="ee-b9-Rd1e8630" target="elem.9.21">IX. 21</ref> ] </p>
+            <p xml:id="ee-b9-d1e8635"> And <hi rend="ital">DE</hi> is an unit. </p>
+            <p xml:id="ee-b9-d1e8641"> Therefore <hi rend="ital">AD</hi> is odd. [ <ref xml:id="ee-b9-Rd1e8646" target="elem.7.def.7">VII. Def. 7</ref> ] Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.9.24" n="24">
+            <head xml:id="ee-b9-Hd1e8653">PROPOSITION 24.</head>
+            <p xml:id="ee-b9-d1e8656">
+              <hi rend="ital"> If from an even number an even number be subtracted, the remainder
+                will be even. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e8662"> For from the even number <hi rend="ital">AB</hi> let the even number <hi rend="ital">BC</hi> be subtracted: I say that the remainder <hi rend="ital">CA</hi> is even.
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e8676"> For, since <hi rend="ital">AB</hi> is even, it has a half part. [ <ref xml:id="ee-b9-Rd1e8681" target="elem.7.def.6">VII. Def. 6</ref> ] 
+            </p>
+            <p xml:id="ee-b9-d1e8685"> For the same reason <hi rend="ital">BC</hi> also has a half part; so that the
+              remainder [ <hi rend="ital">CA</hi> also has a half part, and] <hi rend="ital">AC</hi>
+              is therefore even. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.25" n="25">
+            <head xml:id="ee-b9-Hd1e8700">PROPOSITION 25.</head>
+            <p xml:id="ee-b9-d1e8703">
+              <hi rend="ital"> If from an even number an odd number be subtracted, the remainder
+                will be odd. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e8709"> For from the even number <hi rend="ital">AB</hi> let the odd number <hi rend="ital">BC</hi> be subtracted; I say that the remainder <hi rend="ital">CA</hi> is odd.
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e8723"> For let the unit <hi rend="ital">CD</hi> be subtracted from <hi rend="ital">BC</hi>
+              ; therefore <hi rend="ital">DB</hi> is even. [ <ref xml:id="ee-b9-Rd1e8734" target="elem.7.def.7">VII. Def. 7</ref> ] </p>
+            <p xml:id="ee-b9-d1e8738"> But <hi rend="ital">AB</hi> is also even; therefore the remainder <hi rend="ital">AD</hi> is also even. [ <ref xml:id="ee-b9-Rd1e8746" target="elem.9.24">IX. 24</ref> ] </p>
+            <p xml:id="ee-b9-d1e8751"> And <hi rend="ital">CD</hi> is an unit; therefore <hi rend="ital">CA</hi> is odd. [
+                <ref xml:id="ee-b9-Rd1e8759" target="elem.7.def.7">VII. Def. 7</ref> ] Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.26" n="26">
+            <head xml:id="ee-b9-Hd1e8766">PROPOSITION 26.</head>
+            <p xml:id="ee-b9-d1e8769">
+              <hi rend="ital"> If from an odd number an odd number be subtracted, the remainder will
+                be even. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e8775"> For from the odd number <hi rend="ital">AB</hi> let the odd number <hi rend="ital">BC</hi> be subtracted; I say that the remainder <hi rend="ital">CA</hi> is even.
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e8789"> For, since <hi rend="ital">AB</hi> is odd, let the unit <hi rend="ital">BD</hi> be
+              subtracted; therefore the remainder <hi rend="ital">AD</hi> is even. [ <ref xml:id="ee-b9-Rd1e8800" target="elem.7.def.7">VII. Def. 7</ref> ] </p>
+            <p xml:id="ee-b9-d1e8804"> For the same reason <hi rend="ital">CD</hi> is also even; [ <ref xml:id="ee-b9-Rd1e8809" target="elem.7.def.7">VII. Def. 7</ref> ] so that the remainder <hi rend="ital">CA</hi> is also even. [ <ref xml:id="ee-b9-Rd1e8815" target="elem.9.24">IX.
+                24</ref> ] Q. E. D. </p>
+          </div>
+          
+          <div xml:id="elem.9.27" n="27">
+            <head xml:id="ee-b9-Hd1e8822">PROPOSITION 27.</head>
+            <p xml:id="ee-b9-d1e8825">
+              <hi rend="ital"> If from an odd number an even number be subtracted, the remainder
+                will be odd. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e8831"> For from the odd number <hi rend="ital">AB</hi> let the even number <hi rend="ital">BC</hi> be subtracted; I say that the remainder <hi rend="ital">CA</hi> is odd.
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e8845"> Let the unit <hi rend="ital">AD</hi> be subtracted; therefore <hi rend="ital">DB</hi> is even. [ <ref xml:id="ee-b9-Rd1e8853" target="elem.7.def.7">VII. Def. 7</ref> ] </p>
+            <p xml:id="ee-b9-d1e8857"> But <hi rend="ital">BC</hi> is also even; therefore the remainder <hi rend="ital">CD</hi> is even. [ <ref xml:id="ee-b9-Rd1e8865" target="elem.9.24">
+                <ref xml:id="ee-b9-Rd1e8867" target="elem.9.24">IX. 24</ref>
+              </ref> ] </p>
+            <p xml:id="ee-b9-d1e8873"> Therefore <hi rend="ital">CA</hi> is odd. [ <ref xml:id="ee-b9-Rd1e8878" target="elem.7.def.7">VII. Def. 7</ref> ] Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.28" n="28">
+            <head xml:id="ee-b9-Hd1e8885">PROPOSITION 28.</head>
+            <p xml:id="ee-b9-d1e8888">
+              <hi rend="ital"> If an odd number by multiplying an even number make some number, the
+                product will be even. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e8894"> For let the odd number <hi rend="ital">A</hi> by multiplying the even number <hi rend="ital">B</hi> make <hi rend="ital">C</hi> ; I say that <hi rend="ital">C</hi>
+              is even. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e8911"> For, since <hi rend="ital">A</hi> by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">C</hi> , therefore <hi rend="ital">C</hi> is made up of as many numbers
+              equal to <hi rend="ital">B</hi> as there are units in <hi rend="ital">A</hi> . [ <ref xml:id="ee-b9-Rd1e8932" target="elem.7.def.15">VII. Def. 15</ref> ] </p>
+            <p xml:id="ee-b9-d1e8936"> And <hi rend="ital">B</hi> is even; therefore <hi rend="ital">C</hi> is made up of
+              even numbers. </p>
+            <p xml:id="ee-b9-d1e8946"> But, if as many even numbers as we please be added together, the whole is even. [
+                <ref xml:id="ee-b9-Rd1e8948" target="elem.9.21">IX. 21</ref> ] </p>
+            <p xml:id="ee-b9-d1e8952"> Therefore <hi rend="ital">C</hi> is even. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.29" n="29">
+            <head xml:id="ee-b9-Hd1e8962">PROPOSITION 29.</head>
+            <p xml:id="ee-b9-d1e8965">
+              <hi rend="ital"> If an odd number by multiplying an odd number make some number, the
+                product will be odd. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e8971"> For let the odd number <hi rend="ital">A</hi> by multiplying the odd number <hi rend="ital">B</hi> make <hi rend="ital">C</hi> ; I say that <hi rend="ital">C</hi>
+              is odd. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e8988"> For, since <hi rend="ital">A</hi> by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">C</hi> ,  therefore <hi rend="ital">C</hi> is made up of as
+              many numbers equal to <hi rend="ital">B</hi> as there are units in <hi rend="ital">A</hi> . [ <ref xml:id="ee-b9-Rd1e9009" target="elem.7.def.15">VII. Def. 15</ref> ] </p>
+            <p xml:id="ee-b9-d1e9013"> And each of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> is odd;
+              therefore <hi rend="ital">C</hi> is made up of odd numbers the multitude of which is
+              odd. </p>
+            <p xml:id="ee-b9-d1e9026"> Thus <hi rend="ital">C</hi> is odd. [ <ref xml:id="ee-b9-Rd1e9031" target="elem.9.23">IX.
+                23</ref> ] Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.30" n="30">
+            <head xml:id="ee-b9-Hd1e9038">PROPOSITION 30.</head>
+            <p xml:id="ee-b9-d1e9041">
+              <hi rend="ital"> If an odd number measure an even number, it will also measure the
+                half of it. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e9047"> For let the odd number <hi rend="ital">A</hi> measure the even number <hi rend="ital">B</hi> ; I say that it will also measure the half of it. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e9058"> For, since <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> , let it measure
+              it according to <hi rend="ital">C</hi> ; I say that <hi rend="ital">C</hi> is not odd. </p>
+            <p xml:id="ee-b9-d1e9073">For, if possible, let it be so.</p>
+            <p xml:id="ee-b9-d1e9077"> Then, since <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> according to <hi rend="ital">C</hi> , therefore <hi rend="ital">A</hi> by multiplying <hi rend="ital">C</hi> has made <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e9099"> Therefore <hi rend="ital">B</hi> is made up of odd numbers the multitude of which is
+              odd. </p>
+            <p xml:id="ee-b9-d1e9105"> Therefore <hi rend="ital">B</hi> is odd: [ <ref xml:id="ee-b9-Rd1e9110" target="elem.9.23">IX.
+                23</ref> ] which is absurd, for by hypothesis it is even. </p>
+            <p xml:id="ee-b9-d1e9114"> Therefore <hi rend="ital">C</hi> is not odd; therefore <hi rend="ital">C</hi> is
+              even. </p>
+            <p xml:id="ee-b9-d1e9123"> Thus <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> an even number of times. </p>
+            <p xml:id="ee-b9-d1e9132"> For this reason then it also measures the half of it. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.31" n="31">
+            <head xml:id="ee-b9-Hd1e9138">PROPOSITION 31.</head>
+            <p xml:id="ee-b9-d1e9141">
+              <hi rend="ital"> If an odd number be prime to any number, it will also be prime to the
+                double of it. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e9147"> For let the odd number <hi rend="ital">A</hi> be prime to any number <hi rend="ital">B</hi> , and let <hi rend="ital">C</hi> be double of <hi rend="ital">B</hi> ; I say
+              that <hi rend="ital">A</hi> is prime to <hi rend="ital">C</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e9171"> For, if they are not prime to one another, some number will measure them. 
+            </p>
+            <p xml:id="ee-b9-d1e9174"> Let a number measure them, and let it be <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e9181"> Now <hi rend="ital">A</hi> is odd; therefore <hi rend="ital">D</hi> is also odd. </p>
+            <p xml:id="ee-b9-d1e9190"> And since <hi rend="ital">D</hi> which is odd measures <hi rend="ital">C</hi> , and
+                <hi rend="ital">C</hi> is even, therefore [ <hi rend="ital">D</hi> ] will measure
+              the half of <hi rend="ital">C</hi> also. [ <ref xml:id="ee-b9-Rd1e9208" target="elem.9.30">IX.
+                30</ref> ] </p>
+            <p xml:id="ee-b9-d1e9212"> But <hi rend="ital">B</hi> is half of <hi rend="ital">C</hi> ; therefore <hi rend="ital">D</hi> measures <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e9227"> But it also measures <hi rend="ital">A</hi> ; therefore <hi rend="ital">D</hi>
+              measures <hi rend="ital">A</hi> , <hi rend="ital">B</hi> which are prime to one
+              another: which is impossible. </p>
+            <p xml:id="ee-b9-d1e9242"> Therefore <hi rend="ital">A</hi> cannot but be prime to <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e9251"> Therefore <hi rend="ital">A</hi> , <hi rend="ital">C</hi> are prime to one another.
+              Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.32" n="32">
+            <head xml:id="ee-b9-Hd1e9263">PROPOSITION 32.</head>
+            <p xml:id="ee-b9-d1e9266">
+              <hi rend="ital"> Each of the numbers which are continually doubled beginning from a
+                dyad is even-times even only. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e9272"> For let as many numbers as we please, <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , have been continually doubled beginning from the
+              dyad <hi rend="ital">A</hi> ; I say that <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are eventimes even only. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e9299"> Now that each of the numbers <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> is even-times even is manifest; for it is doubled from a dyad. </p>
+            <p xml:id="ee-b9-d1e9311">I say that it is also even-times even only.</p>
+            <p xml:id="ee-b9-d1e9315">For let an unit be set out.</p>
+            <p xml:id="ee-b9-d1e9318"> Since then as many numbers as we please beginning from an unit are in continued
+              proportion, and the number <hi rend="ital">A</hi> after the unit is prime, therefore
+                <hi rend="ital">D</hi> , the greatest of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , will not be
+              measured by any other number except <hi rend="ital">A</hi> , <hi rend="ital">B</hi> ,
+                <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e9348" target="elem.9.13">IX. 13</ref> ] </p>
+            <p xml:id="ee-b9-d1e9352"> And each of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> is even; therefore <hi rend="ital">D</hi> is even-times even
+              only. [ <ref xml:id="ee-b9-Rd1e9366" target="elem.7.def.8">VII. Def. 8</ref> ] </p>
+            <p xml:id="ee-b9-d1e9370"> Similarly we can prove that each of the numbers <hi rend="ital">B</hi> , <hi rend="ital">C</hi> is even-times even only. Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.9.33" n="33">
+            <head xml:id="ee-b9-Hd1e9382">PROPOSITION 33.</head>
+            <p xml:id="ee-b9-d1e9385">
+              <hi rend="ital"> If a number have its half odd, it is even-times odd only. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e9391"> For let the number <hi rend="ital">A</hi> have its half odd; I say that <hi rend="ital">A</hi> is even-times odd only. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e9402"> Now that it is even-times odd is manifest; for the half of it, being odd, measures
+              it an even number of times. [ <ref xml:id="ee-b9-Rd1e9404" target="elem.7.def.9">VII. Def.
+                9</ref> ] </p>
+            <p xml:id="ee-b9-d1e9408">I say next that it is also even-times odd only.</p>
+            <p xml:id="ee-b9-d1e9412"> For, if <hi rend="ital">A</hi> is even-times even also, it will be measured by an
+              even number according to an even number; [ <ref xml:id="ee-b9-Rd1e9417" target="elem.7.def.8">VII. Def. 8</ref> ] so that the half of it will also be measured by an even number
+              though it is odd: which is absurd. </p>
+            <p xml:id="ee-b9-d1e9421"> Therefore <hi rend="ital">A</hi> is even-times odd only. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.9.34" n="34">
+            <head xml:id="ee-b9-Hd1e9430">PROPOSITION 34.</head>
+            <p xml:id="ee-b9-d1e9433">
+              <hi rend="ital"> If a number neither be one of those which are continually doubled
+                from a dyad, nor have its half odd, it is both eventimes even and even-times odd
+              </hi> . </p>
+            <p xml:id="ee-b9-d1e9439"> For let the number <hi rend="ital">A</hi> neither be one of those doubled from a
+              dyad, nor have its half odd; I say that <hi rend="ital">A</hi> is both even-times even
+              and even-times odd. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e9450"> Now that <hi rend="ital">A</hi> is even-times even is manifest; for it has not its
+              half odd. [ <ref xml:id="ee-b9-Rd1e9455" target="elem.7.def.8">VII. Def. 8</ref> ] </p>
+            <p xml:id="ee-b9-d1e9459">I say next that it is also even-times odd.</p>
+            <p xml:id="ee-b9-d1e9463"> For, if we bisect <hi rend="ital">A</hi> , then bisect its half, and do this
+              continually, we shall come upon some odd number which will measure <hi rend="ital">A</hi> according to an even number. </p>
+            <p xml:id="ee-b9-d1e9472"> For, if not, we shall come upon a dyad, and <hi rend="ital">A</hi> will be among
+              those which are doubled from a dyad: which is contrary to the hypothesis. 
+            </p>
+            <p xml:id="ee-b9-d1e9478"> Thus <hi rend="ital">A</hi> is even-times odd. </p>
+            <p xml:id="ee-b9-d1e9484">But it was also proved even-times even.</p>
+            <p xml:id="ee-b9-d1e9487"> Therefore <hi rend="ital">A</hi> is both even-times even and even-times odd. Q. E.
+              D. </p>
+          </div>
+          <div xml:id="elem.9.35" n="35">
+            <head xml:id="ee-b9-Hd1e9497">PROPOSITION 35.</head>
+            <p xml:id="ee-b9-d1e9500">
+              <hi rend="ital"> If as many numbers as we please be in continued proportion, and there
+                be subtracted from the second and the last numbers equal to the first, then, as the
+                excess of the second is to the first, so will the excess of the last be to all those
+                before it. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e9506"> Let there be as many numbers as we please in continued proportion, <hi rend="ital">A</hi> , <hi rend="ital">BC</hi> , <hi rend="ital">D</hi> , <hi rend="ital">EF</hi>
+              , beginning from <hi rend="ital">A</hi> as least, and let there be subtracted from <hi rend="ital">BC</hi> and <hi rend="ital">EF</hi> the numbers <hi rend="ital">BG</hi>
+              , <hi rend="ital">FH</hi> , each equal to <hi rend="ital">A</hi> ; I say that, as <hi rend="ital">GC</hi> is to <hi rend="ital">A</hi> , so is <hi rend="ital">EH</hi> to
+                <hi rend="ital">A</hi> , <hi rend="ital">BC</hi> , <hi rend="ital">D</hi> .
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e9561"> For let <hi rend="ital">FK</hi> be made equal to <hi rend="ital">BC</hi> , and <hi rend="ital">FL</hi> equal to <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e9576"> Then, since <hi rend="ital">FK</hi> is equal to <hi rend="ital">BC</hi> , and of
+              these the part <hi rend="ital">FH</hi> is equal to the part <hi rend="ital">BG</hi> ,
+              therefore the remainder <hi rend="ital">HK</hi> is equal to the remainder <hi rend="ital">GC</hi> . </p>
+            <p xml:id="ee-b9-d1e9599"> And since, as <hi rend="ital">EF</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">BC</hi> , and <hi rend="ital">BC</hi> to <hi rend="ital">A</hi> , while <hi rend="ital">D</hi> is equal to <hi rend="ital">FL</hi> , <hi rend="ital">BC</hi> to <hi rend="ital">FK</hi> , and <hi rend="ital">A</hi> to <hi rend="ital">FH</hi> , therefore, as <hi rend="ital">EF</hi> is to <hi rend="ital">FL</hi> , so is <hi rend="ital">LF</hi> to <hi rend="ital">FK</hi> , and
+                <hi rend="ital">FK</hi> to <hi rend="ital">FH</hi> . </p>
+            <p xml:id="ee-b9-d1e9659">
+              <foreign xml:lang="la">Separando</foreign> , as <hi rend="ital">EL</hi> is to <hi rend="ital">LF</hi> , so is <hi rend="ital">LK</hi> to <hi rend="ital">FK</hi> , and
+                <hi rend="ital">KH</hi> to <hi rend="ital">FH</hi> . [ <ref xml:id="ee-b9-Rd1e9683" target="elem.7.11 elem.7.13">VII. 11, 13</ref> ] </p>
+            <p xml:id="ee-b9-d1e9687"> Therefore also, as one of the antecedents is to one of the consequents, so are all
+              the antecedents to all the consequents; [ <ref xml:id="ee-b9-Rd1e9689" target="elem.7.12">VII.
+                12</ref> ] therefore, as <hi rend="ital">KH</hi> is to <hi rend="ital">FH</hi> , so
+              are <hi rend="ital">EL</hi> , <hi rend="ital">LK</hi> . <hi rend="ital">KH</hi> to <hi rend="ital">LF</hi> , <hi rend="ital">FK</hi> , <hi rend="ital">HF</hi> . </p>
+            <p xml:id="ee-b9-d1e9718"> But <hi rend="ital">KH</hi> is equal to <hi rend="ital">CG</hi> , <hi rend="ital">FH</hi> to <hi rend="ital">A</hi> , and <hi rend="ital">LF</hi> , <hi rend="ital">FK</hi> , <hi rend="ital">HF</hi> to <hi rend="ital">D</hi> , <hi rend="ital">BC</hi> , <hi rend="ital">A</hi> ; therefore, as <hi rend="ital">CG</hi> is to <hi rend="ital">A</hi> , so is <hi rend="ital">EH</hi> to <hi rend="ital">D</hi> , <hi rend="ital">BC</hi> , <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e9771"> Therefore, as the excess of the second is to the first, so is the excess of the last
+              to all those before it. Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.9.36" n="36">
+            <head xml:id="ee-b9-Hd1e9777">PROPOSITION 36.</head>
+            <p xml:id="ee-b9-d1e9780">
+              <hi rend="ital"> If as many numbers as we please beginning from an unit be set out
+                continuously in double proportion, until the sum of all becomes prime, and if the
+                sum multiplied into the last make some number, the product will be perfect. </hi>
+            </p>
+            <p xml:id="ee-b9-d1e9786"> For let as many numbers as we please, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , beginning from an unit
+              be set out in double proportion, until the sum of all becomes prime, let <hi rend="ital">E</hi> be equal to the sum, and let <hi rend="ital">E</hi> by
+              multiplying <hi rend="ital">D</hi> make <hi rend="ital">FG</hi> ; I say that <hi rend="ital">FG</hi> is perfect. </p>
+            <p xml:id="ee-b9-d1e9817"> For, however many <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are in multitude, let so many <hi rend="ital">E</hi> , <hi rend="ital">HK</hi> , <hi rend="ital">L</hi> , <hi rend="ital">M</hi>
+              be taken in double proportion beginning from <hi rend="ital">E</hi> ; therefore,
+                <foreign xml:lang="la">ex aequali</foreign> , as <hi rend="ital">A</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">M</hi> . [ <ref xml:id="ee-b9-Rd1e9863" target="elem.7.14">VII. 14</ref> ] 
+            </p>
+            <p xml:id="ee-b9-d1e9867"> Therefore the product of <hi rend="ital">E</hi> , <hi rend="ital">D</hi> is equal to
+              the product of <hi rend="ital">A</hi> , <hi rend="ital">M</hi> . [ <ref xml:id="ee-b9-Rd1e9881" target="elem.7.19">VII. 19</ref> ] </p>
+            <p xml:id="ee-b9-d1e9886"> And the product of <hi rend="ital">E</hi> , <hi rend="ital">D</hi> is <hi rend="ital">FG</hi> ; therefore the product of <hi rend="ital">A</hi> , <hi rend="ital">M</hi> is also <hi rend="ital">FG</hi> . </p>
+            <p xml:id="ee-b9-d1e9908"> Therefore <hi rend="ital">A</hi> by multiplying <hi rend="ital">M</hi> has made <hi rend="ital">FG</hi> ; therefore <hi rend="ital">M</hi> measures <hi rend="ital">FG</hi> according to the units in <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b9-d1e9930"> And <hi rend="ital">A</hi> is a dyad; therefore <hi rend="ital">FG</hi> is double of
+                <hi rend="ital">M</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b9-d1e9944"> But <hi rend="ital">M</hi> , <hi rend="ital">L</hi> , <hi rend="ital">HK</hi> , <hi rend="ital">E</hi> are continuously double of each other; therefore <hi rend="ital">E</hi> , <hi rend="ital">HK</hi> , <hi rend="ital">L</hi> , <hi rend="ital">M</hi>
+              , <hi rend="ital">FG</hi> are continuously proportional in double proportion. </p>
+            <p xml:id="ee-b9-d1e9975"> Now let there be subtracted from the second <hi rend="ital">HK</hi> and the last <hi rend="ital">FG</hi> the numbers <hi rend="ital">HN</hi> , <hi rend="ital">FO</hi> ,
+              each equal to the first <hi rend="ital">E</hi> ; therefore, as the excess of the
+              second is to the first, so is the excess of the last to all those before it. [ <ref xml:id="ee-b9-Rd1e9993" target="elem.9.35">IX. 35</ref> ] </p>
+            <p xml:id="ee-b9-d1e9997"> Therefore, as <hi rend="ital">NK</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">OG</hi> to <hi rend="ital">M</hi> , <hi rend="ital">L</hi> , <hi rend="ital">KH</hi> , <hi rend="ital">E</hi> . </p>
+            <p xml:id="ee-b9-d1e10023"> And <hi rend="ital">NK</hi> is equal to <hi rend="ital">E</hi> ; therefore <hi rend="ital">OG</hi> is also equal to <hi rend="ital">M</hi> , <hi rend="ital">L</hi>
+              , <hi rend="ital">HK</hi> , <hi rend="ital">E</hi> . </p>
+            <p xml:id="ee-b9-d1e10048"> But <hi rend="ital">FO</hi> is also equal to <hi rend="ital">E</hi> , and <hi rend="ital">E</hi> is equal to <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> and the unit. </p>
+            <p xml:id="ee-b9-d1e10073"> Therefore the whole <hi rend="ital">FG</hi> is equal to <hi rend="ital">E</hi> , <hi rend="ital">HK</hi> , <hi rend="ital">L</hi> , <hi rend="ital">M</hi> and <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> and the unit; and it is measured by them. </p>
+            <p xml:id="ee-b9-d1e10104"> I say also that <hi rend="ital">FG</hi> will not be measured by any other number
+              except <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , <hi rend="ital">HK</hi> , <hi rend="ital">L</hi> , <hi rend="ital">M</hi> and the unit. </p>
+            <p xml:id="ee-b9-d1e10135"> For, if possible, let some number <hi rend="ital">P</hi> measure <hi rend="ital">FG</hi> , and let <hi rend="ital">P</hi> not be the same with any of the numbers
+                <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , <hi rend="ital">HK</hi> , <hi rend="ital">L</hi> , <hi rend="ital">M</hi> . </p>
+            <p xml:id="ee-b9-d1e10172"> And, as many times as <hi rend="ital">P</hi> measures <hi rend="ital">FG</hi> , so
+              many units let there be in <hi rend="ital">Q</hi> ; therefore <hi rend="ital">Q</hi>
+              by multiplying <hi rend="ital">P</hi> has made <hi rend="ital">FG</hi> . 
+            </p>
+            <p xml:id="ee-b9-d1e10195"> But, further, <hi rend="ital">E</hi> has also by multiplying <hi rend="ital">D</hi>
+              made <hi rend="ital">FG</hi> ; therefore, as <hi rend="ital">E</hi> is to <hi rend="ital">Q</hi> , so is <hi rend="ital">P</hi> to <hi rend="ital">D</hi> . [ <ref xml:id="ee-b9-Rd1e10219" target="elem.7.19">VII. 19</ref> ] </p>
+            <p xml:id="ee-b9-d1e10223"> And, since <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi>
+              , <hi rend="ital">D</hi> are continuously proportional beginning from an unit,
+              therefore <hi rend="ital">D</hi> will not be measured by any other number except <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . [ <ref xml:id="ee-b9-Rd1e10250" target="elem.9.13">IX. 13</ref> ] </p>
+            <p xml:id="ee-b9-d1e10254"> And, by hypothesis, <hi rend="ital">P</hi> is not the same with any of the numbers
+                <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> ; therefore
+                <hi rend="ital">P</hi> will not measure <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e10276"> But, as <hi rend="ital">P</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">Q</hi> ; therefore neither does <hi rend="ital">E</hi>
+              measure <hi rend="ital">Q</hi> . [ <ref xml:id="ee-b9-Rd1e10297" target="elem.7.def.20">VII. Def.
+                20</ref> ] </p>
+            <p xml:id="ee-b9-d1e10301"> And <hi rend="ital">E</hi> is prime; and any prime number is prime to any number
+              which it does not measure. [ <ref xml:id="ee-b9-Rd1e10306" target="elem.7.29">VII. 29</ref> ] </p>
+            <p xml:id="ee-b9-d1e10310"> Therefore <hi rend="ital">E</hi> , <hi rend="ital">Q</hi> are prime to one another. </p>
+            <p xml:id="ee-b9-d1e10320"> But primes are also least, [ <ref xml:id="ee-b9-Rd1e10322" target="elem.7.21">VII. 21</ref> ]
+              and the least numbers measure those which have the same ratio the same number of
+              times, the antecedent the antecedent and the consequent the consequent; [ <ref xml:id="ee-b9-Rd1e10325" target="elem.7.20">VII. 20</ref> ] and, as <hi rend="ital">E</hi> is
+              to <hi rend="ital">Q</hi> , so is <hi rend="ital">P</hi> to <hi rend="ital">D</hi> ;
+              therefore <hi rend="ital">E</hi> measures <hi rend="ital">P</hi> the same number of
+              times that <hi rend="ital">Q</hi> measures <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b9-d1e10354"> But <hi rend="ital">D</hi> is not measured by any other number except <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> ; therefore <hi rend="ital">Q</hi> is the same with one of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b9-d1e10382"> Let it be the same with <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b9-d1e10388"> And, however many <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are in multitude, let so many <hi rend="ital">E</hi> , <hi rend="ital">HK</hi> , <hi rend="ital">L</hi> be taken beginning from <hi rend="ital">E</hi> . </p>
+            <p xml:id="ee-b9-d1e10413"> Now <hi rend="ital">E</hi> , <hi rend="ital">HK</hi> , <hi rend="ital">L</hi> are in
+              the same ratio with <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> ; therefore, <foreign xml:lang="la">ex aequali</foreign> , as <hi rend="ital">B</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">L</hi> . [ <ref xml:id="ee-b9-Rd1e10450" target="elem.7.14">VII. 14</ref> ] </p>
+            <p xml:id="ee-b9-d1e10454"> Therefore the product of <hi rend="ital">B</hi> , <hi rend="ital">L</hi> is equal to
+              the product of <hi rend="ital">D</hi> , <hi rend="ital">E</hi> . [ <ref xml:id="ee-b9-Rd1e10468" target="elem.7.19">VII. 19</ref> ] </p>
+            <p xml:id="ee-b9-d1e10473"> But the product of <hi rend="ital">D</hi> , <hi rend="ital">E</hi> is equal to the
+              product of <hi rend="ital">Q</hi> , <hi rend="ital">P</hi> ; therefore the product of
+                <hi rend="ital">Q</hi> , <hi rend="ital">P</hi> is also equal to the product of <hi rend="ital">B</hi> , <hi rend="ital">L</hi> . </p>
+            <p xml:id="ee-b9-d1e10501"> Therefore, as <hi rend="ital">Q</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">L</hi> to <hi rend="ital">P</hi> . [ <ref xml:id="ee-b9-Rd1e10515" target="elem.7.19">VII. 19</ref> ] </p>
+            <p xml:id="ee-b9-d1e10519"> And <hi rend="ital">Q</hi> is the same with <hi rend="ital">B</hi> ; therefore <hi rend="ital">L</hi> is also the same with <hi rend="ital">P</hi> ; 
+              which is impossible, for by hypothesis <hi rend="ital">P</hi> is not the same with any
+              of the numbers set out. </p>
+            <p xml:id="ee-b9-d1e10537"> Therefore no number will measure <hi rend="ital">FG</hi> except <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> ,
+                <hi rend="ital">E</hi> , <hi rend="ital">HK</hi> , <hi rend="ital">L</hi> , <hi rend="ital">M</hi> and the unit. </p>
+            <p xml:id="ee-b9-d1e10568"> And <hi rend="ital">FG</hi> was proved equal to <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , <hi rend="ital">HK</hi> , <hi rend="ital">L</hi> , <hi rend="ital">M</hi> and the unit; and a perfect number is that which is equal to its
+              own parts; [ <ref xml:id="ee-b9-Rd1e10598" target="elem.7.def.22">VII. Def. 22</ref> ] therefore
+                <hi rend="ital">FG</hi> is perfect. Q. E. D. </p>
+          </div>
+        </div>
+      </div>
+
+    </body>
+  </text>
+</TEI>

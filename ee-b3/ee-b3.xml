@@ -1,0 +1,1664 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elements, Book 3</title>
+        <author>Euclid</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Elements, Book 3</title>
+          <date when="2014-03-19">March 03, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="X" n="xxx"/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-03-19" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#X" n="X"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ee-b3">
+        <head xml:id="ee-b3-Hd1e3717">BOOK III.</head>
+        <div xml:id="ee-b3-Dd1e3720">
+          <head xml:id="ee-b3-Hd1e3722">DEFINITIONS.</head>
+          <div xml:id="elem.3.def.1" n="1">
+            <head xml:id="ee-b3-Hd1e3727">1</head>
+            <p xml:id="ee-b3-d1e3730">
+              <hi rend="bold">Equal circles</hi> are those the diameters of which are equal, or the
+              radii of which are equal. </p>
+          </div>
+          <div xml:id="elem.3.def.2" n="2">
+            <head xml:id="ee-b3-Hd1e3739">2</head>
+            <p xml:id="ee-b3-d1e3742"> A straight line is said to <hi rend="bold">touch a circle</hi> which, meeting the
+              circle and being produced, does not cut the circle. </p>
+          </div>
+          <div xml:id="elem.3.def.3" n="3">
+            <head xml:id="ee-b3-Hd1e3751">3</head>
+            <p xml:id="ee-b3-d1e3754">
+              <hi rend="bold">Circles</hi> are said to <hi rend="bold">touch one another</hi> which,
+              meeting one another, do not cut one another. </p>
+          </div>
+          <div xml:id="elem.3.def.4" n="4">
+            <head xml:id="ee-b3-Hd1e3766">4</head>
+            <p xml:id="ee-b3-d1e3769"> In a circle straight lines are said <hi rend="bold">to be equally distant from the
+                centre</hi> when the perpendiculars drawn to them from the centre are equal. </p>
+          </div>
+          <div xml:id="elem.3.def.5" n="5">
+            <head xml:id="ee-b3-Hd1e3779">5</head>
+            <p xml:id="ee-b3-d1e3782"> And that straight line is said to be <hi rend="bold">at a greater distance</hi> on
+              which the greater perpendicular falls. </p>
+          </div>
+          <div xml:id="elem.3.def.6" n="6">
+            <head xml:id="ee-b3-Hd1e3791">6</head>
+            <p xml:id="ee-b3-d1e3794"> A <hi rend="bold">segment of a circle</hi> is the figure contained by a straight
+              line and a circumference of a circle. </p>
+          </div>
+          <div xml:id="elem.3.def.7" n="7">
+            <head xml:id="ee-b3-Hd1e3803">7</head>
+            <p xml:id="ee-b3-d1e3806"> An <hi rend="bold">angle of a segment</hi> is that contained by a straight line and
+              a circumference of a circle. </p>
+          </div>
+          <div xml:id="elem.3.def.8" n="8">
+            <head xml:id="ee-b3-Hd1e3815">8</head>
+            <p xml:id="ee-b3-d1e3818"> An <hi rend="bold">angle in a segment</hi> is the angle which, when a point is taken
+              on the circumference of the segment and straight lines are joined from it to the
+              extremities of the straight line which is the <hi rend="bold">base of the segment</hi>
+              , is contained by the straight lines so joined. </p>
+          </div>
+          <div xml:id="elem.3.def.9" n="9">
+            <head xml:id="ee-b3-Hd1e3830">9</head>
+            <p xml:id="ee-b3-d1e3833"> And, when the straight lines containing the angle cut off a circumference, the angle
+              is said to <hi rend="bold">stand upon</hi> that circumference. </p>
+          </div>
+          <div xml:id="elem.3.def.10" n="10">
+            <head xml:id="ee-b3-Hd1e3842">10</head>
+            
+            <p xml:id="ee-b3-d1e3845"> A sector of a circle is the figure which, when an angle is constructed at the centre
+              of the circle, is contained by the straight lines containing the angle and the
+              circumference cut off by them. </p>
+          </div>
+          <div xml:id="elem.3.def.11" n="11">
+            <head xml:id="ee-b3-Hd1e3852">11</head>
+            <p xml:id="ee-b3-d1e3855">
+              <hi rend="bold">Similar segments of circles</hi> are those which admit equal angles,
+              or in which the angles are equal to one another. </p>
+          </div>
+        </div>
+        <div xml:id="ee-b3-Dd1e3863" n="Prop" type="type" org="uniform" sample="complete">
+          
+          <head xml:id="ee-b3-Hd1e3865">BOOK III. PROPOSITIONS.</head>
+          <div xml:id="elem.3.1" n="1">
+            <head xml:id="ee-b3-Hd1e3870">PROPOSITION 1.</head>
+            <p xml:id="ee-b3-d1e3873">
+              <emph>To find the centre of a given circle</emph> . </p>
+            <p xml:id="ee-b3-d1e3879"> Let <emph>ABC</emph> be the given circle; thus it is required to find the centre of
+              the circle <emph>ABC</emph> . </p>
+            <p xml:id="ee-b3-d1e3888"> Let a straight line <emph>AB</emph> be drawn  through it at random, and
+              let it be bisected at the point <emph>D</emph> ; from <emph>D</emph> let
+                <emph>DC</emph> be drawn at right angles to <emph>AB</emph> and let it be drawn
+              through to <emph>E</emph> ; let <emph>CE</emph> be bisected at <emph>F</emph> ;  I say that <emph>F</emph> is the centre of the circle <emph>ABC</emph> .
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e3924"> For suppose it is not, but, if possible, let <emph>G</emph> be the centre, and let
+                <emph>GA</emph> , <emph>GD</emph> , <emph>GB</emph> be joined. 
+            </p>
+            <p xml:id="ee-b3-d1e3940"> Then, since <emph>AD</emph> is equal to <emph>DB</emph> , and <emph>DG</emph> is
+              common, <hi rend="center"> the two sides <emph>AD</emph> , <emph>DG</emph> are equal
+                to the two sides <emph>BD</emph> , <emph>DG</emph> respectively; </hi> and the base
+                <emph>GA</emph> is equal to the base <emph>GB</emph> , for they are 
+              radii; <hi rend="center"> therefore the angle <emph>ADG</emph> is equal to the angle
+                  <emph>GDB</emph> . [ <ref xml:id="ee-b3-Rd1e3981" target="http://scta.info/resource/elem.1.8">I. 8</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e3986"> But, when a straight line set up on a straight line makes the adjacent angles equal
+              to one another, each of the equal angles is right; [ <ref xml:id="ee-b3-Rd1e3988" target="http://scta.info/resource/elem.1.def.10">I. Def. 10</ref> ] 
+              <hi rend="center"> therefore the angle <emph>GDB</emph> is right. </hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e3998"> But the angle <emph>FDB</emph> is also right; therefore the angle <emph>FDB</emph>
+              is equal to the angle <emph>GDB</emph> , the greater to the less: which is impossible.
+                <hi rend="center"> Therefore <emph>G</emph> is not the centre of the circle
+                  <emph>ABC</emph> . </hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e4019"> Similarly we can prove that neither is any other point except <emph>F</emph> . <hi rend="center"> Therefore the point <emph>F</emph> is the centre of the circle
+                  <emph>ABC</emph> . </hi>
+            </p>
+            <div xml:id="elem.3.1.p.1" type="porism" org="uniform" sample="complete">
+              <head xml:id="ee-b3-Hd1e4036">PORISM.</head>
+              <p xml:id="ee-b3-d1e4039"> From this it is manifest that, if in a circle a straight line cut a straight line
+                into two equal parts and at  right angles, the centre of the circle is
+                on the cutting straight line. Q. E. F. </p>
+            </div>
+            
+            
+          </div>
+          <div xml:id="elem.3.2" n="2">
+            <head xml:id="ee-b3-Hd1e4046">PROPOSITION 2.</head>
+            <p xml:id="ee-b3-d1e4049">
+              <emph> If on the circumference of a circle two points be taken at random </emph> ,
+                <emph> the straight line joining the points will fall within the circle </emph> . </p>
+            <p xml:id="ee-b3-d1e4058"> Let <emph>ABC</emph> be a circle, and let two points <emph>A</emph> , <emph>B</emph>
+              be taken at random on its circumference; I say that the straight line joined from
+                <emph>A</emph> to <emph>B</emph> will fall within the circle. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e4078"> For suppose it does not, but, if possible, let it fall outside, as <emph>AEB</emph>
+              ; let the centre of the circle <emph>ABC</emph> be taken [ <ref xml:id="ee-b3-Rd1e4086" target="http://scta.info/resource/elem.3.1">III. 1</ref> ], and let it be <emph>D</emph> ; let <emph>DA</emph> ,
+                <emph>DB</emph> be joined, and let <emph>DFE</emph> be drawn through. 
+            </p>
+            <p xml:id="ee-b3-d1e4103"> Then, since <emph>DA</emph> is equal to <emph>DB</emph> , <hi rend="center"> the
+                angle <emph>DAE</emph> is also equal to the angle <emph>DBE</emph> . [ <ref xml:id="ee-b3-Rd1e4119" target="http://scta.info/resource/elem.1.5">I. 5</ref> ] </hi> And, since one side
+                <emph>AEB</emph> of the triangle <emph>DAE</emph> is produced, <hi rend="center">
+                the angle <emph>DEB</emph> is greater than the angle <emph>DAE</emph> . [ <ref xml:id="ee-b3-Rd1e4138" target="http://scta.info/resource/elem.1.16">I. 16</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4144"> But the angle <emph>DAE</emph> is equal to the angle <emph>DBE</emph> ; <hi rend="center"> therefore the angle <emph>DEB</emph> is greater than the angle
+                  <emph>DBE</emph> . </hi> And the greater angle is subtended by the greater side; [
+                <ref xml:id="ee-b3-Rd1e4161" target="http://scta.info/resource/elem.1.19">I. 19</ref> ] <hi rend="center"> therefore
+                  <emph>DB</emph> is greater than <emph>DE</emph> . But <emph>DB</emph> is equal to
+                  <emph>DF</emph> ; </hi>
+              <hi rend="center"> therefore <emph>DF</emph> is greater than <emph>DE</emph> , </hi>
+              <hi rend="center">the less than the greater : which is impossible.</hi>
+            </p>
+            <p xml:id="ee-b3-d1e4193"> Therefore the straight line joined from <emph>A</emph> to <emph>B</emph> will not
+              fall outside the circle. </p>
+            <p xml:id="ee-b3-d1e4202"> Similarly we can prove that neither will it fall on the circumference itself; <hi rend="center">therefore it will fall within.</hi>
+            </p>
+            <p xml:id="ee-b3-d1e4208">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.3" n="3">
+            <head xml:id="ee-b3-Hd1e4214">PROPOSITION 3.</head>
+            <p xml:id="ee-b3-d1e4217">
+              <emph> If in a circle a straight line through the centre bisect a straight line not
+                through the centre </emph> , <emph> it also cuts it at right angles; and if it cut
+                it at right angles </emph> , <emph>it also bisects it</emph> . </p>
+            <p xml:id="ee-b3-d1e4229"> Let <emph>ABC</emph> be a circle, and in it let a straight line <emph>CD</emph>
+               through the centre bisect a straight line <emph>AB</emph> not through the
+              centre at the point <emph>F</emph> ; <!-- <figure/> --> I say that it also cuts it at right
+              angles. </p>
+            <p xml:id="ee-b3-d1e4246"> For let the centre of the circle <emph>ABC</emph>
+               be taken, and let it be <emph>E</emph> ; let <emph>EA</emph> ,
+                <emph>EB</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e4261"> Then, since <emph>AF</emph> is equal to <emph>FB</emph> , and <emph>FE</emph> is
+              common, <hi rend="center">two sides are equal to two sides;</hi>
+              
+              <hi rend="center"> and the base <emph>EA</emph> is equal to the base <emph>EB</emph> ;
+                therefore the angle <emph>AFE</emph> is equal to the angle <emph>BFE</emph> . [ <ref xml:id="ee-b3-Rd1e4289" target="http://scta.info/resource/elem.1.8">I. 8</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4295"> But, when a straight line set up on a straight line makes the adjacent angles equal
+              to one another, each of the equal angles is right; [ <ref xml:id="ee-b3-Rd1e4297" target="http://scta.info/resource/elem.1.def.10">I. Def. 10</ref> ] 
+              <hi rend="center"> therefore each of the angles <emph>AFE</emph> , <emph>BFE</emph> is
+                right. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4310"> Therefore <emph>CD</emph> , which is through the centre, and bisects <emph>AB</emph>
+              which is not through the centre, also cuts it at right angles. </p>
+            <p xml:id="ee-b3-d1e4319"> Again, let <emph>CD</emph> cut <emph>AB</emph> at right angles;  I say
+              that it also bisects it. that is, that <emph>AF</emph> is equal to <emph>FB</emph> .
+                
+            </p>
+            <p xml:id="ee-b3-d1e4334"> For, with the same construction, <hi rend="center"> since <emph>EA</emph> is equal
+                to <emph>EB</emph> , </hi> the angle <emph>EAF</emph> is also equal to the angle
+                <emph>EBF</emph> . [ <ref xml:id="ee-b3-Rd1e4351" target="http://scta.info/resource/elem.1.5">I. 5</ref> ] </p>
+            <p xml:id="ee-b3-d1e4355"> But the right angle <emph>AFE</emph> is equal to the right angle <emph>BFE</emph> ,
+                 therefore <emph>EAF</emph> , <emph>EBF</emph> are two triangles having
+              two angles equal to two angles and one side equal to one side, namely <emph>EF</emph>
+              , which is common to them, and subtends one of the equal angles; <hi rend="center">
+                therefore they will also have the remaining sides equal to  the
+                remaining sides; [ <ref xml:id="ee-b3-Rd1e4375" target="http://scta.info/resource/elem.1.26">I. 26</ref> ] therefore
+                  <emph>AF</emph> is equal to <emph>FB</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4386"> Therefore etc. Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.3.4" n="4">
+            <head xml:id="ee-b3-Hd1e4392">PROPOSITION 4.</head>
+            <p xml:id="ee-b3-d1e4395">
+              <emph> If in a circle two straight lines cut one another which are not through the
+                centre </emph> , <emph>they do not bisect one another</emph> . </p>
+            <p xml:id="ee-b3-d1e4404"> Let <emph>ABCD</emph> be a circle, and in it let the two straight lines
+                <emph>AC</emph> , <emph>BD</emph> , which are not through the centre, cut one
+              another at <emph>E</emph> ; <!-- <figure/> --> I say that they do not bisect one another. </p>
+            <p xml:id="ee-b3-d1e4421"> For, if possible, let them bisect one another, so that <emph>AE</emph> is equal to
+                <emph>EC</emph> , and <emph>BE</emph> to <emph>ED</emph> ; let the centre of the
+              circle <emph>ABCD</emph> be taken [ <ref xml:id="ee-b3-Rd1e4439" target="http://scta.info/resource/elem.3.1">III. 1</ref>
+              ], and let it be <emph>F</emph> ; let <emph>FE</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e4449"> Then, since a straight line <emph>FE</emph> through the centre bisects a straight
+              line <emph>AC</emph> not through the centre, <hi rend="center"> it also cuts it at
+                right angles; [ <ref xml:id="ee-b3-Rd1e4459" target="http://scta.info/resource/elem.3.3">III. 3</ref> ] therefore the
+                angle <emph>FEA</emph> is right. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4468"> Again, since a straight line <emph>FE</emph> bisects a straight line <emph>BD</emph>
+              , <hi rend="center"> it also cuts it at right angles; [ <ref xml:id="ee-b3-Rd1e4478" target="http://scta.info/resource/elem.3.3">III. 3</ref> ] therefore the angle <emph>FEB</emph> is right. </hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e4486"> But the angle <emph>FEA</emph> was also proved right; <hi rend="center"> therefore
+                the angle <emph>FEA</emph> is equal to the angle <emph>FEB</emph> , the less to the
+                greater: which is impossible. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4501"> Therefore <emph>AC</emph> , <emph>BD</emph> do not bisect one another. </p>
+            <p xml:id="ee-b3-d1e4510">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.5" n="5">
+            <head xml:id="ee-b3-Hd1e4517">PROPOSITION 5.</head>
+            <p xml:id="ee-b3-d1e4520">
+              <emph>If two circles cut one another</emph> , <emph>they will not have the same
+                centre</emph> . </p>
+            <p xml:id="ee-b3-d1e4529"> For let the circles <emph>ABC</emph> , <emph>CDG</emph> cut one another at the
+              points <emph>B</emph> , <emph>C</emph> ; I say that they will not have the same
+              centre. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e4546"> For, if possible, let it be <emph>E</emph> ; let <emph>EC</emph> be joined, and let
+                <emph>EFG</emph> be drawn through at random. </p>
+            <p xml:id="ee-b3-d1e4558"> Then, since the point <emph>E</emph> is the centre of the circle <emph>ABC</emph> ,
+                <hi rend="center">
+                <emph>EC</emph> is equal to <emph>EF</emph> . [ <ref xml:id="ee-b3-Rd1e4574" target="http://scta.info/resource/elem.1.def.15">I. Def. 15</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4580"> Again, since the point <emph>E</emph> is the centre of the circle <emph>CDG</emph> ,
+                <hi rend="center">
+                <emph>EC</emph> is equal to <emph>EG</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4598"> But <emph>EC</emph> was proved equal to <emph>EF</emph> also; <hi rend="center">
+                therefore <emph>EF</emph> is also equal to <emph>EG</emph> , the less to the greater
+                : which is impossible. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4616"> Therefore the point <emph>E</emph> is not the centre of the circles <emph>ABC</emph>
+              , <emph>CDG</emph> . </p>
+            <p xml:id="ee-b3-d1e4628">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.6" n="6">
+            
+            <head xml:id="ee-b3-Hd1e4634">PROPOSITION 6.</head>
+            <p xml:id="ee-b3-d1e4637">
+              <emph>If two circles touch one another</emph> , <emph>they will not have the same
+                centre</emph> . </p>
+            <p xml:id="ee-b3-d1e4646"> For let the two circles <emph>ABC</emph> , <emph>CDE</emph> touch one another at the
+              point <emph>C</emph> ; I say that they will not have the same centre. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e4660"> For, if possible, let it be <emph>F</emph> ; let <emph>FC</emph> be joined, and let
+                <emph>FEB</emph> be drawn through at random. </p>
+            <p xml:id="ee-b3-d1e4672"> Then, since the point <emph>F</emph> is the centre of the circle <emph>ABC</emph> ,
+                <hi rend="center">
+                <emph>FC</emph> is equal to <emph>FB</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4691"> Again, since the point <emph>F</emph> is the centre of the circle <emph>CDE</emph> ,
+                <hi rend="center">
+                <emph>FC</emph> is equal to <emph>FE</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4709"> But <emph>FC</emph> was proved equal to <emph>FB</emph> ; <hi rend="center">
+                therefore <emph>FE</emph> is also equal to <emph>FB</emph> , the less to the
+                greater: which is impossible. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4727"> Therefore <emph>F</emph> is not the centre of the circles <emph>ABC</emph> ,
+                <emph>CDE</emph> . </p>
+            <p xml:id="ee-b3-d1e4739">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.7" n="7">
+            
+            <head xml:id="ee-b3-Hd1e4745">PROPOSITION 7.</head>
+            <p xml:id="ee-b3-d1e4748">
+              <emph> If on the diameter of a circle a point be taken which is not the centre of the
+                circle </emph> , <emph> and from the point straight lines fall upon the circle
+              </emph> , <emph>that will be greatest on which the centre is</emph> , <emph>the
+                remainder of the same diameter will be least</emph> , <emph>and of the rest</emph>
+              
+              <emph> the nearer to the straight line through the centre is always greater than the
+                more remote </emph> , <emph> and only two equal straight lines will fall from the
+                point on the circle </emph> , <emph>one on each side of the least straight
+                line</emph> . </p>
+            <p xml:id="ee-b3-d1e4776"> Let <emph>ABCD</emph> be a circle, and let <emph>AD</emph> be a diameter of it;  on <emph>AD</emph> let a point <emph>F</emph> be taken which is not the
+              centre of the circle, let <emph>E</emph> be the centre of the circle, and from
+                <emph>F</emph> let straight lines <emph>FB</emph> , <emph>FC</emph> ,
+                <emph>FG</emph> fall upon the circle <emph>ABCD</emph> ; I say that <emph>FA</emph>
+              is greatest, <emph>FD</emph> is least, and of the rest <emph>FB</emph> is 
+              greater than <emph>FC</emph> , and <emph>FC</emph> than <emph>FG</emph> . </p>
+            <p xml:id="ee-b3-d1e4829"> For let <emph>BE</emph> , <emph>CE</emph> , <emph>GE</emph> be joined. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e4843"> Then, since in any triangle two sides are greater than the remaining one, [ <ref xml:id="ee-b3-Rd1e4845" target="http://scta.info/resource/elem.1.20">I. 20</ref> ] 
+              <hi rend="center">
+                <emph>EB</emph> , <emph>EF</emph> are greater than <emph>BF</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4862"> But <emph>AE</emph> is equal to <emph>BE</emph> ; <hi rend="center"> therefore
+                  <emph>AF</emph> is greater than <emph>BF</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4880"> Again, since <emph>BE</emph> is equal to <emph>CE</emph> , and <emph>FE</emph> is
+              common,  the two sides <emph>BE</emph> , <emph>EF</emph> are equal to the
+              two sides <emph>CE</emph> , <emph>EF</emph> . </p>
+            <p xml:id="ee-b3-d1e4905"> But the angle <emph>BEF</emph> is also greater than the angle <emph>CEF</emph> ;
+              therefore the base <emph>BF</emph> is greater than the base <emph>CF</emph> . [ <ref xml:id="ee-b3-Rd1e4919" target="http://scta.info/resource/elem.1.24">I. 24</ref> ] </p>
+            <p xml:id="ee-b3-d1e4923"> For the same reason <hi rend="center">
+                <emph>CF</emph> is also greater than <emph>FG</emph> . </hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e4935"> Again, since <emph>GF</emph> , <emph>FE</emph> are greater than <emph>EG</emph> ,
+              and <emph>EG</emph> is equal to <emph>ED</emph> , <hi rend="center">
+                <emph>GF</emph> , <emph>FE</emph> are greater than <emph>ED</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4966"> Let <emph>EF</emph> be subtracted from each; <hi rend="center"> therefore the
+                remainder <emph>GF</emph> is greater than the remainder 
+                <emph>FD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e4982"> Therefore <emph>FA</emph> is greatest, <emph>FD</emph> is least, and <emph>FB</emph>
+              is greater than <emph>FC</emph> , and <emph>FC</emph> than <emph>FG</emph> . 
+            </p>
+            <p xml:id="ee-b3-d1e5004"> I say also that from the point <emph>F</emph> only two equal straight lines will
+              fall on the circle <emph>ABCD</emph> , one on each side of the  least
+                <emph>FD</emph> . </p>
+            <p xml:id="ee-b3-d1e5016"> For on the straight line <emph>EF</emph> , and at the point <emph>E</emph> on it,
+              let the angle <emph>FEH</emph> be constructed equal to the angle <emph>GEF</emph> [
+                <ref xml:id="ee-b3-Rd1e5030" target="http://scta.info/resource/elem.1.23">I. 23</ref> ], and let <emph>FH</emph> be
+              joined. </p>
+            <p xml:id="ee-b3-d1e5038"> Then, since <emph>GE</emph> is equal to <emph>EH</emph> ,  and
+                <emph>EF</emph> is common, <hi rend="center"> the two sides <emph>GE</emph> ,
+                  <emph>EF</emph> are equal to the two sides <emph>HE</emph> , <emph>EF</emph> ; and
+                the angle <emph>GEF</emph> is equal to the angle <emph>HEF</emph> ; </hi>
+              <hi rend="center"> therefore the base <emph>FG</emph> is equal to the base
+                  <emph>FH</emph> . [ <ref xml:id="ee-b3-Rd1e5079" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5084"> I say again that another straight line equal to <emph>FG</emph> will not  fall on the circle from the point <emph>F</emph> . </p>
+            <p xml:id="ee-b3-d1e5093"> For, if possible, let <emph>FK</emph> so fall. </p>
+            <p xml:id="ee-b3-d1e5100"> Then, since <emph>FK</emph> is equal to <emph>FG</emph> , and <emph>FH</emph> to
+                <emph>FG</emph> , <hi rend="center">
+                <emph>FK</emph> is also equal to <emph>FH</emph> , the nearer to the straight line
+                through the centre being  thus equal to the more remote: which is
+                impossible. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5124"> Therefore another straight line equal to <emph>GF</emph> will not fall from the
+              point <emph>F</emph> upon the circle; <hi rend="center">therefore only one straight
+                line will so fall.</hi>
+            </p>
+            <p xml:id="ee-b3-d1e5136"> Therefore etc. Q. E. D. 
+              
+            </p>
+          </div>
+          <div xml:id="elem.3.8" n="8">
+            <head xml:id="ee-b3-Hd1e5142">PROPOSITION 8.</head>
+            <p xml:id="ee-b3-d1e5145">
+              <emph> If a point be taken outside a circle and from the point straight lines be drawn
+                through to the circle </emph> , <emph> one of which is through the centre and the
+                others are drawn at random </emph> , <emph>then</emph> , <emph> of the straight
+                lines which fall on the concave circumference </emph> , <emph>that through the
+                centre is greatest</emph> , <emph>while of the rest</emph>
+              
+              <emph> the nearer to that through the centre is always greater than the more remote
+              </emph> , <emph>but</emph> , <emph> of the straight lines falling on the convex
+                circumference </emph> , <emph>that between the point and the diameter is
+                least</emph> , <emph> while of the rest the nearer to the least is always less than
+                the more remote </emph> , <emph> and only two equal straight lines will fall on the
+                circle from the point </emph> , <emph>one on each side of the least</emph> . </p>
+            <p xml:id="ee-b3-d1e5189"> Let <emph>ABC</emph> be a circle, and let a point <emph>D</emph> be taken outside
+                <emph>ABC</emph> ; let there be drawn through from it straight lines <emph>DA</emph>
+              , <emph>DE</emph> , <emph>DF</emph> , <emph>DC</emph> , and let <emph>DA</emph> be
+              through the centre; I say that, of the straight lines falling on the concave
+              circumference <emph>AEFC</emph> , the straight line <emph>DA</emph> through the centre
+              is greatest, <!-- <figure/> --> while <emph>DE</emph> is greater than <emph>DF</emph> and
+                <emph>DF</emph> than <emph>DC</emph> .; but, of the straight lines falling on the
+              convex circumference <emph>HLKG</emph> , the straight line <emph>DG</emph> between the
+              point and the diameter <emph>AG</emph> is least; and the nearer to the least
+                <emph>DG</emph> is always less than the more remote, namely <emph>DK</emph> than
+                <emph>DL</emph> , and <emph>DL</emph> than <emph>DH</emph> . </p>
+            <p xml:id="ee-b3-d1e5263"> For let the centre of the circle <emph>ABC</emph> be taken [ <ref xml:id="ee-b3-Rd1e5268" target="http://scta.info/resource/elem.3.1">III. 1</ref> ], and let it be <emph>M</emph> ; let <emph>ME</emph> ,
+                <emph>MF</emph> , <emph>MC</emph> , <emph>MK</emph> , <emph>ML</emph> ,
+                <emph>MH</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e5294"> Then, since <emph>AM</emph> is equal to <emph>EM</emph> , let <emph>MD</emph> be
+              added to each; <hi rend="center"> therefore <emph>AD</emph> is equal to
+                  <emph>EM</emph> , <emph>MD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5319"> But <emph>EM</emph> , <emph>MD</emph> are greater than <emph>ED</emph> ; [ <ref xml:id="ee-b3-Rd1e5330" target="http://scta.info/resource/elem.1.20">I. 20</ref> ] <hi rend="center"> therefore
+                  <emph>AD</emph> is also greater than <emph>ED</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5343"> Again, since <emph>ME</emph> is equal to <emph>MF</emph> , <hi rend="center"> and
+                  <emph>MD</emph> is common, </hi> therefore <emph>EM</emph> , <emph>MD</emph> are
+              equal to <emph>FM</emph> , <emph>MD</emph> ; <hi rend="center"> and the angle
+                  <emph>EMD</emph> is greater than the angle <emph>FMD</emph> ; </hi>
+              <hi rend="center"> therefore the base <emph>ED</emph> is greater than the base
+                  <emph>FD</emph> . [ <ref xml:id="ee-b3-Rd1e5387" target="http://scta.info/resource/elem.1.24">I. 24</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5392"> Similarly we can prove that <emph>FD</emph> is greater than <emph>CD</emph> ;
+              therefore <emph>DA</emph> is greatest, while <emph>DE</emph> is greater than
+                <emph>DF</emph> , and <emph>DF</emph> than <emph>DC</emph> . 
+            </p>
+            <p xml:id="ee-b3-d1e5417"> Next, since <emph>MK</emph> , <emph>KD</emph> are greater than <emph>MD</emph> , [
+                <ref xml:id="ee-b3-Rd1e5428" target="http://scta.info/resource/elem.1.20">I. 20</ref> ] and <emph>MG</emph> is equal to
+                <emph>MK</emph> , therefore the remainder <emph>KD</emph> is greater than the
+              remainder <emph>GD</emph> , <hi rend="center"> so that <emph>GD</emph> is less than
+                  <emph>KD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5454"> And, since on <emph>MD</emph> , one of the sides of the triangle <emph>MLD</emph> ,
+              two straight lines <emph>MK</emph> , <emph>KD</emph> were constructed meeting within
+              the triangle, therefore <emph>MK</emph> , <emph>KD</emph> are less than
+                <emph>ML</emph> , <emph>LD</emph> ; [ <ref xml:id="ee-b3-Rd1e5481" target="http://scta.info/resource/elem.1.21">I.
+                21</ref> ] and <emph>MK</emph> is equal to <emph>ML</emph> ; <hi rend="center">
+                therefore the remainder <emph>DK</emph> is less than the remainder <emph>DL</emph> .
+              </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5501"> Similarly we can prove that <emph>DL</emph> is also less than <emph>DH</emph> ; <hi rend="center"> therefore <emph>DG</emph> is least, while <emph>DK</emph> is less
+                than <emph>DL</emph> , and <emph>DL</emph> than <emph>DH</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5529"> I say also that only two equal straight lines will fall from the point
+                <emph>D</emph> on the circle, one on each side of the least <emph>DG</emph> . </p>
+            <p xml:id="ee-b3-d1e5538"> On the straight line <emph>MD</emph> , and at the point <emph>M</emph> on it, let
+              the angle <emph>DMB</emph> be constructed equal to the angle <emph>KMD</emph> , and
+              let <emph>DB</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e5556"> Then, since <emph>MK</emph> is equal to <emph>MB</emph> , and <emph>MD</emph> is
+              common, <hi rend="center"> the two sides <emph>KM</emph> , <emph>MD</emph> are equal
+                to the two sides <emph>BM</emph> , <emph>MD</emph> respectively; </hi> and the angle
+                <emph>KMD</emph> is equal to the angle <emph>BMD</emph> ; <hi rend="center">
+                therefore the base <emph>DK</emph> is equal to the base <emph>DB</emph> . [ <ref xml:id="ee-b3-Rd1e5597" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5602"> I say that no other straight line equal to the straight line <emph>DK</emph> will
+              fall on the circle from the point <emph>D</emph> . </p>
+            <p xml:id="ee-b3-d1e5611"> For, if possible, let a straight line so fall, and let it be <emph>DN</emph> . <hi rend="center"> Then, since <emph>DK</emph> is equal to <emph>DN</emph> , </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5626"> while <emph>DK</emph> is equal to <emph>DB</emph> , <hi rend="center">
+                <emph>DB</emph> is also equal to <emph>DN</emph> , </hi> that is, the nearer to the
+              least <emph>DG</emph> equal to the more remote: which was proved impossible. </p>
+            <p xml:id="ee-b3-d1e5648"> Therefore no more than two equal straight lines will fall on the circle
+                <emph>ABC</emph> from the point <emph>D</emph> , one on each side of <emph>DG</emph>
+              the least. </p>
+            <p xml:id="ee-b3-d1e5660">Therefore etc.</p>
+          </div>
+          <div xml:id="elem.3.9" n="9">
+            <head xml:id="ee-b3-Hd1e5666">PROPOSITION 9.</head>
+            <p xml:id="ee-b3-d1e5669">
+              <emph>If a point be taken within a circle</emph> , <emph> and more than two equal
+                straight lines fall from the point on the circle </emph> , <emph>the point taken is
+                the centre of the circle</emph> . </p>
+            <p xml:id="ee-b3-d1e5681"> Let <emph>ABC</emph> be a circle and <emph>D</emph> a point within it, and from
+                <emph>D</emph> let more than two equal straight lines, namely <emph>DA</emph> ,
+                <emph>DB</emph> , <emph>DC</emph> , fall on the circle <emph>ABC</emph> ; I say that
+              the point <emph>D</emph> is the centre of the circle <emph>ABC</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e5714"> For let <emph>AB</emph> , <emph>BC</emph> be joined and bisected at the points
+                <emph>E</emph> , <emph>F</emph> , and let <emph>ED</emph> , <emph>FD</emph> be
+              joined and drawn through to the points <emph>G</emph> , <emph>K</emph> ,
+                <emph>H</emph> , <emph>L</emph> . </p>
+            <p xml:id="ee-b3-d1e5748"> Then, since <emph>AE</emph> is equal to <emph>EB</emph> , and <emph>ED</emph> is
+              common, <hi rend="center"> the two sides <emph>AE</emph> , <emph>ED</emph> are equal
+                to the two sides <emph>BE</emph> , <emph>ED</emph> ; </hi> and the base
+                <emph>DA</emph> is equal to the base <emph>DB</emph> ; <hi rend="center"> therefore
+                the angle <emph>AED</emph> is equal to the angle <emph>BED</emph> . [ <ref xml:id="ee-b3-Rd1e5789" target="http://scta.info/resource/elem.1.8">I. 8</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5795"> Therefore each of the angles <emph>AED</emph> , <emph>BED</emph> is right; [ <ref xml:id="ee-b3-Rd1e5803" target="http://scta.info/resource/elem.1.def.10">I. Def. 10</ref> ] therefore <emph>GK</emph>
+              cuts <emph>AB</emph> into two equal parts and at right angles. </p>
+            <p xml:id="ee-b3-d1e5813"> And since, if in a circle a straight line cut a straight line into two equal parts
+              and at right angles, the centre of the circle is on the cutting straight line, [ <ref xml:id="ee-b3-Rd1e5815" target="http://scta.info/resource/elem.3.1.p.1">III. 1, Por.</ref> ] <hi rend="center"> the
+                centre of the circle is on <emph>GK</emph> . </hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e5825"> For the same reason <hi rend="center"> the centre of the circle <emph>ABC</emph> is
+                also on <emph>HL</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5837"> And the straight lines <emph>GK</emph> , <emph>HL</emph> have no other point common
+              but the point <emph>D</emph> ; <hi rend="center"> therefore the point <emph>D</emph>
+                is the centre of the circle <emph>ABC</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5858">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.10" n="10">
+            
+            <head xml:id="ee-b3-Hd1e5864">PROPOSITION 10.</head>
+            <p xml:id="ee-b3-d1e5867">
+              <emph> A circle does not cut a circle at more points than two </emph> . </p>
+            <p xml:id="ee-b3-d1e5873"> For, if possible, let the circle <emph>ABC</emph> cut the circle <emph>DEF</emph> at
+              more points than two, namely <emph>B</emph> , <emph>C</emph> , <emph>F</emph> ,
+                <emph>H</emph> ; </p>
+            <p xml:id="ee-b3-d1e5895"> let <emph>BH</emph> , <emph>BG</emph> be joined and bisected at the points
+                <emph>K</emph> , <emph>L</emph> , and from <emph>K</emph> , <emph>L</emph> let
+                <emph>KC</emph> , <emph>LM</emph> be drawn at right angles to <emph>BH</emph> ,
+                <emph>BG</emph> and carried through to the points <emph>A</emph> , <emph>E</emph> .
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e5938"> Then, since in the circle <emph>ABC</emph> a straight line <emph>AC</emph> cuts a
+              straight line <emph>BH</emph> into two equal parts and at right angles, <hi rend="center"> the centre of the circle <emph>ABC</emph> is on <emph>AC</emph> . [
+                  <ref xml:id="ee-b3-Rd1e5957" target="http://scta.info/resource/elem.3.1.p.1">III. 1, Por.</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5963"> Again, since in the same circle <emph>ABC</emph> a straight line <emph>NO</emph>
+              cuts a straight line <emph>BG</emph> into two equal parts and at right angles, <hi rend="center"> the centre of the circle <emph>ABC</emph> is on <emph>NO</emph> .
+              </hi>
+            </p>
+            <p xml:id="ee-b3-d1e5984"> But it was also proved to be on <emph>AC</emph> , and the straight lines
+                <emph>AC</emph> , <emph>NO</emph> meet at no point except at <emph>P</emph> ; <hi rend="center"> therefore the point <emph>P</emph> is the centre of the circle
+                  <emph>ABC</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6008"> Similarly we can prove that <emph>P</emph> is also the centre of the circle
+                <emph>DEF</emph> ; <hi rend="center"> therefore the two circles <emph>ABC</emph> ,
+                  <emph>DEF</emph> which cut one another have the same centre <emph>P</emph> : which
+                is impossible. [ <ref xml:id="ee-b3-Rd1e6027" target="http://scta.info/resource/elem.3.5">III. 5</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6032"> Therefore etc. Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.3.11" n="11">
+            <head xml:id="ee-b3-Hd1e6039">PROPOSITION 11.</head>
+            <p xml:id="ee-b3-d1e6042">
+              <emph>If two circles touch one another internally</emph> , <emph>and their centres be
+                taken</emph> , <emph>the straight line joining their centres</emph> , <emph>if it be
+                also produced</emph> , <emph>will fall on the point of contact of the circles</emph>
+              . </p>
+            <p xml:id="ee-b3-d1e6060"> For let the two circles <emph>ABC</emph> , <emph>ADE</emph> touch one another
+              internally at the point <emph>A</emph> , and let the centre <emph>F</emph> of the
+              circle <emph>ABC</emph> , and the centre <emph>G</emph> of <emph>ADE</emph> , be
+              taken; I say that the straight line joined from <emph>G</emph> to <emph>F</emph> and
+              produced will fall on <emph>A</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e6096"> For suppose it does not, but, if possible, let it fall as <emph>FGH</emph> , and let
+                <emph>AF</emph> , <emph>AG</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e6108"> Then, since <emph>AG</emph> , <emph>GF</emph> are greater than <emph>FA</emph> ,
+              that is, than <emph>FH</emph> , </p>
+            <p xml:id="ee-b3-d1e6124"> let <emph>FG</emph> be subtracted from each; therefore the remainder <emph>AG</emph>
+              is greater than the remainder <emph>GH</emph> . 
+            </p>
+            <p xml:id="ee-b3-d1e6136"> But <emph>AG</emph> is equal to <emph>GD</emph> ; <hi rend="center"> therefore
+                  <emph>GD</emph> is also greater than <emph>GH</emph> , the less than the greater:
+                which is impossible. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6154"> Therefore the straight line joined from <emph>F</emph> to <emph>G</emph> will not
+              fall outside; <hi rend="center"> therefore it will fall at <emph>A</emph> on the point
+                of contact. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6169"> Therefore etc. Q. E. D. 
+              
+            </p>
+          </div>
+          <div xml:id="elem.3.12" n="12">
+            <head xml:id="ee-b3-Hd1e6175">PROPOSITION 12.</head>
+            <p xml:id="ee-b3-d1e6178">
+              <emph>If two circles touch one another externally</emph> , <emph> the straight line
+                joining their centres will pass through the point of contact </emph> . </p>
+            <p xml:id="ee-b3-d1e6187"> For let the two circles <emph>ABC</emph> , <emph>ADE</emph> touch one another  externally at the point <emph>A</emph> , and let the centre <emph>F</emph>
+              of <emph>ABC</emph> , and the centre <emph>G</emph> of <emph>ADE</emph> , be taken;
+                 I say that the straight line joined from <emph>F</emph> to
+                <emph>G</emph> will pass through the point of contact at <emph>A</emph> . </p>
+            <p xml:id="ee-b3-d1e6221"> For suppose it does not,  but, if possible, let it pass as
+                <emph>FCDG</emph> , and let <emph>AF</emph> , <emph>AG</emph> be joined. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e6235"> Then, since the point <emph>F</emph> is the centre of the circle <emph>ABC</emph> ,
+                
+              <hi rend="center">
+                <emph>FA</emph> is equal to <emph>FC</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6254"> Again, since the point <emph>G</emph> is the centre of the circle <emph>ADE</emph> ,
+                <hi rend="center">
+                <emph>GA</emph> is equal to <emph>GD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6272"> But <emph>FA</emph> was also proved equal to <emph>FC</emph> ; 
+              <hi rend="center"> therefore <emph>FA</emph> , <emph>AG</emph> are equal to
+                  <emph>FC</emph> , <emph>GD</emph> , so that the whole <emph>FG</emph> is greater
+                than <emph>FA</emph> , <emph>AG</emph> ; </hi> but it is also less [ <ref xml:id="ee-b3-Rd1e6305" target="http://scta.info/resource/elem.1.20">I. 20</ref> ]: which is impossible. </p>
+            <p xml:id="ee-b3-d1e6309"> Therefore the straight line joined from <emph>F</emph> to <emph>G</emph> will not
+              fail to pass through the point of contact at <emph>A</emph> ; 
+              <hi rend="center">therefore it will pass through it.</hi>
+            </p>
+            <p xml:id="ee-b3-d1e6324"> Therefore etc. Q. E. D.] 
+            </p>
+          </div>
+          <div xml:id="elem.3.13" n="13">
+            <head xml:id="ee-b3-Hd1e6330">PROPOSITION 13.</head>
+            <p xml:id="ee-b3-d1e6333">
+              <emph> A circle does not touch a circle at more points than one </emph> ,
+                <emph>whether it touch it internally or externally</emph> . </p>
+            <p xml:id="ee-b3-d1e6342"> For, if possible, let the circle <emph>ABDC</emph> touch the circle
+                <emph>EBFD</emph> , first internally, at more  points than one, namely
+                <emph>D</emph> , <emph>B</emph> . </p>
+            <p xml:id="ee-b3-d1e6357"> Let the centre <emph>G</emph> of the circle <emph>ABDC</emph> , and the centre
+                <emph>H</emph> of <emph>EBFD</emph> , be taken. </p>
+            <p xml:id="ee-b3-d1e6372"> Therefore the straight line <!-- <figure/> -->
+               joined from <emph>G</emph> to <emph>H</emph> will fall on <emph>B</emph>
+              , <emph>D</emph> . [ <ref xml:id="ee-b3-Rd1e6389" target="http://scta.info/resource/elem.3.11">III. 11</ref> ] </p>
+            <p xml:id="ee-b3-d1e6394"> Let it so fall, as <emph>BGHD</emph> . </p>
+            <p xml:id="ee-b3-d1e6400"> Then, since the point <emph>G</emph> is the centre of the circle <emph>ABCD</emph> ,
+                
+              <hi rend="center">
+                <emph>BG</emph> is equal to <emph>GD</emph> ; </hi>
+              
+              <hi rend="center"> therefore <emph>BG</emph> is greater than <emph>HD</emph> ;
+                therefore <emph>BH</emph> is much greater than <emph>HD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6433"> Again, since the point <emph>H</emph> is the centre of the circle <emph>EBFD</emph>
+              , 
+              <hi rend="center">
+                <emph>BH</emph> is equal to <emph>HD</emph> ; </hi>
+              <hi rend="center"> but it was also proved much greater than it: which is impossible.
+              </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6454"> Therefore a circle does not touch a circle internally at more points than one. 
+            </p>
+            <p xml:id="ee-b3-d1e6457"> I say further that neither does it so touch it externally. </p>
+            <p xml:id="ee-b3-d1e6460"> For, if possible, let the circle <emph>ACK</emph> touch the circle <emph>ABDC</emph>
+              at more points than one, namely <emph>A</emph> , <emph>C</emph> , and let
+                <emph>AC</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e6479"> Then, since on the circumference of each of the circles 
+              <emph>ABDC</emph> , <emph>ACK</emph> two points <emph>A</emph> , <emph>C</emph> have
+              been taken at random, the straight line joining the points will fall within each
+              circle; [ <ref xml:id="ee-b3-Rd1e6493" target="http://scta.info/resource/elem.3.2">III. 2</ref> ] <hi rend="center"> but
+                it fell within the circle <emph>ABCD</emph> and outside <emph>ACK</emph> [ <ref xml:id="ee-b3-Rd1e6505" target="http://scta.info/resource/elem.3.def.3">III. Def. 3</ref> ]: which is absurd. </hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e6510"> Therefore a circle does not touch a circle externally at more points than one. </p>
+            <p xml:id="ee-b3-d1e6513"> And it was proved that neither does it so touch it internally. </p>
+            <p xml:id="ee-b3-d1e6516"> Therefore etc. Q. E. D. 
+              
+            </p>
+          </div>
+          <div xml:id="elem.3.14" n="14">
+            <head xml:id="ee-b3-Hd1e6522">PROPOSITION 14.</head>
+            <p xml:id="ee-b3-d1e6525">
+              <emph> In a circle equal straight lines are equally distant from the centre </emph> ,
+                <emph> and those which are equally distant from the centre are equal to one another
+              </emph> . </p>
+            <p xml:id="ee-b3-d1e6534"> Let <emph>ABDC</emph> be a circle, and let <emph>AB</emph> , <emph>CD</emph> be
+              equal straight lines in it; I say that <emph>AB</emph> , <emph>CD</emph> are equally
+              distant from the centre. </p>
+            <p xml:id="ee-b3-d1e6552"> For let the centre of the circle <emph>ABDC</emph> be taken [ <ref xml:id="ee-b3-Rd1e6557" target="http://scta.info/resource/elem.3.1">III. 1</ref> ],  and let it be <emph>E</emph> ; from
+                <emph>E</emph> let <emph>EF</emph> , <emph>EG</emph> be drawn perpendicular to
+                <emph>AB</emph> , <emph>CD</emph> , and let <emph>AE</emph> , <emph>EC</emph> be
+              joined. </p>
+            <p xml:id="ee-b3-d1e6586"> Then, since a straight line <emph>EF</emph> through the centre cuts a straight line
+                <emph>AB</emph> not through the centre at right angles, it also bisects it. [ <ref xml:id="ee-b3-Rd1e6594" target="http://scta.info/resource/elem.3.3">III. 3</ref> ] <!-- <figure/> -->
+              <hi rend="center"> Therefore <emph>AF</emph> is equal to <emph>FB</emph> ; therefore
+                  <emph>AB</emph> is double of <emph>AF</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6616"> For the same reason <hi rend="center">
+                <emph>CD</emph> is also double of <emph>CG</emph> ; </hi> and <emph>AB</emph> is
+              equal to <emph>CD</emph> ; <hi rend="center"> therefore <emph>AF</emph> is also equal
+                to <emph>CG</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6643"> And, since <emph>AE</emph> is equal to <emph>EC</emph> , <hi rend="center"> the
+                square on <emph>AE</emph> is also equal to the square on <emph>EC</emph> . </hi> But
+              the squares on <emph>AF</emph> , <emph>EF</emph> are equal to the square on
+                <emph>AE</emph> , for the angle at <emph>F</emph> is right; and the squares on
+                <emph>EG</emph> , <emph>GC</emph> are equal to the square on <emph>EC</emph> , for
+              the angle at <emph>G</emph> is right; [ <ref xml:id="ee-b3-Rd1e6686" target="http://scta.info/resource/elem.1.47">I.
+                47</ref> ] <hi rend="center"> therefore the squares on <emph>AF</emph> ,
+                  <emph>FE</emph> are equal to the squares on <emph>CG</emph> , <emph>GE</emph> ,
+              </hi> of which the square on <emph>AF</emph> is equal to the square on <emph>CG</emph>
+              , for <emph>AF</emph> is equal to <emph>CG</emph> ; <hi rend="center"> therefore the
+                square on <emph>FE</emph> which remains is equal to the square on <emph>EG</emph> ,
+                therefore <emph>EF</emph> is equal to <emph>EG</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6733"> But in a circle straight lines are said to be equally distant from the centre when
+              the perpendiculars drawn to them from the centre are equal; [ <ref xml:id="ee-b3-Rd1e6735" target="http://scta.info/resource/elem.3.def.4">III. Def. 4</ref> ] <hi rend="center"> therefore
+                  <emph>AB</emph> , <emph>CD</emph> are equally distant from the centre. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6748"> Next, let the straight lines <emph>AB</emph> , <emph>CD</emph> be equally distant
+              from the centre; that is, let <emph>EF</emph> be equal to <emph>EG</emph> . </p>
+            <p xml:id="ee-b3-d1e6763"> I say that <emph>AB</emph> is also equal to <emph>CD</emph> . </p>
+            <p xml:id="ee-b3-d1e6772"> For, with the same construction, we can prove, similarly, that <emph>AB</emph> is
+              double of <emph>AF</emph> , and <emph>CD</emph> of <emph>CG</emph> . </p>
+            <p xml:id="ee-b3-d1e6788"> And, since <emph>AE</emph> is equal to <emph>CE</emph> , <hi rend="center"> the
+                square on <emph>AE</emph> is equal to the square on <emph>CE</emph> . </hi> But the
+              squares on <emph>EF</emph> , <emph>FA</emph> are equal to the square on
+                <emph>AE</emph> , and the squares on <emph>EG</emph> , <emph>GC</emph> equal to the
+              square on <emph>CE</emph> . [ <ref xml:id="ee-b3-Rd1e6824" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] 
+            </p>
+            <p xml:id="ee-b3-d1e6828"> Therefore the squares on <emph>EF</emph> , <emph>FA</emph> are equal to the squares
+              on <emph>EG</emph> , <emph>GC</emph> , of which the square on <emph>EF</emph> is equal
+              to the square on <emph>EG</emph> , for <emph>EF</emph> is equal to <emph>EG</emph> ;
+              therefore the square on <emph>AF</emph> which remains is equal to the square on
+                <emph>CG</emph> ; <hi rend="center"> therefore <emph>AF</emph> is equal to
+                  <emph>CG</emph> . </hi> And <emph>AB</emph> is double of <emph>AF</emph> , and
+                <emph>CD</emph> double of <emph>CG</emph> ; <hi rend="center"> therefore
+                  <emph>AB</emph> is equal to <emph>CD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e6893">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.15" n="15">
+            <head xml:id="ee-b3-Hd1e6899">PROPOSITION 15.</head>
+            <p xml:id="ee-b3-d1e6902">
+              <emph> Of straight lines in a circle the diameter is greatest </emph> , <emph> and of
+                the rest the nearer to the centre is always greater than the more remote </emph> . </p>
+            <p xml:id="ee-b3-d1e6911"> Let <emph>ABCD</emph> be a circle, let <emph>AD</emph> be its diameter and
+                <emph>E</emph> the centre; and let <emph>BC</emph> be nearer to the diameter
+                <emph>AD</emph> , and <emph>FG</emph> more remote; I say that <emph>AD</emph> is
+              greatest and <emph>BC</emph> greater than <emph>FG</emph> . </p>
+            <p xml:id="ee-b3-d1e6942"> For from the centre <emph>E</emph> let <emph>EH</emph> , <emph>EK</emph>
+              <!-- <figure/> --> be drawn perpendicular to <emph>BC</emph> , <emph>FG</emph> . </p>
+            <p xml:id="ee-b3-d1e6963"> Then, since <emph>BC</emph> is nearer to the centre and <emph>FG</emph> more remote,
+                <emph>EK</emph> is greater than <emph>EH</emph> . [ <ref xml:id="ee-b3-Rd1e6977" target="http://scta.info/resource/elem.3.def.5">III. Def. 5</ref> ] </p>
+            <p xml:id="ee-b3-d1e6982"> Let <emph>EL</emph> be made equal to <emph>EH</emph> , through <emph>L</emph> let
+                <emph>LM</emph> be drawn at right angles to <emph>EK</emph> and carried through to
+                <emph>N</emph> , and let <emph>ME</emph> , <emph>EN</emph> , <emph>FE</emph> ,
+                <emph>EG</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e7016"> Then, since <emph>EH</emph> is equal to <emph>EL</emph> , <hi rend="center">
+                <emph>BC</emph> is also equal to <emph>MN</emph> . [ <ref xml:id="ee-b3-Rd1e7032" target="http://scta.info/resource/elem.3.14">III. 14</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7037"> Again, since <emph>AE</emph> is equal to <emph>EM</emph> , and <emph>ED</emph> to
+                <emph>EN</emph> , <hi rend="center">
+                <emph>AD</emph> is equal to <emph>ME</emph> , <emph>EN</emph> . </hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e7064"> But <emph>ME</emph> , <emph>EN</emph> are greater than <emph>MN</emph> , [ <ref xml:id="ee-b3-Rd1e7075" target="http://scta.info/resource/elem.1.20">I. 20</ref> ] and <emph>MN</emph> is equal to
+                <emph>BC</emph> ; <hi rend="center"> therefore <emph>AD</emph> is greater than
+                  <emph>BC</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7095"> And, since the two sides <emph>ME</emph> , <emph>EN</emph> are equal to the two
+              sides <emph>FE</emph> , <emph>EG</emph> , and the angle <emph>MEN</emph> greater than
+              the angle <emph>FEG</emph> , therefore the base <emph>MN</emph> is greater than the
+              base <emph>FG</emph> . [ <ref xml:id="ee-b3-Rd1e7122" target="http://scta.info/resource/elem.1.24">I. 24</ref> ] </p>
+            <p xml:id="ee-b3-d1e7126"> But <emph>MN</emph> was proved equal to <emph>BC</emph> . </p>
+            <p xml:id="ee-b3-d1e7136"> Therefore the diameter <emph>AD</emph> is greatest and <emph>BC</emph> greater than
+                <emph>FG</emph> . </p>
+            <p xml:id="ee-b3-d1e7148"> Therefore etc. Q. E. D. 
+              
+            </p>
+          </div>
+          <div xml:id="elem.3.16" n="16">
+            <head xml:id="ee-b3-Hd1e7154">PROPOSITION 16.</head>
+            <p xml:id="ee-b3-d1e7157">
+              <emph> The straight line drawn at right angles to the diameter of a circle from its
+                extremity will fall outside the circle </emph> , <emph> and into the space between
+                the straight line and the circumference another straight line cannot be interposed;
+                further the angle of the semicircle is greater </emph> , <emph>and the remaining
+                angle less</emph> , <emph>than any acute rectilineal angle</emph> . </p>
+            <p xml:id="ee-b3-d1e7172"> Let <emph>ABC</emph> be a circle about <emph>D</emph> as centre and <emph>AB</emph>
+              as diameter;  I say that the straight line drawn from <emph>A</emph> at
+              right angles to <emph>AB</emph> from its extremity will fall outside the circle. </p>
+            <p xml:id="ee-b3-d1e7190"> For suppose it does not, but, if possible, let it fall within as <emph>CA</emph> ,
+              and let <emph>DC</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e7199"> Since <emph>DA</emph> is equal to <emph>DC</emph> , <!-- <figure/> -->
+              <hi rend="center"> the angle <emph>DAC</emph> is also equal to the angle
+                  <emph>ACD</emph> . [ <ref xml:id="ee-b3-Rd1e7217" target="http://scta.info/resource/elem.1.5">I. 5</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7223"> But the angle <emph>DAC</emph> is right; <hi rend="center"> therefore the angle
+                  <emph>ACD</emph> is also right: </hi> thus, in the triangle <emph>ACD</emph> , the
+              two angles <emph>DAC</emph> , <emph>ACD</emph> are equal to two right angles: which is
+              impossible. [ <ref xml:id="ee-b3-Rd1e7244" target="http://scta.info/resource/elem.1.17">I. 17</ref> ] </p>
+            <p xml:id="ee-b3-d1e7248"> Therefore the straight line drawn from the point <emph>A</emph> at right angles to
+                <emph>BA</emph> will not fall within the circle. </p>
+            <p xml:id="ee-b3-d1e7257"> Similarly we can prove that neither will it fall on the circumference; <hi rend="center">therefore it will fall outside.</hi>
+            </p>
+            <p xml:id="ee-b3-d1e7263"> Let it fall as <emph>AE</emph> ; I say next that into the space between the straight
+              line <emph>AE</emph> and the circumference <emph>CHA</emph> another straight line
+              cannot be interposed. </p>
+            <p xml:id="ee-b3-d1e7275"> For, if possible, let another straight line be so interposed, as <emph>FA</emph> ,
+              and let <emph>DG</emph> be drawn from the point <emph>D</emph> perpendicular to
+                <emph>FA</emph> . </p>
+            <p xml:id="ee-b3-d1e7290"> Then, since the angle <emph>AGD</emph> is right, <hi rend="center"> and the angle
+                  <emph>DAG</emph> is less than a right angle, <emph>AD</emph> is greater than
+                  <emph>DG</emph> . [ <ref xml:id="ee-b3-Rd1e7306" target="http://scta.info/resource/elem.1.19">I. 19</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7312"> But <emph>DA</emph> is equal to <emph>DH</emph> ; <hi rend="center"> therefore
+                  <emph>DH</emph> is greater than <emph>DG</emph> , the less than the greater: which
+                is impossible. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7330"> Therefore another straight line cannot be interposed into the space between the
+              straight line and the circumference. </p>
+            <p xml:id="ee-b3-d1e7333"> I say further that the angle of the semicircle contained by the straight line
+                <emph>BA</emph> and the circumference <emph>CHA</emph> is greater than any acute
+              rectilineal angle, and the remaining angle contained by the circumference
+                <emph>CHA</emph> and the straight line <emph>AE</emph> is less than any acute
+              rectilineal angle. </p>
+            <p xml:id="ee-b3-d1e7348"> For, if there is any rectilineal angle greater than the angle contained by the
+              straight line <emph>BA</emph> and the circumference 
+              <emph>CHA</emph> , and any rectilineal angle less than the angle contained by the
+              circumference <emph>CHA</emph> and the straight line <emph>AE</emph> , then into the
+              space between the circumference and the straight line <emph>AE</emph> a straight line
+              will be interposed such as will make an angle contained by straight lines which is
+              greater than the angle contained by the straight line <emph>BA</emph> and the
+              circumference <emph>CHA</emph> , and another angle contained by straight lines which
+              is less than the angle contained by the circumference <emph>CHA</emph> and the
+              straight line <emph>AE</emph> . </p>
+            <p xml:id="ee-b3-d1e7379">But such a straight line cannot be interposed;</p>
+            <p xml:id="ee-b3-d1e7382"> therefore there will not be any acute angle contained by straight lines which is
+              greater than the angle contained by the straight line <emph>BA</emph> and the
+              circumference <emph>CHA</emph> , nor yet any acute angle contained by straight lines
+              which is less than the angle contained by the circumference <emph>CHA</emph> and the
+              straight line <emph>AE</emph> .— </p>
+            <div xml:id="elem.3.16.p.1" type="porism" org="uniform" sample="complete">
+              <head xml:id="ee-b3-Hd1e7400">PORISM.</head>
+              <p xml:id="ee-b3-d1e7403"> From this it is manifest that the straight line drawn at right angles to the
+                diameter of a circle from its extremity touches the circle. Q. E. D. </p>
+            </div>
+            
+          </div>
+          <div xml:id="elem.3.17" n="17">
+            <head xml:id="ee-b3-Hd1e7411">PROPOSITION 17.</head>
+            <p xml:id="ee-b3-d1e7414">
+              <emph> From a given point to draw a straight line touching a given circle </emph> . </p>
+            <p xml:id="ee-b3-d1e7420"> Let <emph>A</emph> be the given point, and <emph>BCD</emph> the given circle; thus
+              it is required to draw from the point <emph>A</emph> a straight line touching the
+              circle <emph>BCD</emph> . </p>
+            <p xml:id="ee-b3-d1e7435"> For let the centre <emph>E</emph> of the circle be taken; [ <ref xml:id="ee-b3-Rd1e7440" target="http://scta.info/resource/elem.3.1">III. 1</ref> ] let <emph>AE</emph> be joined, and with centre
+                <emph>E</emph> and distance <emph>EA</emph> let the circle <emph>AFG</emph> be
+              described; <!-- <figure/> --> from <emph>D</emph> let <emph>DF</emph> be drawn at right angles
+              to <emph>EA</emph> , and let <emph>EF</emph> , <emph>AB</emph> be joined; I say that
+                <emph>AB</emph> has been drawn from the point <emph>A</emph> touching the circle
+                <emph>BCD</emph> . </p>
+            <p xml:id="ee-b3-d1e7484"> For, since <emph>E</emph> is the centre of the circles <emph>BCD</emph> ,
+                <emph>AFG</emph> , <hi rend="center">
+                <emph>EA</emph> is equal to <emph>EF</emph> , and <emph>ED</emph> to <emph>EB</emph>
+                ; </hi> therefore the two sides <emph>AE</emph> , <emph>EB</emph> are equal to the
+              two sides <emph>FE</emph> , <emph>ED</emph> : and they contain a common angle, the
+              angle at <emph>E</emph> ; <hi rend="center"> therefore the base <emph>DF</emph> is
+                equal to the base <emph>AB</emph> , and the triangle <emph>DEF</emph> is equal to
+                the triangle <emph>BEA</emph> , and the remaining angles to the remaining angles; [
+                  <ref xml:id="ee-b3-Rd1e7540" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] therefore the angle
+                  <emph>EDF</emph> is equal to the angle <emph>EBA</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7553"> But the angle <emph>EDF</emph> is right; <hi rend="center"> therefore the angle
+                  <emph>EBA</emph> is also right. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7565"> Now <emph>EB</emph> is a radius; and the straight line drawn at right angles to the
+              diameter of a circle, from its extremity, touches the circle; [ <ref xml:id="ee-b3-Rd1e7570" target="http://scta.info/resource/elem.3.16.p.1">III. 16, Por.</ref> ] <hi rend="center">
+                therefore <emph>AB</emph> touches the circle <emph>BCD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7583"> Therefore from the given point <emph>A</emph> the straight line <emph>AB</emph> has
+              been drawn touching the circle <emph>BCD</emph> . </p>
+          </div>
+          <div xml:id="elem.3.18" n="18">
+            <head xml:id="ee-b3-Hd1e7598">PROPOSITION 18.</head>
+            <p xml:id="ee-b3-d1e7601">
+              <emph>If a straight line touch a circle</emph> , <emph> and a straight line be joined
+                from the centre to the point of contact </emph> , <emph> the straight line so joined
+                will be perpendicular to the tangent </emph> . </p>
+            <p xml:id="ee-b3-d1e7613"> For let a straight line <emph>DE</emph> touch the circle <emph>ABC</emph> at the
+              point <emph>C</emph> , let the centre <emph>F</emph> of the circle <emph>ABC</emph> be
+              taken, and let <emph>FC</emph> be joined from <emph>F</emph> to <emph>C</emph> ; I say
+              that <emph>FC</emph> is perpendicular to <emph>DE</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e7649"> For, if not, let <emph>FG</emph> be drawn from <emph>F</emph> perpendicular to
+                <emph>DE</emph> . </p>
+            <p xml:id="ee-b3-d1e7661"> Then, since the angle <emph>FGC</emph> is right, <hi rend="center"> the angle
+                  <emph>FCG</emph> is acute; [ <ref xml:id="ee-b3-Rd1e7671" target="http://scta.info/resource/elem.1.17">I. 17</ref> ]
+              </hi> and the greater angle is subtended by the greater side; [ <ref xml:id="ee-b3-Rd1e7675" target="http://scta.info/resource/elem.1.19">I. 19</ref> ] <hi rend="center"> therefore
+                  <emph>FC</emph> is greater than <emph>FG</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7689"> But <emph>FC</emph> is equal to <emph>FB</emph> ; <hi rend="center"> therefore
+                  <emph>FB</emph> is also greater than <emph>FG</emph> , the less than the greater:
+                which is impossible. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7707"> Therefore <emph>FG</emph> is not perpendicular to <emph>DE</emph> . </p>
+            <p xml:id="ee-b3-d1e7716"> Similarly we can prove that neither is any other straight line except
+                <emph>FC</emph> ; <hi rend="center"> therefore <emph>FC</emph> is perpendicular to
+                  <emph>DE</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7731"> Therefore etc. Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.3.19" n="19">
+            <head xml:id="ee-b3-Hd1e7737">PROPOSITION 19.</head>
+            <p xml:id="ee-b3-d1e7740">
+              <emph>If a straight line touch a circle</emph> , <emph> and from the point of contact
+                a straight line be drawn at right angles to the tangent </emph> , <emph> the centre
+                of the circle will be on the straight line so drawn </emph> . </p>
+            <p xml:id="ee-b3-d1e7752"> For let a straight line <emph>DE</emph> touch the circle <emph>ABC</emph> at the
+              point <emph>C</emph> , and from <emph>C</emph> let <emph>CA</emph> be drawn at right
+              angles to <emph>DE</emph> ; I say that the centre of the circle is on <emph>AC</emph>
+              . </p>
+            <p xml:id="ee-b3-d1e7777"> For suppose it is not, but, if <!-- <figure/> --> possible, let <emph>F</emph> be the centre,
+              and let <emph>CF</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e7788"> Since a straight line <emph>DE</emph> touches the circle <emph>ABC</emph> , and
+                <emph>FC</emph> has been joined from the centre to the point of contact, <hi rend="center">
+                <emph>FC</emph> is perpendicular to <emph>DE</emph> ; [ <ref xml:id="ee-b3-Rd1e7807" target="http://scta.info/resource/elem.3.18">III. 18</ref> ] therefore the angle <emph>FCE</emph> is right. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7816"> But the angle <emph>ACE</emph> is also right; <hi rend="center"> therefore the angle
+                  <emph>FCE</emph> is equal to the angle <emph>ACE</emph> , the less to the greater:
+                which is impossible. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7831"> Therefore <emph>F</emph> is not the centre of the circle <emph>ABC</emph> . </p>
+            <p xml:id="ee-b3-d1e7840"> Similarly we can prove that neither is any other point except a point on
+                <emph>AC</emph> . </p>
+            <p xml:id="ee-b3-d1e7846">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.20" n="20">
+            <head xml:id="ee-b3-Hd1e7852">PROPOSITION 20.</head>
+            <p xml:id="ee-b3-d1e7855">
+              <emph> In a circle the angle at the centre is double of the angle at the circumference
+              </emph> , <emph> when the angles have the same circumference as base </emph> . </p>
+            <p xml:id="ee-b3-d1e7864"> Let <emph>ABC</emph> be a circle, let the angle <emph>BEC</emph> be an angle  at its centre, and the angle <emph>BAC</emph> an angle at the circumference,
+              and let them have the same circumference <emph>BC</emph> as base; I say that the angle
+                <emph>BEC</emph> is double of  the angle <emph>BAC</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e7888"> For let <emph>AE</emph> be joined and drawn through to <emph>F</emph> . </p>
+            <p xml:id="ee-b3-d1e7897"> Then, since <emph>EA</emph> is equal to <emph>EB</emph> , <hi rend="center"> the
+                angle <emph>EAB</emph> is also equal to the  angle <emph>EBA</emph> ; [
+                  <ref xml:id="ee-b3-Rd1e7913" target="http://scta.info/resource/elem.1.5">I. 5</ref> ] </hi> therefore the angles
+                <emph>EAB</emph> , <emph>EBA</emph> are double of the angle <emph>EAB</emph> . </p>
+            <p xml:id="ee-b3-d1e7929"> But the angle <emph>BEF</emph> is equal to the angles <emph>EAB</emph> ,
+                <emph>EBA</emph> ; [ <ref xml:id="ee-b3-Rd1e7940" target="http://scta.info/resource/elem.1.32">I. 32</ref> ] therefore
+              the angle <emph>BEF</emph> is also double of the angle 
+              <emph>EAB</emph> . </p>
+            <p xml:id="ee-b3-d1e7951"> For the same reason <hi rend="center"> the angle <emph>FEC</emph> is also double of
+                the angle <emph>EAC</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e7963"> Therefore the whole angle <emph>BEC</emph> is double of the whole angle
+                <emph>BAC</emph> . 
+            </p>
+            <p xml:id="ee-b3-d1e7972"> Again let another straight line be inflected, and let there be another angle
+                <emph>BDC</emph> ; let <emph>DE</emph> be joined and produced to <emph>G</emph> .
+                
+            </p>
+            <p xml:id="ee-b3-d1e7984"> Similarly then we can prove that the angle <emph>GEC</emph> is double of the angle
+                <emph>EDC</emph> , 
+              <hi rend="center"> of which the angle <emph>GEB</emph> is double of the angle
+                  <emph>EDB</emph> ; therefore the angle <emph>BEC</emph> which remains is double of
+                the angle <emph>BDC</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e8008"> Therefore etc. Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.3.21" n="21">
+            <head xml:id="ee-b3-Hd1e8014">PROPOSITION 21.</head>
+            <p xml:id="ee-b3-d1e8017">
+              <emph> In a circle the angles in the same segment are equal to one another </emph> . </p>
+            <p xml:id="ee-b3-d1e8023"> Let <emph>ABCD</emph> be a circle, and let the angles <emph>BAD</emph> ,
+                <emph>BED</emph> be angles in the same segment <emph>BAED</emph> ; I say that the
+              angles <emph>BAD</emph> , <emph>BED</emph> are equal to one another. </p>
+            <p xml:id="ee-b3-d1e8045"> For let the centre of the circle <emph>ABCD</emph> be taken, and let it be
+                <emph>F</emph> ; let <!-- <figure/> -->
+              <emph>BF</emph> , <emph>FD</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e8062"> Now, since the angle <emph>BFD</emph> is at the centre, <hi rend="center"> and the
+                angle <emph>BAD</emph> at the circumference, and they have the same circumference
+                  <emph>BCD</emph> as base, therefore the angle <emph>BFD</emph> is double of the
+                angle <emph>BAD</emph> . [ <ref xml:id="ee-b3-Rd1e8081" target="http://scta.info/resource/elem.3.20">III. 20</ref> ]
+              </hi>
+            </p>
+            <p xml:id="ee-b3-d1e8087"> For the same reason <hi rend="center"> the angle <emph>BFD</emph> is also double of
+                the angle <emph>BED</emph> ; therefore the angle <emph>BAD</emph> is equal to the
+                angle <emph>BED</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e8105">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.22" n="22">
+            <head xml:id="ee-b3-Hd1e8111">PROPOSITION 22.</head>
+            <p xml:id="ee-b3-d1e8114">
+              <emph> The opposite angles of quadrilaterals in circles are equal to two right angles
+              </emph> . </p>
+            <p xml:id="ee-b3-d1e8120"> Let <emph>ABCD</emph> be a circle, and let <emph>ABCD</emph> be a quadrilateral in
+              it; I say that the opposite angles are equal to two right angles. </p>
+            <p xml:id="ee-b3-d1e8129"> Let <emph>AC</emph> , <emph>BD</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e8138"> Then, since in any triangle the three angles are equal to two right angles, [ <ref xml:id="ee-b3-Rd1e8140" target="http://scta.info/resource/elem.1.32">I. 32</ref> ] 
+              <hi rend="center"> the three angles <emph>CAB</emph> , <emph>ABC</emph> ,
+                  <emph>BCA</emph> of the triangle <emph>ABC</emph> are equal to two right angles.
+              </hi>
+            </p>
+            <p xml:id="ee-b3-d1e8160"> But the angle <emph>CAB</emph> is equal to the angle <emph>BDC</emph> , for they are
+              in the same segment <emph>BADC</emph> ; [ <ref xml:id="ee-b3-Rd1e8171" target="http://scta.info/resource/elem.3.21">III.
+                21</ref> ] and the angle <emph>ACB</emph> is equal to the angle <!-- <figure/> -->
+              <emph>ADB</emph> , for they are in the same segment <emph>ADCB</emph> ; therefore the
+              whole angle <emph>ADC</emph> is equal to the angles <emph>BAC</emph> ,
+                <emph>ACB</emph> . </p>
+            <p xml:id="ee-b3-d1e8196"> Let the angle <emph>ABC</emph> be added to each; therefore the angles
+                <emph>ABC</emph> , <emph>BAC</emph> , <emph>ACB</emph> are equal to the angles
+                <emph>ABC</emph> , <emph>ADC</emph> . But the angles <emph>ABC</emph> ,
+                <emph>BAC</emph> , <emph>ACB</emph> are equal to two right angles; therefore the
+              angles <emph>ABC</emph> , <emph>ADC</emph> are also equal to two right angles. </p>
+            <p xml:id="ee-b3-d1e8233"> Similarly we can prove that the angles <emph>BAD</emph> , <emph>DCB</emph> are also
+              equal to two right angles. </p>
+            <p xml:id="ee-b3-d1e8242">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.23" n="23">
+            <head xml:id="ee-b3-Hd1e8249">PROPOSITION 23.</head>
+            <p xml:id="ee-b3-d1e8252">
+              <emph> On the same straight line there cannot be constructed two similar and unequal
+                segments of circles on the same side </emph> . </p>
+            <p xml:id="ee-b3-d1e8258"> For, if possible, on the same straight line <emph>AB</emph> let two similar and
+              unequal segments of circles <emph>ACB</emph> , <emph>ADB</emph> be constructed on the
+              same side; <!-- <figure/> --> let <emph>ACD</emph> be drawn through, and let <emph>CB</emph> ,
+                <emph>DB</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e8282"> Then, since the segment <emph>ACB</emph> is similar to the segment <emph>ADB</emph>
+              ,  and similar segments of circles are those which admit equal angles, [
+                <ref xml:id="ee-b3-Rd1e8290" target="http://scta.info/resource/elem.3.def.11">III. Def. 11</ref> ] <hi rend="center">
+                the angle <emph>ACB</emph> is equal to the angle <emph>ADB</emph> , the exterior to
+                the interior: which is impossible. [ <ref xml:id="ee-b3-Rd1e8301" target="http://scta.info/resource/elem.1.16">I.
+                  16</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e8306"> Therefore etc. Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.3.24" n="24">
+            <head xml:id="ee-b3-Hd1e8312">PROPOSITION 24.</head>
+            <p xml:id="ee-b3-d1e8315">
+              <emph> Similar segments of circles on equal straight lines are equal to one another
+              </emph> . </p>
+            <p xml:id="ee-b3-d1e8321"> For let <emph>AEB</emph> , <emph>CFD</emph> be similar segments of circles on equal
+              straight lines <emph>AB</emph> , <emph>CD</emph> ;  I say that the segment
+                <emph>AEB</emph> is equal to the segment <emph>CFD</emph> . </p>
+            <p xml:id="ee-b3-d1e8343"> For, if the segment <emph>AEB</emph> be applied to <emph>CFD</emph> , and if the
+              point <emph>A</emph> be placed on <emph>C</emph> and the straight line <emph>AB</emph>
+              on <emph>CD</emph> , 
+              <hi rend="center"> the point <emph>B</emph> will also coincide with the point
+                  <emph>D</emph> , because <emph>AB</emph> is equal to <emph>CD</emph> ; </hi>
+              
+              <hi rend="center"> and, <emph>AB</emph> coinciding with <emph>CD</emph> , the segment
+                  <emph>AEB</emph> will also coincide with <emph>CFD</emph> . </hi>
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e8397"> For, if the straight line <emph>AB</emph> coincide with <emph>CD</emph> but the
+              segment <emph>AEB</emph> do not coincide with <emph>CFD</emph> , it will either fall
+              with it, or outside it;  or it will fall awry, as <emph>CGD</emph> , and a
+              circle cuts a circle at more points than two : which is impossible. [ <ref xml:id="ee-b3-Rd1e8415" target="http://scta.info/resource/elem.3.10">III. 10</ref> ] </p>
+            <p xml:id="ee-b3-d1e8420"> Therefore, if the straight line <emph>AB</emph> be applied to <emph>CD</emph> , the
+              segment <emph>AEB</emph> will not fail to coincide with <emph>CFD</emph> also; <hi rend="center"> therefore it will coincide with it and will be equal to it. </hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e8438"> Therefore etc. Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.3.25" n="25">
+            <head xml:id="ee-b3-Hd1e8444">PROPOSITION 25.</head>
+            <p xml:id="ee-b3-d1e8447">
+              <emph>Given a segment of a circle</emph> , <emph> to describe the complete circle of
+                which it is a segment </emph> . </p>
+            <p xml:id="ee-b3-d1e8456"> Let <emph>ABC</emph> be the given segment of a circle; thus it is required to
+              describe the complete circle belonging to the segment <emph>ABC</emph> , that is, of
+              which it is a segment. </p>
+            <p xml:id="ee-b3-d1e8465"> For let <emph>AC</emph> be bisected at <emph>D</emph> , let <emph>DB</emph> be drawn
+              from the point <emph>D</emph> at right angles to <emph>AC</emph> , and let
+                <emph>AB</emph> . be joined; 
+              <hi rend="center"> the angle <emph>ABD</emph> is then greater than, equal to, or less
+                than the angle <emph>BAD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e8496"> First let it be greater; and on the straight line <emph>BA</emph> , and at the point
+                <emph>A</emph> on it, let the angle <emph>BAE</emph> be constructed equal to the
+              angle <emph>ABD</emph> ; let <emph>DB</emph> be drawn through to <emph>E</emph> , and
+              let <emph>EC</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e8522"> Then, since the angle <emph>ABE</emph> is equal to the angle <emph>BAE</emph> , <!-- <figure/> -->
+              <hi rend="center"> the straight line <emph>EB</emph> is also equal to <emph>EA</emph>
+                . [ <ref xml:id="ee-b3-Rd1e8540" target="http://scta.info/resource/elem.1.6">I. 6</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e8545"> And, since <emph>AD</emph> is equal to <emph>DC</emph> , and <emph>DE</emph> is
+              common, <hi rend="center"> the two sides <emph>AD</emph> , <emph>DE</emph> are equal
+                to the two sides <emph>CD</emph> , <emph>DE</emph> respectively; </hi> and the angle
+                <emph>ADE</emph> is equal to the angle <emph>CDE</emph> , for each is right; <hi rend="center"> therefore the base <emph>AE</emph> is equal to the base
+                  <emph>CE</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e8588"> But <emph>AE</emph> was proved equal to <emph>BE</emph> ; <hi rend="center">
+                therefore <emph>BE</emph> is also equal to <emph>CE</emph> ; </hi> therefore the
+              three straight lines <emph>AE</emph> , <emph>EB</emph> , <emph>EC</emph> are equal to
+              one another. </p>
+            <p xml:id="ee-b3-d1e8616"> Therefore the circle drawn with centre <emph>E</emph> and distance one of the
+              straight lines <emph>AE</emph> , <emph>EB</emph> , <emph>EC</emph> will also pass
+              through the remaining points and will have been completed. [ <ref xml:id="ee-b3-Rd1e8630" target="http://scta.info/resource/elem.3.9">III. 9</ref> ] </p>
+            <p xml:id="ee-b3-d1e8634"> Therefore, given a segment of a circle, the complete circle has been described. </p>
+            <p xml:id="ee-b3-d1e8637"> And it is manifest that the segment <emph>ABC</emph> is less than a semicircle,
+              because the centre <emph>E</emph> happens to be outside it. </p>
+            <p xml:id="ee-b3-d1e8647"> Similarly, even if the angle <emph>ABD</emph> be equal to the angle <emph>BAD</emph>
+              , <emph>AD</emph> being equal to each of the two <emph>BD</emph> , <emph>DC</emph> ,
+                <hi rend="center"> the three straight lines <emph>DA</emph> , <emph>DB</emph> ,
+                  <emph>DC</emph> will be equal to one another, <!-- <figure/> -->
+                <emph>D</emph> will be the centre of the completed circle, and <emph>ABC</emph> will
+                clearly be a semicircle. </hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e8687"> But, if the angle <emph>ABD</emph> be less than the angle <emph>BAD</emph> , and if
+              we construct, on the straight line <emph>BA</emph> and at the point <emph>A</emph> on
+              it, an angle equal to the angle <emph>ABD</emph> , the centre will fall on
+                <emph>DB</emph> within the segment <emph>ABC</emph> , and the segment <!-- <figure/> -->
+              <emph>ABC</emph> will clearly be greater than a semicircle. </p>
+            <p xml:id="ee-b3-d1e8717"> Therefore, given a segment of a circle, the complete circle has been described. Q.
+              E. F. 
+            </p>
+          </div>
+          <div xml:id="elem.3.26" n="26">
+            <head xml:id="ee-b3-Hd1e8723">PROPOSITION 26.</head>
+            <p xml:id="ee-b3-d1e8726">
+              <emph> In equal circles equal angles stand on equal circumferences </emph> , <emph>
+                whether they stand at the centres or at the circumferences </emph> . 
+            </p>
+            <p xml:id="ee-b3-d1e8735"> Let <emph>ABC</emph> , <emph>DEF</emph> be equal circles, and in them let there be
+              equal angles, namely at the centres the angles <emph>BGC</emph> , <emph>EHF</emph> ,
+              and at the circumferences the angles <emph>BAC</emph> , <emph>EDF</emph> ; I say that
+              the circumference <emph>BKC</emph> is equal to the circumference <emph>ELF</emph> .
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e8765"> For let <emph>BC</emph> , <emph>EF</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e8774"> Now, since the circles <emph>ABC</emph> , <emph>DEF</emph> are equal, <hi rend="center">the radii are equal.</hi>
+            </p>
+            <p xml:id="ee-b3-d1e8787"> Thus the two straight lines <emph>BG</emph> , <emph>GC</emph> are equal to the two
+              straight lines <emph>EH</emph> , <emph>HF</emph> ; <hi rend="center"> and the angle at
+                  <emph>G</emph> is equal to the angle at <emph>H</emph> ; therefore the base
+                  <emph>BC</emph> is equal to the base <emph>EF</emph> . [ <ref xml:id="ee-b3-Rd1e8815" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e8820"> And, since the angle at <emph>A</emph> is equal to the angle at <emph>D</emph> , <hi rend="center"> the segment <emph>BAC</emph> is similar to the segment
+                  <emph>EDF</emph> ; [ <ref xml:id="ee-b3-Rd1e8836" target="http://scta.info/resource/elem.3.def.11">III. Def. 11</ref>
+                ] </hi> and they are upon equal straight lines. </p>
+            <p xml:id="ee-b3-d1e8841"> But similar segments of circles on equal straight lines are equal to one another; [
+                <ref xml:id="ee-b3-Rd1e8843" target="http://scta.info/resource/elem.3.24">III. 24</ref> ] <hi rend="center"> therefore
+                the segment <emph>BAC</emph> is equal to <emph>EDF</emph> . </hi> But the whole
+              circle <emph>ABC</emph> is also equal to the whole circle <emph>DEF</emph> ; therefore
+              the circumference <emph>BKC</emph> which remains is equal to the circumference
+                <emph>ELF</emph> . </p>
+            <p xml:id="ee-b3-d1e8869">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.27" n="27">
+            <head xml:id="ee-b3-Hd1e8875">PROPOSITION 27.</head>
+            <p xml:id="ee-b3-d1e8878">
+              <emph> In equal circles angles standing on equal circumferences are equal to one
+                another </emph> , <emph> whether they stand at the centres or at the circumferences
+              </emph> . </p>
+            <p xml:id="ee-b3-d1e8887"> For in equal circles <emph>ABC</emph> , <emph>DEF</emph> , on equal circumferences
+                <emph>BC</emph> , <emph>EF</emph> , let the angles <emph>BGC</emph> ,
+                <emph>EHF</emph> stand at the centres <emph>G</emph> , <emph>H</emph> , and the
+              angles <emph>BAC</emph> , <emph>EDF</emph> at the circumferences; I say that the angle
+                <emph>BGC</emph> is equal to the angle <emph>EHF</emph> , and the angle
+                <emph>BAC</emph> is equal to the angle <emph>EDF</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e8936"> For, if the angle <emph>BGC</emph> is unequal to the angle <emph>EHF</emph> , <hi rend="center">one of them is greater.</hi> Let the angle <emph>BGC</emph> be greater
+              : and on the straight line <emph>BG</emph> , and at the point <emph>G</emph> on it,
+              let the angle <emph>BGK</emph> be constructed equal to the angle <emph>EHF</emph> . [
+                <ref xml:id="ee-b3-Rd1e8963" target="http://scta.info/resource/elem.1.23">I. 23</ref> ] </p>
+            <p xml:id="ee-b3-d1e8967"> Now equal angles stand on equal circumferences, when they are at the centres; [ <ref xml:id="ee-b3-Rd1e8969" target="http://scta.info/resource/elem.3.26">III. 26</ref> ] <hi rend="center"> therefore the
+                circumference <emph>BK</emph> is equal to the circumference <emph>EF</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e8983"> But <emph>EF</emph> is equal to <emph>BC</emph> ; <hi rend="center"> therefore
+                  <emph>BK</emph> is also equal to <emph>BC</emph> , the less to the greater : which
+                is impossible. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9001"> Therefore the angle <emph>BGC</emph> is not unequal to the angle <emph>EHF</emph> ;
+                <hi rend="center">therefore it is equal to it.</hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e9013"> And the angle at <emph>A</emph> is half of the angle <emph>BGC</emph> , <hi rend="center"> and the angle at <emph>D</emph> half of the angle <emph>EHF</emph> ;
+                [ <ref xml:id="ee-b3-Rd1e9029" target="http://scta.info/resource/elem.3.20">III. 20</ref> ] </hi> therefore the angle at
+                <emph>A</emph> is also equal to the angle at <emph>D</emph> . </p>
+            <p xml:id="ee-b3-d1e9040">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.28" n="28">
+            <head xml:id="ee-b3-Hd1e9046">PROPOSITION 28.</head>
+            <p xml:id="ee-b3-d1e9049">
+              <emph> In equal circles equal straight lines cut off equal circumferences </emph> ,
+                <emph> the greater equal to the greater and the less to the less </emph> . </p>
+            <p xml:id="ee-b3-d1e9058"> Let <emph>ABC</emph> , <emph>DEF</emph> be equal circles, and in the circles let
+                <emph>AB</emph> , <emph>DE</emph> be equal straight lines cutting off
+                <emph>ACB</emph> , <emph>DFE</emph> as greater circumferences and <emph>AGB</emph> ,
+                <emph>DHE</emph> as lesser; I say that the greater circumference <emph>ACB</emph> is
+              equal to the greater circumference <emph>DFE</emph> , and the less circumference
+                <emph>AGB</emph> to <emph>DHE</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e9101"> For let the centres <emph>K</emph> , <emph>L</emph> of the circles be taken, and let
+                <emph>AK</emph> , <emph>KB</emph> , <emph>DL</emph> , <emph>LE</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e9123"> Now, since the circles are equal, <hi rend="center"> the radii are also equal;
+                therefore the two sides <emph>AK</emph> , <emph>KB</emph> are equal to the two sides
+                  <emph>DL</emph> , <emph>LE</emph> ; </hi> and the base <emph>AB</emph> is equal to
+              the base <emph>DE</emph> ; <hi rend="center"> therefore the angle <emph>AKB</emph> is
+                equal to the angle <emph>DLE</emph> . [ <ref xml:id="ee-b3-Rd1e9154" target="http://scta.info/resource/elem.1.8">I.
+                  8</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9160"> But equal angles stand on equal circumferences, when they are at the centres; [ <ref xml:id="ee-b3-Rd1e9162" target="http://scta.info/resource/elem.3.26">III. 26</ref> ] <hi rend="center"> therefore the
+                circumference <emph>AGB</emph> is equal to <emph>DHE</emph> . </hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e9175"> And the whole circle <emph>ABC</emph> is also equal to the whole circle
+                <emph>DEF</emph> ; therefore the circumference <emph>ACB</emph> which remains is
+              also equal to the circumference <emph>DFE</emph> which remains. </p>
+            <p xml:id="ee-b3-d1e9190">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.29" n="29">
+            <head xml:id="ee-b3-Hd1e9197">PROPOSITION 29.</head>
+            <p xml:id="ee-b3-d1e9200">
+              <emph> In equal circles equal circumferences are subtended by equal straight lines
+              </emph> . </p>
+            <p xml:id="ee-b3-d1e9206"> Let <emph>ABC</emph> , <emph>DEF</emph> be equal circles, and in them let equal
+              circumferences <emph>BGC</emph> , <emph>EHF</emph> be cut off; and let the straight
+              lines <emph>BC</emph> , <emph>EF</emph> be joined; I say that <emph>BC</emph> is equal
+              to <emph>EF</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e9236"> For let the centres of the circles be taken, and let them be <emph>K</emph> ,
+                <emph>L</emph> ; let <emph>BK</emph> , <emph>KC</emph> , <emph>EL</emph> ,
+                <emph>LF</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e9258"> Now, since the circumference <emph>BGC</emph> is equal to the circumference
+                <emph>EHF</emph> , <hi rend="center"> the angle <emph>BKC</emph> is also equal to
+                the angle <emph>ELF</emph> . [ <ref xml:id="ee-b3-Rd1e9274" target="http://scta.info/resource/elem.3.27">III. 27</ref> ]
+              </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9280"> And, since the circles <emph>ABC</emph> , <emph>DEF</emph> are equal, <hi rend="center"> the radii are also equal; therefore the two sides <emph>BK</emph> ,
+                  <emph>KC</emph> are equal to the two sides <emph>EL</emph> , <emph>LF</emph> ; and
+                they contain equal angles; therefore the base <emph>BC</emph> is equal to the base
+                  <emph>EF</emph> . [ <ref xml:id="ee-b3-Rd1e9309" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9314">Therefore etc.</p>
+          </div>
+          <div xml:id="elem.3.30" n="30">
+            <head xml:id="ee-b3-Hd1e9320">PROPOSITION 30.</head>
+            <p xml:id="ee-b3-d1e9323">
+              <emph>To bisect a given circumference</emph> . </p>
+            <p xml:id="ee-b3-d1e9329"> Let <emph>ADB</emph> be the given circumference; thus it is required to bisect the
+              circumference <emph>ADB</emph> . </p>
+            <p xml:id="ee-b3-d1e9338"> Let <emph>AB</emph> be joined and bisected at <emph>C</emph> ; from the point
+                <emph>C</emph> let <emph>CD</emph> be drawn at right angles to the straight line
+                <emph>AB</emph> , <!-- <figure/> --> and let <emph>AD</emph> , <emph>DB</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e9365"> Then, since <emph>AC</emph> is equal to <emph>CB</emph> , and <emph>CD</emph> is
+              common, <hi rend="center"> the two sides <emph>AC</emph> , <emph>CD</emph> are equal
+                to the two sides <emph>BC</emph> , <emph>CD</emph> ; </hi> and the angle
+                <emph>ACD</emph> is equal to the angle <emph>BCD</emph> , for each is right; <hi rend="center"> therefore the base <emph>AD</emph> is equal to the base
+                  <emph>DB</emph> . [ <ref xml:id="ee-b3-Rd1e9406" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9412"> But equal straight lines cut off equal circumferences, the greater equal to the
+              greater, and the less to the less; [ <ref xml:id="ee-b3-Rd1e9414" target="http://scta.info/resource/elem.3.28">III.
+                28</ref> ] <hi rend="center"> and each of the circumferences <emph>AD</emph> ,
+                  <emph>DB</emph> is less than a semicircle; therefore the circumference
+                  <emph>AD</emph> is equal to the circumference <emph>DB</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9433"> Therefore the given circumference has been bisected at the point <emph>D</emph> . Q.
+              E. F. </p>
+          </div>
+          <div xml:id="elem.3.31" n="31">
+            <head xml:id="ee-b3-Hd1e9442">PROPOSITION 31.</head>
+            <p xml:id="ee-b3-d1e9445">
+              <emph>In a circle the angle in the semicircle is right</emph> , <emph>that in a
+                greater segment less than a right angle</emph> , <emph> and that in a less segment
+                greater than a right angle; and further the angle of the greater segment is greater
+                than a right angle </emph> , <emph> and the angle of the less segment less than a
+                right angle </emph> . 
+            </p>
+            <p xml:id="ee-b3-d1e9460"> Let <emph>ABCD</emph> be a circle, let <emph>BC</emph> be its diameter, and
+                <emph>E</emph> its centre, and let <emph>BA</emph> , <emph>AC</emph> ,
+                <emph>AD</emph> , <emph>DC</emph> be joined; I say that the angle <emph>BAC</emph>
+              in the semicircle <emph>BAC</emph> is right, the angle <emph>ABC</emph> in the segment
+                <emph>ABC</emph> greater than the semicircle is less <!-- <figure/> --> than a right angle,
+              and the angle <emph>ADC</emph> in the segment <emph>ADC</emph> less than the
+              semicircle is greater than a right angle. </p>
+            <p xml:id="ee-b3-d1e9506"> Let <emph>AE</emph> be joined, and let <emph>BA</emph> be carried through to
+                <emph>F</emph> . </p>
+            <p xml:id="ee-b3-d1e9518"> Then, since <emph>BE</emph> is equal to <emph>EA</emph> , <hi rend="center"> the
+                angle <emph>ABE</emph> is also equal to the angle <emph>BAE</emph> . [ <ref xml:id="ee-b3-Rd1e9534" target="http://scta.info/resource/elem.1.5">I. 5</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9540"> Again, since <emph>CE</emph> is equal to <emph>EA</emph> , <hi rend="center"> the
+                angle <emph>ACE</emph> is also equal to the angle <emph>CAE</emph> . [ <ref xml:id="ee-b3-Rd1e9556" target="http://scta.info/resource/elem.1.5">I. 5</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9561"> Therefore the whole angle <emph>BAC</emph> is equal to the two angles
+                <emph>ABC</emph> , <emph>ACB</emph> . </p>
+            <p xml:id="ee-b3-d1e9573"> But the angle <emph>FAC</emph> exterior to the triangle <emph>ABC</emph> is also
+              equal to the two angles <emph>ABC</emph> , <emph>ACB</emph> ; [ <ref xml:id="ee-b3-Rd1e9587" target="http://scta.info/resource/elem.1.32">I. 32</ref> ] <hi rend="center"> therefore the
+                angle <emph>BAC</emph> is also equal to the angle <emph>FAC</emph> ; therefore each
+                is right; [ <ref xml:id="ee-b3-Rd1e9599" target="http://scta.info/resource/elem.1.def.10">I. Def. 10</ref> ] therefore
+                the angle <emph>BAC</emph> in the semicircle <emph>BAC</emph> is right. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9610"> Next, since in the triangle <emph>ABC</emph> the two angles <emph>ABC</emph> ,
+                <emph>BAC</emph> are less than two right angles, [ <ref xml:id="ee-b3-Rd1e9621" target="http://scta.info/resource/elem.1.17">I. 17</ref> ] and the angle <emph>BAC</emph> is a right angle, <hi rend="center"> the angle <emph>ABC</emph> is less than a right angle; </hi> and it
+              is the angle in the segment <emph>ABC</emph> greater than the semicircle. </p>
+            <p xml:id="ee-b3-d1e9638"> Next, since <emph>ABCD</emph> is a quadrilateral in a circle, and the opposite
+              angles of quadrilaterals in circles are equal to two right angles, [ <ref xml:id="ee-b3-Rd1e9643" target="http://scta.info/resource/elem.3.22">III. 22</ref> ] while the angle <emph>ABC</emph> is
+              less than a right angle, therefore the angle <emph>ADC</emph> which remains is greater
+              than a right angle; and it is the angle in the segment <emph>ADC</emph> less than the
+              semicircle. 
+            </p>
+            <p xml:id="ee-b3-d1e9656"> I say further that the angle of the greater segment, namely that contained by the
+              circumference <emph>ABC</emph> and the straight line <emph>AC</emph> , is greater than
+              a right angle; and the angle of the less segment, namely that contained by the
+              circumference <emph>ADC</emph> and the straight line <emph>AC</emph> , is less than a
+              right angle. </p>
+            <p xml:id="ee-b3-d1e9672"> This is at once manifest. For, since the angle contained by the straight lines
+                <emph>BA</emph> , <emph>AC</emph> is right, <hi rend="center"> the angle contained
+                by the circumference <emph>ABC</emph> and the straight line <emph>AC</emph> is
+                greater than a right angle. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9690"> Again, since the angle contained by the straight lines <emph>AC</emph> ,
+                <emph>AF</emph> is right, <hi rend="center"> the angle contained by the straight
+                line <emph>CA</emph> and the circumference <emph>ADC</emph> is less than a right
+                angle. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9708">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.32" n="32">
+            <head xml:id="ee-b3-Hd1e9714">PROPOSITION 32.</head>
+            <p xml:id="ee-b3-d1e9717">
+              <emph>If a straight line touch a circle</emph> , <emph> and from the point of contact
+                there be drawn across </emph> , <emph>in the circle</emph> , <emph>a straight line
+                cutting the circle</emph> , <emph> the angles which it makes with the tangent will
+                be equal to the angles in the alternate segments of the circle </emph> . </p>
+            <p xml:id="ee-b3-d1e9735"> For let a straight line <emph>EF</emph> touch the circle <emph>ABCD</emph> at the
+              point <emph>B</emph> , and from the point <emph>B</emph> let there be drawn across, in
+              the circle <emph>ABCD</emph> , a straight line <emph>BD</emph> cutting it; I say that
+              the angles which <emph>BD</emph> makes with the tangent <emph>EF</emph> will be equal
+              to the angles in the alternate segments of the  circle, that is, that the
+              angle <emph>FBD</emph> is equal to the angle constructed in the segment
+                <emph>BAD</emph> , and the angle <emph>EBD</emph> is equal to the angle constructed
+              in the segment <emph>DCB</emph> . </p>
+            <p xml:id="ee-b3-d1e9776"> For let <emph>BA</emph> be drawn from <emph>B</emph> at right angles to
+                <emph>EF</emph> , let a point <emph>C</emph> be taken at random on the circumference
+                <emph>BD</emph> , <!-- <figure/> --> and let <emph>AD</emph> , <emph>DC</emph> ,
+                <emph>CB</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e9806"> Then, since a straight line <emph>EF</emph> touches the circle <emph>ABCD</emph> at
+                <emph>B</emph> , and <emph>BA</emph> has been drawn from the point of contact at
+              right angles to the tangent, the centre of the circle <emph>ABCD</emph> is on
+                <emph>BA</emph> . [ <ref xml:id="ee-b3-Rd1e9827" target="http://scta.info/resource/elem.3.19">III. 19</ref> ] </p>
+            <p xml:id="ee-b3-d1e9832"> Therefore <emph>BA</emph> is a diameter of the circle <emph>ABCD</emph> ; <hi rend="center"> therefore the angle <emph>ADB</emph> , being an angle in a
+                semicircle, is right. [ <ref xml:id="ee-b3-Rd1e9845" target="http://scta.info/resource/elem.3.31">III. 31</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9850"> Therefore the remaining angles <emph>BAD</emph> , <emph>ABD</emph> are equal to one
+              right angle. [ <ref xml:id="ee-b3-Rd1e9858" target="http://scta.info/resource/elem.1.32">I. 32</ref> ] </p>
+            <p xml:id="ee-b3-d1e9862"> But the angle <emph>ABF</emph> is also right; therefore the angle <emph>ABF</emph>
+              is equal to the angles <emph>BAD</emph> , <emph>ABD</emph> . </p>
+            <p xml:id="ee-b3-d1e9877"> Let the angle <emph>ABD</emph> be subtracted from each; therefore the angle
+                <emph>DBF</emph> which remains is equal to the angle <emph>BAD</emph> in the
+              alternate segment of the circle. </p>
+            <p xml:id="ee-b3-d1e9889"> Next, since <emph>ABCD</emph> is a quadrilateral in a circle, its opposite angles
+              are equal to two right angles. [ <ref xml:id="ee-b3-Rd1e9894" target="http://scta.info/resource/elem.3.22">III. 22</ref> ] </p>
+            <p xml:id="ee-b3-d1e9898"> But the angles <emph>DBF</emph> , <emph>DBE</emph> are also equal to two right
+              angles; therefore the angles <emph>DBF</emph> , <emph>DBE</emph> are equal to the
+              angles <emph>BAD</emph> , <emph>BCD</emph> , <hi rend="center"> of which the angle
+                  <emph>BAD</emph> was proved equal to the angle <emph>DBF</emph> ; therefore the
+                angle <emph>DBE</emph> which remains is equal to the angle <emph>DCB</emph> in the
+                alternate segment <emph>DCB</emph> of the circle. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9939">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.33" n="33">
+            <head xml:id="ee-b3-Hd1e9945">PROPOSITION 33.</head>
+            <p xml:id="ee-b3-d1e9948">
+              <emph> On a given straight line to describe a segment of a circle admitting an angle
+                equal to a given rectilineal angle </emph> . </p>
+            <p xml:id="ee-b3-d1e9954"> Let <emph>AB</emph> be the given straight line, and the angle at <emph>C</emph> the
+              given rectilineal angle; thus it is required to describe on the given straight line
+                <emph>AB</emph> a segment of a circle admitting an angle equal to the angle at
+                <emph>C</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e9971"> The angle at <emph>C</emph> is then acute, or right, or obtuse. </p>
+            <p xml:id="ee-b3-d1e9977"> First let it be acute, and, as in the first figure, on the straight line
+                <emph>AB</emph> , and at the point <emph>A</emph> , let the angle <emph>BAD</emph>
+              be constructed equal to the angle at <emph>C</emph> ; <hi rend="center"> therefore the
+                angle <emph>BAD</emph> is also acute. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e9999"> Let <emph>AE</emph> be drawn at right angles to <emph>DA</emph> , let
+                <emph>AB</emph> be  bisected at <emph>F</emph> , let <emph>FG</emph> be
+              drawn from the point <emph>F</emph> at right angles to <emph>AB</emph> , and let
+                <emph>GB</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e10027"> Then, since <emph>AF</emph> is equal to <emph>FB</emph> , and <emph>FG</emph> is
+              common, <hi rend="center"> the two sides <emph>AF</emph> , <emph>FG</emph> are equal
+                to the two sides <emph>BF</emph> , <emph>FG</emph> ; </hi> and the angle
+                <emph>AFG</emph> is equal to the angle <emph>BFG</emph> ; <hi rend="center">
+                therefore the base <emph>AG</emph> is equal to the base <emph>BG</emph> . [ <ref xml:id="ee-b3-Rd1e10068" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e10073"> Therefore the circle described with centre <emph>G</emph> and distance
+                <emph>GA</emph> will pass through <emph>B</emph> also. </p>
+            <p xml:id="ee-b3-d1e10085"> Let it be drawn, and let it be <emph>ABE</emph> ; let <emph>EB</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e10094"> Now, since <emph>AD</emph> is drawn from <emph>A</emph> , the extremity of the
+              diameter <emph>AE</emph> , at right angles to <emph>AE</emph> , <hi rend="center">
+                therefore <emph>AD</emph> touches the circle <emph>ABE</emph> . [ <ref xml:id="ee-b3-Rd1e10116" target="http://scta.info/resource/elem.3.16.p.1">III. 16, Por.</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e10121"> Since then a straight line <emph>AD</emph> touches the circle <emph>ABE</emph> , and
+              from the point of contact at <emph>A</emph> a straight line <emph>AB</emph> is drawn
+              across in the circle <emph>ABE</emph> , <hi rend="center"> the angle <emph>DAB</emph>
+                is equal to the angle <emph>AEB</emph> in the alternate segment of the circle. [
+                  <ref xml:id="ee-b3-Rd1e10147" target="http://scta.info/resource/elem.3.32">III. 32</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e10153"> But the angle <emph>DAB</emph> is equal to the angle at <emph>C</emph> ; therefore
+              the angle at <emph>C</emph> is also equal to the angle <emph>AEB</emph> . </p>
+            <p xml:id="ee-b3-d1e10168"> Therefore on the given straight line <emph>AB</emph> the segment <emph>AEB</emph> of
+              a circle has been described admitting the angle <emph>AEB</emph> equal to the given
+              angle, the angle at <emph>C</emph> . </p>
+            <p xml:id="ee-b3-d1e10183"> Next let the angle at <emph>C</emph> be right; <!-- <figure/> --> and let it be again
+              required to describe on <emph>AB</emph> a segment of a circle admitting an angle equal
+              to the right angle at <emph>C</emph> . </p>
+            <p xml:id="ee-b3-d1e10197"> Let the angle <emph>BAD</emph> be constructed equal to the right angle at
+                <emph>C</emph> , as is the case in the second figure;  let
+                <emph>AB</emph> be bisected at <emph>F</emph> , and with centre <emph>F</emph> and
+              distance either <emph>FA</emph> or <emph>FB</emph> let the circle <emph>AEB</emph> be
+              described. </p>
+            <p xml:id="ee-b3-d1e10225"> Therefore the straight line <emph>AD</emph> touches the circle <emph>ABE</emph> ,
+              because the angle at <emph>A</emph> is right. [ <ref xml:id="ee-b3-Rd1e10236" target="http://scta.info/resource/elem.3.16.p.1">III. 16, Por.</ref> ] </p>
+            <p xml:id="ee-b3-d1e10240"> And the angle <emph>BAD</emph> is equal to the angle in the segment <emph>AEB</emph>
+              , for the latter too is itself a right angle, being an angle in a semicircle. [ <ref xml:id="ee-b3-Rd1e10248" target="http://scta.info/resource/elem.3.31">III. 31</ref> ] </p>
+            <p xml:id="ee-b3-d1e10253"> But the angle <emph>BAD</emph> is also equal to the angle at <emph>C</emph> . </p>
+            <p xml:id="ee-b3-d1e10262"> Therefore the angle <emph>AEB</emph> is also equal to the angle at <emph>C</emph> . </p>
+            <p xml:id="ee-b3-d1e10271"> Therefore again the segment <emph>AEB</emph> of a circle has been described on
+                <emph>AB</emph> admitting an angle equal to the angle at <emph>C</emph> . </p>
+            <p xml:id="ee-b3-d1e10283"> Next, let the angle at <emph>C</emph> be obtuse; <!-- <figure/> --> and on the straight line
+                <emph>AB</emph> , and at the point <emph>A</emph> , let the angle <emph>BAD</emph>
+              be constructed equal to it, as is the case in the third figure; let <emph>AE</emph> be
+              drawn at right angles to <emph>AD</emph> , let <emph>AB</emph> be again bisected at
+                <emph>F</emph> , let <emph>FG</emph> be drawn at right angles to <emph>AB</emph> ,
+              and let <emph>GB</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e10323"> Then, since <emph>AF</emph> is again equal to <emph>FB</emph> , and <emph>FG</emph>
+              is common, <hi rend="center"> the two sides <emph>AF</emph> , <emph>FG</emph> are
+                equal to the two sides <emph>BF</emph> , <emph>FG</emph> ; </hi> and the angle
+                <emph>AFG</emph> is equal to the angle <emph>BFG</emph> ; <hi rend="center">
+                therefore the base <emph>AG</emph> is equal to the base <emph>BG</emph> . [ <ref xml:id="ee-b3-Rd1e10364" target="http://scta.info/resource/elem.1.4">I. 4</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e10369"> Therefore the circle described with centre <emph>G</emph> and distance
+                <emph>GA</emph> will pass through <emph>B</emph> also; let it so pass, as
+                <emph>AEB</emph> . </p>
+            <p xml:id="ee-b3-d1e10385"> Now, since <emph>AD</emph> is drawn at right angles to the diameter <emph>AE</emph>
+              from its extremity, <hi rend="center">
+                <emph>AD</emph> touches the circle <emph>AEB</emph> . [ <ref xml:id="ee-b3-Rd1e10401" target="http://scta.info/resource/elem.3.16.p.1">III. 16, Por.</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e10406"> And <emph>AB</emph> has been drawn across from the point of contact at
+                <emph>A</emph> ; <hi rend="center"> therefore the angle <emph>BAD</emph> is equal to
+                the angle constructed in the alternate segment <emph>AHB</emph> of the circle. [
+                  <ref xml:id="ee-b3-Rd1e10422" target="http://scta.info/resource/elem.3.32">III. 32</ref> ] </hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e10427"> But the angle <emph>BAD</emph> is equal to the angle at <emph>C</emph> . </p>
+            <p xml:id="ee-b3-d1e10436"> Therefore the angle in the segment <emph>AHB</emph> is also equal to the angle at
+                <emph>C</emph> . </p>
+            <p xml:id="ee-b3-d1e10445"> Therefore on the given straight line <emph>AB</emph> the segment <emph>AHB</emph> of
+              a circle has been described admitting an angle equal to the angle at <emph>C</emph> .
+              Q. E. F. </p>
+          </div>
+          <div xml:id="elem.3.34" n="34">
+            <head xml:id="ee-b3-Hd1e10460">PROPOSITION 34.</head>
+            <p xml:id="ee-b3-d1e10463">
+              <emph> From a given circle to cut off a segment admitting an angle equal to a given
+                rectilineal angle </emph> . </p>
+            <p xml:id="ee-b3-d1e10469"> Let <emph>ABC</emph> be the given circle, and the angle at <emph>D</emph> the given
+              rectilineal angle; thus it is required to cut off from the circle <emph>ABC</emph> a
+              segment admitting an angle equal to the given rectilineal angle, the angle at
+                <emph>D</emph> . </p>
+            <p xml:id="ee-b3-d1e10484"> Let <emph>EF</emph> be drawn touching <emph>ABC</emph> at the point <emph>B</emph> ,
+              and on the straight line <emph>FB</emph> , and at the point <emph>B</emph> on it, let
+              the angle <emph>FBC</emph> be constructed equal to the angle at <emph>D</emph> . [
+                <ref xml:id="ee-b3-Rd1e10508" target="http://scta.info/resource/elem.1.23">I. 23</ref> ] </p>
+            <p xml:id="ee-b3-d1e10512"> Then, since a straight line <emph>EF</emph> touches the circle <emph>ABC</emph> ,
+                
+              <hi rend="center"> and <emph>BC</emph> has been drawn across from the point of contact
+                at <emph>B</emph> , </hi> the angle <emph>FBC</emph> is equal to the angle
+              constructed in the alternate segment <emph>BAC</emph> . [ <ref xml:id="ee-b3-Rd1e10536" target="http://scta.info/resource/elem.3.32">III. 32</ref> ] <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e10543"> But the angle <emph>FBC</emph> is equal to the angle at <emph>D</emph> ; <hi rend="center"> therefore the angle in the segment <emph>BAC</emph> is equal to the
+                angle at <emph>D</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e10561"> Therefore from the given circle <emph>ABC</emph> the segment <emph>BAC</emph> . has
+              been cut off admitting an angle equal to the given rectilineal angle, the angle at
+                <emph>D</emph> . Q. E. F. </p>
+          </div>
+          <div xml:id="elem.3.35" n="35">
+            <head xml:id="ee-b3-Hd1e10577">PROPOSITION 35.</head>
+            <p xml:id="ee-b3-d1e10580">
+              <emph>If in a circle two straight lines cut one another</emph> , <emph> the rectangle
+                contained by the segments of the one is equal to the rectangle contained by the
+                segments of the other </emph> . </p>
+            <p xml:id="ee-b3-d1e10589"> For in the circle <emph>ABCD</emph> let the two straight lines <emph>AC</emph> ,
+                <emph>BD</emph> cut one another at the point <emph>E</emph> ; I say that the
+              rectangle contained by <emph>AE</emph> , <emph>EC</emph> is equal to the rectangle
+              contained by <emph>DE</emph> , <emph>EB</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e10619"> If now <emph>AC</emph> , <emph>BD</emph> are through the centre, so that
+                <emph>E</emph> is the centre of the circle <emph>ABCD</emph> , it is manifest that,
+                <emph>AE</emph> , <emph>EC</emph> , <emph>DE</emph> , <emph>EB</emph> being equal,
+              the rectangle contained by <emph>AE</emph> , <emph>EC</emph> is also equal to the
+              rectangle contained by <emph>DE</emph> , <emph>EB</emph> . 
+            </p>
+            <p xml:id="ee-b3-d1e10660"> Next let <emph>AC</emph> , <emph>DB</emph> not be through the centre; let the centre
+              of <emph>ABCD</emph> be taken, and let it be <emph>F</emph> ; from <emph>F</emph> let
+                <emph>FG</emph> , <emph>FH</emph> be drawn perpendicular to the straight lines
+                <emph>AC</emph> , <emph>DB</emph> , and let <emph>FB</emph> , <emph>FC</emph> ,
+                <emph>FE</emph> be joined. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e10704"> Then, since a straight line <emph>GF</emph> through the centre cuts a straight line
+                <emph>AC</emph> not through the centre at right angles, <hi rend="center"> it also
+                bisects it; [ <ref xml:id="ee-b3-Rd1e10714" target="http://scta.info/resource/elem.3.3">III. 3</ref> ] therefore
+                  <emph>AG</emph> is equal to <emph>GC</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e10725"> Since, then, the straight line <emph>AC</emph> has been cut into equal parts at
+                <emph>G</emph> and into unequal parts at <emph>E</emph> , the rectangle contained by
+                <emph>AE</emph> , <emph>EC</emph> together with the square on <emph>EG</emph> is
+              equal to the square on <emph>GC</emph> ; [ <ref xml:id="ee-b3-Rd1e10749" target="http://scta.info/resource/elem.2.5">II.
+                5</ref> ] </p>
+            <p xml:id="ee-b3-d1e10753"> Let the square on <emph>GF</emph> be added; therefore the rectangle <emph>AE</emph>
+              , <emph>EC</emph> together with the squares on <emph>GE</emph> , <emph>GF</emph> is
+              equal to the squares on <emph>CG</emph> , <emph>GF</emph> . </p>
+            <p xml:id="ee-b3-d1e10778"> But the square on <emph>FE</emph> is equal to the squares on <emph>EG</emph> ,
+                <emph>GF</emph> , and the square on <emph>FC</emph> is equal to the squares on
+                <emph>CG</emph> , <emph>GF</emph> ; [ <ref xml:id="ee-b3-Rd1e10799" target="http://scta.info/resource/elem.1.47">I.
+                47</ref> ] <hi rend="center"> therefore the rectangle <emph>AE</emph> ,
+                  <emph>EC</emph> together with the square on <emph>FE</emph> is equal to the square
+                on <emph>FC</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e10818"> And <emph>FC</emph> is equal to <emph>FB</emph> ; therefore the rectangle
+                <emph>AE</emph> , <emph>EC</emph> together with the square on <emph>EF</emph> is
+              equal to the square on <emph>FB</emph> . </p>
+            <p xml:id="ee-b3-d1e10840"> For the same reason, also, the rectangle <emph>DE</emph> , <emph>EB</emph> together
+              with the square on <emph>FE</emph> is equal to the square on <emph>FB</emph> . </p>
+            <p xml:id="ee-b3-d1e10856"> But the rectangle <emph>AE</emph> , <emph>EC</emph> together with the square on
+                <emph>FE</emph> was also proved equal to the square on <emph>FB</emph> ; therefore
+              the rectangle <emph>AE</emph> , <emph>EC</emph> together with the square on
+                <emph>FE</emph> is equal to the rectangle <emph>DE</emph> , <emph>EB</emph> together
+              with the square on <emph>FE</emph> . </p>
+            <p xml:id="ee-b3-d1e10890"> Let the square on <emph>FE</emph> be subtracted from each; therefore the rectangle
+              contained by <emph>AE</emph> , <emph>EC</emph> which remains is equal to the rectangle
+              contained by <emph>DE</emph> , <emph>EB</emph> . </p>
+            <p xml:id="ee-b3-d1e10908">Therefore etc.</p>
+          </div>
+          <div xml:id="elem.3.36" n="36">
+            <head xml:id="ee-b3-Hd1e10914">PROPOSITION 36.</head>
+            <p xml:id="ee-b3-d1e10917">
+              <emph> If a point be taken outside a circle and from it there fall on the circle two
+                straight lines </emph> , <emph> and if one of them cut the circle and the other
+                touch it </emph> , <emph> the rectangle contained by the whole of the straight line
+                which cuts the circle and the straight  line intercepted on it outside
+                between the point and the convex circumference will be equal to the square on the
+                tangent </emph> . </p>
+            <p xml:id="ee-b3-d1e10929"> For let a point <emph>D</emph> be taken outside the circle <emph>ABC</emph> , and
+              from <emph>D</emph> let the two straight lines <emph>DCA</emph> , <emph>DB</emph> fall
+              on the circle <emph>ABC</emph> ; let <emph>DCA</emph> cut the circle <emph>ABC</emph>
+              and let <emph>BD</emph> touch it; I say that the rectangle contained by
+                <emph>AD</emph> , <emph>DC</emph> is equal to the square on <emph>DB</emph> .
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e10972"> Then <emph>DCA</emph> is either through the centre or not through the centre. </p>
+            <p xml:id="ee-b3-d1e10978"> First let it be through the centre, and let <emph>F</emph> be the centre of the
+              circle <emph>ABC</emph> ; let <emph>FB</emph> be joined; <hi rend="center"> therefore
+                the angle <emph>FBD</emph> is right. [ <ref xml:id="ee-b3-Rd1e10994" target="http://scta.info/resource/elem.3.18">III.
+                  18</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e11000"> And, since <emph>AC</emph> has been bisected at <emph>F</emph> , and <emph>CD</emph>
+              is added to it, the rectangle <emph>AD</emph> , <emph>DC</emph> together with the
+              square on <emph>FC</emph> is equal to the square on <emph>FD</emph> . [ <ref xml:id="ee-b3-Rd1e11024" target="http://scta.info/resource/elem.2.6">II. 6</ref> ] </p>
+            <p xml:id="ee-b3-d1e11028"> But <emph>FC</emph> is equal to <emph>FB</emph> ; therefore the rectangle
+                <emph>AD</emph> , <emph>DC</emph> together with the square on <emph>FB</emph> is
+              equal to the square on <emph>FD</emph> . </p>
+            <p xml:id="ee-b3-d1e11050"> And the squares on <emph>FB</emph> , <emph>BD</emph> are equal to the square on
+                <emph>FD</emph> ; [ <ref xml:id="ee-b3-Rd1e11061" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] therefore
+              the rectangle <emph>AD</emph> , <emph>DC</emph> together with the square on
+                <emph>FB</emph> is equal to the squares on <emph>FB</emph> , <emph>BD</emph> . </p>
+            <p xml:id="ee-b3-d1e11081"> Let the square on <emph>FB</emph> be subtracted from each; therefore the rectangle
+                <emph>AD</emph> , <emph>DC</emph> which remains is equal to the square on the
+              tangent <emph>DB</emph> . </p>
+            <p xml:id="ee-b3-d1e11096"> Again, let <emph>DCA</emph> not be through the centre of the circle <emph>ABC</emph>
+              ; let the centre <emph>E</emph> be taken, and from <emph>E</emph> let <emph>EF</emph>
+              be drawn perpendicular to <emph>AC</emph> ; let <emph>EB</emph> , <emph>EC</emph> ,
+                <emph>ED</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e11127"> Then the angle <emph>EBD</emph> is right. [ <ref xml:id="ee-b3-Rd1e11132" target="http://scta.info/resource/elem.3.18">III. 18</ref> ] <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e11139"> And, since a straight line <emph>EF</emph> through the centre cuts a straight line
+                <emph>AC</emph> not through the centre at right angles, <hi rend="center"> it also
+                bisects it; [ <ref xml:id="ee-b3-Rd1e11149" target="http://scta.info/resource/elem.3.3">III. 3</ref> ] therefore
+                  <emph>AF</emph> is equal to <emph>FC</emph> . </hi>
+              
+            </p>
+            <p xml:id="ee-b3-d1e11160"> Now, since the straight line <emph>AC</emph> has been bisected at the point
+                <emph>F</emph> , and <emph>CD</emph> is added to it, the rectangle contained by
+                <emph>AD</emph> , <emph>DC</emph> together with the square on <emph>FC</emph> is
+              equal to the square on <emph>FD</emph> . [ <ref xml:id="ee-b3-Rd1e11184" target="http://scta.info/resource/elem.2.6">II.
+                6</ref> ] </p>
+            <p xml:id="ee-b3-d1e11188"> Let the square on <emph>FE</emph> be added to each; therefore the rectangle
+                <emph>AD</emph> , <emph>DC</emph> together with the squares on <emph>CF</emph> ,
+                <emph>FE</emph> is equal to the squares on <emph>FD</emph> , <emph>FE</emph> . </p>
+            <p xml:id="ee-b3-d1e11213"> But the square on <emph>EC</emph> is equal to the squares on <emph>CF</emph> ,
+                <emph>FE</emph> , for the angle <emph>EFC</emph> is right; [ <ref xml:id="ee-b3-Rd1e11227" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] and the square on <emph>ED</emph> is equal to the
+              squares on <emph>DF</emph> , <emph>FE</emph> ; therefore the rectangle <emph>AD</emph>
+              , <emph>DC</emph> together with the square on <emph>EC</emph> is equal to the square
+              on <emph>ED</emph> . </p>
+            <p xml:id="ee-b3-d1e11254"> And <emph>EC</emph> is equal to <emph>EB</emph> ; therefore the rectangle
+                <emph>AD</emph> , <emph>DC</emph> together with the square on <emph>EB</emph> is
+              equal to the square on <emph>ED</emph> . </p>
+            <p xml:id="ee-b3-d1e11276"> But the squares on <emph>EB</emph> , <emph>BD</emph> are equal to the square on
+                <emph>ED</emph> , for the angle <emph>EBD</emph> is right; [ <ref xml:id="ee-b3-Rd1e11290" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] therefore the rectangle <emph>AD</emph> ,
+                <emph>DC</emph> together with the square on <emph>EB</emph> is equal to the squares
+              on <emph>EB</emph> , <emph>BD</emph> . </p>
+            <p xml:id="ee-b3-d1e11311"> Let the square on <emph>EB</emph> be subtracted from each; therefore the rectangle
+                <emph>AD</emph> , <emph>DC</emph> which remains is equal to the square on
+                <emph>DB</emph> . </p>
+            <p xml:id="ee-b3-d1e11326">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.3.37" n="37">
+            <head xml:id="ee-b3-Hd1e11332">PROPOSITION 37.</head>
+            <p xml:id="ee-b3-d1e11335">
+              <emph> If a point be taken outside a circle and from the point there fall on the
+                circle two straight lines </emph> , <emph>if one of them cut the circle</emph> ,
+                <emph>and the other fall on it</emph> , <emph> and if further the rectangle
+                contained by the whole of the straight line which cuts  the circle and
+                the straight line intercepted on it outside between the point and the convex
+                circumference be equal to the square on the straight line which falls on the circle
+              </emph> , <emph> the straight line which falls on it will touch the circle </emph> . </p>
+            <p xml:id="ee-b3-d1e11353"> For let a point <emph>D</emph> be taken outside the circle <emph>ABC</emph> ; from
+                <emph>D</emph> let the two straight lines <emph>DCA</emph> , <emph>DB</emph> fall on
+              the circle <emph>ACB</emph> ; let <emph>DCA</emph> cut the circle and <emph>DB</emph>
+              fall on it; and let the rectangle <emph>AD</emph> , <emph>DC</emph> be equal to the
+              square on <emph>DB</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b3-d1e11392"> I say that <emph>DB</emph> touches the circle <emph>ABC</emph> . </p>
+            <p xml:id="ee-b3-d1e11401"> For let <emph>DE</emph> be drawn touching <emph>ABC</emph> ; let the centre of the
+              circle <emph>ABC</emph> be taken, and let it be <emph>F</emph> ; let <emph>FE</emph> ,
+                <emph>FB</emph> , <emph>FD</emph> be joined. </p>
+            <p xml:id="ee-b3-d1e11427"> Thus the angle <emph>FED</emph> is right. [ <ref xml:id="ee-b3-Rd1e11432" target="http://scta.info/resource/elem.3.18">III. 18</ref> ] </p>
+            <p xml:id="ee-b3-d1e11436"> Now, since <emph>DE</emph> touches the circle <emph>ABC</emph> , and
+                <emph>DCA</emph> cuts it, the rectangle <emph>AD</emph> , <emph>DC</emph> is equal
+              to the square on <emph>DE</emph> . [ <ref xml:id="ee-b3-Rd1e11457" target="http://scta.info/resource/elem.3.36">III.
+                36</ref> ] </p>
+            <p xml:id="ee-b3-d1e11461"> But the rectangle <emph>AD</emph> , <emph>DC</emph> was also equal to the square on
+                <emph>DB</emph> ; therefore the square on <emph>DE</emph> is equal to the square on
+                <emph>DB</emph> ; <hi rend="center"> therefore <emph>DE</emph> is equal to
+                  <emph>DB</emph> . </hi>
+            </p>
+            <p xml:id="ee-b3-d1e11489"> And <emph>FE</emph> is equal to <emph>FB</emph> ; therefore the two sides
+                <emph>DE</emph> , <emph>EF</emph> are equal to the two sides <emph>DB</emph> ,
+                <emph>BF</emph> ; and <emph>FD</emph> is the common base of the triangles; <hi rend="center"> therefore the angle <emph>DEF</emph> is equal to the angle
+                  <emph>DBF</emph> . [ <ref xml:id="ee-b3-Rd1e11521" target="http://scta.info/resource/elem.1.8">I. 8</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b3-d1e11526"> But the angle <emph>DEF</emph> is right; <hi rend="center"> therefore the angle
+                  <emph>DBF</emph> is also right. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e11538"> And <emph>FB</emph> produced is a diameter; and the straight line drawn at right
+              angles to the diameter of a circle, from its extremity, touches the circle; [ <ref xml:id="ee-b3-Rd1e11543" target="http://scta.info/resource/elem.3.16.p.1">III. 16, Por.</ref> ] <hi rend="center">
+                therefore <emph>DB</emph> touches the circle. </hi>
+            </p>
+            <p xml:id="ee-b3-d1e11554"> Similarly this can be proved to be the case even if the centre be on <emph>AC</emph>
+              . </p>
+            <p xml:id="ee-b3-d1e11560">Therefore etc. Q. E. D.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

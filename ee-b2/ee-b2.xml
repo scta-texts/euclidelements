@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elements, Book 2</title>
+        <author>Euclid</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Elements, Book 2</title>
+          <date when="2014-03-19">March 03, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="X" n="xxx"/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-03-19" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#X" n="X"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ee-b2">
+        <head xml:id="ee-b2-Hd1e3717">BOOK II.</head>
+        <div xml:id="ee-b2-Dd1e3720">
+          <head xml:id="ee-b2-Hd1e3722">DEFINITIONS.</head>
+          <div xml:id="elem.2.def.1" n="1">
+            <head xml:id="ee-b2-Hd1e3727">1</head>
+            <p xml:id="ee-b2-d1e3730"> Any rectangular parallelogram is said to be <hi rend="bold">contained</hi> by the
+              two straight lines containing the right angle. </p>
+          </div>
+          <div xml:id="elem.2.def.2" n="2">
+            <head xml:id="ee-b2-Hd1e3739">2</head>
+            <p xml:id="ee-b2-d1e3742"> And in any parallelogrammic area let any one whatever of the parallelograms about
+              its diameter with the two complements be called a <hi rend="bold">gnomon.</hi>
+            </p>
+          </div>
+        </div>
+        <div xml:id="ee-b2-Dd1e3750" n="Prop" type="type" org="uniform" sample="complete">
+          
+          <head xml:id="ee-b2-Hd1e3752">BOOK II. PROPOSITIONS.</head>
+          <div xml:id="elem.2.1" n="1" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e3757">Proposition 1.</head>
+            <p xml:id="ee-b2-d1e3760">
+              <emph>If there be two straight lines</emph> , <emph> and one of them be cut into any
+                number of segments whatever </emph> , <emph> the rectangle contained by the two
+                straight lines is equal to the rectangles contained by the uncut straight line and
+                each of the segments </emph> . 
+            </p>
+            <p xml:id="ee-b2-d1e3772"> Let <emph>A</emph> , <emph>BC</emph> be two straight lines, and let <emph>BC</emph>
+              be cut at random at the points <emph>D</emph> , <emph>E</emph> ; I say that the
+              rectangle contained by <emph>A</emph> , <emph>BC</emph> is equal to the rectangle
+              contained by <emph>A</emph> , <emph>BD</emph> , that contained by <emph>A</emph> ,
+                <emph>DE</emph> and  that contained by <emph>A</emph> , <emph>EC</emph>
+              . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b2-d1e3818"> For let <emph>BF</emph> be drawn from <emph>B</emph> at right angles to
+                <emph>BC</emph> ; [ <ref xml:id="ee-b2-Rd1e3829" target="http://scta.info/resource/elem.1.11">I. 11</ref> ] let
+                <emph>BG</emph> be made equal to <emph>A</emph> , [ <ref xml:id="ee-b2-Rd1e3839" target="http://scta.info/resource/elem.1.3">I. 3</ref> ] through <emph>G</emph> let <emph>GH</emph> be drawn  parallel to <emph>BC</emph> , [ <ref xml:id="ee-b2-Rd1e3851" target="http://scta.info/resource/elem.1.31">I.
+                31</ref> ] and through <emph>D</emph> , <emph>E</emph> , <emph>C</emph> let
+                <emph>DK</emph> , <emph>EL</emph> , <emph>CH</emph> be drawn parallel to
+                <emph>BG</emph> . </p>
+            <p xml:id="ee-b2-d1e3878"> Then <emph>BH</emph> is equal to <emph>BK</emph> , <emph>DL</emph> , <emph>EH</emph>
+              . 
+            </p>
+            <p xml:id="ee-b2-d1e3894"> Now <emph>BH</emph> is the rectangle <emph>A</emph> , <emph>BC</emph> , for it is
+              contained by <emph>GB</emph> , <emph>BC</emph> , and <emph>BG</emph> is equal to
+                <emph>A</emph> ; </p>
+            <p xml:id="ee-b2-d1e3919">
+              <emph>BK</emph> is the rectangle <emph>A</emph> , <emph>BD</emph> , for it is
+              contained by <emph>GB</emph> , <emph>BD</emph> , and <emph>BG</emph> is equal to
+                <emph>A</emph> ; <hi rend="center"> and <emph>DL</emph> is the rectangle
+                  <emph>A</emph> , <emph>DE</emph> , for <emph>DK</emph> , that is <emph>BG</emph> [
+                  <ref xml:id="ee-b2-Rd1e3961" target="http://scta.info/resource/elem.1.34">I. 34</ref> ],  is equal to
+                  <emph>A</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e3969"> Similarly also <emph>EH</emph> is the rectangle <emph>A</emph> , <emph>EC</emph> . </p>
+            <p xml:id="ee-b2-d1e3981"> Therefore the rectangle <emph>A</emph> , <emph>BC</emph> is equal to the rectangle
+                <emph>A</emph> , <emph>BD</emph> , the rectangle <emph>A</emph> , <emph>DE</emph>
+              and the rectangle <emph>A</emph> , <emph>EC</emph> . </p>
+            <p xml:id="ee-b2-d1e4009"> Therefore etc. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.2.2" n="2" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e4015">Proposition 2.</head>
+            <p xml:id="ee-b2-d1e4018">
+              <emph>If a straight line be cut at random</emph> , <emph> the rectangle contained by
+                the whole and both of the segments is equal to the square on the whole </emph> . </p>
+            <p xml:id="ee-b2-d1e4027"> For let the straight line <emph>AB</emph> be cut at random at the point
+                <emph>C</emph> ; I say that the rectangle contained by <emph>AB</emph> ,
+                <emph>BC</emph> together with the rectangle contained by <emph>BA</emph> ,
+                <emph>AC</emph> is equal to the square on <emph>AB</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b2-d1e4054"> For let the square <emph>ADEB</emph> be described on <emph>AB</emph> [ <ref xml:id="ee-b2-Rd1e4062" target="http://scta.info/resource/elem.1.46">I. 46</ref> ], and let <emph>CF</emph> be drawn
+              through <emph>C</emph> parallel to either <emph>AD</emph> or <emph>BE</emph> . [ <ref xml:id="ee-b2-Rd1e4078" target="http://scta.info/resource/elem.1.31">I. 31</ref> ] </p>
+            <p xml:id="ee-b2-d1e4082"> Then <emph>AE</emph> is equal to <emph>AF</emph> , <emph>CE</emph> . </p>
+            <p xml:id="ee-b2-d1e4095"> Now <emph>AE</emph> is the square on <emph>AB</emph> ; </p>
+            <p xml:id="ee-b2-d1e4104">
+              <emph>AF</emph> is the rectangle contained by <emph>BA</emph> , <emph>AC</emph> , for
+              it is contained by <emph>DA</emph> , <emph>AC</emph> , and <emph>AD</emph> is equal to
+                <emph>AB</emph> ; <hi rend="center"> and <emph>CE</emph> is the rectangle
+                  <emph>AB</emph> , <emph>BC</emph> , for <emph>BE</emph> is equal to
+                  <emph>AB</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e4147"> Therefore the rectangle <emph>BA</emph> , <emph>AC</emph> together with the
+              rectangle <emph>AB</emph> , <emph>BC</emph> is equal to the square on <emph>AB</emph>
+              . </p>
+            <p xml:id="ee-b2-d1e4165">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.2.3" n="3" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e4171">Proposition 3.</head>
+            <p xml:id="ee-b2-d1e4174">
+              <emph>If a straight line be cut at random</emph> , <emph> the rectangle contained by
+                the whole and one of the segments is equal to the rectangle contained by the
+                segments and the square on the aforesaid segment </emph> . </p>
+            <p xml:id="ee-b2-d1e4183"> For let the straight line <emph>AB</emph> be cut at random at <emph>C</emph> ; I say
+              that the rectangle contained by <emph>AB</emph> , <emph>BC</emph> is equal to the
+              rectangle contained by <emph>AC</emph> , <emph>CB</emph> together with the square on
+                <emph>BC</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b2-d1e4210"> For let the square <emph>CDEB</emph> be described on <emph>CB</emph> ; [ <ref xml:id="ee-b2-Rd1e4218" target="http://scta.info/resource/elem.1.46">I. 46</ref> ] let <emph>ED</emph> be drawn through
+              to <emph>F</emph> , and through <emph>A</emph> let <emph>AF</emph> be drawn parallel
+              to either <emph>CD</emph> or <emph>BE</emph> . [ <ref xml:id="ee-b2-Rd1e4240" target="http://scta.info/resource/elem.1.31">I. 31</ref> ] </p>
+            <p xml:id="ee-b2-d1e4244"> Then <emph>AE</emph> is equal to <emph>AD</emph> , <emph>CE</emph> . </p>
+            <p xml:id="ee-b2-d1e4257"> Now <emph>AE</emph> is the rectangle contained by <emph>AB</emph> , <emph>BC</emph>
+              , for it is contained by <emph>AB</emph> , <emph>BE</emph> , and <emph>BE</emph> is
+              equal to <emph>BC</emph> ; </p>
+            <p xml:id="ee-b2-d1e4282">
+              <emph>AD</emph> is the rectangle <emph>AC</emph> , <emph>CB</emph> , for
+                <emph>DC</emph> is equal to <emph>CB</emph> ; <hi rend="center"> and <emph>DB</emph>
+                is the square on <emph>CB</emph>
+              </hi> . Therefore the rectangle contained by <emph>AB</emph> , <emph>BC</emph> is
+              equal to the rectangle contained by <emph>AC</emph> , <emph>CB</emph> together with
+              the square on <emph>BC</emph> . </p>
+            <p xml:id="ee-b2-d1e4325">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.2.4" n="4" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e4331">Proposition 4.</head>
+            <p xml:id="ee-b2-d1e4334">
+              <emph>If a straight line be cut at random</emph> , <emph> the square on the whole is
+                equal to the squares on the segments and twice the rectangle contained by the
+                segments </emph> . </p>
+            <p xml:id="ee-b2-d1e4343"> For let the straight line <emph>AB</emph> be cut at random at <emph>C</emph> ;  I say that the square on <emph>AB</emph> is equal to the squares on
+                <emph>AC</emph> , <emph>CB</emph> and twice the rectangle contained by
+                <emph>AC</emph> , <emph>CB</emph> . </p>
+            <p xml:id="ee-b2-d1e4368"> For let the square <emph>ADEB</emph> be described on <emph>AB</emph> , [ <ref xml:id="ee-b2-Rd1e4376" target="http://scta.info/resource/elem.1.46">I. 46</ref> ]  let <emph>BD</emph> be
+              joined; through <emph>C</emph> let <emph>CF</emph> be drawn parallel to either
+                <emph>AD</emph> or <emph>EB</emph> , and through <emph>G</emph> let <emph>HK</emph>
+              be drawn parallel to either <emph>AB</emph> or <emph>DE</emph> . [ <ref xml:id="ee-b2-Rd1e4408" target="http://scta.info/resource/elem.1.31">I. 31</ref> ] <!-- <figure/> -->
+              
+            </p>
+            <p xml:id="ee-b2-d1e4414"> Then, since <emph>CF</emph> is parallel to <emph>AD</emph> , and <emph>BD</emph> has
+              fallen on them, the exterior angle <emph>CGB</emph> is equal to the interior and
+              opposite angle <emph>ADB</emph> . [ <ref xml:id="ee-b2-Rd1e4432" target="http://scta.info/resource/elem.1.29">I. 29</ref>
+              ] </p>
+            <p xml:id="ee-b2-d1e4437"> But the angle <emph>ADB</emph> is equal to the angle <emph>ABD</emph> , 
+              <hi rend="center"> since the side <emph>BA</emph> is also equal to <emph>AD</emph> ; [
+                  <ref xml:id="ee-b2-Rd1e4453" target="http://scta.info/resource/elem.1.5">I. 5</ref> ] </hi> therefore the angle
+                <emph>CGB</emph> is also equal to the angle <emph>GBC</emph> , so that the side
+                <emph>BC</emph> is also equal to the side <emph>CG</emph> . [ <ref xml:id="ee-b2-Rd1e4470" target="http://scta.info/resource/elem.1.6">I. 6</ref> ] 
+            </p>
+            <p xml:id="ee-b2-d1e4474"> But <emph>CB</emph> is equal to <emph>GK</emph> , and <emph>CG</emph> to
+                <emph>KB</emph> ; [ <ref xml:id="ee-b2-Rd1e4488" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] <hi rend="center"> therefore <emph>GK</emph> is also equal to <emph>KB</emph> ;  therefore <emph>CGKB</emph> is equilateral. </hi>
+            </p>
+            <p xml:id="ee-b2-d1e4505">I say next that it is also right-angled.</p>
+            <p xml:id="ee-b2-d1e4508"> For, since <emph>CG</emph> is parallel to <emph>BK</emph> , <hi rend="center"> the
+                angles <emph>KBC</emph> , <emph>GCB</emph> are equal to two right angles. [ <ref xml:id="ee-b2-Rd1e4524" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b2-d1e4529"> But the angle <emph>KBC</emph> is right; 
+              <hi rend="center"> therefore the angle <emph>BCG</emph> is also right, so that the
+                opposite angles <emph>CGK</emph> , <emph>GKB</emph> are also right. [ <ref xml:id="ee-b2-Rd1e4545" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b2-d1e4550"> Therefore <emph>CGKB</emph> is right-angled; and it was also proved equilateral; <hi rend="center"> therefore it is a square;  and it is described on
+                  <emph>CB</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e4563"> For the same reason <hi rend="center">
+                <emph>HF</emph> is also a square; and it is described on <emph>HG</emph> , that is
+                  <emph>AC</emph> . [ <ref xml:id="ee-b2-Rd1e4576" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b2-d1e4581"> Therefore the squares <emph>HF</emph> , <emph>KC</emph> are the squares on
+                <emph>AC</emph> , <emph>CB</emph> . 
+            </p>
+            <p xml:id="ee-b2-d1e4596"> Now, since <emph>AG</emph> is equal to <emph>GE</emph> , and <emph>AG</emph> is the
+              rectangle <emph>AC</emph> , <emph>CB</emph> , for <emph>GC</emph> is equal to
+                <emph>CB</emph> , <hi rend="center"> therefore <emph>GE</emph> is also equal to the
+                rectangle <emph>AC</emph> , <emph>CB</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e4633"> Therefore <emph>AG</emph> , <emph>GE</emph> are equal to twice the rectangle
+                <emph>AC</emph> , <emph>CB</emph> . 
+            </p>
+            <p xml:id="ee-b2-d1e4648"> But the squares <emph>HF</emph> , <emph>CK</emph> are also the squares on
+                <emph>AC</emph> , <emph>CB</emph> ; therefore the four areas <emph>HF</emph> ,
+                <emph>CK</emph> , <emph>AG</emph> , <emph>GE</emph> are equal to the squares on
+                <emph>AC</emph> , <emph>CB</emph> and twice the rectangle contained by
+                <emph>AC</emph> , <emph>CB</emph> . </p>
+            <p xml:id="ee-b2-d1e4689"> But <emph>HF</emph> , <emph>CK</emph> , <emph>AG</emph> , <emph>GE</emph> are the
+              whole <emph>ADEB</emph> ,  which is the square on <emph>AB</emph> . </p>
+            <p xml:id="ee-b2-d1e4712"> Therefore the square on <emph>AB</emph> is equal to the squares on <emph>AC</emph> ,
+                <emph>CB</emph> and twice the rectangle contained by <emph>AC</emph> ,
+                <emph>CB</emph> . </p>
+            <p xml:id="ee-b2-d1e4730"> Therefore etc. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.2.5" n="5" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e4737">Proposition 5.</head>
+            <p xml:id="ee-b2-d1e4740">
+              <emph> If a straight line be cut into equal and unequal segments, the rectangle
+                contained by the unequal segments of the whole together with the square on the
+                straight line between the points of section is equal to the square on the half
+              </emph> . </p>
+            <p xml:id="ee-b2-d1e4746"> For let a straight line <emph>AB</emph> be cut into equal segments at <emph>C</emph>
+              and into unequal segments at <emph>D</emph> ; I say that the rectangle contained by
+                <emph>AD</emph> , <emph>DB</emph> together with the square on <emph>CD</emph> is
+              equal to the square on <emph>CB</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b2-d1e4773"> For let the square <emph>CEFB</emph> be described on <emph>CB</emph> , [ <ref xml:id="ee-b2-Rd1e4781" target="http://scta.info/resource/elem.1.46">I. 46</ref> ] and let <emph>BE</emph> be joined;
+              through <emph>D</emph> let <emph>DG</emph> be drawn parallel to either <emph>CE</emph>
+              or <emph>BF</emph> , through <emph>H</emph> again let <emph>KM</emph> be drawn
+              parallel to either <emph>AB</emph> or <emph>EF</emph> , and again through
+                <emph>A</emph> let <emph>AK</emph> be drawn parallel to either <emph>CL</emph> or
+                <emph>BM</emph> . [ <ref xml:id="ee-b2-Rd1e4825" target="http://scta.info/resource/elem.1.31">I. 31</ref> ] </p>
+            <p xml:id="ee-b2-d1e4829"> Then, since the complement <emph>CH</emph> is equal to the complement
+                <emph>HF</emph> , [ <ref xml:id="ee-b2-Rd1e4837" target="http://scta.info/resource/elem.1.43">I. 43</ref> ] let
+                <emph>DM</emph> be added to each; <hi rend="center"> therefore the whole
+                  <emph>CM</emph> is equal to the whole <emph>DF</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e4854"> But <emph>CM</emph> is equal to <emph>AL</emph> , <hi rend="center"> since
+                  <emph>AC</emph> is also equal to <emph>CB</emph> ; [ <ref xml:id="ee-b2-Rd1e4870" target="http://scta.info/resource/elem.1.36">I. 36</ref> ] therefore <emph>AL</emph> is also equal to
+                  <emph>DF</emph> . </hi> Let <emph>CH</emph> be added to each; <hi rend="center">
+                therefore the whole <emph>AH</emph> is equal to the gnomon <emph>NOP</emph> . </hi>
+              
+            </p>
+            <p xml:id="ee-b2-d1e4893"> But <emph>AH</emph> is the rectangle <emph>AD</emph> , <emph>DB</emph> , for
+                <emph>DH</emph> is equal to <emph>DB</emph> , <hi rend="center"> therefore the
+                gnomon <emph>NOP</emph> is also equal to the rectangle <emph>AD</emph> ,
+                  <emph>DB</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e4924"> Let <emph>LG</emph> , which is equal to the square on <emph>CD</emph> , be added to
+              each; <hi rend="center"> therefore the gnomon <emph>NOP</emph> and <emph>LG</emph> are
+                equal to the rectangle contained by <emph>AD</emph> , <emph>DB</emph> and the square
+                on <emph>CD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e4951"> But the gnomon <emph>NOP</emph> and <emph>LG</emph> are the whole square
+                <emph>CEFB</emph> , which is described on <emph>CB</emph> ; <hi rend="center">
+                therefore the rectangle contained by <emph>AD</emph> , <emph>DB</emph> together with
+                the square on <emph>CD</emph> is equal to the square on <emph>CB</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e4981"> Therefore etc. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.2.6" n="6" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e4987">Proposition 6.</head>
+            <p xml:id="ee-b2-d1e4990">
+              <emph> If a straight line be bisected and a straight line be added to it in a straight
+                line </emph> , <emph> the rectangle contained by the whole with the added straight
+                line and the added straight line together with the square on the half is equal to
+                the square on the straight line made up of the half and the added straight line
+              </emph> . </p>
+            <p xml:id="ee-b2-d1e4999"> For let a straight line <emph>AB</emph> be bisected at the point <emph>C</emph> ,
+              and let a straight line <emph>BD</emph> be added to it in a straight line; </p>
+            <p xml:id="ee-b2-d1e5011"> I say that the rectangle contained by <emph>AD</emph> , <emph>DB</emph> together
+              with the square on <emph>CB</emph> is equal to the square on <emph>CD</emph> . </p>
+            <p xml:id="ee-b2-d1e5026"> For let the square <emph>CEFD</emph> be described on <emph>CD</emph> , [ <ref xml:id="ee-b2-Rd1e5034" target="http://scta.info/resource/elem.1.46">I. 46</ref> ] and let <emph>DE</emph> be joined;
+              through the point <emph>B</emph> let <emph>BG</emph> be drawn parallel to either
+                <emph>EC</emph> or <emph>DF</emph> ,  through the point <emph>H</emph>
+              let <emph>KM</emph> be drawn parallel to either <emph>AB</emph> or <emph>EF</emph> ,
+              and further through <emph>A</emph> let <emph>AK</emph> be drawn parallel to either
+                <emph>CL</emph> or <emph>DM</emph> . [ <ref xml:id="ee-b2-Rd1e5078" target="http://scta.info/resource/elem.1.31">I.
+                31</ref> ] <!-- <figure/> -->
+              <hi rend="center"> Then, since <emph>AC</emph> is equal to <emph>CB</emph> ,
+                  <emph>AL</emph> is also equal to <emph>CH</emph> . [ <ref xml:id="ee-b2-Rd1e5098" target="http://scta.info/resource/elem.1.36">I. 36</ref> ] </hi> But <emph>CH</emph> is equal to <emph>HF</emph>
+              . [ <ref xml:id="ee-b2-Rd1e5108" target="http://scta.info/resource/elem.1.43">I. 43</ref> ] <hi rend="center"> Therefore
+                  <emph>AL</emph> is also equal to <emph>HF</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5122"> Let <emph>CM</emph> be added to each; <hi rend="center"> therefore the whole
+                  <emph>AM</emph> is equal to the gnomon <emph>NOP</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5137"> But <emph>AM</emph> is the rectangle <emph>AD</emph> , <emph>DB</emph> , <hi rend="center"> for <emph>DM</emph> is equal to <emph>DB</emph> ; therefore the
+                gnomon <emph>NOP</emph> is also equal to the rectangle <emph>AD</emph> ,
+                  <emph>DB</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5167"> Let <emph>LG</emph> , which is equal to the square on <emph>BC</emph> , be added to
+              each; <hi rend="center"> therefore the rectangle contained by <emph>AD</emph> ,
+                  <emph>DB</emph> together with the square on <emph>CB</emph> is equal to the gnomon
+                  <emph>NOP</emph> and <emph>LG</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5194"> But the gnomon <emph>NOP</emph> and <emph>LG</emph> are the whole square
+                <emph>CEFD</emph> , which is described on <emph>CD</emph> ; <hi rend="center">
+                therefore the rectangle contained by <emph>AD</emph> , <emph>DB</emph> together with
+                the square on <emph>CB</emph> is equal to the square on <emph>CD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5224">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.2.7" n="7" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e5230">Proposition 7.</head>
+            <p xml:id="ee-b2-d1e5233">
+              <emph>If a straight line be cut at random</emph> , <emph> the square on the whole and
+                that on one of the segments both together are equal to twice the rectangle contained
+                by the whole and the said segment and the square on the remaining segment </emph> . </p>
+            <p xml:id="ee-b2-d1e5242"> For let a straight line <emph>AB</emph> be cut at random at the point <emph>C</emph>
+              ; </p>
+            <p xml:id="ee-b2-d1e5251"> I say that the squares on <emph>AB</emph> , <emph>BC</emph> are equal to twice the
+              rectangle contained by <emph>AB</emph> , <emph>BC</emph> and the square on
+                <emph>CA</emph> . </p>
+            <p xml:id="ee-b2-d1e5269"> For let the square <emph>ADEB</emph> be described on <emph>AB</emph> , [ <ref xml:id="ee-b2-Rd1e5277" target="http://scta.info/resource/elem.1.46">I. 46</ref> ] and let the figure be drawn. </p>
+            <p xml:id="ee-b2-d1e5282"> Then, since <emph>AG</emph> is equal to <emph>GE</emph> , [ <ref xml:id="ee-b2-Rd1e5290" target="http://scta.info/resource/elem.1.43">I. 43</ref> ] let <emph>CF</emph> be added to each; <hi rend="center">
+                therefore the whole <emph>AF</emph> is equal to the whole <emph>CE</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5306"> Therefore <emph>AF</emph> , <emph>CE</emph> are double of <emph>AF</emph> .
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b2-d1e5320"> But <emph>AF</emph> , <emph>CE</emph> are the gnomon <emph>KLM</emph> and the square
+                <emph>CF</emph> ; therefore the gnomon <emph>KLM</emph> and the square
+                <emph>CF</emph> are double of <emph>AF</emph> . 
+            </p>
+            <p xml:id="ee-b2-d1e5345"> But twice the rectangle <emph>AB</emph> , <emph>BC</emph> is also double of
+                <emph>AF</emph> ; for <emph>BF</emph> is equal to <emph>BC</emph> ; therefore the
+              gnomon <emph>KLM</emph> and the square <emph>CF</emph> are equal to twice the
+              rectangle <emph>AB</emph> , <emph>BC</emph> . </p>
+            <p xml:id="ee-b2-d1e5376"> Let <emph>DG</emph> , which is the square on <emph>AC</emph> , be added to each;
+              therefore the gnomon <emph>KLM</emph> and the squares <emph>BG</emph> ,
+                <emph>GD</emph> are equal to twice the rectangle contained by <emph>AB</emph> ,
+                <emph>BC</emph> and the square on <emph>AC</emph> . </p>
+            <p xml:id="ee-b2-d1e5404"> But the gnomon <emph>KLM</emph> and the squares <emph>BG</emph> , <emph>GD</emph>
+              are the whole <emph>ADEB</emph> and <emph>CF</emph> , <hi rend="center"> which are
+                squares described on <emph>AB</emph> , <emph>BC</emph> ; </hi> therefore the squares
+              on <emph>AB</emph> , <emph>BC</emph> are equal to twice the rectangle contained by
+                <emph>AB</emph> , <emph>BC</emph> together with the square on <emph>AC</emph> . </p>
+            <p xml:id="ee-b2-d1e5448">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.2.8" n="8" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e5454">Proposition 8.</head>
+            <p xml:id="ee-b2-d1e5457">
+              <emph>If a straight line be cut at random</emph> , <emph> four times the rectangle
+                contained by the whole and one of the segments together with the square on the
+                remaining segment is equal to the square described on the whole and the aforesaid
+                segment as on one straight line </emph> . </p>
+            <p xml:id="ee-b2-d1e5466"> For let a straight line <emph>AB</emph> be cut at random at the point <emph>C</emph>
+              ; </p>
+            <p xml:id="ee-b2-d1e5475"> I say that four times the rectangle contained by <emph>AB</emph> , <emph>BC</emph>
+              together with the square on <emph>AC</emph> is equal to the square described on
+                <emph>AB</emph> , <emph>BC</emph> as on one straight line. 
+            </p>
+            <p xml:id="ee-b2-d1e5493"> For let [the straight line] <emph>BD</emph> be produced in a straight line [with
+                <emph>AB</emph> ], and let <emph>BD</emph> be made equal to <emph>CB</emph> ; let
+              the square <emph>AEFD</emph> be described on <emph>AD</emph> , and let the figure be
+              drawn double. </p>
+            <p xml:id="ee-b2-d1e5516"> Then, since <emph>CB</emph> is equal to <emph>BD</emph> , while <emph>CB</emph> is
+              equal to <emph>GK</emph> , and <emph>BD</emph> to <emph>KN</emph> , therefore
+                <emph>GK</emph> is also equal to <emph>KN</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b2-d1e5546"> For the same reason <hi rend="center">
+                <emph>QR</emph> is also equal to <emph>RP</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5558"> And, since <emph>BC</emph> is equal to <emph>BD</emph> , and <emph>GK</emph> to
+                <emph>KN</emph> , therefore <emph>CK</emph> is also equal to <emph>KD</emph> , and
+                <emph>GR</emph> to <emph>RN</emph> . [ <ref xml:id="ee-b2-Rd1e5585" target="http://scta.info/resource/elem.1.36">I.
+                36</ref> ] </p>
+            <p xml:id="ee-b2-d1e5589"> But <emph>CK</emph> is equal to <emph>RN</emph> , for they are complements of the
+              parallelogram <emph>CP</emph> ; [ <ref xml:id="ee-b2-Rd1e5600" target="http://scta.info/resource/elem.1.43">I. 43</ref> ]
+              therefore <emph>KD</emph> is also equal to <emph>GR</emph> ; therefore the four areas
+                <emph>DK</emph> , <emph>CK</emph> , <emph>GR</emph> , <emph>RN</emph> are equal to
+              one another. <hi rend="center"> Therefore the four are quadruple of <emph>CK</emph> .
+              </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5629"> Again, since <emph>CB</emph> is equal to <emph>BD</emph> , while <emph>BD</emph> is
+              equal to <emph>BK</emph> , that is <emph>CG</emph> , and <emph>CB</emph> is equal to
+                <emph>GK</emph> , that is <emph>GQ</emph> , <hi rend="center"> therefore
+                  <emph>CG</emph> is also equal to <emph>GQ</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5666"> And, since <emph>CG</emph> is equal to <emph>GQ</emph> , and <emph>QR</emph> to
+                <emph>RP</emph> , <hi rend="center">
+                <emph>AG</emph> is also equal to <emph>MQ</emph> , and <emph>QL</emph> to
+                  <emph>RF</emph> . [ <ref xml:id="ee-b2-Rd1e5694" target="http://scta.info/resource/elem.1.36">I. 36</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5700"> But <emph>MQ</emph> is equal to <emph>QL</emph> , for they are complements of the
+              parallelogram <emph>ML</emph> ; [ <ref xml:id="ee-b2-Rd1e5711" target="http://scta.info/resource/elem.1.43">I. 43</ref> ]
+                <hi rend="center"> therefore <emph>AG</emph> is also equal to <emph>RF</emph> ;
+              </hi> therefore the four areas <emph>AG</emph> , <emph>MQ</emph> , <emph>QL</emph> ,
+                <emph>RF</emph> are equal to one another. <hi rend="center"> Therefore the four are
+                quadruple of <emph>AG</emph> . </hi> But the four areas <emph>CK</emph> ,
+                <emph>KD</emph> , <emph>GR</emph> , <emph>RN</emph> were proved to be quadruple of
+                <emph>CK</emph> ; <hi rend="center"> therefore the eight areas, which contain the
+                gnomon <emph>STU</emph> , are quadruple of <emph>AK</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5768"> Now, since <emph>AK</emph> is the rectangle <emph>AB</emph> , <emph>BD</emph> , for
+                <emph>BK</emph> is equal to <emph>BD</emph> ,  therefore four times the
+              rectangle <emph>AB</emph> , <emph>BD</emph> is quadruple of <emph>AK</emph> . </p>
+            <p xml:id="ee-b2-d1e5796"> But the gnomon <emph>STU</emph> was also proved to be quadruple of <emph>AK</emph> ;
+                <hi rend="center"> therefore four times the rectangle <emph>AB</emph> ,
+                  <emph>BD</emph> is equal to the gnomon <emph>STU</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5817"> Let <emph>OH</emph> , which is equal to the square on <emph>AC</emph> , be added to
+              each; <hi rend="center"> therefore four times the rectangle <emph>AB</emph> ,
+                  <emph>BD</emph> together with the square on <emph>AC</emph> is equal to the gnomon
+                  <emph>STU</emph> and <emph>OH</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e5844"> But the gnomon <emph>STU</emph> and <emph>OH</emph> are the whole square
+                <emph>AEFD</emph> , <hi rend="center"> which is described on <emph>AD</emph> . </hi>
+              therefore four times the rectangle <emph>AB</emph> , <emph>BD</emph> together with the
+              square on <emph>AC</emph> is equal to the square on <emph>AD</emph>
+            </p>
+            <p xml:id="ee-b2-d1e5875"> But <emph>BD</emph> is equal to <emph>BC</emph> ; therefore four times the rectangle
+              contained by <emph>AB</emph> , <emph>BC</emph> together with the square on
+                <emph>AC</emph> is equal to the square on <emph>AD</emph> , that is to the square
+              described on <emph>AB</emph> and <emph>BC</emph> as on one straight line. </p>
+            <p xml:id="ee-b2-d1e5904">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.2.9" n="9" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e5910">Proposition 9.</head>
+            <p xml:id="ee-b2-d1e5913">
+              <emph> If a straight line be cut into equal and unequal segments </emph> , <emph> the
+                squares on the unequal segments of the whole are double of the square on the half
+                and of the square on the straight line between the points of section </emph> . </p>
+            <p xml:id="ee-b2-d1e5922"> For let a straight line <emph>AB</emph> be cut into equal segments at <emph>C</emph>
+              , and into unequal segments at <emph>D</emph> ; </p>
+            <p xml:id="ee-b2-d1e5934"> I say that the squares on <emph>AD</emph> , <emph>DB</emph> are double of the
+              squares on <emph>AC</emph> , <emph>CD</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b2-d1e5951"> For let <emph>CE</emph> be drawn from <emph>C</emph> at right angles to
+                <emph>AB</emph> , and let it be made equal to either <emph>AC</emph> or
+                <emph>CB</emph> ; let <emph>EA</emph> , <emph>EB</emph> be joined, let
+                <emph>DF</emph> be drawn through <emph>D</emph> parallel to <emph>EC</emph> , and
+                <emph>FG</emph> through <emph>F</emph> parallel to <emph>AB</emph> , and let
+                <emph>AF</emph> be joined. </p>
+            <p xml:id="ee-b2-d1e5999"> Then, since <emph>AC</emph> is equal to <emph>CE</emph> , <hi rend="center"> the
+                angle <emph>EAC</emph> is also equal to the angle <emph>AEC</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6017"> And, since the angle at <emph>C</emph> is right, <hi rend="center"> the remaining
+                angles <emph>EAC</emph> , <emph>AEC</emph> are equal to one right angle. [ <ref xml:id="ee-b2-Rd1e6030" target="http://scta.info/resource/elem.1.32">I. 32</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6035"> And they are equal; <hi rend="center"> therefore each of the angles <emph>CEA</emph>
+                , <emph>CAE</emph> is half a right angle. </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6047"> For the same reason <hi rend="center"> each of the angles <emph>CEB</emph> ,
+                  <emph>EBC</emph> is also half a right angle; therefore the whole angle
+                  <emph>AEB</emph> is right. </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6062"> And, since the angle <emph>GEF</emph> is half a right angle,  and the
+              angle <emph>EGF</emph> is right, for it is equal to the interior and opposite angle
+                <emph>ECB</emph> , [ <ref xml:id="ee-b2-Rd1e6073" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] <hi rend="center"> the remaining angle <emph>EFG</emph> is half a right angle; [ <ref xml:id="ee-b2-Rd1e6081" target="http://scta.info/resource/elem.1.32">I. 32</ref> ] therefore the angle
+                  <emph>GEF</emph> is equal to the angle <emph>EFG</emph> , so that the side
+                  <emph>EG</emph> is also equal to <emph>GF</emph> . [ <ref xml:id="ee-b2-Rd1e6097" target="http://scta.info/resource/elem.1.6">I. 6</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6102"> Again, since the angle at <emph>B</emph> is half a right angle, and the angle
+                <emph>FDB</emph> is right, for it is again equal to the interior and opposite angle
+                <emph>ECB</emph> , [ <ref xml:id="ee-b2-Rd1e6113" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] <hi rend="center"> the remaining angle <emph>BFD</emph> is half a right angle; [ <ref xml:id="ee-b2-Rd1e6121" target="http://scta.info/resource/elem.1.32">I. 32</ref> ] therefore the angle at
+                  <emph>B</emph> is equal to the angle <emph>DFB</emph> , so that the side
+                  <emph>FD</emph> is also equal to the side <emph>DB</emph> . [ <ref xml:id="ee-b2-Rd1e6137" target="http://scta.info/resource/elem.1.6">I. 6</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6143"> Now, since <emph>AC</emph> is equal to <emph>CE</emph> , <hi rend="center"> the
+                square on <emph>AC</emph> is also equal to the square on <emph>CE</emph> ; therefore
+                the squares on <emph>AC</emph> , <emph>CE</emph> are double of the square on
+                  <emph>AC</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6170"> But the square on <emph>EA</emph> is equal to the squares on <emph>AC</emph> ,
+                <emph>CE</emph> , for the angle <emph>ACE</emph> is right; [ <ref xml:id="ee-b2-Rd1e6184" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] <hi rend="center"> therefore the square on
+                  <emph>EA</emph> is double of the square on <emph>AC</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6198"> Again, since <emph>EG</emph> is equal to <emph>GF</emph> , <hi rend="center"> the
+                square on <emph>EG</emph> is also equal to the square on <emph>GF</emph> ; therefore
+                the squares on <emph>EG</emph> , <emph>GF</emph> are double of the square on
+                  <emph>GF</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6225"> But the square on <emph>EF</emph> is equal to the squares on <emph>EG</emph> ,
+                <emph>GF</emph> ; <hi rend="center"> therefore the square on <emph>EF</emph> is
+                double of the square on <emph>GF</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6246"> But <emph>GF</emph> is equal to <emph>CD</emph> ; [ <ref xml:id="ee-b2-Rd1e6254" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] therefore the square on <emph>EF</emph> is double of the
+              square on <emph>CD</emph> . </p>
+            <p xml:id="ee-b2-d1e6264"> But the square on <emph>EA</emph> is also double of the square on <emph>AC</emph> ;
+                <hi rend="center"> therefore the squares on <emph>AE</emph> , <emph>EF</emph> are
+                double of the squares on <emph>AC</emph> , <emph>CD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6289"> And the square on <emph>AF</emph> is equal to the squares on <emph>AE</emph> ,
+                <emph>EF</emph> , for the angle <emph>AEF</emph> is right; [ <ref xml:id="ee-b2-Rd1e6303" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] therefore the square on <emph>AF</emph> is double of the
+              squares on <emph>AC</emph> , <emph>CD</emph> . </p>
+            <p xml:id="ee-b2-d1e6317"> But the squares on <emph>AD</emph> , <emph>DF</emph> are equal to the square on
+                <emph>AF</emph> , for the angle at <emph>D</emph> is right; [ <ref xml:id="ee-b2-Rd1e6331" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] therefore the squares on
+                <emph>AD</emph> , <emph>DF</emph> are double of the squares on <emph>AC</emph> ,
+                <emph>CD</emph> . 
+            </p>
+            <p xml:id="ee-b2-d1e6348"> And <emph>DF</emph> is equal to <emph>DB</emph> ; therefore the squares on
+                <emph>AD</emph> , <emph>DB</emph> are double of the squares on <emph>AC</emph> ,
+                <emph>CD</emph> . </p>
+            <p xml:id="ee-b2-d1e6370">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.2.10" n="10" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e6376">Proposition 10.</head>
+            <p xml:id="ee-b2-d1e6379">
+              <emph>If a straight line be bisected</emph> , <emph> and a straight line be added to
+                it in a straight line </emph> , <emph> the square on the whole with the added
+                straight line and the square on the added straight line both together are double of
+                the square on the half and of the square described on the straight line made up of
+                the half and the added straight line as on one straight line </emph> . </p>
+            <p xml:id="ee-b2-d1e6391"> For let a straight line <emph>AB</emph> be bisected at <emph>C</emph> , and let a
+              straight line <emph>BD</emph> be added to it in a straight line; </p>
+            <p xml:id="ee-b2-d1e6403"> I say that the squares on <emph>AD</emph> , <emph>DB</emph> are double of the
+              squares on <emph>AC</emph> , <emph>CD</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b2-d1e6420"> For let <emph>CE</emph> be drawn from the point <emph>C</emph> at right angles to
+                <emph>AB</emph> [ <ref xml:id="ee-b2-Rd1e6431" target="http://scta.info/resource/elem.1.11">I. 11</ref> ], and let it be
+              made equal to either <emph>AC</emph> or <emph>CB</emph> [ <ref xml:id="ee-b2-Rd1e6441" target="http://scta.info/resource/elem.1.3">I. 3</ref> ]; let <emph>EA</emph> , <emph>EB</emph> be joined; through
+                <emph>E</emph> let <emph>EF</emph> be drawn parallel to <emph>AD</emph> , and
+              through <emph>D</emph> let <emph>FD</emph> be drawn parallel to <emph>CE</emph> . [
+                <ref xml:id="ee-b2-Rd1e6469" target="http://scta.info/resource/elem.1.31">I. 31</ref> ] </p>
+            <p xml:id="ee-b2-d1e6474"> Then, since a straight line <emph>EF</emph> falls on the parallel straight lines
+                <emph>EC</emph> , <emph>FD</emph> , 
+              <hi rend="center"> the angles <emph>CEF</emph> , <emph>EFD</emph> are equal to two
+                right angles; [ <ref xml:id="ee-b2-Rd1e6493" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] therefore the
+                angles <emph>FEB</emph> , <emph>EFD</emph> are less than two right angles. </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6504"> But straight lines produced from angles less than two right angles meet; [ <ref xml:id="ee-b2-Rd1e6506" target="http://scta.info/resource/elem.1.post.5">I. Post. 5</ref> ] <hi rend="center"> therefore
+                  <emph>EB</emph> , <emph>FD</emph> , if produced in the direction <emph>B</emph> ,
+                  <emph>D</emph> , will meet. </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6525"> Let them be produced and meet at <emph>G</emph> , and let <emph>AG</emph> be joined. </p>
+            <p xml:id="ee-b2-d1e6534"> Then, since <emph>AC</emph> is equal to <emph>CE</emph> , the angle <emph>EAC</emph>
+              is also equal to the angle <emph>AEC</emph> ; [ <ref xml:id="ee-b2-Rd1e6548" target="http://scta.info/resource/elem.1.5">I. 5</ref> ] and the angle at <emph>C</emph> is right; <hi rend="center"> therefore
+                each of the angles <emph>EAC</emph> , <emph>AEC</emph> is half a right angle. [ <ref xml:id="ee-b2-Rd1e6563" target="http://scta.info/resource/elem.1.32">I. 32</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6568"> For the same reason <hi rend="center"> each of the angles <emph>CEB</emph> ,
+                  <emph>EBC</emph> is also half a right angle; therefore the angle <emph>AEB</emph>
+                is right. </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6583"> And, since the angle <emph>EBC</emph> is half a right angle, the angle
+                <emph>DBG</emph> is also half a right angle. [ <ref xml:id="ee-b2-Rd1e6591" target="http://scta.info/resource/elem.1.15">I. 15</ref> ] <hi rend="center"> But the angle <emph>BDG</emph> is also right,
+              </hi> for it is equal to the angle <emph>DCE</emph> , they being alternate; [ <ref xml:id="ee-b2-Rd1e6604" target="http://scta.info/resource/elem.1.29">I. 29</ref> ] <hi rend="center"> therefore the
+                remaining angle <emph>DGB</emph> is half a right angle; [ <ref xml:id="ee-b2-Rd1e6612" target="http://scta.info/resource/elem.1.32">I. 32</ref> ] </hi> therefore the angle <emph>DGB</emph> is equal to
+              the angle <emph>DBG</emph> , <hi rend="center"> so that the side <emph>BD</emph> is
+                also equal to the side <emph>GD</emph> . [ <ref xml:id="ee-b2-Rd1e6630" target="http://scta.info/resource/elem.1.6">I.
+                  6</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6636"> Again, since the angle <emph>EGF</emph> is half a right angle, and the angle at
+                <emph>F</emph> is right, for it is equal to the opposite angle, the angle at
+                <emph>C</emph> , [ <ref xml:id="ee-b2-Rd1e6647" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] <hi rend="center"> the remaining angle <emph>FEG</emph> is half a right angle; [ <ref xml:id="ee-b2-Rd1e6655" target="http://scta.info/resource/elem.1.32">I. 32</ref> ] therefore the angle
+                  <emph>EGF</emph> is equal to the angle <emph>FEG</emph> , so that the side
+                  <emph>GF</emph> is also equal to the side <emph>EF</emph> . [ <ref xml:id="ee-b2-Rd1e6671" target="http://scta.info/resource/elem.1.6">I. 6</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b2-d1e6676"> Now, since the square on <emph>EC</emph> is equal to the square on <emph>CA</emph> ,
+              the squares on <emph>EC</emph> , <emph>CA</emph> are double of the square on
+                <emph>CA</emph> . </p>
+            <p xml:id="ee-b2-d1e6694"> But the square on <emph>EA</emph> is equal to the squares on <emph>EC</emph> ,
+                <emph>CA</emph> ; [ <ref xml:id="ee-b2-Rd1e6705" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] therefore
+              the square on <emph>EA</emph> is double of the square on <emph>AC</emph> . [ <ref xml:id="ee-b2-Rd1e6715" target="http://scta.info/resource/elem.1.c.n.1">C. N. 1</ref> ] 
+            </p>
+            <p xml:id="ee-b2-d1e6719"> Again, since <emph>FG</emph> is equal to <emph>EF</emph> , the square on
+                <emph>FG</emph> is also equal to the square on <emph>FE</emph> ; therefore the
+              squares on <emph>GF</emph> , <emph>FE</emph> are double of the square on
+                <emph>EF</emph> . </p>
+            <p xml:id="ee-b2-d1e6744"> But the square on <emph>EG</emph> is equal to the squares on <emph>GF</emph> ,
+                <emph>FE</emph> ; [ <ref xml:id="ee-b2-Rd1e6755" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] therefore
+              the square on <emph>EG</emph> is double of the square on <emph>EF</emph> . </p>
+            <p xml:id="ee-b2-d1e6766"> And <emph>EF</emph> is equal to <emph>CD</emph> ; [ <ref xml:id="ee-b2-Rd1e6774" target="http://scta.info/resource/elem.1.34">I. 34</ref> ] <hi rend="center"> therefore the square on
+                  <emph>EG</emph> is double of the square on <emph>CD</emph> . </hi> But the square
+              on <emph>EA</emph> was also proved double of the square on <emph>AC</emph> ; therefore
+              the squares on <emph>AE</emph> , <emph>EG</emph> are double of the squares on
+                <emph>AC</emph> , <emph>CD</emph> . </p>
+            <p xml:id="ee-b2-d1e6807"> And the square on <emph>AG</emph> is equal to the squares on <emph>AE</emph> ,
+                <emph>EG</emph> ; [ <ref xml:id="ee-b2-Rd1e6818" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] therefore
+              the square on <emph>AG</emph> is double of the squares on <emph>AC</emph> ,
+                <emph>CD</emph> . But the squares on <emph>AD</emph> , <emph>DG</emph> are equal to
+              the square on <emph>AG</emph> ; [ <ref xml:id="ee-b2-Rd1e6840" target="http://scta.info/resource/elem.1.47">I. 47</ref> ]
+              therefore the squares on <emph>AD</emph> , <emph>DG</emph> are double of the squares
+              on <emph>AC</emph> , <emph>CD</emph> . </p>
+            <p xml:id="ee-b2-d1e6857"> And <emph>DG</emph> is equal to <emph>DB</emph> ; therefore the squares on
+                <emph>AD</emph> , <emph>DB</emph> are double of the squares on <emph>AC</emph> ,
+                <emph>CD</emph> . </p>
+            <p xml:id="ee-b2-d1e6879">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.2.11" n="11" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e6886">Proposition 11.</head>
+            <p xml:id="ee-b2-d1e6889">
+              <emph> To cut a given straight line so that the rectangle contained by the whole and
+                one of the segments is equal to the square on the remaining segment </emph> . </p>
+            <p xml:id="ee-b2-d1e6895"> Let <emph>AB</emph> be the given straight line; thus it is required to cut
+                <emph>AB</emph> so that the rectangle contained by the whole and one of the segments
+              is equal to the square on the remaining segment. </p>
+            <p xml:id="ee-b2-d1e6904"> For let the square <emph>ABDC</emph> be described on <emph>AB</emph> ; [ <ref xml:id="ee-b2-Rd1e6912" target="http://scta.info/resource/elem.1.46">I. 46</ref> ] let <emph>AC</emph> be bisected at
+              the point <emph>E</emph> , and let <emph>BE</emph> be joined; let <emph>CA</emph> be
+              drawn through to <emph>F</emph> , and let <emph>EF</emph> be made equal to
+                <emph>BE</emph> ; let the square <emph>FH</emph> be described on <emph>AF</emph> ,
+              and let <emph>GH</emph> be drawn through to <emph>K</emph> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b2-d1e6953"> I say that <emph>AB</emph> has been cut at <emph>H</emph> so as to make the
+              rectangle contained by <emph>AB</emph> , <emph>BH</emph> equal to the square on
+                <emph>AH</emph> . </p>
+            <p xml:id="ee-b2-d1e6972"> For, since the straight line <emph>AC</emph> has been bisected at <emph>E</emph> ,
+              and <emph>FA</emph> is added to it, <hi rend="center"> the rectangle contained by
+                  <emph>CF</emph> , <emph>FA</emph> together with the square on <emph>AE</emph> is
+                equal to the square on <emph>EF</emph> . [ <ref xml:id="ee-b2-Rd1e6997" target="http://scta.info/resource/elem.2.6">II.
+                  6</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b2-d1e7002"> But <emph>EF</emph> is equal to <emph>EB</emph> ; <hi rend="center"> therefore the
+                rectangle <emph>CF</emph> , <emph>FA</emph> together with the square on
+                  <emph>AE</emph> is equal to the square on <emph>EB</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e7026"> But the squares on <emph>BA</emph> , <emph>AE</emph> are equal to the square on
+                <emph>EB</emph> , for the angle at <emph>A</emph> is right; [ <ref xml:id="ee-b2-Rd1e7040" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] <hi rend="center"> therefore the
+                rectangle <emph>CF</emph> , <emph>FA</emph> together with the square on
+                  <emph>AE</emph> is equal to the squares on <emph>BA</emph> , <emph>AE</emph> .
+              </hi>
+            </p>
+            <p xml:id="ee-b2-d1e7063"> Let the square on <emph>AE</emph> be subtracted from each; <hi rend="center">
+                therefore the rectangle <emph>CF</emph> , <emph>FA</emph> which remains is equal to
+                the square on <emph>AB</emph> . </hi>
+              
+            </p>
+            <p xml:id="ee-b2-d1e7081"> Now the rectangle <emph>CF</emph> , <emph>FA</emph> is <emph>FK</emph> , for
+                <emph>AF</emph> is equal to <emph>FG</emph> ; and the square on <emph>AB</emph> is
+                <emph>AD</emph> ; <hi rend="center"> therefore <emph>FK</emph> is equal to
+                  <emph>AD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e7115"> Let <emph>AK</emph> be subtracted from each; <hi rend="center"> therefore
+                  <emph>FH</emph> which remains is equal to <emph>HD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e7131"> And <emph>HD</emph> is the rectangle <emph>AB</emph> , <emph>BH</emph> , for
+                <emph>AB</emph> is equal to <emph>BD</emph> ; and <emph>FH</emph> is the square on
+                <emph>AH</emph> ; <hi rend="center"> therefore the rectangle contained by
+                  <emph>AB</emph> , <emph>BH</emph> is equal to the square on <emph>HA</emph> .
+                therefore the given straight line <emph>AB</emph> has been cut at <emph>H</emph> so
+                as to make the rectangle contained by <emph>AB</emph> , <emph>BH</emph> equal to the
+                square on <emph>HA</emph> . Q. E. F. </hi>
+            </p>
+          </div>
+          <div xml:id="elem.2.12" n="12" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e7187">Proposition 12.</head>
+            <p xml:id="ee-b2-d1e7190">
+              <emph> In obtuse-angled triangles the square on the side subtending the obtuse angle
+                is greater than the squares on the sides containing the obtuse angle by twice the
+                rectangle contained by one of the sides about the obtuse angle </emph> ,
+                <emph>namely that on which the</emph>
+              
+              <emph>perpendicular falls</emph> , <emph> and the straight line cut off outside by the
+                perpendicular towards the obtuse angle </emph> . </p>
+            <p xml:id="ee-b2-d1e7205"> Let <emph>ABC</emph> be an obtuse-angled triangle having the angle <emph>BAC</emph>
+              obtuse, and let <emph>BD</emph> be drawn from the point <emph>B</emph> perpendicular
+              to <emph>CA</emph> produced; </p>
+            <p xml:id="ee-b2-d1e7223"> I say that the square on <emph>BC</emph> is greater than the squares on
+                <emph>BA</emph> , <emph>AC</emph> by twice the rectangle contained by
+                <emph>CA</emph> , <emph>AD</emph> . </p>
+            <p xml:id="ee-b2-d1e7241"> For, since the straight line <emph>CD</emph> has been cut at random at the point
+                <emph>A</emph> , the square on <emph>DC</emph> is equal to the squares on
+                <emph>CA</emph> , <emph>AD</emph> and twice the rectangle contained by
+                <emph>CA</emph> , <emph>AD</emph> . [ <ref xml:id="ee-b2-Rd1e7265" target="http://scta.info/resource/elem.2.4">II.
+                4</ref> ] <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b2-d1e7272"> Let the square on <emph>DB</emph> be added to each; therefore the squares on
+                <emph>CD</emph> , <emph>DB</emph> are equal to the squares on <emph>CA</emph> ,
+                <emph>AD</emph> , <emph>DB</emph> and twice the rectangle <emph>CA</emph> ,
+                <emph>AD</emph> . </p>
+            <p xml:id="ee-b2-d1e7300"> But the square on <emph>CB</emph> is equal to the squares on <emph>CD</emph> ,
+                <emph>DB</emph> , for the angle at <emph>D</emph> is right; [ <ref xml:id="ee-b2-Rd1e7314" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] <hi rend="center"> and the square on
+                  <emph>AB</emph> is equal to the squares on <emph>AD</emph> , <emph>DB</emph> ; [
+                  <ref xml:id="ee-b2-Rd1e7329" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] </hi> therefore the square on
+                <emph>CB</emph> is equal to the squares on <emph>CA</emph> , <emph>AB</emph> and
+              twice the rectangle contained by <emph>CA</emph> , <emph>AD</emph> ; <hi rend="center"> so that the square on <emph>CB</emph> is greater than the squares on
+                  <emph>CA</emph> , <emph>AB</emph> by twice the rectangle contained by
+                  <emph>CA</emph> , <emph>AD</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e7368">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.2.13" n="13" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e7374">Proposition 13.</head>
+            <p xml:id="ee-b2-d1e7377">
+              <emph> In acute-angled triangles the square on the side subtending the acute angle is
+                less than the squares on the sides containing the acute angle by twice the rectangle
+                contained by one of the sides about the acute angle </emph> , <emph>namely that on
+                which the perpendicular falls</emph> , <emph> and the straight line cut off within
+                by the perpendicular towards the acutc angle </emph> . </p>
+            <p xml:id="ee-b2-d1e7389"> Let <emph>ABC</emph> be an acute-angled triangle having the angle at <emph>B</emph>
+              acute, and let <emph>AD</emph> be drawn from the point <emph>A</emph> perpendicular to
+                <emph>BC</emph> ; </p>
+            <p xml:id="ee-b2-d1e7407"> I say that the square on <emph>AC</emph> is less than the squares on <emph>CB</emph>
+              , <emph>BA</emph> by twice the rectangle contained by <emph>CB</emph> ,
+                <emph>BD</emph> . </p>
+            <p xml:id="ee-b2-d1e7425"> For, since the straight line <emph>CB</emph> has been cut at random at
+                <emph>D</emph> , <hi rend="center"> the squares on <emph>CB</emph> , <emph>BD</emph>
+                are equal to twice the rectangle contained by <emph>CB</emph> , <emph>BD</emph> and
+                the square on <emph>DC</emph> . [ <ref xml:id="ee-b2-Rd1e7451" target="http://scta.info/resource/elem.2.7">II. 7</ref> ] </hi>
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b2-d1e7459"> Let the square on <emph>DA</emph> be added to each; therefore the squares on
+                <emph>CB</emph> , <emph>BD</emph> , <emph>DA</emph> are equal to twice the rectangle
+              contained by <emph>CB</emph> , <emph>BD</emph> and the squares on <emph>AD</emph> ,
+                <emph>DC</emph> . </p>
+            <p xml:id="ee-b2-d1e7487"> But the square on <emph>AB</emph> is equal to the squares on <emph>BD</emph> ,
+                <emph>DA</emph> , for the angle at <emph>D</emph> is right; [ <ref xml:id="ee-b2-Rd1e7501" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] and the square on <emph>AC</emph> is
+              equal to the squares on <emph>AD</emph> , <emph>DC</emph> ; therefore the squares on
+                <emph>CB</emph> , <emph>BA</emph> are equal to the square on <emph>AC</emph> and
+              twice the rectangle <emph>CB</emph> , <emph>BD</emph> , </p>
+            <p xml:id="ee-b2-d1e7531"> so that the square on <emph>AC</emph> alone is less than the squares on
+                <emph>CB</emph> , <emph>BA</emph> by twice the rectangle contained by
+                <emph>CB</emph> , <emph>BD</emph> . </p>
+            <p xml:id="ee-b2-d1e7549">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.2.14" n="14" type="proposition" org="uniform" sample="complete">
+            <head xml:id="ee-b2-Hd1e7555">Proposition 14.</head>
+            <p xml:id="ee-b2-d1e7558">
+              <emph> To construct a square equal to a given rectilineal figure </emph> . </p>
+            <p xml:id="ee-b2-d1e7564"> Let <emph>A</emph> be the given rectilineal figure; thus it is required to construct
+              a square equal to the rectilineal figure <emph>A</emph> . <!-- <figure/> -->
+              
+            </p>
+            <p xml:id="ee-b2-d1e7575"> For let there be constructed the rectangular parallelogram <emph>BD</emph> equal to
+              the rectilineal figure <emph>A</emph> . [ <ref xml:id="ee-b2-Rd1e7583" target="http://scta.info/resource/elem.1.45">I.
+                45</ref> ] </p>
+            <p xml:id="ee-b2-d1e7587"> Then, if <emph>BE</emph> is equal to <emph>ED</emph> , that which was enjoined will
+              have been done; for a square <emph>BD</emph> has been constructed equal to the
+              rectilineal figure <emph>A</emph> . 
+            </p>
+            <p xml:id="ee-b2-d1e7603"> But, if not, one of the straight lines <emph>BE</emph> , <emph>ED</emph> is greater. </p>
+            <p xml:id="ee-b2-d1e7612"> Let <emph>BE</emph> be greater, and let it be produced to <emph>F</emph> ; let
+                <emph>EF</emph> be made equal to <emph>ED</emph> , and let <emph>BF</emph> be
+              bisected at <emph>G</emph> . </p>
+            <p xml:id="ee-b2-d1e7634"> With centre <emph>G</emph> and distance one of the straight lines <emph>GB</emph> ,
+                <emph>GF</emph> let the semicircle <emph>BHF</emph> be described; let
+                <emph>DE</emph> be produced  to <emph>H</emph> , and let <emph>GH</emph>
+              be joined. </p>
+            <p xml:id="ee-b2-d1e7659"> Then, since the straight line <emph>BF</emph> has been cut into equal segments at
+                <emph>G</emph> , and into unequal segments at <emph>E</emph> , <hi rend="center">
+                the rectangle contained by <emph>BE</emph> , <emph>EF</emph> together with the
+                square on <emph>EG</emph> is equal to the square on <emph>GF</emph> . [ <ref xml:id="ee-b2-Rd1e7684" target="http://scta.info/resource/elem.2.5">II. 5</ref> ] </hi>
+              
+            </p>
+            <p xml:id="ee-b2-d1e7689"> But <emph>GF</emph> is equal to <emph>GH</emph> ; therefore the rectangle
+                <emph>BE</emph> , <emph>EF</emph> together with the square on <emph>GE</emph> is
+              equal to the square on <emph>GH</emph> . </p>
+            <p xml:id="ee-b2-d1e7711"> But the squares on <emph>HE</emph> , <emph>EG</emph> are equal to the square on
+                <emph>GH</emph> ; [ <ref xml:id="ee-b2-Rd1e7722" target="http://scta.info/resource/elem.1.47">I. 47</ref> ] 
+              therefore the rectangle <emph>BE</emph> , <emph>EF</emph> together with the square on
+                <emph>GE</emph> is equal to the squares on <emph>HE</emph> , <emph>EG</emph> . </p>
+            <p xml:id="ee-b2-d1e7743"> Let the square on <emph>GE</emph> be subtracted from each; 
+              <hi rend="center"> therefore the rectangle contained by <emph>BE</emph> ,
+                  <emph>EF</emph> which remains is equal to the square on <emph>EH</emph> . </hi>
+              
+            </p>
+            <p xml:id="ee-b2-d1e7761"> But the rectangle <emph>BE</emph> , <emph>EF</emph> is <emph>BD</emph> , for
+                <emph>EF</emph> is equal to <emph>ED</emph> ; <hi rend="center"> therefore the
+                parallelogram <emph>BD</emph> is equal to the square on <emph>HE</emph> . </hi>
+            </p>
+            <p xml:id="ee-b2-d1e7789"> And <emph>BD</emph> is equal to the rectilineal figure <emph>A</emph> . </p>
+            <p xml:id="ee-b2-d1e7798"> Therefore the rectilineal figure <emph>A</emph> is also equal to the square  which can be described on <emph>EH</emph> . </p>
+            <p xml:id="ee-b2-d1e7807"> Therefore a square, namely that which can be described on <emph>EH</emph> , has been
+              constructed equal to the given rectilineal figure <emph>A</emph> . Q. E. F. </p>
+
+
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

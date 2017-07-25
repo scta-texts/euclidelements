@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elements, Book 8</title>
+        <author>Euclid</author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Elements, Book 8</title>
+          <date when="2014-03-19">March 03, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="X" n="xxx"/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-03-19" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#X" n="X"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ee-b8" n="1">
+        <head xml:id="ee-b8-Hd1e3717">BOOK VIII.</head>
+        <div xml:id="ee-b8-Dd1e3720" n="Prop" type="type" org="uniform" sample="complete">
+          <head xml:id="ee-b8-Hd1e3722">PROPOSITIONS</head>
+          <div xml:id="elem.8.1" n="1">
+            <head xml:id="ee-b8-Hd1e3727">PROPOSITION 1.</head>
+            <p xml:id="ee-b8-d1e3730">
+              <hi rend="ital"> If there be as many numbers as we please in continued proportion, and
+                the extremes of them be prime to one another, the numbers are the least of those
+                which have the same ratio with them. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e3736"> Let there be as many numbers as we please, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , in continued proportion,
+              and let the extremes of them <hi rend="ital">A</hi> , <hi rend="ital">D</hi> be prime
+              to one another; I say that <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are the least of those which have the
+              same ratio with them. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e3772"> For, if not, let <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , <hi rend="ital">H</hi> be less than <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , and in the
+              same ratio with them. </p>
+            <p xml:id="ee-b8-d1e3800"> Now, since <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi>
+              , <hi rend="ital">D</hi> are in the same ratio with <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , and the
+              multitude of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> is equal to the multitude of the numbers
+                <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , therefore, <hi rend="ital">ex aequali</hi> , <hi rend="center">
+                as <hi rend="ital">A</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">H</hi> . [ <ref xml:id="ee-b8-Rd1e3870" target="http://scta.info/resource/elem.7.14">VII.
+                  14</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b8-d1e3876"> But <hi rend="ital">A</hi> , <hi rend="ital">D</hi> are prime, primes are also
+              least, [ <ref xml:id="ee-b8-Rd1e3884" target="http://scta.info/resource/elem.7.21">VII. 21</ref> ] and the least numbers
+              measure those which have the same ratio the same number of times, the greater the
+              greater and the less the less, that is, the antecedent the antecedent and the
+              consequent the consequent. [ <ref xml:id="ee-b8-Rd1e3887" target="http://scta.info/resource/elem.7.20">VII. 20</ref> ] 
+            </p>
+            <p xml:id="ee-b8-d1e3891"> Therefore <hi rend="ital">A</hi> measures <hi rend="ital">E</hi> , the greater the
+              less: which is impossible. </p>
+            <p xml:id="ee-b8-d1e3900"> Therefore <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , <hi rend="ital">G</hi> ,
+                <hi rend="ital">H</hi> which are less than <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are not in the same ratio
+              with them. </p>
+            <p xml:id="ee-b8-d1e3928"> Therefore <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> ,
+                <hi rend="ital">D</hi> are the least of those which have the same ratio with them.
+              Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.2" n="2">
+            <head xml:id="ee-b8-Hd1e3946">PROPOSITION 2.</head>
+            <p xml:id="ee-b8-d1e3949">
+              <hi rend="ital"> To find numbers in continued proportion, as many as may be
+                prescribed, and the least that are in a given ratio. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e3955"> Let the ratio of <hi rend="ital">A</hi> to <hi rend="ital">B</hi> be the given ratio
+              in least numbers; thus it is required to find numbers in continued proportion, as many
+              as may be prescribed, and the least that are in the ratio of <hi rend="ital">A</hi> to
+                <hi rend="ital">B</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e3972"> Let four be prescribed; let <hi rend="ital">A</hi> by multiplying itself make <hi rend="ital">C</hi> , and by multiplying <hi rend="ital">B</hi> let it make <hi rend="ital">D</hi> ; let <hi rend="ital">B</hi> by multiplying itself make <hi rend="ital">E</hi> ; further, let <hi rend="ital">A</hi> by multiplying <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi> make <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , and let <hi rend="ital">B</hi> by multiplying <hi rend="ital">E</hi> make <hi rend="ital">K</hi>
+              . 
+            </p>
+            <p xml:id="ee-b8-d1e4025"> Now, since <hi rend="ital">A</hi> by multiplying itself has made <hi rend="ital">C</hi> , and by multiplying <hi rend="ital">B</hi> has made <hi rend="ital">D</hi>
+              , therefore, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> . [ <ref xml:id="ee-b8-Rd1e4052" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e4057"> Again, since <hi rend="ital">A</hi> by multiplying <hi rend="ital">B</hi> has made
+                <hi rend="ital">D</hi> , and <hi rend="ital">B</hi> by multiplying itself has made
+                <hi rend="ital">E</hi> , therefore the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> by multiplying <hi rend="ital">B</hi> have made the numbers <hi rend="ital">D</hi> , <hi rend="ital">E</hi> respectively. </p>
+            <p xml:id="ee-b8-d1e4091"> Therefore, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">E</hi> . [ <ref xml:id="ee-b8-Rd1e4105" target="http://scta.info/resource/elem.7.18">VII. 18</ref> ] </p>
+            <p xml:id="ee-b8-d1e4109"> But, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> ; therefore also, as <hi rend="ital">C</hi> is to
+                <hi rend="ital">D</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">E</hi> . </p>
+            <p xml:id="ee-b8-d1e4137"> And, since <hi rend="ital">A</hi> by multiplying <hi rend="ital">C</hi> , <hi rend="ital">D</hi> has made <hi rend="ital">F</hi> , <hi rend="ital">G</hi> ,
+              therefore, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">G</hi> . [ <ref xml:id="ee-b8-Rd1e4167" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e4171"> But, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so was <hi rend="ital">A</hi> to <hi rend="ital">B</hi> ; therefore also, as <hi rend="ital">A</hi> is to
+                <hi rend="ital">B</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">G</hi> . </p>
+            <p xml:id="ee-b8-d1e4199"> Again, since <hi rend="ital">A</hi> by multiplying <hi rend="ital">D</hi> , <hi rend="ital">E</hi> has made <hi rend="ital">G</hi> , <hi rend="ital">H</hi> ,
+              therefore, as <hi rend="ital">D</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">G</hi> to <hi rend="ital">H</hi> . [ <ref xml:id="ee-b8-Rd1e4229" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e4234"> But, as <hi rend="ital">D</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e4249"> Therefore also, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">G</hi> to <hi rend="ital">H</hi> . </p>
+            <p xml:id="ee-b8-d1e4264"> And, since <hi rend="ital">A</hi> , <hi rend="ital">B</hi> by multiplying <hi rend="ital">E</hi> have made <hi rend="ital">H</hi> , <hi rend="ital">K</hi> ,
+              therefore, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">H</hi> to <hi rend="ital">K</hi> . [ <ref xml:id="ee-b8-Rd1e4294" target="http://scta.info/resource/elem.7.18">VII. 18</ref> ] </p>
+            <p xml:id="ee-b8-d1e4298"> But, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">G</hi> , and <hi rend="ital">G</hi> to <hi rend="ital">H</hi> . </p>
+            <p xml:id="ee-b8-d1e4320"> Therefore also, as <hi rend="ital">F</hi> is to <hi rend="ital">G</hi> , so is <hi rend="ital">G</hi> to <hi rend="ital">H</hi> , and <hi rend="ital">H</hi> to <hi rend="ital">K</hi> ; therefore <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , and <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> are proportional in the ratio of <hi rend="ital">A</hi> to <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e4370"> I say next that they are the least numbers that are so. </p>
+            <p xml:id="ee-b8-d1e4374"> For, since <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are the least of those
+              which have the same ratio with them, and the least of those which have the same ratio
+              are prime to one another, [ <ref xml:id="ee-b8-Rd1e4382" target="http://scta.info/resource/elem.7.22">VII. 22</ref> ]
+              therefore <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are prime to one another. </p>
+            <p xml:id="ee-b8-d1e4392"> And the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> by multiplying
+              themselves respectively have made the numbers <hi rend="ital">C</hi> , <hi rend="ital">E</hi> , and by multiplying the numbers <hi rend="ital">C</hi> , <hi rend="ital">E</hi> respectively have made the numbers <hi rend="ital">F</hi> , <hi rend="ital">K</hi> ; therefore <hi rend="ital">C</hi> , <hi rend="ital">E</hi> and <hi rend="ital">F</hi> , <hi rend="ital">K</hi> are prime to one another respectively. [
+                <ref xml:id="ee-b8-Rd1e4432" target="http://scta.info/resource/elem.7.27">VII. 27</ref> ] </p>
+            <p xml:id="ee-b8-d1e4436"> But, if there be as many numbers as we please in continued proportion, and the
+              extremes of them be prime to one another,  they are the least of those
+              which have the same ratio with them. [ <ref xml:id="ee-b8-Rd1e4438" target="http://scta.info/resource/elem.8.1">VIII.
+                1</ref> ] </p>
+            <p xml:id="ee-b8-d1e4442"> Therefore <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi>
+              and <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> are the least of those which have the same ratio with <hi rend="ital">A</hi> , <hi rend="ital">B</hi> . Q. E. D. </p>
+            <div xml:id="elem.8.2.p.1" type="porism" org="uniform" sample="complete">
+              <head xml:id="ee-b8-Hd1e4475">PORISM.</head>
+              <p xml:id="ee-b8-d1e4478"> From this it is manifest that, if three numbers in continued proportion be the
+                least of those which have the same ratio with them, the extremes of them are
+                squares, and, if four numbers, cubes. </p>
+            </div>
+          </div>
+          <div xml:id="elem.8.3" n="3">
+            <head xml:id="ee-b8-Hd1e4485">PROPOSITION 3.</head>
+            <p xml:id="ee-b8-d1e4488">
+              <hi rend="ital"> If as many numbers as we please in continued proportion be the least
+                of those which have the same ratio with them, the extremes of them are prime to one
+                another </hi> . </p>
+            <p xml:id="ee-b8-d1e4494"> Let as many numbers as we please, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> ,
+                <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , in continued proportion be the
+              least of those which have the same ratio with them; <!-- <figure/> -->
+               I say that the extremes of them <hi rend="ital">A</hi> , <hi rend="ital">D</hi> are prime to one another. </p>
+            <p xml:id="ee-b8-d1e4518"> For let two numbers <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , the least that
+              are in the ratio of <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , be taken, [ <ref xml:id="ee-b8-Rd1e4539" target="http://scta.info/resource/elem.7.33">VII. 33</ref> ] then three others <hi rend="ital">G</hi> , <hi rend="ital">H</hi> ,
+                <hi rend="ital">K</hi> with the same property; and others, more by one continually,
+              [ <ref xml:id="ee-b8-Rd1e4551" target="http://scta.info/resource/elem.8.2">VIII. 2</ref> ] until the multitude taken
+              becomes equal to the multitude of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e4568"> Let them be taken, and let them be <hi rend="ital">L</hi> , <hi rend="ital">M</hi> ,
+                <hi rend="ital">N</hi> , <hi rend="ital">O</hi> . </p>
+            <p xml:id="ee-b8-d1e4584"> Now, since <hi rend="ital">E</hi> , <hi rend="ital">F</hi> are the least of those
+              which have the same ratio with them, they are prime to one another. [ <ref xml:id="ee-b8-Rd1e4592" target="http://scta.info/resource/elem.7.22">VII. 22</ref> ] </p>
+            <p xml:id="ee-b8-d1e4596"> And, since the numbers <hi rend="ital">E</hi> , <hi rend="ital">F</hi> by
+              multiplying themselves respectively have made the numbers <hi rend="ital">G</hi> , <hi rend="ital">K</hi> , and by multiplying the numbers <hi rend="ital">G</hi> , <hi rend="ital">K</hi> respectively have made the numbers <hi rend="ital">L</hi> , <hi rend="ital">O</hi> , [ <ref xml:id="ee-b8-Rd1e4623" target="http://scta.info/resource/elem.8.2.p.1">VIII. 2, Por.</ref>
+              ] therefore both <hi rend="ital">G</hi> , <hi rend="ital">K</hi> and <hi rend="ital">L</hi> , <hi rend="ital">O</hi> are prime to one another. [ <ref xml:id="ee-b8-Rd1e4639" target="http://scta.info/resource/elem.7.27">VII. 27</ref> ] </p>
+            <p xml:id="ee-b8-d1e4643"> And, since <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi>
+              , <hi rend="ital">D</hi> are the least of those which have the same ratio with them,
+              while <hi rend="ital">L</hi> , <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">O</hi> are the least that are in the same ratio with <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> ,
+              and the multitude of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> is equal to the multitude of the numbers
+                <hi rend="ital">L</hi> , <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">O</hi> , therefore the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are equal to the numbers
+                <hi rend="ital">L</hi> , <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">O</hi> respectively; therefore <hi rend="ital">A</hi> is equal to <hi rend="ital">L</hi> , and <hi rend="ital">D</hi> to <hi rend="ital">O</hi> . </p>
+            <p xml:id="ee-b8-d1e4747"> And <hi rend="ital">L</hi> , <hi rend="ital">O</hi> are prime to one another. </p>
+            <p xml:id="ee-b8-d1e4756"> Therefore <hi rend="ital">A</hi> , <hi rend="ital">D</hi> are also prime to one
+              another. Q. E. D. </p>
+          </div>
+          
+          <div xml:id="elem.8.4" n="4">
+            <head xml:id="ee-b8-Hd1e4768">PROPOSITION 4.</head>
+            <p xml:id="ee-b8-d1e4771">
+              <hi rend="ital"> Given as many ratios as we please in least numbers, to find numbers
+                in continued proportion which are the least in the given ratios. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e4777"> Let the given ratios in least numbers be that of <hi rend="ital">A</hi> to <hi rend="ital">B</hi> ,  that of <hi rend="ital">C</hi> to <hi rend="ital">D</hi> , and that of <hi rend="ital">E</hi> to <hi rend="ital">F</hi> ; thus it is
+              required to find numbers in continued proportion which are the least that are in the
+              ratio of <hi rend="ital">A</hi> to <hi rend="ital">B</hi> , in the ratio of <hi rend="ital">C</hi> to <hi rend="ital">D</hi> , and in the ratio of <hi rend="ital">E</hi> to <hi rend="ital">F</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e4820"> Let <hi rend="ital">G</hi> , the least number measured by <hi rend="ital">B</hi> ,
+                <hi rend="ital">C</hi> , be taken. [ <ref xml:id="ee-b8-Rd1e4831" target="http://scta.info/resource/elem.7.34">VII.
+                34</ref> ] 
+            </p>
+            <p xml:id="ee-b8-d1e4835"> And, as many times as <hi rend="ital">B</hi> measures <hi rend="ital">G</hi> , so
+              many times also let <hi rend="ital">A</hi> measure <hi rend="ital">H</hi> , and, as
+              many times as <hi rend="ital">C</hi> measures <hi rend="ital">G</hi> , so many times
+              also let <hi rend="ital">D</hi> measure <hi rend="ital">K</hi> . </p>
+            <p xml:id="ee-b8-d1e4864"> Now <hi rend="ital">E</hi> either measures or does not measure <hi rend="ital">K</hi> . 
+            </p>
+            <p xml:id="ee-b8-d1e4873">First, let it measure it.</p>
+            <p xml:id="ee-b8-d1e4876"> And, as many times as <hi rend="ital">E</hi> measures <hi rend="ital">K</hi> , so
+              many times let <hi rend="ital">F</hi> measure <hi rend="ital">L</hi> also. </p>
+            <p xml:id="ee-b8-d1e4891"> Now, since <hi rend="ital">A</hi> measures <hi rend="ital">H</hi> the same number of
+              times that <hi rend="ital">B</hi> measures <hi rend="ital">G</hi> , 
+              therefore, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">H</hi> to <hi rend="ital">G</hi> . [ <ref xml:id="ee-b8-Rd1e4918" target="http://scta.info/resource/elem.7.def.20 elem.7.13">VII. Def. 20, VII. 13</ref> ] </p>
+            <p xml:id="ee-b8-d1e4922"> For the same reason also, <hi rend="center"> as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">G</hi> to <hi rend="ital">K</hi> ,
+              </hi> and further, as <hi rend="ital">E</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">K</hi> to <hi rend="ital">L</hi> ; therefore <hi rend="ital">H</hi> ,
+                <hi rend="ital">G</hi> , <hi rend="ital">K</hi> , <hi rend="ital">L</hi> are
+              continuously proportional in the  ratio of <hi rend="ital">A</hi> to <hi rend="ital">B</hi> , in the ratio of <hi rend="ital">C</hi> to <hi rend="ital">D</hi> , and in the ratio of <hi rend="ital">E</hi> to <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b8-d1e4984"> I say next that they are also the least that have this property. 
+            </p>
+            <p xml:id="ee-b8-d1e4988"> For, if <hi rend="ital">H</hi> , <hi rend="ital">G</hi> , <hi rend="ital">K</hi> ,
+                <hi rend="ital">L</hi> are not the least numbers continuously 
+              proportional in the ratios of <hi rend="ital">A</hi> to <hi rend="ital">B</hi> , of
+                <hi rend="ital">C</hi> to <hi rend="ital">D</hi> , and of <hi rend="ital">E</hi> to
+                <hi rend="ital">F</hi> , let them be <hi rend="ital">N</hi> , <hi rend="ital">O</hi>
+              , <hi rend="ital">M</hi> , <hi rend="ital">P</hi> . </p>
+            <p xml:id="ee-b8-d1e5035"> Then since, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">N</hi> to <hi rend="ital">O</hi> , while <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are least, and the least numbers measure those which have the
+              same  ratio the same number of times, the greater the greater and the less
+              the less, that is, the antecedent the antecedent and the consequent the consequent;
+              therefore <hi rend="ital">B</hi> measures <hi rend="ital">O</hi> . [ <ref xml:id="ee-b8-Rd1e5062" target="http://scta.info/resource/elem.7.20">VII. 20</ref> ] </p>
+            <p xml:id="ee-b8-d1e5066"> For the same reason 
+              <hi rend="ital">C</hi> also measures <hi rend="ital">O</hi> ; therefore <hi rend="ital">B</hi> , <hi rend="ital">C</hi> measure <hi rend="ital">O</hi> ;
+              therefore the least number measured by <hi rend="ital">B</hi> , <hi rend="ital">C</hi>
+              will also measure <hi rend="ital">O</hi> . [ <ref xml:id="ee-b8-Rd1e5093" target="http://scta.info/resource/elem.7.35">VII. 35</ref> ] </p>
+            <p xml:id="ee-b8-d1e5097"> But <hi rend="ital">G</hi> is the least number measured by <hi rend="ital">B</hi> ,
+                <hi rend="ital">C</hi> ;  therefore <hi rend="ital">G</hi> measures <hi rend="ital">O</hi> , the greater the less: which is impossible. </p>
+            <p xml:id="ee-b8-d1e5115"> Therefore there will be no numbers less than <hi rend="ital">H</hi> , <hi rend="ital">G</hi> , <hi rend="ital">K</hi> , <hi rend="ital">L</hi> which are
+              continuously in the ratio of <hi rend="ital">A</hi> to <hi rend="ital">B</hi> , of <hi rend="ital">C</hi> to <hi rend="ital">D</hi> , and of <hi rend="ital">E</hi> to <hi rend="ital">F</hi> . 
+            </p>
+            <p xml:id="ee-b8-d1e5149"> Next, let <hi rend="ital">E</hi> not measure <hi rend="ital">K</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e5161"> Let <hi rend="ital">M</hi> , the least number measured by <hi rend="ital">E</hi> ,
+                <hi rend="ital">K</hi> , be taken. </p>
+            <p xml:id="ee-b8-d1e5173"> And, as many times as <hi rend="ital">K</hi> measures <hi rend="ital">M</hi> , so
+              many times let <hi rend="ital">H</hi> , <hi rend="ital">G</hi> measure <hi rend="ital">N</hi> , <hi rend="ital">O</hi> respectively, and, as many times as <hi rend="ital">E</hi> measures <hi rend="ital">M</hi> , so many times let <hi rend="ital">F</hi>
+               measure <hi rend="ital">P</hi> also. </p>
+            <p xml:id="ee-b8-d1e5207"> Since <hi rend="ital">H</hi> measures <hi rend="ital">N</hi> the same number of
+              times that <hi rend="ital">G</hi> measures <hi rend="ital">O</hi> , therefore, as <hi rend="ital">H</hi> is to <hi rend="ital">G</hi> , so is <hi rend="ital">N</hi> to
+                <hi rend="ital">O</hi> . [ <ref xml:id="ee-b8-Rd1e5234" target="http://scta.info/resource/elem.7.13 elem.7.def.20">VII.
+                13 and Def. 20</ref> ] 
+            </p>
+            <p xml:id="ee-b8-d1e5238"> But, as <hi rend="ital">H</hi> is to <hi rend="ital">G</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">B</hi> ;  therefore also, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">N</hi> to <hi rend="ital">O</hi> . </p>
+            <p xml:id="ee-b8-d1e5266"> For the same reason also, <hi rend="center"> as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">O</hi> to <hi rend="ital">M</hi> .
+              </hi>
+            </p>
+            <p xml:id="ee-b8-d1e5284"> Again, since <hi rend="ital">E</hi> measures <hi rend="ital">M</hi> the same number
+              of times that <hi rend="ital">F</hi> measures <hi rend="ital">P</hi> , 
+              therefore, as <hi rend="ital">E</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">M</hi> to <hi rend="ital">P</hi> ; [ <ref xml:id="ee-b8-Rd1e5311" target="http://scta.info/resource/elem.7.13 elem.7.def.20">VII. 13 and Def. 20</ref> ] therefore
+                <hi rend="ital">N</hi> , <hi rend="ital">O</hi> , <hi rend="ital">M</hi> , <hi rend="ital">P</hi> are continuously proportional in the ratios of <hi rend="ital">A</hi> to <hi rend="ital">B</hi> , of <hi rend="ital">C</hi> to <hi rend="ital">D</hi> , and of <hi rend="ital">E</hi> to <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b8-d1e5348"> I say next that they are also the least that are in the ratios <hi rend="ital">A</hi> : <hi rend="ital">B</hi> , <hi rend="ital">C</hi> : <hi rend="ital">D</hi> ,
+                <hi rend="ital">E</hi> : <hi rend="ital">F</hi> . 
+            </p>
+            <p xml:id="ee-b8-d1e5370"> For, if not, there will be some numbers less than <hi rend="ital">N</hi> , <hi rend="ital">O</hi> , <hi rend="ital">M</hi> , <hi rend="ital">P</hi> continuously
+              proportional in the ratios <hi rend="ital">A</hi> : <hi rend="ital">B</hi> , <hi rend="ital">C</hi> : <hi rend="ital">D</hi> , <hi rend="ital">E</hi> : <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b8-d1e5404"> Let them be <hi rend="ital">Q</hi> , <hi rend="ital">R</hi> , <hi rend="ital">S</hi>
+              , <hi rend="ital">T</hi> . </p>
+            <p xml:id="ee-b8-d1e5419"> Now since, as <hi rend="ital">Q</hi> is to <hi rend="ital">R</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">B</hi> ,  while <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are least, and the least numbers measure those
+              which have the same ratio with them the same number of times, the antecedent the
+              antecedent and the consequent the consequent, [ <ref xml:id="ee-b8-Rd1e5440" target="http://scta.info/resource/elem.7.20">VII. 20</ref> ] therefore <hi rend="ital">B</hi> measures <hi rend="ital">R</hi> .
+                
+            </p>
+            <p xml:id="ee-b8-d1e5450"> For the same reason <hi rend="ital">C</hi> also measures <hi rend="ital">R</hi> ;
+              therefore <hi rend="ital">B</hi> , <hi rend="ital">C</hi> measure <hi rend="ital">R</hi> . </p>
+            <p xml:id="ee-b8-d1e5468"> Therefore the least number measured by <hi rend="ital">B</hi> , <hi rend="ital">C</hi> will also measure <hi rend="ital">R</hi> . [ <ref xml:id="ee-b8-Rd1e5479" target="http://scta.info/resource/elem.7.35">VII. 35</ref> ] </p>
+            <p xml:id="ee-b8-d1e5484"> But <hi rend="ital">G</hi> is the least number measured by <hi rend="ital">B</hi> ,
+                <hi rend="ital">C</hi> ;  therefore <hi rend="ital">G</hi> measures <hi rend="ital">R</hi> . </p>
+            <p xml:id="ee-b8-d1e5502"> And, as <hi rend="ital">G</hi> is to <hi rend="ital">R</hi> , so is <hi rend="ital">K</hi> to <hi rend="ital">S</hi> : [ <ref xml:id="ee-b8-Rd1e5516" target="http://scta.info/resource/elem.7.13">VII.
+                13</ref> ] therefore <hi rend="ital">K</hi> also measures <hi rend="ital">S</hi> . </p>
+            <p xml:id="ee-b8-d1e5527"> But <hi rend="ital">E</hi> also measures <hi rend="ital">S</hi> ; therefore <hi rend="ital">E</hi> , <hi rend="ital">K</hi> measure <hi rend="ital">S</hi> . 
+            </p>
+            <p xml:id="ee-b8-d1e5545"> Therefore the least number measured by <hi rend="ital">E</hi> , <hi rend="ital">K</hi> will also measure <hi rend="ital">S</hi> . [ <ref xml:id="ee-b8-Rd1e5556" target="http://scta.info/resource/elem.7.35">VII. 35</ref> ] </p>
+            <p xml:id="ee-b8-d1e5560"> But <hi rend="ital">M</hi> is the least number measured by <hi rend="ital">E</hi> ,
+                <hi rend="ital">K</hi> ; therefore <hi rend="ital">M</hi> measures <hi rend="ital">S</hi> , the greater the less: which is impossible. 
+            </p>
+            <p xml:id="ee-b8-d1e5578"> Therefore there will not be any numbers less than <hi rend="ital">N</hi> , <hi rend="ital">O</hi> , <hi rend="ital">M</hi> , <hi rend="ital">P</hi> continuously
+              proportional in the ratios of <hi rend="ital">A</hi> to <hi rend="ital">B</hi> , of
+                <hi rend="ital">C</hi> to <hi rend="ital">D</hi> , and of <hi rend="ital">E</hi> to
+                <hi rend="ital">F</hi> ;  therefore <hi rend="ital">N</hi> , <hi rend="ital">O</hi> , <hi rend="ital">M</hi> , <hi rend="ital">P</hi> are the least
+              numbers continuously proportional in the ratios <hi rend="ital">A</hi> : <hi rend="ital">B</hi> , <hi rend="ital">C</hi> : <hi rend="ital">D</hi> , <hi rend="ital">E</hi> : <hi rend="ital">F</hi> . Q. E. D. 
+            </p>
+          </div>
+          
+          <div xml:id="elem.8.5" n="5">
+            <head xml:id="ee-b8-Hd1e5648">PROPOSITION 5.</head>
+            <p xml:id="ee-b8-d1e5651">
+              <hi rend="ital"> Plane numbers have to one another the ratio compounded of the ratios
+                of their sides. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e5657"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be plane numbers, and let the
+              numbers <hi rend="ital">C</hi> , <hi rend="ital">D</hi> be the sides of <hi rend="ital">A</hi> , and <hi rend="ital">E</hi> , <hi rend="ital">F</hi> of <hi rend="ital">B</hi> ;  I say that <hi rend="ital">A</hi> has to <hi rend="ital">B</hi> the ratio compounded of the ratios of the sides. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e5693"> For, the ratios being given which <hi rend="ital">C</hi> has to <hi rend="ital">E</hi> and <hi rend="ital">D</hi> to <hi rend="ital">F</hi> , let the least numbers
+                <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> that are
+              continuously  in the ratios <hi rend="ital">C</hi> : <hi rend="ital">E</hi> , <hi rend="ital">D</hi> : <hi rend="ital">F</hi> be taken, so that, <hi rend="center"> as <hi rend="ital">C</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">G</hi> to <hi rend="ital">H</hi> , </hi> and, as <hi rend="ital">D</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">H</hi> to <hi rend="ital">K</hi> . [ <ref xml:id="ee-b8-Rd1e5757" target="http://scta.info/resource/elem.8.4">VIII. 4</ref> ] </p>
+            <p xml:id="ee-b8-d1e5761"> And let <hi rend="ital">D</hi> by multiplying <hi rend="ital">E</hi> make <hi rend="ital">L</hi> . 
+            </p>
+            <p xml:id="ee-b8-d1e5774"> Now, since <hi rend="ital">D</hi> by multiplying <hi rend="ital">C</hi> has made <hi rend="ital">A</hi> , and by multiplying <hi rend="ital">E</hi> has made <hi rend="ital">L</hi> , therefore, as <hi rend="ital">C</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">L</hi> . [ <ref xml:id="ee-b8-Rd1e5804" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e5808"> But, as <hi rend="ital">C</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">G</hi> to <hi rend="ital">H</hi> ; therefore also, as <hi rend="ital">G</hi> is to
+                <hi rend="ital">H</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">L</hi> .
+                
+            </p>
+            <p xml:id="ee-b8-d1e5836"> Again, since <hi rend="ital">E</hi> by multiplying <hi rend="ital">D</hi> has made
+                <hi rend="ital">L</hi> , and further by multiplying <hi rend="ital">F</hi> has made
+                <hi rend="ital">B</hi> , therefore, as <hi rend="ital">D</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">L</hi> to <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e5866" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e5870"> But, as <hi rend="ital">D</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">H</hi> to <hi rend="ital">K</hi> ; therefore also, as <hi rend="ital">H</hi> is to
+                <hi rend="ital">K</hi> , so is <hi rend="ital">L</hi> to <hi rend="ital">B</hi> .
+                
+            </p>
+            <p xml:id="ee-b8-d1e5898"> But it was also proved that, <hi rend="center"> as <hi rend="ital">G</hi> is to <hi rend="ital">H</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">L</hi> ;
+              </hi> therefore, <foreign xml:lang="la">ex aequali</foreign> , <hi rend="center"> as <hi rend="ital">G</hi> is to <hi rend="ital">K</hi> , so is <hi rend="ital">A</hi> to
+                  <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e5932" target="http://scta.info/resource/elem.7.14">VII. 14</ref> ]
+              </hi>
+            </p>
+            <p xml:id="ee-b8-d1e5937"> But <hi rend="ital">G</hi> has to <hi rend="ital">K</hi> the ratio compounded of the
+              ratios of the  sides; therefore <hi rend="ital">A</hi> also has to <hi rend="ital">B</hi> the ratio compounded of the ratios of the sides. Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.8.6" n="6">
+            <head xml:id="ee-b8-Hd1e5955">PROPOSITION 6.</head>
+            <p xml:id="ee-b8-d1e5958">
+              <hi rend="ital"> If there be as many numbers as we please in continued proportion, and
+                the first do not measure the second, neither will any other measure any other. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e5964"> Let there be as many numbers as we please, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi> ,
+              in continued proportion, and let <hi rend="ital">A</hi> not measure <hi rend="ital">B</hi> ; I say that neither will any other measure any other. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e5991"> Now it is manifest that <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi> do not measure
+              one another in order; for <hi rend="ital">A</hi> does not even measure <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e6016"> I say, then, that neither will any other measure any other. </p>
+            <p xml:id="ee-b8-d1e6020"> For, if possible, let <hi rend="ital">A</hi> measure <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b8-d1e6029"> And, however many <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> are, let as many numbers <hi rend="ital">F</hi> , <hi rend="ital">G</hi> ,
+                <hi rend="ital">H</hi> , the least of those which have the same ratio with <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , be taken. [
+                <ref xml:id="ee-b8-Rd1e6059" target="http://scta.info/resource/elem.7.33">VII. 33</ref> ] </p>
+            <p xml:id="ee-b8-d1e6063"> Now, since <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , <hi rend="ital">H</hi>
+              are in the same ratio with <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , and the multitude of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> is equal to the multitude of the numbers
+                <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , <hi rend="ital">H</hi> ,
+              therefore, <foreign xml:lang="la">ex aequali</foreign> , as <hi rend="ital">A</hi> is to
+                <hi rend="ital">C</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">H</hi> . [
+                <ref xml:id="ee-b8-Rd1e6119" target="http://scta.info/resource/elem.7.14">VII. 14</ref> ] 
+            </p>
+            <p xml:id="ee-b8-d1e6123"> And since, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">G</hi> , while <hi rend="ital">A</hi> does not
+              measure <hi rend="ital">B</hi> , therefore neither does <hi rend="ital">F</hi> measure
+                <hi rend="ital">G</hi> ; [ <ref xml:id="ee-b8-Rd1e6150" target="http://scta.info/resource/elem.7.def.20">VII. Def.
+                20</ref> ] therefore <hi rend="ital">F</hi> is not an unit, for the unit measures
+              any number. </p>
+            <p xml:id="ee-b8-d1e6157"> Now <hi rend="ital">F</hi> , <hi rend="ital">H</hi> are prime to one another. [ <ref xml:id="ee-b8-Rd1e6165" target="http://scta.info/resource/elem.8.3">VIII. 3</ref> ] </p>
+            <p xml:id="ee-b8-d1e6169"> And, as <hi rend="ital">F</hi> is to <hi rend="ital">H</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">C</hi> ; therefore neither does <hi rend="ital">A</hi>
+              measure <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b8-d1e6192"> Similarly we can prove that neither will any other measure any other. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.7" n="7">
+            <head xml:id="ee-b8-Hd1e6198">PROPOSITION 7.</head>
+            <p xml:id="ee-b8-d1e6201">
+              <hi rend="ital"> If there be as many numbers as we please in continued proportion, and
+                the first measure the last, it will measure the second also. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e6207"> Let there be as many numbers as we please, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , in continued proportion;
+              and let <hi rend="ital">A</hi> measure <hi rend="ital">D</hi> ; I say that <hi rend="ital">A</hi> also measures <hi rend="ital">B</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e6237"> For, if <hi rend="ital">A</hi> does not measure <hi rend="ital">B</hi> , neither
+              will any other of the numbers measure any other. [ <ref xml:id="ee-b8-Rd1e6245" target="http://scta.info/resource/elem.8.6">VIII. 6</ref> ] </p>
+            <p xml:id="ee-b8-d1e6249"> But <hi rend="ital">A</hi> measures <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e6259"> Therefore <hi rend="ital">A</hi> also measures <hi rend="ital">B</hi> . Q. E. D.
+            </p>
+          </div>
+          
+          <div xml:id="elem.8.8" n="8">
+            <head xml:id="ee-b8-Hd1e6271">PROPOSITION 8.</head>
+            <p xml:id="ee-b8-d1e6274">
+              <hi rend="ital"> If between two numbers there fall numbers in continued proportion
+                with them, then, however many numbers fall between them in continued proportion, so
+                many will also fall in continued proportion between the numbers which have the same
+                ratio with the original numbers. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e6280"> Let the numbers <hi rend="ital">C</hi> , <hi rend="ital">D</hi> fall between the two
+              numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> in continued proportion with
+              them, and let <hi rend="ital">E</hi> be made in the same ratio to <hi rend="ital">F</hi> as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> ; I say that, as many
+              numbers as have fallen between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> in
+              continued proportion, so many will also fall between <hi rend="ital">E</hi> , <hi rend="ital">F</hi> in continued proportion. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e6323"> For, as many as <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are in multitude, let so many numbers <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> , <hi rend="ital">L</hi> , the least of those which have the same ratio with <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">B</hi> , be taken; [ <ref xml:id="ee-b8-Rd1e6363" target="http://scta.info/resource/elem.7.33">VII. 33</ref>
+              ] therefore the extremes of them <hi rend="ital">G</hi> , <hi rend="ital">L</hi> are
+              prime to one another. [ <ref xml:id="ee-b8-Rd1e6372" target="http://scta.info/resource/elem.8.3">VIII. 3</ref> ] </p>
+            <p xml:id="ee-b8-d1e6376"> Now, since <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi>
+              , <hi rend="ital">B</hi> are in the same ratio with <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> , <hi rend="ital">L</hi> , and the
+              multitude of the numbers <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">B</hi> is equal to the multitude of the numbers
+                <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> , <hi rend="ital">L</hi> , therefore, <foreign xml:lang="la">ex aequali</foreign> , as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">G</hi> to
+                <hi rend="ital">L</hi> . [ <ref xml:id="ee-b8-Rd1e6444" target="http://scta.info/resource/elem.7.14">VII. 14</ref> ] </p>
+            <p xml:id="ee-b8-d1e6449"> But, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">F</hi> ; therefore also, as <hi rend="ital">G</hi> is to
+                <hi rend="ital">L</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b8-d1e6477"> But <hi rend="ital">G</hi> , <hi rend="ital">L</hi> are prime, primes are also
+              least, [ <ref xml:id="ee-b8-Rd1e6485" target="http://scta.info/resource/elem.7.21">VII. 21</ref> ] and the least numbers
+              measure those which have the same ratio the same number of times, the greater the
+              greater and the less the less, that is, the antecedent the antecedent and the
+              consequent the consequent. [ <ref xml:id="ee-b8-Rd1e6488" target="http://scta.info/resource/elem.7.20">VII. 20</ref> ] 
+            </p>
+            <p xml:id="ee-b8-d1e6492"> Therefore <hi rend="ital">G</hi> measures <hi rend="ital">E</hi> the same number of
+              times as <hi rend="ital">L</hi> measures <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b8-d1e6507"> Next, as many times as <hi rend="ital">G</hi> measures <hi rend="ital">E</hi> , so
+              many times let <hi rend="ital">H</hi> , <hi rend="ital">K</hi> also measure <hi rend="ital">M</hi> , <hi rend="ital">N</hi> respectively; therefore <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> , <hi rend="ital">L</hi>
+              measure <hi rend="ital">E</hi> , <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">F</hi> the same number of times. </p>
+            <p xml:id="ee-b8-d1e6554"> Therefore <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> ,
+                <hi rend="ital">L</hi> are in the same ratio with <hi rend="ital">E</hi> , <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">F</hi> . [ <ref xml:id="ee-b8-Rd1e6581" target="http://scta.info/resource/elem.7.def.20">VII. Def. 20</ref> ] </p>
+            <p xml:id="ee-b8-d1e6585"> But <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> , <hi rend="ital">L</hi> are in the same ratio with <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">B</hi> ; therefore <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">B</hi> are also in the same ratio with <hi rend="ital">E</hi> , <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b8-d1e6639"> But <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">B</hi> are in continued proportion; therefore <hi rend="ital">E</hi> ,
+                <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">F</hi> are also in
+              continued proportion. </p>
+            <p xml:id="ee-b8-d1e6667"> Therefore, as many numbers as have fallen between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> in continued proportion with them, so many numbers have also
+              fallen between <hi rend="ital">E</hi> , <hi rend="ital">F</hi> in continued
+              proportion. Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.8.9" n="9">
+            <head xml:id="ee-b8-Hd1e6685">PROPOSITION 9.</head>
+            <p xml:id="ee-b8-d1e6688">
+              <hi rend="ital"> If two numbers be prime to one another, and numbers fall between them
+                in continued proportion, then, however many numbers fall between them in continued
+                proportion, so many will also fall between each of them and an unit in continued
+                proportion. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e6694"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be two numbers prime to one
+              another, and let <hi rend="ital">C</hi> , <hi rend="ital">D</hi> fall between them in
+              continued proportion, and let the unit <hi rend="ital">E</hi> be set out; I say that,
+              as many numbers as fall between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> in
+              continued  proportion, so many will also fall between either of the
+              numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> and the unit in continued
+              proportion. </p>
+            <p xml:id="ee-b8-d1e6725"> For let two numbers <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , the least that
+              are in the ratio of <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">B</hi> , be taken, three numbers <hi rend="ital">H</hi> ,
+                <hi rend="ital">K</hi> , <hi rend="ital">L</hi> with the same property, and others
+              more by one continually, until their multitude is equal to the multitude of <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e6768" target="http://scta.info/resource/elem.8.2">VIII. 2</ref> ]
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e6774"> Let them be taken, and let them be <hi rend="ital">M</hi> , <hi rend="ital">N</hi> ,
+                <hi rend="ital">O</hi> , <hi rend="ital">P</hi> . </p>
+            <p xml:id="ee-b8-d1e6790"> It is now manifest that <hi rend="ital">F</hi> by multiplying itself has made <hi rend="ital">H</hi> and by multiplying <hi rend="ital">H</hi> has made <hi rend="ital">M</hi> , while <hi rend="ital">G</hi> by multiplying itself has made <hi rend="ital">L</hi> and by multiplying <hi rend="ital">L</hi> has made <hi rend="ital">P</hi> . [ <ref xml:id="ee-b8-Rd1e6817" target="http://scta.info/resource/elem.8.2.p.1">VIII. 2, Por.</ref>
+              ] </p>
+            <p xml:id="ee-b8-d1e6821"> And, since <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">O</hi>
+              , <hi rend="ital">P</hi> are the least of those which have the same ratio with <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , and <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">B</hi> are also the
+              least of those which have the same ratio with <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , [ <ref xml:id="ee-b8-Rd1e6861" target="http://scta.info/resource/elem.8.1">VIII. 1</ref> ] while the multitude
+              of the numbers <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">O</hi> , <hi rend="ital">P</hi> is equal to the multitude of the numbers <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">B</hi> , therefore <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">O</hi> , <hi rend="ital">P</hi> are equal to <hi rend="ital">A</hi> ,
+                <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">B</hi>
+              respectively; therefore <hi rend="ital">M</hi> is equal to <hi rend="ital">A</hi> ,
+              and <hi rend="ital">P</hi> to <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e6928"> Now, since <hi rend="ital">F</hi> by multiplying itself has made <hi rend="ital">H</hi> , therefore <hi rend="ital">F</hi> measures <hi rend="ital">H</hi> according
+              to the units in <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b8-d1e6946"> But the unit <hi rend="ital">E</hi> also measures <hi rend="ital">F</hi> according
+              to the units in it; therefore the unit <hi rend="ital">E</hi> measures the number <hi rend="ital">F</hi> the same number of times as <hi rend="ital">F</hi> measures <hi rend="ital">H</hi> . </p>
+            <p xml:id="ee-b8-d1e6968"> Therefore, as the unit <hi rend="ital">E</hi> is to the number <hi rend="ital">F</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">H</hi> . [ <ref xml:id="ee-b8-Rd1e6982" target="http://scta.info/resource/elem.7.def.20">VII. Def. 20</ref> ] </p>
+            <p xml:id="ee-b8-d1e6986"> Again, since <hi rend="ital">F</hi> by multiplying <hi rend="ital">H</hi> has made
+                <hi rend="ital">M</hi> , therefore <hi rend="ital">H</hi> measures <hi rend="ital">M</hi> according to the units in <hi rend="ital">F</hi> . 
+            </p>
+            <p xml:id="ee-b8-d1e7009"> But the unit <hi rend="ital">E</hi> also measures the number <hi rend="ital">F</hi>
+              according to the units in it; therefore the unit <hi rend="ital">E</hi> measures the
+              number <hi rend="ital">F</hi> the same number of times as <hi rend="ital">H</hi>
+              measures <hi rend="ital">M</hi> . </p>
+            <p xml:id="ee-b8-d1e7031"> Therefore, as the unit <hi rend="ital">E</hi> is to the number <hi rend="ital">F</hi> , so is <hi rend="ital">H</hi> to <hi rend="ital">M</hi> . </p>
+            <p xml:id="ee-b8-d1e7046"> But it was also proved that, as the unit <hi rend="ital">E</hi> is to the number <hi rend="ital">F</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">H</hi> ;
+              therefore also, as the unit <hi rend="ital">E</hi> is to the number <hi rend="ital">F</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">H</hi> , and <hi rend="ital">H</hi> to <hi rend="ital">M</hi> . </p>
+            <p xml:id="ee-b8-d1e7080"> But <hi rend="ital">M</hi> is equal to <hi rend="ital">A</hi> ; therefore, as the
+              unit <hi rend="ital">E</hi> is to the number <hi rend="ital">F</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">H</hi> , and <hi rend="ital">H</hi> to <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b8-d1e7108"> For the same reason also, as the unit <hi rend="ital">E</hi> is to the number <hi rend="ital">G</hi> , so is <hi rend="ital">G</hi> to <hi rend="ital">L</hi> and <hi rend="ital">L</hi> to <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e7130"> Therefore, as many numbers as have fallen between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> in continued proportion, so many numbers also have fallen between
+              each of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> and the unit <hi rend="ital">E</hi> in continued proportion. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.10" n="10">
+            <head xml:id="ee-b8-Hd1e7151">PROPOSITION 10.</head>
+            <p xml:id="ee-b8-d1e7154">
+              <hi rend="ital"> If numbers fall between each of two numbers and an unit in continued
+                proportion, however many numbers fall between each of them and an unit in continued
+                proportion, so many also will fall between the numbers themselves in continued
+                proportion. </hi>
+              
+            </p>
+            <p xml:id="ee-b8-d1e7160"> For let the numbers <hi rend="ital">D</hi> , <hi rend="ital">E</hi> and <hi rend="ital">F</hi> , <hi rend="ital">G</hi> respectively fall between the two
+              numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> and the unit <hi rend="ital">C</hi> in continued proportion; I say that, as many numbers as have fallen between
+              each of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> and the unit <hi rend="ital">C</hi> in continued proportion, so many numbers will also fall between
+                <hi rend="ital">A</hi> , <hi rend="ital">B</hi> in continued proportion. </p>
+            <p xml:id="ee-b8-d1e7201"> For let <hi rend="ital">D</hi> by multiplying <hi rend="ital">F</hi> make <hi rend="ital">H</hi> , and let the numbers <hi rend="ital">D</hi> , <hi rend="ital">F</hi> by multiplying <hi rend="ital">H</hi> make <hi rend="ital">K</hi> , <hi rend="ital">L</hi> respectively. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e7231"> Now, since, as the unit <hi rend="ital">C</hi> is to the number <hi rend="ital">D</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">E</hi> , therefore the
+              unit <hi rend="ital">C</hi> measures the number <hi rend="ital">D</hi> the same number
+              of times as <hi rend="ital">D</hi> measures <hi rend="ital">E</hi> . [ <ref xml:id="ee-b8-Rd1e7258" target="http://scta.info/resource/elem.7.def.20">VII. Def. 20</ref> ] </p>
+            <p xml:id="ee-b8-d1e7263"> But the unit <hi rend="ital">C</hi> measures the number <hi rend="ital">D</hi>
+              according to the units in <hi rend="ital">D</hi> ; therefore the number <hi rend="ital">D</hi> also measures <hi rend="ital">E</hi> according to the units in
+                <hi rend="ital">D</hi> ; therefore <hi rend="ital">D</hi> by multiplying itself has
+              made <hi rend="ital">E</hi> . </p>
+            <p xml:id="ee-b8-d1e7291"> Again, since, as <hi rend="ital">C</hi> is to the number <hi rend="ital">D</hi> , so
+              is <hi rend="ital">E</hi> to <hi rend="ital">A</hi> , therefore the unit <hi rend="ital">C</hi> measures the number <hi rend="ital">D</hi> the same number of
+              times as <hi rend="ital">E</hi> measures <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b8-d1e7319"> But the unit <hi rend="ital">C</hi> measures the number <hi rend="ital">D</hi>
+              according to the units in <hi rend="ital">D</hi> ; therefore <hi rend="ital">E</hi>
+              also measures <hi rend="ital">A</hi> according to the units in <hi rend="ital">D</hi>
+              ; therefore <hi rend="ital">D</hi> by multiplying <hi rend="ital">E</hi> has made <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b8-d1e7350"> For the same reason also <hi rend="ital">F</hi> by multiplying itself has made <hi rend="ital">G</hi> , and by multiplying <hi rend="ital">G</hi> has made <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e7365"> And, since <hi rend="ital">D</hi> by multiplying itself has made <hi rend="ital">E</hi> and by multiplying <hi rend="ital">F</hi> has made <hi rend="ital">H</hi> ,
+              therefore, as <hi rend="ital">D</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">H</hi> . [ <ref xml:id="ee-b8-Rd1e7392" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] 
+            </p>
+            <p xml:id="ee-b8-d1e7396"> For the same reason also, <hi rend="center"> as <hi rend="ital">D</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">H</hi> to <hi rend="ital">G</hi> . [
+                  <ref xml:id="ee-b8-Rd1e7412" target="http://scta.info/resource/elem.7.18">VII. 18</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b8-d1e7418"> Therefore also, as <hi rend="ital">E</hi> is to <hi rend="ital">H</hi> , so is <hi rend="ital">H</hi> to <hi rend="ital">G</hi> . </p>
+            <p xml:id="ee-b8-d1e7433"> Again, since <hi rend="ital">D</hi> by multiplying the numbers <hi rend="ital">E</hi> , <hi rend="ital">H</hi> has made <hi rend="ital">A</hi> , <hi rend="ital">K</hi> respectively, therefore, as <hi rend="ital">E</hi> is to <hi rend="ital">H</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">K</hi> . [ <ref xml:id="ee-b8-Rd1e7463" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e7467"> But, as <hi rend="ital">E</hi> is to <hi rend="ital">H</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">F</hi> ; therefore also, as <hi rend="ital">D</hi> is to
+                <hi rend="ital">F</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">K</hi> . </p>
+            <p xml:id="ee-b8-d1e7495"> Again, since the numbers <hi rend="ital">D</hi> , <hi rend="ital">F</hi> by
+              multiplying <hi rend="ital">H</hi> have made <hi rend="ital">K</hi> , <hi rend="ital">L</hi> respectively, therefore, as <hi rend="ital">D</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">K</hi> to <hi rend="ital">L</hi> . [ <ref xml:id="ee-b8-Rd1e7525" target="http://scta.info/resource/elem.7.18">VII. 18</ref> ] </p>
+            <p xml:id="ee-b8-d1e7529"> But, as <hi rend="ital">D</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">K</hi> ; therefore also, as <hi rend="ital">A</hi> is to
+                <hi rend="ital">K</hi> , so is <hi rend="ital">K</hi> to <hi rend="ital">L</hi> . </p>
+            <p xml:id="ee-b8-d1e7557"> Further, since <hi rend="ital">F</hi> by multiplying the numbers <hi rend="ital">H</hi> , <hi rend="ital">G</hi> has made <hi rend="ital">L</hi> , <hi rend="ital">B</hi> respectively, therefore, as <hi rend="ital">H</hi> is to <hi rend="ital">G</hi> , so is <hi rend="ital">L</hi> to <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e7587" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e7592"> But, as <hi rend="ital">H</hi> is to <hi rend="ital">G</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">F</hi> ; therefore also, as <hi rend="ital">D</hi> is to
+                <hi rend="ital">F</hi> , so is <hi rend="ital">L</hi> to <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e7620"> But it was also proved that, <hi rend="center"> as <hi rend="ital">D</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">K</hi> and
+                  <hi rend="ital">K</hi> to <hi rend="ital">L</hi> ; </hi> therefore also, as <hi rend="ital">A</hi> is to <hi rend="ital">K</hi> , so is <hi rend="ital">K</hi> to
+                <hi rend="ital">L</hi> and <hi rend="ital">L</hi> to <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e7664"> Therefore <hi rend="ital">A</hi> , <hi rend="ital">K</hi> , <hi rend="ital">L</hi> ,
+                <hi rend="ital">B</hi> are in continued proportion. </p>
+            <p xml:id="ee-b8-d1e7679"> Therefore, as many numbers as fall between each of the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> and the unit <hi rend="ital">C</hi> in continued
+              proportion, so many also will fall between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> in continued proportion. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.11" n="11">
+            <head xml:id="ee-b8-Hd1e7701">PROPOSITION 11.</head>
+            <p xml:id="ee-b8-d1e7704">
+              <hi rend="ital"> Between two square numbers there is one mean proportional number, and
+                the square has to the square the ratio duplicate of that which the side has to the
+                side. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e7710"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be square numbers, and let <hi rend="ital">C</hi> be the side of <hi rend="ital">A</hi> , and <hi rend="ital">D</hi> of <hi rend="ital">B</hi> ; I say that between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> there is one mean proportional number, and <hi rend="ital">A</hi>
+              has to <hi rend="ital">B</hi> the ratio duplicate of that which <hi rend="ital">C</hi>
+              has to <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e7751"> For let <hi rend="ital">C</hi> by multiplying <hi rend="ital">D</hi> make <hi rend="ital">E</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e7765"> Now, since <hi rend="ital">A</hi> is a square and <hi rend="ital">C</hi> is its
+              side, therefore <hi rend="ital">C</hi> by multiplying itself has made <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b8-d1e7781"> For the same reason also <hi rend="ital">D</hi> by multiplying itself has made <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e7790"> Since then <hi rend="ital">C</hi> by multiplying the numbers <hi rend="ital">C</hi>
+              , <hi rend="ital">D</hi> has made <hi rend="ital">A</hi> , <hi rend="ital">E</hi>
+              respectively, therefore, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so
+              is <hi rend="ital">A</hi> to <hi rend="ital">E</hi> . [ <ref xml:id="ee-b8-Rd1e7820" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e7824"> For the same reason also, <hi rend="center"> as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">B</hi> . [
+                  <ref xml:id="ee-b8-Rd1e7840" target="http://scta.info/resource/elem.7.18">VII. 18</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b8-d1e7845"> Therefore also, as <hi rend="ital">A</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e7860"> Therefore between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> there is one mean
+              proportional number. </p>
+            <p xml:id="ee-b8-d1e7869"> I say next that <hi rend="ital">A</hi> also has to <hi rend="ital">B</hi> the ratio
+              duplicate of that which <hi rend="ital">C</hi> has to <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e7885"> For, since <hi rend="ital">A</hi> , <hi rend="ital">E</hi> , <hi rend="ital">B</hi>
+              are three numbers in proportion, therefore <hi rend="ital">A</hi> has to <hi rend="ital">B</hi> the ratio duplicate of that which <hi rend="ital">A</hi> has to
+                <hi rend="ital">E</hi> . [ <ref xml:id="ee-b8-Rd1e7909" target="http://scta.info/resource/elem.5.def.9">V. Def. 9</ref>
+              ] </p>
+            <p xml:id="ee-b8-d1e7913"> But, as <hi rend="ital">A</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e7928"> Therefore <hi rend="ital">A</hi> has to <hi rend="ital">B</hi> the ratio duplicate
+              of that which the side <hi rend="ital">C</hi> has to <hi rend="ital">D</hi> . Q. E. D.
+            </p>
+          </div>
+          <div xml:id="elem.8.12" n="12">
+            <head xml:id="ee-b8-Hd1e7946">PROPOSITION 12.</head>
+            <p xml:id="ee-b8-d1e7949">
+              <hi rend="ital"> Between two cube numbers there are two mean proportional numbers, and
+                the cube has to the cube the ratio triplicate of that which the side has to the
+                side. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e7955"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be cube numbers, and let <hi rend="ital">C</hi> be the side of <hi rend="ital">A</hi> , and <hi rend="ital">D</hi> of <hi rend="ital">B</hi> ; I say that between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> there are two mean proportional numbers, and <hi rend="ital">A</hi> has to <hi rend="ital">B</hi> the ratio triplicate of that which <hi rend="ital">C</hi> has to <hi rend="ital">D</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e7998"> For let <hi rend="ital">C</hi> by multiplying itself make <hi rend="ital">E</hi> ,
+              and by multiplying <hi rend="ital">D</hi> let it make <hi rend="ital">F</hi> ; let <hi rend="ital">D</hi> by multiplying itself make <hi rend="ital">G</hi> , and let the
+              numbers <hi rend="ital">C</hi> , <hi rend="ital">D</hi> by multiplying <hi rend="ital">F</hi> make <hi rend="ital">H</hi> , <hi rend="ital">K</hi> respectively. </p>
+            <p xml:id="ee-b8-d1e8035"> Now, since <hi rend="ital">A</hi> is a cube, and <hi rend="ital">C</hi> its side,
+              and <hi rend="ital">C</hi> by multiplying itself has made <hi rend="ital">E</hi> ,
+              therefore <hi rend="ital">C</hi> by multiplying itself has made <hi rend="ital">E</hi>
+              and by multiplying <hi rend="ital">E</hi> has made <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b8-d1e8064"> For the same reason also <hi rend="ital">D</hi> by multiplying itself has made <hi rend="ital">G</hi> and by multiplying <hi rend="ital">G</hi> has made <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e8079"> And, since <hi rend="ital">C</hi> by multiplying the numbers <hi rend="ital">C</hi>
+              , <hi rend="ital">D</hi> has made <hi rend="ital">E</hi> , <hi rend="ital">F</hi>
+              respectively, therefore, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so
+              is <hi rend="ital">E</hi> to <hi rend="ital">F</hi> . [ <ref xml:id="ee-b8-Rd1e8109" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] 
+            </p>
+            <p xml:id="ee-b8-d1e8113"> For the same reason also, <hi rend="center"> as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">G</hi> . [
+                  <ref xml:id="ee-b8-Rd1e8129" target="http://scta.info/resource/elem.7.18">VII. 18</ref> ] </hi>
+            </p>
+            <p xml:id="ee-b8-d1e8134"> Again, since <hi rend="ital">C</hi> by multiplying the numbers <hi rend="ital">E</hi> , <hi rend="ital">F</hi> has made <hi rend="ital">A</hi> , <hi rend="ital">H</hi> respectively, therefore, as <hi rend="ital">E</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">H</hi> . [ <ref xml:id="ee-b8-Rd1e8164" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e8168"> But, as <hi rend="ital">E</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e8183"> Therefore also, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">H</hi> . </p>
+            <p xml:id="ee-b8-d1e8199"> Again, since the numbers <hi rend="ital">C</hi> , <hi rend="ital">D</hi> by
+              multiplying <hi rend="ital">F</hi> have made <hi rend="ital">H</hi> , <hi rend="ital">K</hi> respectively, therefore, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">H</hi> to <hi rend="ital">K</hi> . [ <ref xml:id="ee-b8-Rd1e8229" target="http://scta.info/resource/elem.7.18">VII. 18</ref> ] </p>
+            <p xml:id="ee-b8-d1e8233"> Again, since <hi rend="ital">D</hi> by multiplying each of the numbers <hi rend="ital">F</hi> , <hi rend="ital">G</hi> has made <hi rend="ital">K</hi> , <hi rend="ital">B</hi> respectively, therefore, as <hi rend="ital">F</hi> is to <hi rend="ital">G</hi> , so is <hi rend="ital">K</hi> to <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e8263" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e8267"> But, as <hi rend="ital">F</hi> is to <hi rend="ital">G</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> ; therefore also, as <hi rend="ital">C</hi> is to
+                <hi rend="ital">D</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">H</hi> ,
+                <hi rend="ital">H</hi> to <hi rend="ital">K</hi> , and <hi rend="ital">K</hi> to <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e8308"> Therefore <hi rend="ital">H</hi> , <hi rend="ital">K</hi> are two mean proportionals
+              between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e8323"> I say next that <hi rend="ital">A</hi> also has to <hi rend="ital">B</hi> the ratio
+              triplicate of that which <hi rend="ital">C</hi> has to <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e8338"> For, since <hi rend="ital">A</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi>
+              , <hi rend="ital">B</hi> are four numbers in proportion, therefore <hi rend="ital">A</hi> has to <hi rend="ital">B</hi> the ratio triplicate of that which <hi rend="ital">A</hi> has to <hi rend="ital">H</hi> . [ <ref xml:id="ee-b8-Rd1e8365" target="http://scta.info/resource/elem.5.def.10">V. Def. 10</ref> ] </p>
+            <p xml:id="ee-b8-d1e8370"> But, as <hi rend="ital">A</hi> is to <hi rend="ital">H</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> ; therefore <hi rend="ital">A</hi> also has to <hi rend="ital">B</hi> the ratio triplicate of that which <hi rend="ital">C</hi> has to
+                <hi rend="ital">D</hi> . Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.13" n="13">
+            <head xml:id="ee-b8-Hd1e8401">PROPOSITION 13.</head>
+            <p xml:id="ee-b8-d1e8404">
+              <hi rend="ital"> If there be as many numbers as we please in continued proportion, and
+                each by multiplying itself make some number, the products will be proportional; and,
+                if the original numbers by multiplying the products make certain numbers, the latter
+                will also be proportional. </hi>
+              
+            </p>
+            <p xml:id="ee-b8-d1e8410"> Let there be as many numbers as we please, <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , in continued proportion, so that, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">B</hi> to
+                <hi rend="ital">C</hi> ; let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> by multiplying themselves make <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , and by multiplying <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , <hi rend="ital">F</hi> let them make <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> ; I say that
+                <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , <hi rend="ital">F</hi> and <hi rend="ital">G</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> are in
+              continued proportion. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e8494"> For let <hi rend="ital">A</hi> by multiplying <hi rend="ital">B</hi> make <hi rend="ital">L</hi> , and let the numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> by multiplying <hi rend="ital">L</hi> make <hi rend="ital">M</hi> . <hi rend="ital">N</hi> respectively. </p>
+            <p xml:id="ee-b8-d1e8522"> And again let <hi rend="ital">B</hi> by multiplying <hi rend="ital">C</hi> make <hi rend="ital">O</hi> , and let the numbers <hi rend="ital">B</hi> , <hi rend="ital">C</hi> by multiplying <hi rend="ital">O</hi> make <hi rend="ital">P</hi> , <hi rend="ital">Q</hi> respectively. </p>
+            <p xml:id="ee-b8-d1e8551"> Then, in manner similar to the foregoing, we can prove that <hi rend="ital">D</hi> ,
+                <hi rend="ital">L</hi> , <hi rend="ital">E</hi> and <hi rend="ital">G</hi> , <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">H</hi> are
+              continuously proportional in the ratio of <hi rend="ital">A</hi> to <hi rend="ital">B</hi> , and further <hi rend="ital">E</hi> , <hi rend="ital">O</hi> , <hi rend="ital">F</hi> and <hi rend="ital">H</hi> , <hi rend="ital">P</hi> , <hi rend="ital">Q</hi> , <hi rend="ital">K</hi> are continuously proportional in the
+              ratio of <hi rend="ital">B</hi> to <hi rend="ital">C</hi> . </p>
+            <p xml:id="ee-b8-d1e8611"> Now, as <hi rend="ital">A</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">B</hi> to <hi rend="ital">C</hi> ; therefore <hi rend="ital">D</hi> , <hi rend="ital">L</hi> , <hi rend="ital">E</hi> are also in the same ratio with <hi rend="ital">E</hi> , <hi rend="ital">O</hi> , <hi rend="ital">F</hi> , and further
+                <hi rend="ital">G</hi> , <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">H</hi> in the same ratio with <hi rend="ital">H</hi> , <hi rend="ital">P</hi> , <hi rend="ital">Q</hi> , <hi rend="ital">K</hi> . </p>
+            <p xml:id="ee-b8-d1e8671"> And the multitude of <hi rend="ital">D</hi> , <hi rend="ital">L</hi> , <hi rend="ital">E</hi> is equal to the multitude of <hi rend="ital">E</hi> , <hi rend="ital">O</hi> , <hi rend="ital">F</hi> , and that of <hi rend="ital">G</hi> ,
+                <hi rend="ital">M</hi> , <hi rend="ital">N</hi> , <hi rend="ital">H</hi> to that of
+                <hi rend="ital">H</hi> , <hi rend="ital">P</hi> , <hi rend="ital">Q</hi> , <hi rend="ital">K</hi> ; therefore, <hi rend="ital">ex acquali</hi> , <hi rend="center">
+                as <hi rend="ital">D</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">F</hi> , </hi> and, as <hi rend="ital">G</hi> is to <hi rend="ital">H</hi> , so is <hi rend="ital">H</hi> to <hi rend="ital">K</hi> . [ <ref xml:id="ee-b8-Rd1e8748" target="http://scta.info/resource/elem.7.14">VII. 14</ref> ] Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.8.14" n="14">
+            <head xml:id="ee-b8-Hd1e8755">PROPOSITION 14.</head>
+            <p xml:id="ee-b8-d1e8758">
+              <hi rend="ital"> If a square measure a square, the side will also measure the side;
+                and, if the side measure the side, the square will also measure the square. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e8764"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be square numbers, let <hi rend="ital">C</hi> , <hi rend="ital">D</hi> be their sides, and let <hi rend="ital">A</hi> measure <hi rend="ital">B</hi> ; I say that <hi rend="ital">C</hi> also
+              measures <hi rend="ital">D</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e8794"> For let <hi rend="ital">C</hi> by multiplying <hi rend="ital">D</hi> make <hi rend="ital">E</hi> ; therefore <hi rend="ital">A</hi> , <hi rend="ital">E</hi> , <hi rend="ital">B</hi> are continuously proportional in the ratio of <hi rend="ital">C</hi> to <hi rend="ital">D</hi> . [ <ref xml:id="ee-b8-Rd1e8821" target="http://scta.info/resource/elem.8.11">VIII.
+                11</ref> ] </p>
+            <p xml:id="ee-b8-d1e8825"> And, since <hi rend="ital">A</hi> , <hi rend="ital">E</hi> , <hi rend="ital">B</hi>
+              are continuously proportional, and <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> , therefore <hi rend="ital">A</hi> also measures <hi rend="ital">E</hi> . [
+                <ref xml:id="ee-b8-Rd1e8849" target="http://scta.info/resource/elem.8.7">VIII. 7</ref> ] 
+            </p>
+            <p xml:id="ee-b8-d1e8854"> And, as <hi rend="ital">A</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> ; therefore also <hi rend="ital">C</hi> measures
+                <hi rend="ital">D</hi> . [ <ref xml:id="ee-b8-Rd1e8875" target="http://scta.info/resource/elem.7.def.20">VII. Def.
+                20</ref> ] </p>
+            <p xml:id="ee-b8-d1e8879"> Again, let <hi rend="ital">C</hi> measure <hi rend="ital">D</hi> ; I say that <hi rend="ital">A</hi> also measures <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e8894"> For, with the same construction, we can in a similar manner prove that <hi rend="ital">A</hi> , <hi rend="ital">E</hi> , <hi rend="ital">B</hi> are
+              continuously proportional in the ratio of <hi rend="ital">C</hi> to <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e8912"> And since, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">E</hi> , and <hi rend="ital">C</hi> measures
+                <hi rend="ital">D</hi> , therefore <hi rend="ital">A</hi> also measures <hi rend="ital">E</hi> . [ <ref xml:id="ee-b8-Rd1e8939" target="http://scta.info/resource/elem.7.def.20">VII. Def. 20</ref>
+              ] </p>
+            <p xml:id="ee-b8-d1e8943"> And <hi rend="ital">A</hi> , <hi rend="ital">E</hi> , <hi rend="ital">B</hi> are
+              continuously proportional; therefore <hi rend="ital">A</hi> also measures <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e8961">Therefore etc. Q. E. D.</p>
+          </div>
+          <div xml:id="elem.8.15" n="15">
+            <head xml:id="ee-b8-Hd1e8967">PROPOSITION 15.</head>
+            <p xml:id="ee-b8-d1e8970">
+              <hi rend="ital"> If a cube number measure a cube number, the side will also measure
+                the side; and, if the side measure the side, the cube will also measure the cube.
+              </hi>
+            </p>
+            <p xml:id="ee-b8-d1e8976"> For let the cube number <hi rend="ital">A</hi> measure the cube <hi rend="ital">B</hi> , and let <hi rend="ital">C</hi> be the side of <hi rend="ital">A</hi> and
+                <hi rend="ital">D</hi> of <hi rend="ital">B</hi> ; I say that <hi rend="ital">C</hi>
+              measures <hi rend="ital">D</hi> . 
+            </p>
+            <p xml:id="ee-b8-d1e9004"> For let <hi rend="ital">C</hi> by multiplying itself make <hi rend="ital">E</hi> ,
+              and let <hi rend="ital">D</hi> by multiplying itself make <hi rend="ital">G</hi> ;
+              further, let <hi rend="ital">C</hi> by multiplying <hi rend="ital">D</hi> make <hi rend="ital">F</hi> , and let <hi rend="ital">C</hi> , <hi rend="ital">D</hi> by
+              multiplying <hi rend="ital">F</hi> make <hi rend="ital">H</hi> , <hi rend="ital">K</hi> respectively. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e9047"> Now it is manifest that <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , <hi rend="ital">G</hi> and <hi rend="ital">A</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> , <hi rend="ital">B</hi> are continuously proportional in the
+              ratio of <hi rend="ital">C</hi> to <hi rend="ital">D</hi> . [ <ref xml:id="ee-b8-Rd1e9077" target="http://scta.info/resource/elem.8.11 elem.8.12">VIII. 11, 12</ref> ] </p>
+            <p xml:id="ee-b8-d1e9082"> And, since <hi rend="ital">A</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi>
+              , <hi rend="ital">B</hi> are continuously proportional, and <hi rend="ital">A</hi>
+              measures <hi rend="ital">B</hi> , therefore it also measures <hi rend="ital">H</hi> .
+              [ <ref xml:id="ee-b8-Rd1e9106" target="http://scta.info/resource/elem.8.7">VIII. 7</ref> ] </p>
+            <p xml:id="ee-b8-d1e9110"> And, as <hi rend="ital">A</hi> is to <hi rend="ital">H</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">D</hi> ; therefore <hi rend="ital">C</hi> also measures
+                <hi rend="ital">D</hi> . [ <ref xml:id="ee-b8-Rd1e9131" target="http://scta.info/resource/elem.7.def.20">VII. Def.
+                20</ref> ] </p>
+            <p xml:id="ee-b8-d1e9135"> Next, let <hi rend="ital">C</hi> measure <hi rend="ital">D</hi> ; I say that <hi rend="ital">A</hi> will also measure <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e9150"> For, with the same construction, we can prove in a similar manner that <hi rend="ital">A</hi> , <hi rend="ital">H</hi> , <hi rend="ital">K</hi> , <hi rend="ital">B</hi> are continuously proportional in the ratio of <hi rend="ital">C</hi> to <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e9172"> And, since <hi rend="ital">C</hi> measures <hi rend="ital">D</hi> , and, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">A</hi> to
+                <hi rend="ital">H</hi> , therefore <hi rend="ital">A</hi> also measures <hi rend="ital">H</hi> , [ <ref xml:id="ee-b8-Rd1e9199" target="http://scta.info/resource/elem.7.def.20">VII. Def. 20</ref>
+              ] so that <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> also. Q. E. D. </p>
+          </div>
+          
+          <div xml:id="elem.8.16" n="16">
+            <head xml:id="ee-b8-Hd1e9212">PROPOSITION 16.</head>
+            <p xml:id="ee-b8-d1e9215">
+              <hi rend="ital"> If a square number do not measure a square number, neither will the
+                side measure the side; and, if the side do not measure the side, neither will the
+                square measure the square. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e9221"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be square numbers, and let <hi rend="ital">C</hi> , <hi rend="ital">D</hi> be their sides; and let <hi rend="ital">A</hi> not measure <hi rend="ital">B</hi> ; I say that neither does <hi rend="ital">C</hi> measure <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e9249"> For, if <hi rend="ital">C</hi> measures <hi rend="ital">D</hi> , <hi rend="ital">A</hi> will also measure <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e9263" target="http://scta.info/resource/elem.8.14">VIII. 14</ref> ] <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e9269"> But <hi rend="ital">A</hi> does not measure <hi rend="ital">B</hi> ; therefore
+              neither will <hi rend="ital">C</hi> measure <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e9285"> Again, let <hi rend="ital">C</hi> not measure <hi rend="ital">D</hi> ; I say that
+              neither will <hi rend="ital">A</hi> measure <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e9300"> For, if <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> , <hi rend="ital">C</hi> will also measure <hi rend="ital">D</hi> . [ <ref xml:id="ee-b8-Rd1e9314" target="http://scta.info/resource/elem.8.14">VIII. 14</ref> ] </p>
+            <p xml:id="ee-b8-d1e9318"> But <hi rend="ital">C</hi> does not measure <hi rend="ital">D</hi> ; therefore
+              neither will <hi rend="ital">A</hi> measure <hi rend="ital">B</hi> . Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.17" n="17">
+            <head xml:id="ee-b8-Hd1e9337">PROPOSITION 17.</head>
+            <p xml:id="ee-b8-d1e9340">
+              <hi rend="ital"> If a cube number do not measure a cube number, neither will the side
+                measure the side; and, if the side do not measure the side, neither will the cube
+                measure the cube. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e9346"> For let the cube number <hi rend="ital">A</hi> not measure the cube number <hi rend="ital">B</hi> , and let <hi rend="ital">C</hi> be the side of <hi rend="ital">A</hi> , and <hi rend="ital">D</hi> of <hi rend="ital">B</hi> ; I say that <hi rend="ital">C</hi> will not measure <hi rend="ital">D</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e9376"> For if <hi rend="ital">C</hi> measures <hi rend="ital">D</hi> , <hi rend="ital">A</hi> will also measure <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e9390" target="http://scta.info/resource/elem.8.15">VIII. 15</ref> ] </p>
+            <p xml:id="ee-b8-d1e9394"> But <hi rend="ital">A</hi> does not measure <hi rend="ital">B</hi> ; therefore
+              neither does <hi rend="ital">C</hi> measure <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e9410"> Again, let <hi rend="ital">C</hi> not measure <hi rend="ital">D</hi> ; I say that
+              neither will <hi rend="ital">A</hi> measure <hi rend="ital">B</hi> . 
+            </p>
+            <p xml:id="ee-b8-d1e9425"> For, if <hi rend="ital">A</hi> measures <hi rend="ital">B</hi> , <hi rend="ital">C</hi> will also measure <hi rend="ital">D</hi> . [ <ref xml:id="ee-b8-Rd1e9439" target="http://scta.info/resource/elem.8.15">VIII. 15</ref> ] </p>
+            <p xml:id="ee-b8-d1e9443"> But <hi rend="ital">C</hi> does not measure <hi rend="ital">D</hi> ; therefore
+              neither will <hi rend="ital">A</hi> measure <hi rend="ital">B</hi> . Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.18" n="18">
+            <head xml:id="ee-b8-Hd1e9461">PROPOSITION 18.</head>
+            <p xml:id="ee-b8-d1e9464">
+              <hi rend="ital"> Between two similar plane numbers there is one mean proportional
+                number; and the plane number has to the plane number the ratio duplicate of that
+                which the corresponding side has to the corresponding side. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e9470"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be two similar plane numbers,
+              and let the numbers <hi rend="ital">C</hi> , <hi rend="ital">D</hi> be the sides of
+                <hi rend="ital">A</hi> , and <hi rend="ital">E</hi> , <hi rend="ital">F</hi> of <hi rend="ital">B</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e9500"> Now, since similar plane numbers are those which have their sides proportional, [
+                <ref xml:id="ee-b8-Rd1e9502" target="http://scta.info/resource/elem.7.def.21">VII. Def. 21</ref> ] therefore, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">E</hi> to
+                <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b8-d1e9518"> I say then that between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> there is one
+              mean proportional number, and <hi rend="ital">A</hi> has to <hi rend="ital">B</hi> the
+              ratio duplicate of that which <hi rend="ital">C</hi> has to <hi rend="ital">E</hi> ,
+              or <hi rend="ital">D</hi> to <hi rend="ital">F</hi> , that is, of that which the
+              corresponding side has to the corresponding side. </p>
+            <p xml:id="ee-b8-d1e9547"> Now since, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">F</hi> , therefore, alternately, as <hi rend="ital">C</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">D</hi> to
+                <hi rend="ital">F</hi> . [ <ref xml:id="ee-b8-Rd1e9574" target="http://scta.info/resource/elem.7.13">VII. 13</ref> ] </p>
+            <p xml:id="ee-b8-d1e9578"> And, since <hi rend="ital">A</hi> is plane, and <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are its sides, therefore <hi rend="ital">D</hi> by multiplying
+                <hi rend="ital">C</hi> has made <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b8-d1e9600"> For the same reason also <hi rend="ital">E</hi> by multiplying <hi rend="ital">F</hi> has made <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e9612"> Now let <hi rend="ital">D</hi> by multiplying <hi rend="ital">E</hi> make <hi rend="ital">G</hi> . </p>
+            <p xml:id="ee-b8-d1e9624"> Then, since <hi rend="ital">D</hi> by multiplying <hi rend="ital">C</hi> has made
+                <hi rend="ital">A</hi> , and by multiplying <hi rend="ital">E</hi> has made <hi rend="ital">G</hi> , therefore, as <hi rend="ital">C</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">G</hi> . [ <ref xml:id="ee-b8-Rd1e9654" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] 
+            </p>
+            <p xml:id="ee-b8-d1e9658"> But, as <hi rend="ital">C</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">F</hi> ; therefore also, as <hi rend="ital">D</hi> is to
+                <hi rend="ital">F</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">G</hi> . </p>
+            <p xml:id="ee-b8-d1e9687"> Again, since <hi rend="ital">E</hi> by multiplying <hi rend="ital">D</hi> has made
+                <hi rend="ital">G</hi> , and by multiplying <hi rend="ital">F</hi> has made <hi rend="ital">B</hi> , therefore, as <hi rend="ital">D</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">G</hi> to <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e9717" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e9721"> But it was also proved that, <hi rend="center"> as <hi rend="ital">D</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">G</hi> ;
+              </hi> therefore also, as <hi rend="ital">A</hi> is to <hi rend="ital">G</hi> , so is
+                <hi rend="ital">G</hi> to <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e9751"> Therefore <hi rend="ital">A</hi> , <hi rend="ital">G</hi> , <hi rend="ital">B</hi>
+              are in continued proportion. </p>
+            <p xml:id="ee-b8-d1e9763"> Therefore between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> there is one mean
+              proportional number. </p>
+            <p xml:id="ee-b8-d1e9772"> I say next that <hi rend="ital">A</hi> also has to <hi rend="ital">B</hi> the ratio
+              duplicate of that which the corresponding side has to the corresponding side, that is,
+              of that which <hi rend="ital">C</hi> has to <hi rend="ital">E</hi> or <hi rend="ital">D</hi> to <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b8-d1e9794"> For, since <hi rend="ital">A</hi> , <hi rend="ital">G</hi> , <hi rend="ital">B</hi>
+              are in continued proportion, <hi rend="ital">A</hi> has to <hi rend="ital">B</hi> the
+              ratio duplicate of that which it has to <hi rend="ital">G</hi> . [ <ref xml:id="ee-b8-Rd1e9815" target="http://scta.info/resource/elem.5.def.9">V. Def. 9</ref> ] </p>
+            <p xml:id="ee-b8-d1e9820"> And, as <hi rend="ital">A</hi> is to <hi rend="ital">G</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">E</hi> , and so is <hi rend="ital">D</hi> to <hi rend="ital">F</hi> . </p>
+            <p xml:id="ee-b8-d1e9842"> Therefore <hi rend="ital">A</hi> also has to <hi rend="ital">B</hi> the ratio
+              duplicate of that which <hi rend="ital">C</hi> has to <hi rend="ital">E</hi> or <hi rend="ital">D</hi> to <hi rend="ital">F</hi> . Q. E. D. </p>
+          </div>
+          
+          <div xml:id="elem.8.19" n="19">
+            <head xml:id="ee-b8-Hd1e9867">PROPOSITION 19.</head>
+            <p xml:id="ee-b8-d1e9870">
+              <hi rend="ital"> Between two similar solid numbers there fall two mean proportional
+                numbers; and the solid number has to the similar solid number the ratio triplicate
+                of that which the corresponding side has to the corresponding side. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e9876"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be two similar solid numbers,
+              and let <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">E</hi> be
+              the sides of <hi rend="ital">A</hi> , and <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , <hi rend="ital">H</hi> of <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e9910"> Now, since similar solid numbers are those which have their sides proportional, [
+                <ref xml:id="ee-b8-Rd1e9912" target="http://scta.info/resource/elem.7.def.21">VII. Def. 21</ref> ] therefore, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">F</hi> to
+                <hi rend="ital">G</hi> , <hi rend="center"> and, as <hi rend="ital">D</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">G</hi> to <hi rend="ital">H</hi> .
+              </hi>
+            </p>
+            <p xml:id="ee-b8-d1e9944"> I say that between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> there fall two
+              mean proportional numbers, and <hi rend="ital">A</hi> has to <hi rend="ital">B</hi>
+              the ratio triplicate of that which <hi rend="ital">C</hi> has to <hi rend="ital">F</hi> , <hi rend="ital">D</hi> to <hi rend="ital">G</hi> , and also <hi rend="ital">E</hi> to <hi rend="ital">H</hi> . <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e9981"> For let <hi rend="ital">C</hi> by multiplying <hi rend="ital">D</hi> make <hi rend="ital">K</hi> , and let <hi rend="ital">F</hi> by multiplying <hi rend="ital">G</hi> make <hi rend="ital">L</hi> . </p>
+            <p xml:id="ee-b8-d1e10003"> Now, since <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are in the same ratio
+              with <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , and <hi rend="ital">K</hi> is
+              the product of <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , and <hi rend="ital">L</hi> the product of <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , <hi rend="ital">K</hi> , <hi rend="ital">L</hi> are similar plane numbers; [ <ref xml:id="ee-b8-Rd1e10043" target="http://scta.info/resource/elem.7.def.21">VII. Def. 21</ref> ] therefore between <hi rend="ital">K</hi> , <hi rend="ital">L</hi> there is one mean proportional number. [
+                <ref xml:id="ee-b8-Rd1e10052" target="http://scta.info/resource/elem.8.18">VIII. 18</ref> ] </p>
+            <p xml:id="ee-b8-d1e10056"> Let it be <hi rend="ital">M</hi>
+            </p>
+            <p xml:id="ee-b8-d1e10062"> Therefore <hi rend="ital">M</hi> is the product of <hi rend="ital">D</hi> , <hi rend="ital">F</hi> , as was proved in the theorem preceding this. [ <ref xml:id="ee-b8-Rd1e10073" target="http://scta.info/resource/elem.8.18">VIII. 18</ref> ] </p>
+            <p xml:id="ee-b8-d1e10077"> Now, since <hi rend="ital">D</hi> by multiplying <hi rend="ital">C</hi> has made <hi rend="ital">K</hi> , and by multiplying <hi rend="ital">F</hi> has made <hi rend="ital">M</hi> , therefore, as <hi rend="ital">C</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">K</hi> to <hi rend="ital">M</hi> . [ <ref xml:id="ee-b8-Rd1e10107" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e10111"> But, as <hi rend="ital">K</hi> is to <hi rend="ital">M</hi> , so is <hi rend="ital">M</hi> to <hi rend="ital">L</hi> . </p>
+            <p xml:id="ee-b8-d1e10127"> Therefore <hi rend="ital">K</hi> , <hi rend="ital">M</hi> , <hi rend="ital">L</hi>
+              are continuously proportional in the ratio of <hi rend="ital">C</hi> to <hi rend="ital">F</hi> . 
+            </p>
+            <p xml:id="ee-b8-d1e10145"> And since, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">G</hi> , alternately therefore, as <hi rend="ital">C</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">D</hi> to
+                <hi rend="ital">G</hi> . [ <ref xml:id="ee-b8-Rd1e10172" target="http://scta.info/resource/elem.7.13">VII. 13</ref> ] </p>
+            <p xml:id="ee-b8-d1e10176"> For the same reason also, <hi rend="center"> as <hi rend="ital">D</hi> is to <hi rend="ital">G</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">H</hi> .
+              </hi>
+            </p>
+            <p xml:id="ee-b8-d1e10194"> Therefore <hi rend="ital">K</hi> , <hi rend="ital">M</hi> , <hi rend="ital">L</hi>
+              are continuously proportional in the ratio of <hi rend="ital">C</hi> to <hi rend="ital">F</hi> , in the ratio of <hi rend="ital">D</hi> to <hi rend="ital">G</hi> , and also in the ratio of <hi rend="ital">E</hi> to <hi rend="ital">H</hi>
+              . </p>
+            <p xml:id="ee-b8-d1e10225"> Next, let <hi rend="ital">E</hi> , <hi rend="ital">H</hi> by multiplying <hi rend="ital">M</hi> make <hi rend="ital">N</hi> , <hi rend="ital">O</hi>
+              respectively. </p>
+            <p xml:id="ee-b8-d1e10243"> Now, since <hi rend="ital">A</hi> is a solid number, and <hi rend="ital">C</hi> ,
+                <hi rend="ital">D</hi> , <hi rend="ital">E</hi> are its sides, therefore <hi rend="ital">E</hi> by multiplying the product of <hi rend="ital">C</hi> , <hi rend="ital">D</hi> has made <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b8-d1e10272"> But the product of <hi rend="ital">C</hi> , <hi rend="ital">D</hi> is <hi rend="ital">K</hi> ; therefore <hi rend="ital">E</hi> by multiplying <hi rend="ital">K</hi> has made <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b8-d1e10294"> For the same reason also <hi rend="center">
+                <hi rend="ital">H</hi> by multiplying <hi rend="ital">L</hi> has made <hi rend="ital">B</hi> . </hi>
+            </p>
+            <p xml:id="ee-b8-d1e10309"> Now, since <hi rend="ital">E</hi> by multiplying <hi rend="ital">K</hi> has made <hi rend="ital">A</hi> , and further also by multiplying <hi rend="ital">M</hi> has made
+                <hi rend="ital">N</hi> , therefore, as <hi rend="ital">K</hi> is to <hi rend="ital">M</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">N</hi> . [ <ref xml:id="ee-b8-Rd1e10339" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e10343"> But, as <hi rend="ital">K</hi> is to <hi rend="ital">M</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">F</hi> , <hi rend="ital">D</hi> to <hi rend="ital">G</hi>
+              , and also <hi rend="ital">E</hi> to <hi rend="ital">H</hi> ; therefore also, as <hi rend="ital">C</hi> is to <hi rend="ital">F</hi> , <hi rend="ital">D</hi> to <hi rend="ital">G</hi> , and <hi rend="ital">E</hi> to <hi rend="ital">H</hi> , so is
+                <hi rend="ital">A</hi> to <hi rend="ital">N</hi> . </p>
+            <p xml:id="ee-b8-d1e10396"> Again, since <hi rend="ital">E</hi> , <hi rend="ital">H</hi> by multiplying <hi rend="ital">M</hi> have made <hi rend="ital">N</hi> , <hi rend="ital">O</hi>
+              respectively, therefore, as <hi rend="ital">E</hi> is to <hi rend="ital">H</hi> , so
+              is <hi rend="ital">N</hi> to <hi rend="ital">O</hi> . [ <ref xml:id="ee-b8-Rd1e10426" target="http://scta.info/resource/elem.7.18">VII. 18</ref> ] </p>
+            <p xml:id="ee-b8-d1e10430"> But, as <hi rend="ital">E</hi> is to <hi rend="ital">H</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">F</hi> and <hi rend="ital">D</hi> to <hi rend="ital">G</hi> ; therefore also, as <hi rend="ital">C</hi> is to <hi rend="ital">F</hi> ,
+                <hi rend="ital">D</hi> to <hi rend="ital">G</hi> , and <hi rend="ital">E</hi> to <hi rend="ital">H</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">N</hi> and <hi rend="ital">N</hi> to <hi rend="ital">O</hi> . </p>
+            <p xml:id="ee-b8-d1e10484"> Again, since <hi rend="ital">H</hi> by multiplying <hi rend="ital">M</hi> has made
+                <hi rend="ital">O</hi> , and further also by multiplying <hi rend="ital">L</hi> has
+              made <hi rend="ital">B</hi> , therefore, as <hi rend="ital">M</hi> is to <hi rend="ital">L</hi> , so is <hi rend="ital">O</hi> to <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e10514" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e10518"> But, as <hi rend="ital">M</hi> is to <hi rend="ital">L</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">F</hi> , <hi rend="ital">D</hi> to <hi rend="ital">G</hi>
+              , and <hi rend="ital">E</hi> to <hi rend="ital">H</hi> . </p>
+            <p xml:id="ee-b8-d1e10546"> Therefore also, as <hi rend="ital">C</hi> is to <hi rend="ital">F</hi> , <hi rend="ital">D</hi> to <hi rend="ital">G</hi> , and <hi rend="ital">E</hi> to <hi rend="ital">H</hi> , so not only is <hi rend="ital">O</hi> to <hi rend="ital">B</hi>
+              , but also <hi rend="ital">A</hi> to <hi rend="ital">N</hi> and <hi rend="ital">N</hi>
+              to <hi rend="ital">O</hi> . </p>
+            <p xml:id="ee-b8-d1e10587"> Therefore <hi rend="ital">A</hi> , <hi rend="ital">N</hi> , <hi rend="ital">O</hi> ,
+                <hi rend="ital">B</hi> are continuously proportional in the aforesaid ratios of the
+              sides. </p>
+            <p xml:id="ee-b8-d1e10602"> I say that <hi rend="ital">A</hi> also has to <hi rend="ital">B</hi> the ratio
+              triplicate of that which the corresponding side has to the corresponding side, that
+              is, of the ratio which the number <hi rend="ital">C</hi> has to <hi rend="ital">F</hi>
+              , or <hi rend="ital">D</hi> to <hi rend="ital">G</hi> , and also <hi rend="ital">E</hi> to <hi rend="ital">H</hi> . 
+            </p>
+            <p xml:id="ee-b8-d1e10630"> For, since <hi rend="ital">A</hi> , <hi rend="ital">N</hi> , <hi rend="ital">O</hi>
+              , <hi rend="ital">B</hi> are four numbers in continued proportion, therefore <hi rend="ital">A</hi> has to <hi rend="ital">B</hi> the ratio triplicate of that which
+                <hi rend="ital">A</hi> has to <hi rend="ital">N</hi> . [ <ref xml:id="ee-b8-Rd1e10657" target="http://scta.info/resource/elem.5.def.10">V. Def. 10</ref> ] </p>
+            <p xml:id="ee-b8-d1e10662"> But, as <hi rend="ital">A</hi> is to <hi rend="ital">N</hi> , so it was proved that
+                <hi rend="ital">C</hi> is to <hi rend="ital">F</hi> , <hi rend="ital">D</hi> to <hi rend="ital">G</hi> , and also <hi rend="ital">E</hi> to <hi rend="ital">H</hi> . </p>
+            <p xml:id="ee-b8-d1e10690"> Therefore <hi rend="ital">A</hi> also has to <hi rend="ital">B</hi> the ratio
+              triplicate of that which the corresponding side has to the corresponding side, that
+              is, of the ratio which the number <hi rend="ital">C</hi> has to <hi rend="ital">F</hi>
+              , <hi rend="ital">D</hi> to <hi rend="ital">G</hi> , and also <hi rend="ital">E</hi>
+              to <hi rend="ital">H</hi> . Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.20" n="20">
+            <head xml:id="ee-b8-Hd1e10721">PROPOSITION 20.</head>
+            <p xml:id="ee-b8-d1e10724">
+              <hi rend="ital"> If one mean proportional number fall between two numbers, the numbers
+                will be similar plane numbers. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e10730"> For let one mean proportional number <hi rend="ital">C</hi> fall between the two
+              numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> ;  I say that <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are similar plane numbers. </p>
+            <p xml:id="ee-b8-d1e10748"> Let <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , the least numbers of those
+              which have the same ratio with <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , be
+              taken; [ <ref xml:id="ee-b8-Rd1e10762" target="http://scta.info/resource/elem.7.33">VII. 33</ref> ] therefore <hi rend="ital">D</hi> measures <hi rend="ital">A</hi> the same number of times that <hi rend="ital">E</hi> measures <hi rend="ital">C</hi> . [ <ref xml:id="ee-b8-Rd1e10778" target="http://scta.info/resource/elem.7.20">VII. 20</ref> ] 
+            </p>
+            <p xml:id="ee-b8-d1e10782"> Now, as many times as <hi rend="ital">D</hi> measures <hi rend="ital">A</hi> , so
+              many units let there be in <hi rend="ital">F</hi> ; therefore <hi rend="ital">F</hi>
+              by multiplying <hi rend="ital">D</hi> has made <hi rend="ital">A</hi> , so that <hi rend="ital">A</hi> is plane, and <hi rend="ital">D</hi> , <hi rend="ital">F</hi> are
+              its sides. 
+            </p>
+            <p xml:id="ee-b8-d1e10814"> Again, since <hi rend="ital">D</hi> , <hi rend="ital">E</hi> are the least of the
+              numbers which have  the same ratio with <hi rend="ital">C</hi> , <hi rend="ital">B</hi> , therefore <hi rend="ital">D</hi> measures <hi rend="ital">C</hi> the same number of times that <hi rend="ital">E</hi> measures <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e10841" target="http://scta.info/resource/elem.7.20">VII. 20</ref> ]
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e10847"> As many times, then, as <hi rend="ital">E</hi> measures <hi rend="ital">B</hi> , so
+              many units let there be in <hi rend="ital">G</hi> ;  therefore <hi rend="ital">E</hi> measures <hi rend="ital">B</hi> according to the units in <hi rend="ital">G</hi> ; therefore <hi rend="ital">G</hi> by multiplying <hi rend="ital">E</hi> has made <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e10878"> Therefore <hi rend="ital">B</hi> is plane, and <hi rend="ital">E</hi> , <hi rend="ital">G</hi> are its sides. </p>
+            <p xml:id="ee-b8-d1e10890"> Therefore <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are plane numbers. </p>
+            <p xml:id="ee-b8-d1e10899"> I say next that they are also similar. 
+            </p>
+            <p xml:id="ee-b8-d1e10902"> For, since <hi rend="ital">F</hi> by multiplying <hi rend="ital">D</hi> has made <hi rend="ital">A</hi> , and by multiplying <hi rend="ital">E</hi> has made <hi rend="ital">C</hi> , therefore, as <hi rend="ital">D</hi> is to <hi rend="ital">E</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">C</hi> , that is, <hi rend="ital">C</hi> to <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e10939" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e10944"> Again, since <hi rend="ital">E</hi> by multiplying <hi rend="ital">F</hi> , <hi rend="ital">G</hi> has made <hi rend="ital">C</hi> , <hi rend="ital">B</hi>
+              respectively,  therefore, as <hi rend="ital">F</hi> is to <hi rend="ital">G</hi> , so is <hi rend="ital">C</hi> to <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e10974" target="http://scta.info/resource/elem.7.17">VII. 17</ref> ] </p>
+            <p xml:id="ee-b8-d1e10978"> But, as <hi rend="ital">C</hi> is to <hi rend="ital">B</hi> , so is <hi rend="ital">D</hi> to <hi rend="ital">E</hi> ; therefore also, as <hi rend="ital">D</hi> is to
+                <hi rend="ital">E</hi> , so is <hi rend="ital">F</hi> to <hi rend="ital">G</hi> . </p>
+            <p xml:id="ee-b8-d1e11006"> And alternately, as <hi rend="ital">D</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">E</hi> to <hi rend="ital">G</hi> . [ <ref xml:id="ee-b8-Rd1e11020" target="http://scta.info/resource/elem.7.13">VII. 13</ref> ] </p>
+            <p xml:id="ee-b8-d1e11024"> Therefore <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are similar plane numbers;
+              for their sides  are proportional. Q. E. D. 
+            </p>
+          </div>
+          <div xml:id="elem.8.21" n="21">
+            <head xml:id="ee-b8-Hd1e11036">PROPOSITION 21.</head>
+            <p xml:id="ee-b8-d1e11039">
+              <hi rend="ital"> If two mean proportional numbers fall between two numbers, the
+                numbers are similar solid numbers. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e11045"> For let two mean proportional numbers <hi rend="ital">C</hi> , <hi rend="ital">D</hi> fall between the two numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi>
+              ; I say that <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are similar solid
+              numbers. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e11069"> For let three numbers <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , the least of those which have the same ratio with <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , be taken; [
+                <ref xml:id="ee-b8-Rd1e11090" target="http://scta.info/resource/elem.7.33">VII. 33</ref> or <ref xml:id="ee-b8-Rd1e11093" target="http://scta.info/resource/elem.8.2">VIII. 2</ref> ] therefore the extremes of them <hi rend="ital">E</hi>
+              , <hi rend="ital">G</hi> are prime to one another. [ <ref xml:id="ee-b8-Rd1e11102" target="http://scta.info/resource/elem.8.3">VIII. 3</ref> ] </p>
+            <p xml:id="ee-b8-d1e11106"> Now, since one mean proportional number <hi rend="ital">F</hi> has fallen between
+                <hi rend="ital">E</hi> , <hi rend="ital">G</hi> , therefore <hi rend="ital">E</hi> ,
+                <hi rend="ital">G</hi> are similar plane numbers. [ <ref xml:id="ee-b8-Rd1e11124" target="http://scta.info/resource/elem.8.20">VIII. 20</ref> ] </p>
+            <p xml:id="ee-b8-d1e11129"> Let, then, <hi rend="ital">H</hi> , <hi rend="ital">K</hi> be the sides of <hi rend="ital">E</hi> , and <hi rend="ital">L</hi> , <hi rend="ital">M</hi> of <hi rend="ital">G</hi> . </p>
+            <p xml:id="ee-b8-d1e11151"> Therefore it is manifest from the theorem before this that <hi rend="ital">E</hi> ,
+                <hi rend="ital">F</hi> , <hi rend="ital">G</hi> are continuously proportional in the
+              ratio of <hi rend="ital">H</hi> to <hi rend="ital">L</hi> and that of <hi rend="ital">K</hi> to <hi rend="ital">M</hi> . </p>
+            <p xml:id="ee-b8-d1e11176"> Now, since <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , <hi rend="ital">G</hi>
+              are the least of the numbers which have the same ratio with <hi rend="ital">A</hi> ,
+                <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , and the multitude of the numbers
+                <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , <hi rend="ital">G</hi> is equal to
+              the multitude of the numbers <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , therefore, <foreign xml:lang="la">ex aequali</foreign> , as <hi rend="ital">E</hi> is to <hi rend="ital">G</hi> , so is <hi rend="ital">A</hi> to
+                <hi rend="ital">D</hi> . [ <ref xml:id="ee-b8-Rd1e11232" target="http://scta.info/resource/elem.7.14">VII. 14</ref> ] </p>
+            <p xml:id="ee-b8-d1e11236"> But <hi rend="ital">E</hi> , <hi rend="ital">G</hi> are prime, primes are also
+              least, [ <ref xml:id="ee-b8-Rd1e11244" target="http://scta.info/resource/elem.7.21">VII. 21</ref> ] and the least measure
+              those which have the same ratio with  them the same number of times, the
+              greater the greater and the less the less, that is, the antecedent the antecedent and
+              the consequent the consequent; [ <ref xml:id="ee-b8-Rd1e11247" target="http://scta.info/resource/elem.7.20">VII. 20</ref> ]
+              therefore <hi rend="ital">E</hi> measures <hi rend="ital">A</hi> the same number of
+              times that <hi rend="ital">G</hi> measures <hi rend="ital">D</hi> . </p>
+            <p xml:id="ee-b8-d1e11264"> Now, as many times as <hi rend="ital">E</hi> measures <hi rend="ital">A</hi> , so
+              many units let there be in <hi rend="ital">N</hi> . </p>
+            <p xml:id="ee-b8-d1e11276"> Therefore <hi rend="ital">N</hi> by multiplying <hi rend="ital">E</hi> has made <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b8-d1e11289"> But <hi rend="ital">E</hi> is the product of <hi rend="ital">H</hi> , <hi rend="ital">K</hi> ; therefore <hi rend="ital">N</hi> by multiplying the product of
+                <hi rend="ital">H</hi> , <hi rend="ital">K</hi> has made <hi rend="ital">A</hi> . </p>
+            <p xml:id="ee-b8-d1e11314"> Therefore <hi rend="ital">A</hi> is solid, and <hi rend="ital">H</hi> , <hi rend="ital">K</hi> , <hi rend="ital">N</hi> are its sides. </p>
+            <p xml:id="ee-b8-d1e11329"> Again, since <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , <hi rend="ital">G</hi> are the least of the numbers which have the same ratio as <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">B</hi> , therefore <hi rend="ital">E</hi> measures <hi rend="ital">C</hi> the same number of times that <hi rend="ital">G</hi> measures <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e11363"> Now, as many times as <hi rend="ital">E</hi> measures <hi rend="ital">C</hi> , so
+              many units let there be in <hi rend="ital">O</hi> . </p>
+            <p xml:id="ee-b8-d1e11375"> Therefore <hi rend="ital">G</hi> measures <hi rend="ital">B</hi> according to the
+              units in <hi rend="ital">O</hi> ; therefore <hi rend="ital">O</hi> by multiplying <hi rend="ital">G</hi> has made <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e11397"> But <hi rend="ital">G</hi> is the product of <hi rend="ital">L</hi> , <hi rend="ital">M</hi> ; therefore <hi rend="ital">O</hi> by multiplying the product of
+                <hi rend="ital">L</hi> , <hi rend="ital">M</hi> has made <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e11423"> Therefore <hi rend="ital">B</hi> is solid, and <hi rend="ital">L</hi> , <hi rend="ital">M</hi> , <hi rend="ital">O</hi> are its sides; therefore <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are solid. </p>
+            <p xml:id="ee-b8-d1e11445">I say that they are also similar.</p>
+            <p xml:id="ee-b8-d1e11448"> For since <hi rend="ital">N</hi> , <hi rend="ital">O</hi> by multiplying <hi rend="ital">E</hi> have made <hi rend="ital">A</hi> , <hi rend="ital">C</hi> ,
+              therefore, as <hi rend="ital">N</hi> is to <hi rend="ital">O</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">C</hi> , that is, <hi rend="ital">E</hi> to
+                <hi rend="ital">F</hi> . [ <ref xml:id="ee-b8-Rd1e11485" target="http://scta.info/resource/elem.7.18">VII. 18</ref> ] </p>
+            <p xml:id="ee-b8-d1e11489"> But, as <hi rend="ital">E</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">H</hi> to <hi rend="ital">L</hi> and <hi rend="ital">K</hi> to <hi rend="ital">M</hi> ; therefore also, as <hi rend="ital">H</hi> is to <hi rend="ital">L</hi> ,
+              so is <hi rend="ital">K</hi> to <hi rend="ital">M</hi> and <hi rend="ital">N</hi> to
+                <hi rend="ital">O</hi> . </p>
+            <p xml:id="ee-b8-d1e11530"> And <hi rend="ital">H</hi> , <hi rend="ital">K</hi> , <hi rend="ital">N</hi> are the
+              sides of <hi rend="ital">A</hi> , and <hi rend="ital">O</hi> , <hi rend="ital">L</hi>
+              , <hi rend="ital">M</hi> the sides of <hi rend="ital">B</hi> . </p>
+            <p xml:id="ee-b8-d1e11558"> Therefore <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are similar solid numbers.
+              Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.22" n="22">
+            <head xml:id="ee-b8-Hd1e11570">PROPOSITION 22.</head>
+            <p xml:id="ee-b8-d1e11573">
+              <hi rend="ital"> If three numbers be in continued proportion, and the first be square,
+                the third will also be square. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e11579"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> be
+              three numbers in continued proportion, and let <hi rend="ital">A</hi> the first be
+              square; I say that <hi rend="ital">C</hi> the third is also square. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e11599"> For, since between <hi rend="ital">A</hi> , <hi rend="ital">C</hi> there is one mean
+              proportional number, <hi rend="ital">B</hi> , therefore <hi rend="ital">A</hi> , <hi rend="ital">C</hi> are similar plane numbers. [ <ref xml:id="ee-b8-Rd1e11617" target="http://scta.info/resource/elem.8.20">VIII. 20</ref> ] </p>
+            <p xml:id="ee-b8-d1e11621"> But <hi rend="ital">A</hi> is square; therefore <hi rend="ital">C</hi> is also
+              square. Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.23" n="23">
+            <head xml:id="ee-b8-Hd1e11634">PROPOSITION 23.</head>
+            <p xml:id="ee-b8-d1e11637">
+              <hi rend="ital"> If four numbers be in continued proportion, and the first be cube,
+                the fourth will also be cube. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e11643"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> be four numbers in continued proportion, and let <hi rend="ital">A</hi> be cube; I say that <hi rend="ital">D</hi> is also cube. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e11667"> For, since between <hi rend="ital">A</hi> , <hi rend="ital">D</hi> there are two
+              mean proportional numbers <hi rend="ital">B</hi> , <hi rend="ital">C</hi> , therefore
+                <hi rend="ital">A</hi> , <hi rend="ital">D</hi> are similar solid numbers. [ <ref xml:id="ee-b8-Rd1e11688" target="http://scta.info/resource/elem.8.21">VIII. 21</ref> ] 
+            </p>
+            <p xml:id="ee-b8-d1e11692"> But <hi rend="ital">A</hi> is cube; therefore <hi rend="ital">D</hi> is also cube.
+              Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.24" n="24">
+            <head xml:id="ee-b8-Hd1e11704">PROPOSITION 24.</head>
+            <p xml:id="ee-b8-d1e11707">
+              <hi rend="ital"> If two numbers have to one another the ratio which a square number
+                has to a square number, and the first be square, the second will also be square.
+              </hi>
+            </p>
+            <p xml:id="ee-b8-d1e11713"> For let the two numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> have to one
+              another the ratio which the square number <hi rend="ital">C</hi> has to the square
+              number <hi rend="ital">D</hi> , and let <hi rend="ital">A</hi> be square; I say that
+                <hi rend="ital">B</hi> is also square. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e11737"> For, since <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are square, <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are similar plane numbers. </p>
+            <p xml:id="ee-b8-d1e11752"> Therefore one mean proportional number falls between <hi rend="ital">C</hi> , <hi rend="ital">D</hi> . [ <ref xml:id="ee-b8-Rd1e11760" target="http://scta.info/resource/elem.8.18">VIII. 18</ref> ] </p>
+            <p xml:id="ee-b8-d1e11765"> And, as <hi rend="ital">C</hi> is to <hi rend="ital">D</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">B</hi> ; therefore one mean proportional number falls
+              between <hi rend="ital">A</hi> , <hi rend="ital">B</hi> also. [ <ref xml:id="ee-b8-Rd1e11786" target="http://scta.info/resource/elem.8.8">VIII. 8</ref> ] </p>
+            <p xml:id="ee-b8-d1e11790"> And <hi rend="ital">A</hi> is square; therefore <hi rend="ital">B</hi> is also
+              square. [ <ref xml:id="ee-b8-Rd1e11798" target="http://scta.info/resource/elem.8.22">VIII. 22</ref> ] Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.25" n="25">
+            <head xml:id="ee-b8-Hd1e11805">PROPOSITION 25.</head>
+            <p xml:id="ee-b8-d1e11808">
+              <hi rend="ital"> If two numbers have to one another the ratio which a cube number has
+                to a cube number, and the first be cube, the second will also be cube. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e11814"> For let the two numbers <hi rend="ital">A</hi> , <hi rend="ital">B</hi> have to one
+              another the ratio which the cube number <hi rend="ital">C</hi> has to the cube number
+                <hi rend="ital">D</hi> , and let <hi rend="ital">A</hi> be cube; I say that <hi rend="ital">B</hi> is also cube. 
+            </p>
+            <p xml:id="ee-b8-d1e11836"> For, since <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are cube, <hi rend="ital">C</hi> , <hi rend="ital">D</hi> are similar solid numbers. </p>
+            <p xml:id="ee-b8-d1e11851"> Therefore two mean proportional numbers fall between <hi rend="ital">C</hi> , <hi rend="ital">D</hi> . [ <ref xml:id="ee-b8-Rd1e11859" target="http://scta.info/resource/elem.8.19">VIII. 19</ref> ]
+              <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e11866"> And, as many numbers as fall between <hi rend="ital">C</hi> , <hi rend="ital">D</hi>
+              in continued proportion, so many will also fall between those which have the same
+              ratio with them; [ <ref xml:id="ee-b8-Rd1e11874" target="http://scta.info/resource/elem.8.8">VIII. 8</ref> ] so that two
+              mean proportional numbers fall between <hi rend="ital">A</hi> , <hi rend="ital">B</hi>
+              also. </p>
+            <p xml:id="ee-b8-d1e11884"> Let <hi rend="ital">E</hi> , <hi rend="ital">F</hi> so fall. </p>
+            <p xml:id="ee-b8-d1e11893"> Since, then, the four numbers <hi rend="ital">A</hi> , <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , <hi rend="ital">B</hi> are in continued proportion, and <hi rend="ital">A</hi> is cube, therefore <hi rend="ital">B</hi> is also cube. [ <ref xml:id="ee-b8-Rd1e11914" target="http://scta.info/resource/elem.8.23">VIII. 23</ref> ] Q. E. D. </p>
+          </div>
+          <div xml:id="elem.8.26" n="26">
+            <head xml:id="ee-b8-Hd1e11921">PROPOSITION 26.</head>
+            <p xml:id="ee-b8-d1e11924">
+              <hi rend="ital"> Similar plane numbers have to one another the ratio which a square
+                number has to a square number. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e11930"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be similar plane numbers; I say
+              that <hi rend="ital">A</hi> has to <hi rend="ital">B</hi> the ratio which a square
+              number has to a square number. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e11947"> For, since <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are similar plane
+              numbers, therefore one mean proportional number falls between <hi rend="ital">A</hi> ,
+                <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e11961" target="http://scta.info/resource/elem.8.18">VIII. 18</ref> ]
+                
+            </p>
+            <p xml:id="ee-b8-d1e11965"> Let it so fall, and let it be <hi rend="ital">C</hi> ; and let <hi rend="ital">D</hi> , <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , the least numbers of
+              those which have the same ratio with <hi rend="ital">A</hi> , <hi rend="ital">C</hi> ,
+                <hi rend="ital">B</hi> , be taken; [ <ref xml:id="ee-b8-Rd1e11989" target="http://scta.info/resource/elem.7.33">VII.
+                33</ref> or <ref xml:id="ee-b8-Rd1e11992" target="http://scta.info/resource/elem.8.2">VIII. 2</ref> ] therefore the
+              extremes of them <hi rend="ital">D</hi> , <hi rend="ital">F</hi> are square. [ <ref xml:id="ee-b8-Rd1e12002" target="http://scta.info/resource/elem.8.2.p.1">VIII. 2, Por.</ref> ] </p>
+            <p xml:id="ee-b8-d1e12007"> And since, as <hi rend="ital">D</hi> is to <hi rend="ital">F</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">B</hi> , and <hi rend="ital">D</hi> , <hi rend="ital">F</hi> are square, therefore <hi rend="ital">A</hi> has to <hi rend="ital">B</hi> the ratio which a square number has to a square number. Q. E. D.
+            </p>
+          </div>
+          <div xml:id="elem.8.27" n="27">
+            <head xml:id="ee-b8-Hd1e12038">PROPOSITION 27.</head>
+            <p xml:id="ee-b8-d1e12041">
+              <hi rend="ital"> Similar solid numbers have to one another the ratio which a cube
+                number has to a cube number. </hi>
+            </p>
+            <p xml:id="ee-b8-d1e12047"> Let <hi rend="ital">A</hi> , <hi rend="ital">B</hi> be similar solid numbers; I say
+              that <hi rend="ital">A</hi> has to <hi rend="ital">B</hi> the ratio which a cube
+              number has to a cube number. <!-- <figure/> -->
+            </p>
+            <p xml:id="ee-b8-d1e12064"> For, since <hi rend="ital">A</hi> , <hi rend="ital">B</hi> are similar solid
+              numbers, therefore two mean proportional numbers fall between <hi rend="ital">A</hi> ,
+                <hi rend="ital">B</hi> . [ <ref xml:id="ee-b8-Rd1e12078" target="http://scta.info/resource/elem.8.19">VIII. 19</ref> ] </p>
+            <p xml:id="ee-b8-d1e12082"> Let <hi rend="ital">C</hi> , <hi rend="ital">D</hi> so fall, and let <hi rend="ital">E</hi> , <hi rend="ital">F</hi> , <hi rend="ital">G</hi> , <hi rend="ital">H</hi> ,
+              the least numbers of those which have the same ratio with <hi rend="ital">A</hi> , <hi rend="ital">C</hi> , <hi rend="ital">D</hi> , <hi rend="ital">B</hi> , and equal
+              with them in multitude, be taken; [ <ref xml:id="ee-b8-Rd1e12115" target="http://scta.info/resource/elem.7.33">VII.
+                33</ref> or <ref xml:id="ee-b8-Rd1e12119" target="http://scta.info/resource/elem.8.2">VIII. 2</ref> ] therefore the
+              extremes of them <hi rend="ital">E</hi> , <hi rend="ital">H</hi> are cube. [ <ref xml:id="ee-b8-Rd1e12128" target="http://scta.info/resource/elem.8.2.p.1">VIII. 2, Por.</ref> ] </p>
+            <p xml:id="ee-b8-d1e12133"> And, as <hi rend="ital">E</hi> is to <hi rend="ital">H</hi> , so is <hi rend="ital">A</hi> to <hi rend="ital">B</hi> ; therefore <hi rend="ital">A</hi> also has to <hi rend="ital">B</hi> the ratio which a cube number has to a cube number. Q. E. D. 
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </body>
+  </text>
+</TEI>
